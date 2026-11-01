@@ -1,0 +1,13 @@
+{
+ "fixed": {
+  "solved": 13,
+  "attempts": 1638,
+  "time": 15.907387699815445
+ },
+ "routed": {
+  "solved": 13,
+  "attempts": 330,
+  "time": 3.8126859001931734,
+  "skipped": 64
+ }
+}

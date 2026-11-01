@@ -1,0 +1,52 @@
+{
+ "edges": 87078,
+ "by_kind": {
+  "other": {
+   "n": 54208,
+   "pct": 62.3
+  },
+  "pointwise": {
+   "n": 16091,
+   "pct": 18.5
+  },
+  "positions": {
+   "n": 3774,
+   "pct": 4.3
+  },
+  "permutation": {
+   "n": 3508,
+   "pct": 4.0
+  },
+  "transform": {
+   "n": 1990,
+   "pct": 2.3
+  },
+  "partial_sums": {
+   "n": 1678,
+   "pct": 1.9
+  },
+  "row_sums": {
+   "n": 1487,
+   "pct": 1.7
+  },
+  "differences": {
+   "n": 1406,
+   "pct": 1.6
+  },
+  "records": {
+   "n": 1368,
+   "pct": 1.6
+  },
+  "shift": {
+   "n": 1075,
+   "pct": 1.2
+  },
+  "bisection": {
+   "n": 493,
+   "pct": 0.6
+  }
+ },
+ "pointwise_call_Axxx_n": 20966,
+ "any_call_Axxx_paren": 35658,
+ "shifted_call": 2755
+}

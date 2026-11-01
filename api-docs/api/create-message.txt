@@ -1,0 +1,2045 @@
+# Messages API
+
+以 Anthropic Messages API 格式创建模型响应。
+
+每次请求都需要在 `messages` 中提供对话历史。Anthropic SDK 的 `base_url` 使用 `https://api.deepseek.com/anthropic`，SDK 会追加 `/v1/messages`。直接发送 HTTP 请求时，也可以使用兼容路径 `/anthropic/messages`。
+
+支持通过 `x-api-key` 或 `Authorization: Bearer` 验证身份。同时提供两者时，优先使用 `Authorization`。模型映射、工具结果回传与兼容性细节请参考 [Anthropic API 指南](https://api-docs.deepseek.com/zh-cn/guides/anthropic_api.md)。
+
+兼容字段 `container`、`mcp_servers`、`service_tier` 和 `top_k` 会被忽略。
+
+## 接口
+
+```http
+POST /anthropic/v1/messages
+```
+
+operationId: `createMessage`
+
+### 服务地址
+
+- `https://api.deepseek.com`
+
+## 身份验证
+
+### 验证方式 1
+
+**anthropicApiKey**
+
+`x-api-key` (header)
+
+```yaml
+type: apiKey
+in: header
+name: x-api-key
+```
+
+### 验证方式 2
+
+**bearerAuth**
+
+`Authorization: Bearer <API_KEY>`
+
+```yaml
+type: http
+scheme: bearer
+```
+
+## 请求参数
+
+**`anthropic-version`** (header) — 可选
+
+Anthropic SDK 会自动发送此请求头，服务端目前会忽略它。
+
+- `type`: `string`
+
+**示例**
+
+```json
+"2023-06-01"
+```
+
+**`anthropic-beta`** (header) — 可选
+
+通过 `source.type` 为 `file` 的图片引用已上传文件时，需包含 `files-api-2025-04-14`。此接口的其他请求无需提供。详见 [Files API 指南](https://api-docs.deepseek.com/zh-cn/guides/files_api.md#anthropic-compatible-files-api)。
+
+- `type`: `string`
+
+**示例**
+
+```json
+"files-api-2025-04-14"
+```
+
+## 请求体
+
+**必填**
+
+### application/json
+
+- 引用: [CreateMessageRequest](#schema-create-message-request) (`#/components/schemas/CreateMessageRequest`)
+
+## 响应
+
+### 200 (No streaming)
+
+OK，返回一个 `message` 对象。内容可能包含文本、思考与工具调用内容块。
+
+#### application/json
+
+- 引用: [AnthropicMessage](#schema-anthropic-message) (`#/components/schemas/AnthropicMessage`)
+
+**示例**
+
+```json
+{
+  "id": "e6ef6a63-a078-4f53-a73b-38c8d1d46310",
+  "type": "message",
+  "role": "assistant",
+  "model": "deepseek-flash",
+  "content": [{"type": "text", "text": "Hello!"}],
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "usage": {
+    "input_tokens": 12,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 3,
+    "service_tier": "standard"
+  }
+}
+```
+
+### 200 (Streaming)
+
+OK，依次返回 `message_start` → 内容块事件 → `message_delta` → `message_stop` SSE 事件。事件间可能穿插 `ping` 事件或保活注释。不会发送 `data: [DONE]`。工具输入的 JSON 片段需先拼接，在内容块结束后再解析。详见[流式输出](https://api-docs.deepseek.com/zh-cn/guides/anthropic_api.md#streaming)。
+
+在收到 `message_stop` 前连接关闭，表示响应不完整。流式输出开始后发生的错误可能直接终止连接，不一定发送 Anthropic `error` 事件。
+
+#### text/event-stream
+
+- `type`: `array`
+
+- **数组元素**
+
+  - 引用: [AnthropicMessageStreamEvent](#schema-anthropic-message-stream-event) (`#/components/schemas/AnthropicMessageStreamEvent`)
+
+**示例**
+
+```
+event: message_start
+data: {"type":"message_start","message":{"id":"e6ef6a63-a078-4f53-a73b-38c8d1d46310","type":"message","role":"assistant","model":"deepseek-flash","content":[],"stop_reason":null,"stop_sequence":null,"usage":{"input_tokens":12,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":0,"service_tier":"standard"}}}
+
+event: content_block_start
+data: {"type":"content_block_start","index":0,"content_block":{"type":"text","text":""}}
+
+event: ping
+data: {"type":"ping"}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"Hello!"}}
+
+event: content_block_stop
+data: {"type":"content_block_stop","index":0}
+
+event: message_delta
+data: {"type":"message_delta","delta":{"stop_reason":"end_turn","stop_sequence":null},"usage":{"input_tokens":12,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"output_tokens":3,"service_tier":"standard"}}
+
+event: message_stop
+data: {"type":"message_stop"}
+```
+
+### 400 (Bad request)
+
+无效请求，例如 `messages` 数组为空或工具结果未配对。请求错误使用 DeepSeek 通用的 `{error: {message, type, param, code}}` 结构，不含 Anthropic 顶层的 `type: "error"` 字段。其他 HTTP 错误请参考[错误码](https://api-docs.deepseek.com/zh-cn/quick_start/error_codes.md)。
+
+#### application/json
+
+- 引用: [ErrorResponse](#schema-error-response) (`#/components/schemas/ErrorResponse`)
+
+**示例**
+
+```json
+{
+  "error": {
+    "message": "messages: at least one message is required",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": "invalid_request_error"
+  }
+}
+```
+
+## 代码示例
+
+### curl
+
+```bash
+# Set DEEPSEEK_API_KEY to your API key before running this example.
+curl --silent --show-error --max-time 60 "https://api.deepseek.com/anthropic/v1/messages" \
+  --header "x-api-key: ${DEEPSEEK_API_KEY}" \
+  --header "anthropic-version: 2023-06-01" \
+  --header "Content-Type: application/json" \
+  --data '{
+  "model": "deepseek-flash",
+  "messages": [{"role": "user", "content": "Say hello."}],
+  "max_tokens": 32,
+  "thinking": {"type": "disabled"},
+  "stream": false
+}'
+```
+
+### Python — Anthropic SDK
+
+```python
+# Install the SDK first: pip install anthropic
+# Set DEEPSEEK_API_KEY to your API key before running this example.
+import os
+from anthropic import Anthropic
+
+client = Anthropic(
+    api_key=os.environ["DEEPSEEK_API_KEY"],
+    base_url="https://api.deepseek.com/anthropic",
+    timeout=60.0,
+)
+
+message = client.messages.create(
+    model="deepseek-flash",
+    messages=[{"role": "user", "content": "Say hello."}],
+    max_tokens=32,
+    thinking={"type": "disabled"},
+    stream=False,
+)
+print(message.model_dump_json(indent=2))
+```
+
+## 引用的数据结构
+
+### schema-create-message-request
+
+**CreateMessageRequest** — `#/components/schemas/CreateMessageRequest`
+
+使用 Anthropic Messages 格式生成下一条 assistant 消息。兼容字段 `container`、`mcp_servers`、`service_tier` 和 `top_k` 会被忽略。完整兼容性说明见 [Anthropic API 指南](https://api-docs.deepseek.com/zh-cn/guides/anthropic_api.md)。
+
+- `type`: `object`
+
+- `required`: `["model","messages"]`
+
+- **字段**
+
+  - **`model`** (必填)
+
+    要使用的模型 ID，可使用 `deepseek-flash` 或 `deepseek-v4-pro`。也接受 Claude 模型名称别名：`claude-opus*` 映射为 `deepseek-v4-pro`，其它 `claude*` 名称映射为 `deepseek-flash`。详见 [Anthropic API 指南](https://api-docs.deepseek.com/zh-cn/guides/anthropic_api.md)。
+
+    - `type`: `string`
+
+    **示例**
+
+    ```json
+    "deepseek-flash"
+    ```
+
+  - **`messages`** (必填)
+
+    对话历史。至少包含 1 条消息。该 API 是无状态的，每次请求都需要传入本轮所需的历史消息。系统提示词使用顶层 `system` 字段。工具调用后继续对话时，请回传完整的 assistant 内容（包括思考块和工具调用块），随后传入对应的工具结果。服务端可能根据工具调用 ID 恢复遗漏的思考内容，需要恢复但无法恢复时返回 `400`。为保证回传可靠性，请保留完整内容。
+
+    - `type`: `array`
+
+    - `minItems`: `1`
+
+    - **数组元素**
+
+      - 引用: [AnthropicMessageParam](#schema-anthropic-message-param) (`#/components/schemas/AnthropicMessageParam`)
+
+  - **`system`** (可选)
+
+    - 引用: [AnthropicSystemContent](#schema-anthropic-system-content) (`#/components/schemas/AnthropicSystemContent`)
+
+  - **`max_tokens`** (可选)
+
+    请求的输出 token 上限，包括思考 token。HTTP API 中该字段可选，Anthropic SDK 则要求提供。默认值和有效上限取决于模型、思考模式与推理强度。超过模型上限的值会被截到上限，且输入与输出总长度不能超过上下文窗口。对于思考模式下的特定 Claude Code 或 OpenCode 主 Agent 请求，兼容处理可能在模型和上下文限制内将有效上限提高到请求值以上。详见[模型 & 价格](https://api-docs.deepseek.com/zh-cn/quick_start/pricing.md)。
+
+    - `type`: `integer`
+
+    - `minimum`: `1`
+
+    - `nullable`: `true`
+
+    **示例**
+
+    ```json
+    4096
+    ```
+
+  - **`stream`** (可选)
+
+    设为 `true` 时，以带事件名称的 SSE 返回结果，并以 `message_stop` 结束，不发送 `data: [DONE]`。否则返回一个完整的消息对象。
+
+    - `type`: `boolean`
+
+    - `nullable`: `true`
+
+    - `default`: `false`
+
+  - **`thinking`** (可选)
+
+    - 引用: [AnthropicThinkingConfig](#schema-anthropic-thinking-config) (`#/components/schemas/AnthropicThinkingConfig`)
+
+  - **`output_config`** (可选)
+
+    - 引用: [AnthropicOutputConfig](#schema-anthropic-output-config) (`#/components/schemas/AnthropicOutputConfig`)
+
+  - **`tools`** (可选)
+
+    模型可使用的工具，支持客户端定义的工具和服务端网页搜索工具。工具名称必须唯一，空数组等同于未提供工具。`cache_control` 会被忽略。
+
+    - `type`: `array`
+
+    - `nullable`: `true`
+
+    - **数组元素**
+
+      - 引用: [AnthropicTool](#schema-anthropic-tool) (`#/components/schemas/AnthropicTool`)
+
+  - **`tool_choice`** (可选)
+
+    - 引用: [AnthropicToolChoice](#schema-anthropic-tool-choice) (`#/components/schemas/AnthropicToolChoice`)
+
+  - **`stop_sequences`** (可选)
+
+    最多 16 个非空停止字符串。匹配到其中一个字符串时，`stop_reason` 为 `stop_sequence`，`stop_sequence` 返回匹配的字符串。
+
+    - `type`: `array`
+
+    - `nullable`: `true`
+
+    - `maxItems`: `16`
+
+    - **数组元素**
+
+      - `type`: `string`
+
+      - `minLength`: `1`
+
+  - **`temperature`** (可选)
+
+    采样温度，范围为 0 到 2。较高的值使输出更多样。思考模式下固定为 1，传入的值不生效。通常建议只调整此参数或 `top_p` 中的一个。
+
+    - `type`: `number`
+
+    - `nullable`: `true`
+
+    - `minimum`: `0`
+
+    - `maximum`: `2`
+
+    - `default`: `1`
+
+  - **`top_p`** (可选)
+
+    核采样概率，需大于 0 且不超过 1。`deepseek-flash` 在思考模式下默认为 1，小于 0.95 的值按 0.95 处理；非思考模式固定为 1。`deepseek-v4-pro` 在思考模式下启用工具时固定为 0.95，否则固定为 1，传入值被忽略；非思考模式使用传入值，默认为 1。将 `tool_choice` 设为 `{"type":"none"}` 会禁用工具调用。
+
+    - `type`: `number`
+
+    - `nullable`: `true`
+
+    - `minimum`: `0`
+
+    - `exclusiveMinimum`: `true`
+
+    - `maximum`: `1`
+
+    **示例**
+
+    ```json
+    1
+    ```
+
+  - **`metadata`** (可选)
+
+    - 引用: [AnthropicMetadata](#schema-anthropic-metadata) (`#/components/schemas/AnthropicMetadata`)
+
+### schema-anthropic-message
+
+**AnthropicMessage** — `#/components/schemas/AnthropicMessage`
+
+- title: `消息`
+
+- `type`: `object`
+
+- `required`: `["id","type","role","model","content","stop_reason","stop_sequence","usage"]`
+
+- **字段**
+
+  - **`id`** (必填)
+
+    此消息的唯一标识符。
+
+    - `type`: `string`
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["message"]`
+
+  - **`role`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["assistant"]`
+
+  - **`model`** (必填)
+
+    请求中提供的模型标识符。使用 Claude 兼容模型名时，响应保留该名称。
+
+    - `type`: `string`
+
+  - **`content`** (必填)
+
+    生成的内容块。在下一次请求中回传此 assistant 轮次时，请保留完整内容。
+
+    - `type`: `array`
+
+    - **数组元素**
+
+      - 引用: [AnthropicMessageOutputBlock](#schema-anthropic-message-output-block) (`#/components/schemas/AnthropicMessageOutputBlock`)
+
+  - **`stop_reason`** (必填)
+
+    生成停止的原因：自然结束、达到输出上限、命中停止序列、调用客户端工具或内容过滤。在 message\_start 中为 null。
+
+    - `type`: `string`
+
+    - `nullable`: `true`
+
+    - `enum`: `["end_turn","max_tokens","stop_sequence","tool_use","refusal",null]`
+
+  - **`stop_sequence`** (必填)
+
+    命中的停止序列；未命中时为 null。
+
+    - `type`: `string`
+
+    - `nullable`: `true`
+
+  - **`usage`** (必填)
+
+    - 引用: [AnthropicMessageUsage](#schema-anthropic-message-usage) (`#/components/schemas/AnthropicMessageUsage`)
+
+### schema-anthropic-message-stream-event
+
+**AnthropicMessageStreamEvent** — `#/components/schemas/AnthropicMessageStreamEvent`
+
+- title: `消息流式事件`
+
+正常消息事件的 event 名称与 JSON 的 type 相同。正常流以 message\_stop 结束。事件间可能穿插 ping 或保活注释；不会发送 data: \[DONE]。超时时可能返回一条包含 error 对象、没有事件名称的 data 事件，随后关闭连接。未收到 message\_stop 就中断的流是不完整的。
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicMessageStartEvent](#schema-anthropic-message-start-event) (`#/components/schemas/AnthropicMessageStartEvent`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicContentBlockStartEvent](#schema-anthropic-content-block-start-event) (`#/components/schemas/AnthropicContentBlockStartEvent`)
+
+  - oneOf 3
+
+    - 引用: [AnthropicContentBlockDeltaEvent](#schema-anthropic-content-block-delta-event) (`#/components/schemas/AnthropicContentBlockDeltaEvent`)
+
+  - oneOf 4
+
+    - 引用: [AnthropicContentBlockStopEvent](#schema-anthropic-content-block-stop-event) (`#/components/schemas/AnthropicContentBlockStopEvent`)
+
+  - oneOf 5
+
+    - 引用: [AnthropicMessageDeltaEvent](#schema-anthropic-message-delta-event) (`#/components/schemas/AnthropicMessageDeltaEvent`)
+
+  - oneOf 6
+
+    - 引用: [AnthropicMessageStopEvent](#schema-anthropic-message-stop-event) (`#/components/schemas/AnthropicMessageStopEvent`)
+
+  - oneOf 7
+
+    - 引用: [AnthropicPingEvent](#schema-anthropic-ping-event) (`#/components/schemas/AnthropicPingEvent`)
+
+### schema-error-response
+
+**ErrorResponse** — `#/components/schemas/ErrorResponse`
+
+- `type`: `object`
+
+- `required`: `["error"]`
+
+- **字段**
+
+  - **`error`** (必填)
+
+    - 引用: [Error](#schema-error) (`#/components/schemas/Error`)
+
+### schema-anthropic-message-param
+
+**AnthropicMessageParam** — `#/components/schemas/AnthropicMessageParam`
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicUserMessage](#schema-anthropic-user-message) (`#/components/schemas/AnthropicUserMessage`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicAssistantMessage](#schema-anthropic-assistant-message) (`#/components/schemas/AnthropicAssistantMessage`)
+
+### schema-anthropic-system-content
+
+**AnthropicSystemContent** — `#/components/schemas/AnthropicSystemContent`
+
+系统提示词，仅支持字符串、文本块数组或 `null`。
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicTextContent](#schema-anthropic-text-content) (`#/components/schemas/AnthropicTextContent`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicSystemBlocks](#schema-anthropic-system-blocks) (`#/components/schemas/AnthropicSystemBlocks`)
+
+  - oneOf 3
+
+    - 引用: [AnthropicNullValue](#schema-anthropic-null-value) (`#/components/schemas/AnthropicNullValue`)
+
+### schema-anthropic-thinking-config
+
+**AnthropicThinkingConfig** — `#/components/schemas/AnthropicThinkingConfig`
+
+- title: `思考配置`
+
+控制思考模式。显式设置的 `thinking.type` 在选择模式时优先于 `output_config.effort`。省略时由 `effort` 决定模式；两者均未设置时，`deepseek-flash` 和 `deepseek-v4-pro` 默认开启思考。
+
+- `type`: `object`
+
+- `required`: `["type"]`
+
+- `nullable`: `true`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    `enabled` 开启思考，`disabled` 关闭思考；`adaptive` 按 `enabled` 处理。
+
+    - `type`: `string`
+
+    - `enum`: `["enabled","disabled","adaptive"]`
+
+  - **`budget_tokens`** (可选)
+
+    兼容字段，会被忽略，不会设置思考 token 预算。
+
+    - `type`: `integer`
+
+    - `minimum`: `0`
+
+    - `nullable`: `true`
+
+### schema-anthropic-output-config
+
+**AnthropicOutputConfig** — `#/components/schemas/AnthropicOutputConfig`
+
+- title: `输出配置`
+
+输出配置。目前仅支持 `effort`，`format` 等输出格式设置会被忽略。
+
+- `type`: `object`
+
+- `nullable`: `true`
+
+- **字段**
+
+  - **`effort`** (可选)
+
+    控制思考模式与推理强度。`none` 关闭思考，但显式的 `thinking.type` 可以重新开启。`low`、`high` 和 `max` 开启思考，默认强度为 `high`。兼容别名：`minimal` 映射为 `low`，`medium` 和 `xhigh` 均映射为 `high`，`ultra` 映射为 `max`。显式设置的 `thinking.type` 决定是否开启思考。
+
+    - `type`: `string`
+
+    - `enum`: `["none","minimal","low","medium","high","xhigh","ultra","max",null]`
+
+    - `nullable`: `true`
+
+### schema-anthropic-tool
+
+**AnthropicTool** — `#/components/schemas/AnthropicTool`
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicClientTool](#schema-anthropic-client-tool) (`#/components/schemas/AnthropicClientTool`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicWebSearchTool](#schema-anthropic-web-search-tool) (`#/components/schemas/AnthropicWebSearchTool`)
+
+### schema-anthropic-tool-choice
+
+**AnthropicToolChoice** — `#/components/schemas/AnthropicToolChoice`
+
+控制工具选择，默认为 `auto`。`any` 按 `auto` 处理，不强制调用工具。指定客户端工具需要使用非思考模式。`disable_parallel_tool_use` 会被忽略。
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicToolChoiceAuto](#schema-anthropic-tool-choice-auto) (`#/components/schemas/AnthropicToolChoiceAuto`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicToolChoiceAny](#schema-anthropic-tool-choice-any) (`#/components/schemas/AnthropicToolChoiceAny`)
+
+  - oneOf 3
+
+    - 引用: [AnthropicToolChoiceNamed](#schema-anthropic-tool-choice-named) (`#/components/schemas/AnthropicToolChoiceNamed`)
+
+  - oneOf 4
+
+    - 引用: [AnthropicToolChoiceNone](#schema-anthropic-tool-choice-none) (`#/components/schemas/AnthropicToolChoiceNone`)
+
+  - oneOf 5
+
+    - 引用: [AnthropicNullValue](#schema-anthropic-null-value) (`#/components/schemas/AnthropicNullValue`)
+
+### schema-anthropic-metadata
+
+**AnthropicMetadata** — `#/components/schemas/AnthropicMetadata`
+
+- title: `元数据`
+
+请求元数据。仅支持 `user_id`，其它元数据字段会被忽略。
+
+- `type`: `object`
+
+- `nullable`: `true`
+
+- **字段**
+
+  - **`user_id`** (可选)
+
+    自定义终端用户标识。建议仅使用英文字母、数字、下划线（`_`）和连字符（`-`）。UTF-8 编码后不得超过 512 字节。请勿包含个人隐私信息。详见[限流与隔离](https://api-docs.deepseek.com/zh-cn/quick_start/rate_limit.md)。
+
+    - `type`: `string`
+
+    - `nullable`: `true`
+
+### schema-anthropic-message-output-block
+
+**AnthropicMessageOutputBlock** — `#/components/schemas/AnthropicMessageOutputBlock`
+
+- title: `输出内容块`
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicTextBlock](#schema-anthropic-text-block) (`#/components/schemas/AnthropicTextBlock`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicOutputThinkingBlock](#schema-anthropic-output-thinking-block) (`#/components/schemas/AnthropicOutputThinkingBlock`)
+
+  - oneOf 3
+
+    - 引用: [AnthropicToolUseBlock](#schema-anthropic-tool-use-block) (`#/components/schemas/AnthropicToolUseBlock`)
+
+  - oneOf 4
+
+    - 引用: [AnthropicOutputServerToolUseBlock](#schema-anthropic-output-server-tool-use-block) (`#/components/schemas/AnthropicOutputServerToolUseBlock`)
+
+  - oneOf 5
+
+    - 引用: [AnthropicWebSearchToolResultBlock](#schema-anthropic-web-search-tool-result-block) (`#/components/schemas/AnthropicWebSearchToolResultBlock`)
+
+### schema-anthropic-message-usage
+
+**AnthropicMessageUsage** — `#/components/schemas/AnthropicMessageUsage`
+
+- title: `消息用量`
+
+- `type`: `object`
+
+- `required`: `["input_tokens","cache_creation_input_tokens","cache_read_input_tokens","output_tokens","service_tier"]`
+
+- **字段**
+
+  - **`input_tokens`** (必填)
+
+    未命中上下文缓存的输入 token 数。总输入 token 数为 input\_tokens + cache\_read\_input\_tokens + cache\_creation\_input\_tokens。
+
+    - `type`: `integer`
+
+    - `minimum`: `0`
+
+  - **`cache_creation_input_tokens`** (必填)
+
+    固定为 0。不使用 Anthropic 式的缓存创建机制；上下文缓存由服务端自动管理。
+
+    - `type`: `integer`
+
+    - `enum`: `[0]`
+
+  - **`cache_read_input_tokens`** (必填)
+
+    命中上下文缓存的输入 token 数。
+
+    - `type`: `integer`
+
+    - `minimum`: `0`
+
+  - **`output_tokens`** (必填)
+
+    生成的输出 token 数，开启思考时包含思考 token。在 message\_delta 中为累计值，而非增量。
+
+    - `type`: `integer`
+
+    - `minimum`: `0`
+
+  - **`service_tier`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["standard"]`
+
+  - **`server_tool_use`** (可选)
+
+    - title: `服务端工具用量`
+
+    服务端网页搜索次数，与 token 用量分别统计。仅在至少尝试过一次网页搜索时返回，否则省略整个字段。返回时两个子字段均存在。非流式响应读取最终消息的 usage，流式响应读取最后的 message\_delta.usage。这些计数是累计值，不是增量。详见[服务端工具用量](https://api-docs.deepseek.com/zh-cn/guides/anthropic_api.md#server-tool-usage)。
+
+    - `type`: `object`
+
+    - `required`: `["web_search_requests","tool_search"]`
+
+    - **字段**
+
+      - **`web_search_requests`** (必填)
+
+        服务端网页搜索尝试次数，包括失败和超过 `max_uses` 限制的尝试。
+
+        - `type`: `integer`
+
+        - `minimum`: `0`
+
+      - **`tool_search`** (必填)
+
+        成功且返回非空结果的服务端网页搜索次数。失败或结果为空的尝试不计入。此字段可作为计费依据。
+
+        - `type`: `integer`
+
+        - `minimum`: `0`
+
+    **示例**
+
+    ```json
+    {
+      "web_search_requests": 1,
+      "tool_search": 1
+    }
+    ```
+
+### schema-anthropic-message-start-event
+
+**AnthropicMessageStartEvent** — `#/components/schemas/AnthropicMessageStartEvent`
+
+- title: `message_start`
+
+- `type`: `object`
+
+- `required`: `["type","message"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["message_start"]`
+
+  - **`message`** (必填)
+
+    - 引用: [AnthropicMessage](#schema-anthropic-message) (`#/components/schemas/AnthropicMessage`)
+
+### schema-anthropic-content-block-start-event
+
+**AnthropicContentBlockStartEvent** — `#/components/schemas/AnthropicContentBlockStartEvent`
+
+- title: `content_block_start`
+
+- `type`: `object`
+
+- `required`: `["type","index","content_block"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["content_block_start"]`
+
+  - **`index`** (必填)
+
+    内容块的索引，从 0 开始。
+
+    - `type`: `integer`
+
+    - `minimum`: `0`
+
+  - **`content_block`** (必填)
+
+    - 引用: [AnthropicMessageOutputBlock](#schema-anthropic-message-output-block) (`#/components/schemas/AnthropicMessageOutputBlock`)
+
+### schema-anthropic-content-block-delta-event
+
+**AnthropicContentBlockDeltaEvent** — `#/components/schemas/AnthropicContentBlockDeltaEvent`
+
+- title: `content_block_delta`
+
+- `type`: `object`
+
+- `required`: `["type","index","delta"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["content_block_delta"]`
+
+  - **`index`** (必填)
+
+    内容块的索引，从 0 开始。
+
+    - `type`: `integer`
+
+    - `minimum`: `0`
+
+  - **`delta`** (必填)
+
+    - 引用: [AnthropicContentBlockDelta](#schema-anthropic-content-block-delta) (`#/components/schemas/AnthropicContentBlockDelta`)
+
+### schema-anthropic-content-block-stop-event
+
+**AnthropicContentBlockStopEvent** — `#/components/schemas/AnthropicContentBlockStopEvent`
+
+- title: `content_block_stop`
+
+- `type`: `object`
+
+- `required`: `["type","index"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["content_block_stop"]`
+
+  - **`index`** (必填)
+
+    内容块的索引，从 0 开始。
+
+    - `type`: `integer`
+
+    - `minimum`: `0`
+
+### schema-anthropic-message-delta-event
+
+**AnthropicMessageDeltaEvent** — `#/components/schemas/AnthropicMessageDeltaEvent`
+
+- title: `message_delta`
+
+- `type`: `object`
+
+- `required`: `["type","delta","usage"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["message_delta"]`
+
+  - **`delta`** (必填)
+
+    - title: `停止信息`
+
+    - `type`: `object`
+
+    - `required`: `["stop_reason","stop_sequence"]`
+
+    - **字段**
+
+      - **`stop_reason`** (必填)
+
+        生成停止的最终原因。
+
+        - `type`: `string`
+
+        - `nullable`: `false`
+
+        - `enum`: `["end_turn","max_tokens","stop_sequence","tool_use","refusal"]`
+
+      - **`stop_sequence`** (必填)
+
+        命中的停止序列；未命中时为 null。
+
+        - `type`: `string`
+
+        - `nullable`: `true`
+
+  - **`usage`** (必填)
+
+    - 引用: [AnthropicMessageUsage](#schema-anthropic-message-usage) (`#/components/schemas/AnthropicMessageUsage`)
+
+### schema-anthropic-message-stop-event
+
+**AnthropicMessageStopEvent** — `#/components/schemas/AnthropicMessageStopEvent`
+
+- title: `message_stop`
+
+- `type`: `object`
+
+- `required`: `["type"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["message_stop"]`
+
+### schema-anthropic-ping-event
+
+**AnthropicPingEvent** — `#/components/schemas/AnthropicPingEvent`
+
+- title: `ping`
+
+- `type`: `object`
+
+- `required`: `["type"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["ping"]`
+
+### schema-error
+
+**Error** — `#/components/schemas/Error`
+
+- `type`: `object`
+
+- `required`: `["type","message","param","code"]`
+
+- **字段**
+
+  - **`code`** (必填)
+
+    - `type`: `string`
+
+    - `nullable`: `true`
+
+  - **`message`** (必填)
+
+    - `type`: `string`
+
+    - `nullable`: `false`
+
+  - **`param`** (必填)
+
+    - `type`: `string`
+
+    - `nullable`: `true`
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `nullable`: `false`
+
+### schema-anthropic-user-message
+
+**AnthropicUserMessage** — `#/components/schemas/AnthropicUserMessage`
+
+- title: `用户消息`
+
+- `type`: `object`
+
+- `required`: `["role","content"]`
+
+- **字段**
+
+  - **`role`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["user"]`
+
+  - **`content`** (必填)
+
+    - 引用: [AnthropicUserContent](#schema-anthropic-user-content) (`#/components/schemas/AnthropicUserContent`)
+
+### schema-anthropic-assistant-message
+
+**AnthropicAssistantMessage** — `#/components/schemas/AnthropicAssistantMessage`
+
+- title: `助手消息`
+
+历史 assistant 消息。回传时保留其内容块，包括思考、工具调用和网页搜索结果。
+
+- `type`: `object`
+
+- `required`: `["role","content"]`
+
+- **字段**
+
+  - **`role`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["assistant"]`
+
+  - **`content`** (必填)
+
+    - 引用: [AnthropicAssistantContent](#schema-anthropic-assistant-content) (`#/components/schemas/AnthropicAssistantContent`)
+
+### schema-anthropic-text-content
+
+**AnthropicTextContent** — `#/components/schemas/AnthropicTextContent`
+
+- title: `文本内容`
+
+- `type`: `string`
+
+### schema-anthropic-system-blocks
+
+**AnthropicSystemBlocks** — `#/components/schemas/AnthropicSystemBlocks`
+
+- title: `系统文本块`
+
+- `type`: `array`
+
+- **数组元素**
+
+  - 引用: [AnthropicTextBlock](#schema-anthropic-text-block) (`#/components/schemas/AnthropicTextBlock`)
+
+### schema-anthropic-null-value
+
+**AnthropicNullValue** — `#/components/schemas/AnthropicNullValue`
+
+- title: `空值`
+
+- `type`: `string`
+
+- `nullable`: `true`
+
+- `enum`: `[null]`
+
+### schema-anthropic-client-tool
+
+**AnthropicClientTool** — `#/components/schemas/AnthropicClientTool`
+
+- title: `客户端工具`
+
+应用收到 `tool_use` 块后执行该工具，并返回 `tool_result` 块。客户端工具应省略 `type` 字段；提供 `type` 会按服务端工具解析，`custom` 等不支持的值会返回 `422`。`cache_control` 会被忽略。
+
+- `type`: `object`
+
+- `required`: `["name","input_schema"]`
+
+- **字段**
+
+  - **`name`** (必填)
+
+    唯一的工具名称，最多 128 个字符，仅可包含英文字母、数字、下划线或连字符。
+
+    - `type`: `string`
+
+    - `minLength`: `1`
+
+    - `maxLength`: `128`
+
+    - `pattern`: `^[a-zA-Z0-9_-]+$`
+
+  - **`description`** (可选)
+
+    说明工具的用途及使用时机。
+
+    - `type`: `string`
+
+    - `nullable`: `true`
+
+  - **`input_schema`** (必填)
+
+    描述工具参数的有效 JSON Schema，顶层 `type` 必须为 `object`。
+
+    - `type`: `object`
+
+    - **additionalProperties**
+
+      - 数据结构: `true`
+
+    **示例**
+
+    ```json
+    {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "city"
+      ]
+    }
+    ```
+
+- **not**
+
+  - `required`: `["type"]`
+
+### schema-anthropic-web-search-tool
+
+**AnthropicWebSearchTool** — `#/components/schemas/AnthropicWebSearchTool`
+
+- title: `网页搜索服务端工具`
+
+服务端执行网页搜索，并在 assistant 消息中返回 `server_tool_use` 和 `web_search_tool_result` 块。两个 type 值选择的是同一工具。
+
+- `type`: `object`
+
+- `required`: `["type","name"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["web_search_20250305","web_search_20260209"]`
+
+  - **`name`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["web_search"]`
+
+  - **`max_uses`** (可选)
+
+    本次请求允许的最大搜索次数。默认值和服务端上限通常均为 5；Claude Code 搜索子 Agent 兼容请求的默认值和上限均为 1。超过相应上限的值会被截到上限。超过次数限制的搜索返回 `max_uses_exceeded` 结果。
+
+    - `type`: `integer`
+
+    - `minimum`: `0`
+
+    - `nullable`: `true`
+
+### schema-anthropic-tool-choice-auto
+
+**AnthropicToolChoiceAuto** — `#/components/schemas/AnthropicToolChoiceAuto`
+
+- title: `自动选择工具`
+
+由模型决定是否调用工具，这是默认行为。
+
+- `type`: `object`
+
+- `required`: `["type"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["auto"]`
+
+  - **`disable_parallel_tool_use`** (可选)
+
+    兼容字段，会被忽略，不会禁用并行工具调用。
+
+    - `type`: `boolean`
+
+    - `nullable`: `true`
+
+### schema-anthropic-tool-choice-any
+
+**AnthropicToolChoiceAny** — `#/components/schemas/AnthropicToolChoiceAny`
+
+- title: `任意工具（按自动选择处理）`
+
+按 `auto` 处理，由模型决定是否调用工具。
+
+- `type`: `object`
+
+- `required`: `["type"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["any"]`
+
+  - **`disable_parallel_tool_use`** (可选)
+
+    兼容字段，会被忽略，不会禁用并行工具调用。
+
+    - `type`: `boolean`
+
+    - `nullable`: `true`
+
+### schema-anthropic-tool-choice-named
+
+**AnthropicToolChoiceNamed** — `#/components/schemas/AnthropicToolChoiceNamed`
+
+- title: `指定工具`
+
+选择指定工具。对于客户端工具，非思考模式下会强制调用，思考模式下则返回 `400` 错误。强制调用客户端工具时，请将 `thinking.type` 设为 `disabled`。
+
+- `type`: `object`
+
+- `required`: `["type","name"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["tool"]`
+
+  - **`name`** (必填)
+
+    `tools` 中已提供的工具名称。
+
+    - `type`: `string`
+
+  - **`disable_parallel_tool_use`** (可选)
+
+    兼容字段，会被忽略，不会禁用并行工具调用。
+
+    - `type`: `boolean`
+
+    - `nullable`: `true`
+
+### schema-anthropic-tool-choice-none
+
+**AnthropicToolChoiceNone** — `#/components/schemas/AnthropicToolChoiceNone`
+
+- title: `禁用工具调用`
+
+禁用工具调用，即使请求中已提供 `tools`。
+
+- `type`: `object`
+
+- `required`: `["type"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["none"]`
+
+### schema-anthropic-text-block
+
+**AnthropicTextBlock** — `#/components/schemas/AnthropicTextBlock`
+
+- title: `文本块`
+
+每个文本块的 `type` 必须为 `"text"`，内容放在 `text` 字段中。请求中额外传入的 `cache_control` 和 `citations` 字段会被忽略。
+
+- `type`: `object`
+
+- `required`: `["type","text"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["text"]`
+
+  - **`text`** (必填)
+
+    文本内容。
+
+    - `type`: `string`
+
+### schema-anthropic-output-thinking-block
+
+**AnthropicOutputThinkingBlock** — `#/components/schemas/AnthropicOutputThinkingBlock`
+
+- title: `思考输出`
+
+- `type`: `object`
+
+- `required`: `["type","thinking","signature"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["thinking"]`
+
+  - **`thinking`** (必填)
+
+    生成的思考内容。在思考模式下继续工具调用对话时，请原样回传此内容块。
+
+    - `type`: `string`
+
+  - **`signature`** (必填)
+
+    随思考内容块返回的不透明签名；回传内容块时请保留。
+
+    - `type`: `string`
+
+### schema-anthropic-tool-use-block
+
+**AnthropicToolUseBlock** — `#/components/schemas/AnthropicToolUseBlock`
+
+- title: `工具调用块`
+
+出现在 assistant 消息中。每个工具调用块都必须在紧接的 user 消息中有对应的工具结果块。
+
+- `type`: `object`
+
+- `required`: `["type","id","name","input"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["tool_use"]`
+
+  - **`id`** (必填)
+
+    工具调用 ID，回传结果时作为 `tool_result.tool_use_id`。
+
+    - `type`: `string`
+
+  - **`name`** (必填)
+
+    客户端工具名称。
+
+    - `type`: `string`
+
+  - **`input`** (必填)
+
+    传给工具的 JSON 参数，通常为符合其 `input_schema` 的对象。
+
+### schema-anthropic-output-server-tool-use-block
+
+**AnthropicOutputServerToolUseBlock** — `#/components/schemas/AnthropicOutputServerToolUseBlock`
+
+- title: `服务端工具调用输出`
+
+描述由服务端执行的一次工具调用。请求级搜索计数另见 `usage.server_tool_use`，客户端无需执行此调用。
+
+- `type`: `object`
+
+- `required`: `["type","id","name","input","caller"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["server_tool_use"]`
+
+  - **`id`** (必填)
+
+    服务端工具调用的标识符。
+
+    - `type`: `string`
+
+  - **`name`** (必填)
+
+    服务端工具名称。
+
+    - `type`: `string`
+
+  - **`input`** (必填)
+
+    传递给服务端工具的参数，为 JSON 值，通常是对象。
+
+  - **`caller`** (必填)
+
+    - title: `调用方`
+
+    - `type`: `object`
+
+    - `required`: `["type"]`
+
+    - **字段**
+
+      - **`type`** (必填)
+
+        - `type`: `string`
+
+        - `enum`: `["direct"]`
+
+### schema-anthropic-web-search-tool-result-block
+
+**AnthropicWebSearchToolResultBlock** — `#/components/schemas/AnthropicWebSearchToolResultBlock`
+
+- title: `网页搜索结果块`
+
+- `type`: `object`
+
+- `required`: `["type","tool_use_id","content"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["web_search_tool_result"]`
+
+  - **`tool_use_id`** (必填)
+
+    关联的 `server_tool_use` 块 ID。
+
+    - `type`: `string`
+
+  - **`content`** (必填)
+
+    搜索结果或搜索错误项。随 assistant 消息回传时，应原样保留整个数组。
+
+    - `type`: `array`
+
+    - **数组元素**
+
+      - 引用: [AnthropicWebSearchResultContent](#schema-anthropic-web-search-result-content) (`#/components/schemas/AnthropicWebSearchResultContent`)
+
+### schema-anthropic-content-block-delta
+
+**AnthropicContentBlockDelta** — `#/components/schemas/AnthropicContentBlockDelta`
+
+- title: `内容增量`
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicTextDelta](#schema-anthropic-text-delta) (`#/components/schemas/AnthropicTextDelta`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicThinkingDelta](#schema-anthropic-thinking-delta) (`#/components/schemas/AnthropicThinkingDelta`)
+
+  - oneOf 3
+
+    - 引用: [AnthropicSignatureDelta](#schema-anthropic-signature-delta) (`#/components/schemas/AnthropicSignatureDelta`)
+
+  - oneOf 4
+
+    - 引用: [AnthropicInputJsonDelta](#schema-anthropic-input-json-delta) (`#/components/schemas/AnthropicInputJsonDelta`)
+
+### schema-anthropic-user-content
+
+**AnthropicUserContent** — `#/components/schemas/AnthropicUserContent`
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicTextContent](#schema-anthropic-text-content) (`#/components/schemas/AnthropicTextContent`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicUserBlocks](#schema-anthropic-user-blocks) (`#/components/schemas/AnthropicUserBlocks`)
+
+### schema-anthropic-assistant-content
+
+**AnthropicAssistantContent** — `#/components/schemas/AnthropicAssistantContent`
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicTextContent](#schema-anthropic-text-content) (`#/components/schemas/AnthropicTextContent`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicAssistantBlocks](#schema-anthropic-assistant-blocks) (`#/components/schemas/AnthropicAssistantBlocks`)
+
+### schema-anthropic-web-search-result-content
+
+**AnthropicWebSearchResultContent** — `#/components/schemas/AnthropicWebSearchResultContent`
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicWebSearchResult](#schema-anthropic-web-search-result) (`#/components/schemas/AnthropicWebSearchResult`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicWebSearchToolResultError](#schema-anthropic-web-search-tool-result-error) (`#/components/schemas/AnthropicWebSearchToolResultError`)
+
+### schema-anthropic-text-delta
+
+**AnthropicTextDelta** — `#/components/schemas/AnthropicTextDelta`
+
+- title: `文本增量`
+
+- `type`: `object`
+
+- `required`: `["type","text"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["text_delta"]`
+
+  - **`text`** (必填)
+
+    将此文本追加到当前文本内容块。
+
+    - `type`: `string`
+
+### schema-anthropic-thinking-delta
+
+**AnthropicThinkingDelta** — `#/components/schemas/AnthropicThinkingDelta`
+
+- title: `思考增量`
+
+- `type`: `object`
+
+- `required`: `["type","thinking"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["thinking_delta"]`
+
+  - **`thinking`** (必填)
+
+    将此文本追加到当前思考内容块。
+
+    - `type`: `string`
+
+### schema-anthropic-signature-delta
+
+**AnthropicSignatureDelta** — `#/components/schemas/AnthropicSignatureDelta`
+
+- title: `签名增量`
+
+- `type`: `object`
+
+- `required`: `["type","signature"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["signature_delta"]`
+
+  - **`signature`** (必填)
+
+    已完成的思考内容块的签名。
+
+    - `type`: `string`
+
+### schema-anthropic-input-json-delta
+
+**AnthropicInputJsonDelta** — `#/components/schemas/AnthropicInputJsonDelta`
+
+- title: `工具输入增量`
+
+- `type`: `object`
+
+- `required`: `["type","partial_json"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["input_json_delta"]`
+
+  - **`partial_json`** (必填)
+
+    工具输入 JSON 的一个片段。拼接此内容块的全部片段，在 content\_block\_stop 后解析完整 JSON。
+
+    - `type`: `string`
+
+### schema-anthropic-user-blocks
+
+**AnthropicUserBlocks** — `#/components/schemas/AnthropicUserBlocks`
+
+- title: `用户内容块`
+
+回复工具调用时，将所有 `tool_result` 块放在文本块或图片块之前。
+
+- `type`: `array`
+
+- `minItems`: `1`
+
+- **数组元素**
+
+  - 引用: [AnthropicUserContentBlock](#schema-anthropic-user-content-block) (`#/components/schemas/AnthropicUserContentBlock`)
+
+### schema-anthropic-assistant-blocks
+
+**AnthropicAssistantBlocks** — `#/components/schemas/AnthropicAssistantBlocks`
+
+- title: `助手内容块`
+
+- `type`: `array`
+
+- `minItems`: `1`
+
+- **数组元素**
+
+  - 引用: [AnthropicAssistantContentBlock](#schema-anthropic-assistant-content-block) (`#/components/schemas/AnthropicAssistantContentBlock`)
+
+### schema-anthropic-web-search-result
+
+**AnthropicWebSearchResult** — `#/components/schemas/AnthropicWebSearchResult`
+
+- title: `网页搜索结果`
+
+- `type`: `object`
+
+- `required`: `["type","title","url","encrypted_content"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["web_search_result"]`
+
+  - **`title`** (必填)
+
+    结果页面的标题。
+
+    - `type`: `string`
+
+  - **`url`** (必填)
+
+    结果页面的 URL。
+
+    - `type`: `string`
+
+    - `format`: `uri`
+
+  - **`encrypted_content`** (必填)
+
+    不可直接读取的结果内容。回传结果时应原样保留该值。
+
+    - `type`: `string`
+
+  - **`page_age`** (可选)
+
+    页面时效元数据（如有），可以为 `null`。
+
+    - `type`: `string`
+
+    - `nullable`: `true`
+
+### schema-anthropic-web-search-tool-result-error
+
+**AnthropicWebSearchToolResultError** — `#/components/schemas/AnthropicWebSearchToolResultError`
+
+- title: `网页搜索错误`
+
+- `type`: `object`
+
+- `required`: `["type","error_code"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["web_search_tool_result_error"]`
+
+  - **`error_code`** (必填)
+
+    服务端搜索失败的原因。
+
+    - `type`: `string`
+
+    - `enum`: `["invalid_tool_input","unavailable","max_uses_exceeded","too_many_requests","query_too_long","request_too_large"]`
+
+### schema-anthropic-user-content-block
+
+**AnthropicUserContentBlock** — `#/components/schemas/AnthropicUserContentBlock`
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicTextBlock](#schema-anthropic-text-block) (`#/components/schemas/AnthropicTextBlock`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicImageBlock](#schema-anthropic-image-block) (`#/components/schemas/AnthropicImageBlock`)
+
+  - oneOf 3
+
+    - 引用: [AnthropicToolResultBlock](#schema-anthropic-tool-result-block) (`#/components/schemas/AnthropicToolResultBlock`)
+
+### schema-anthropic-assistant-content-block
+
+**AnthropicAssistantContentBlock** — `#/components/schemas/AnthropicAssistantContentBlock`
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicTextBlock](#schema-anthropic-text-block) (`#/components/schemas/AnthropicTextBlock`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicThinkingBlock](#schema-anthropic-thinking-block) (`#/components/schemas/AnthropicThinkingBlock`)
+
+  - oneOf 3
+
+    - 引用: [AnthropicToolUseBlock](#schema-anthropic-tool-use-block) (`#/components/schemas/AnthropicToolUseBlock`)
+
+  - oneOf 4
+
+    - 引用: [AnthropicServerToolUseBlock](#schema-anthropic-server-tool-use-block) (`#/components/schemas/AnthropicServerToolUseBlock`)
+
+  - oneOf 5
+
+    - 引用: [AnthropicWebSearchToolResultBlock](#schema-anthropic-web-search-tool-result-block) (`#/components/schemas/AnthropicWebSearchToolResultBlock`)
+
+### schema-anthropic-image-block
+
+**AnthropicImageBlock** — `#/components/schemas/AnthropicImageBlock`
+
+- title: `图片块`
+
+`deepseek-flash` 支持用户消息和工具结果中的图片输入，不支持 assistant 消息中的图片。`deepseek-v4-pro` 不支持图片输入。图片限制见[视觉理解指南](https://api-docs.deepseek.com/zh-cn/guides/vision.md)。
+
+- `type`: `object`
+
+- `required`: `["type","source"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["image"]`
+
+  - **`source`** (必填)
+
+    - 引用: [AnthropicImageSource](#schema-anthropic-image-source) (`#/components/schemas/AnthropicImageSource`)
+
+### schema-anthropic-tool-result-block
+
+**AnthropicToolResultBlock** — `#/components/schemas/AnthropicToolResultBlock`
+
+- title: `工具结果块`
+
+仅用于 user 消息。为每个待处理的工具调用 ID 返回一个结果，不得重复，并将结果放在所有文本块或图片块之前。
+
+- `type`: `object`
+
+- `required`: `["type","tool_use_id"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["tool_result"]`
+
+  - **`tool_use_id`** (必填)
+
+    紧接在前的 assistant 消息中对应 `tool_use` 块的 ID。
+
+    - `type`: `string`
+
+  - **`content`** (可选)
+
+    - 引用: [AnthropicToolResultContent](#schema-anthropic-tool-result-content) (`#/components/schemas/AnthropicToolResultContent`)
+
+  - **`is_error`** (可选)
+
+    兼容字段，会被忽略。请在 `content` 中提供错误详情。
+
+    - `type`: `boolean`
+
+    - `nullable`: `true`
+
+### schema-anthropic-thinking-block
+
+**AnthropicThinkingBlock** — `#/components/schemas/AnthropicThinkingBlock`
+
+- title: `思考块`
+
+- `type`: `object`
+
+- `required`: `["type","thinking"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["thinking"]`
+
+  - **`thinking`** (必填)
+
+    模型返回的思考内容。思考模式下继续工具调用轮次时，应原样回传。
+
+    - `type`: `string`
+
+  - **`signature`** (可选)
+
+    思考块附带的签名。回传该块时应保留；输入签名目前不会被校验。
+
+    - `type`: `string`
+
+    - `nullable`: `true`
+
+### schema-anthropic-server-tool-use-block
+
+**AnthropicServerToolUseBlock** — `#/components/schemas/AnthropicServerToolUseBlock`
+
+- title: `服务端工具调用块`
+
+服务端执行网页搜索时返回。对应的 `web_search_tool_result` 出现在同一条 assistant 消息中，客户端无需执行该工具。
+
+- `type`: `object`
+
+- `required`: `["type","id","name","input"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["server_tool_use"]`
+
+  - **`id`** (必填)
+
+    服务端工具调用 ID。
+
+    - `type`: `string`
+
+  - **`name`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["web_search"]`
+
+  - **`input`** (必填)
+
+    服务端工具参数，为 JSON 值，通常是 `{"query":"..."}` 这样的对象。回传 assistant 消息时应保留。
+
+  - **`caller`** (可选)
+
+    标识直接调用的服务端工具。
+
+    - `type`: `object`
+
+    - `required`: `["type"]`
+
+    - **字段**
+
+      - **`type`** (必填)
+
+        - `type`: `string`
+
+        - `enum`: `["direct"]`
+
+### schema-anthropic-image-source
+
+**AnthropicImageSource** — `#/components/schemas/AnthropicImageSource`
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicBase64ImageSource](#schema-anthropic-base-64-image-source) (`#/components/schemas/AnthropicBase64ImageSource`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicUrlImageSource](#schema-anthropic-url-image-source) (`#/components/schemas/AnthropicUrlImageSource`)
+
+  - oneOf 3
+
+    - 引用: [AnthropicFileImageSource](#schema-anthropic-file-image-source) (`#/components/schemas/AnthropicFileImageSource`)
+
+### schema-anthropic-tool-result-content
+
+**AnthropicToolResultContent** — `#/components/schemas/AnthropicToolResultContent`
+
+工具输出，可以是字符串或文本、图片块数组。省略或为 `null` 时结果为空。
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicTextContent](#schema-anthropic-text-content) (`#/components/schemas/AnthropicTextContent`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicToolResultBlocks](#schema-anthropic-tool-result-blocks) (`#/components/schemas/AnthropicToolResultBlocks`)
+
+  - oneOf 3
+
+    - 引用: [AnthropicNullValue](#schema-anthropic-null-value) (`#/components/schemas/AnthropicNullValue`)
+
+### schema-anthropic-base-64-image-source
+
+**AnthropicBase64ImageSource** — `#/components/schemas/AnthropicBase64ImageSource`
+
+- title: `Base64 图片`
+
+- `type`: `object`
+
+- `required`: `["type","media_type","data"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["base64"]`
+
+  - **`media_type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["image/jpeg","image/png","image/gif","image/webp"]`
+
+  - **`data`** (必填)
+
+    Base64 编码的图片数据，不包含 data URL 前缀。
+
+    - `type`: `string`
+
+### schema-anthropic-url-image-source
+
+**AnthropicUrlImageSource** — `#/components/schemas/AnthropicUrlImageSource`
+
+- title: `图片 URL`
+
+- `type`: `object`
+
+- `required`: `["type","url"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["url"]`
+
+  - **`url`** (必填)
+
+    服务端可下载图片的 HTTP 或 HTTPS URL。
+
+    - `type`: `string`
+
+    - `format`: `uri`
+
+### schema-anthropic-file-image-source
+
+**AnthropicFileImageSource** — `#/components/schemas/AnthropicFileImageSource`
+
+- title: `已上传的图片文件`
+
+请求必须携带 `anthropic-beta: files-api-2025-04-14` 请求头。
+
+- `type`: `object`
+
+- `required`: `["type","file_id"]`
+
+- **字段**
+
+  - **`type`** (必填)
+
+    - `type`: `string`
+
+    - `enum`: `["file"]`
+
+  - **`file_id`** (必填)
+
+    已上传图片文件的 ID，见 [Files API 指南](https://api-docs.deepseek.com/zh-cn/guides/files_api.md#anthropic-compatible-files-api)。
+
+    - `type`: `string`
+
+### schema-anthropic-tool-result-blocks
+
+**AnthropicToolResultBlocks** — `#/components/schemas/AnthropicToolResultBlocks`
+
+- title: `工具结果内容块`
+
+- `type`: `array`
+
+- **数组元素**
+
+  - 引用: [AnthropicToolResultContentBlock](#schema-anthropic-tool-result-content-block) (`#/components/schemas/AnthropicToolResultContentBlock`)
+
+### schema-anthropic-tool-result-content-block
+
+**AnthropicToolResultContentBlock** — `#/components/schemas/AnthropicToolResultContentBlock`
+
+- **oneOf**
+
+  - oneOf 1
+
+    - 引用: [AnthropicTextBlock](#schema-anthropic-text-block) (`#/components/schemas/AnthropicTextBlock`)
+
+  - oneOf 2
+
+    - 引用: [AnthropicImageBlock](#schema-anthropic-image-block) (`#/components/schemas/AnthropicImageBlock`)

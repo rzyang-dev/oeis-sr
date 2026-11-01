@@ -1,0 +1,517 @@
+{
+ "generated_at": "2026-10-30 00:09:56",
+ "n_sequences": 400725,
+ "definition_edges": 87078,
+ "identity_edges": 195088,
+ "identity_sources": 87085,
+ "derived": 70721,
+ "atoms": 330004,
+ "atoms_referenced": 20155,
+ "cycles": {
+  "nontrivial_sccs": 1085,
+  "nodes": 2228
+ },
+ "depth": {
+  "max": 11,
+  "hist": [
+   [
+    0,
+    21500
+   ],
+   [
+    1,
+    54522
+   ],
+   [
+    2,
+    11392
+   ],
+   [
+    3,
+    2608
+   ],
+   [
+    4,
+    599
+   ],
+   [
+    5,
+    177
+   ],
+   [
+    6,
+    41
+   ],
+   [
+    7,
+    16
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    9,
+    3
+   ],
+   [
+    10,
+    4
+   ],
+   [
+    11,
+    4
+   ]
+  ]
+ },
+ "top_atoms_direct": [
+  {
+   "aid": "A000005",
+   "count": 939,
+   "name": "d(n) (also called tau(n) or sigma_0(n)), the number of divisors of n.",
+   "keywords": "nonn,easy,core,nice,mult,hear"
+  },
+  {
+   "aid": "A000010",
+   "count": 685,
+   "name": "Euler totient function phi(n): count numbers <= n and prime to n.",
+   "keywords": "easy,core,nonn,mult,nice,hear,changed"
+  },
+  {
+   "aid": "A000108",
+   "count": 667,
+   "name": "Catalan numbers: C(n) = binomial(2n,n)/(n+1) = (2n)!/(n!(n+1)!).",
+   "keywords": "core,nonn,easy,eigen,nice,changed"
+  },
+  {
+   "aid": "A000045",
+   "count": 652,
+   "name": "Fibonacci numbers: F(n) = F(n-1) + F(n-2) with F(0) = 0 and F(1) = 1.",
+   "keywords": "nonn,core,nice,easy,hear,changed"
+  },
+  {
+   "aid": "A000203",
+   "count": 647,
+   "name": "a(n) = sigma(n), the sum of the divisors of n. Also called sigma_1(n).",
+   "keywords": "easy,core,nonn,nice,mult,changed"
+  },
+  {
+   "aid": "A003415",
+   "count": 493,
+   "name": "a(n) = n' = arithmetic derivative of n: a(0) = a(1) = 0, a(prime) = 1, a(m*n) = m*a(n) + n*a(m).",
+   "keywords": "nonn,core,easy,nice,hear,look"
+  },
+  {
+   "aid": "A000217",
+   "count": 485,
+   "name": "Triangular numbers: a(n) = binomial(n+1,2) = n*(n+1)/2 = 0 + 1 + 2 + ... + n.",
+   "keywords": "nonn,core,easy,nice"
+  },
+  {
+   "aid": "A000041",
+   "count": 445,
+   "name": "a(n) is the number of partitions of n (the partition numbers).",
+   "keywords": "core,easy,nonn,nice"
+  },
+  {
+   "aid": "A002275",
+   "count": 418,
+   "name": "Repunits: (10^n - 1)/9. Often denoted by R_n.",
+   "keywords": "easy,nonn,nice,core"
+  },
+  {
+   "aid": "A002110",
+   "count": 384,
+   "name": "Primorial numbers (first definition): product of first n primes. Sometimes written prime(n)#.",
+   "keywords": "nonn,easy,nice,core"
+  },
+  {
+   "aid": "A003961",
+   "count": 382,
+   "name": "Completely multiplicative with a(prime(k)) = prime(k+1).",
+   "keywords": "nonn,mult,nice"
+  },
+  {
+   "aid": "A276086",
+   "count": 377,
+   "name": "Primorial base exp-function: digits in primorial base representation of n become the exponents of successive prime factors whose product a(n) is.",
+   "keywords": "nonn,base,look,changed"
+  },
+  {
+   "aid": "A000040",
+   "count": 341,
+   "name": "The prime numbers.",
+   "keywords": "core,nonn,nice,easy,changed"
+  },
+  {
+   "aid": "A007318",
+   "count": 338,
+   "name": "Pascal's triangle read by rows: C(n,k) = binomial(n,k) = n!/(k!*(n-k)!), 0 <= k <= n.",
+   "keywords": "nonn,tabl,nice,easy,core,look,hear,changed"
+  },
+  {
+   "aid": "A007947",
+   "count": 326,
+   "name": "Largest squarefree number dividing n: the squarefree kernel of n, rad(n), radical of n.",
+   "keywords": "nonn,easy,nice,mult,changed"
+  },
+  {
+   "aid": "A001222",
+   "count": 323,
+   "name": "Number of prime divisors of n counted with multiplicity (also called big omega of n, bigomega(n) or Omega(n)).",
+   "keywords": "nonn,easy,nice,core,changed"
+  },
+  {
+   "aid": "A000032",
+   "count": 316,
+   "name": "Lucas numbers beginning at 2: L(n) = L(n-1) + L(n-2), L(0) = 2, L(1) = 1.",
+   "keywords": "nonn,nice,easy,core"
+  },
+  {
+   "aid": "A000120",
+   "count": 296,
+   "name": "Ones-counting sequence: number of 1's in binary expansion of n (or the binary weight of n).",
+   "keywords": "nonn,easy,core,nice,hear,look,base"
+  },
+  {
+   "aid": "A014486",
+   "count": 272,
+   "name": "List of totally balanced sequences of 2n binary digits written in base 10. Binary expansion of each term contains n 0's and n 1's and reading from left to right (the most significant to the least significant bit), the number of 0's never exceeds the number of 1's.",
+   "keywords": "nonn,nice,easy,base,changed"
+  },
+  {
+   "aid": "A001221",
+   "count": 260,
+   "name": "Number of distinct primes dividing n (also called omega(n)).",
+   "keywords": "nonn,easy,nice,core"
+  },
+  {
+   "aid": "A000720",
+   "count": 224,
+   "name": "pi(n), the number of primes <= n. Sometimes called PrimePi(n) to distinguish it from the number 3.14159...",
+   "keywords": "nonn,core,easy,nice,changed"
+  },
+  {
+   "aid": "A000012",
+   "count": 222,
+   "name": "The simplest sequence of positive numbers: the all 1's sequence.",
+   "keywords": "nonn,core,easy,mult,cofr,cons,tabl"
+  },
+  {
+   "aid": "A006530",
+   "count": 214,
+   "name": "Gpf(n): greatest prime dividing n, for n >= 2; a(1)=1.",
+   "keywords": "nonn,nice,easy,core"
+  },
+  {
+   "aid": "A000027",
+   "count": 206,
+   "name": "The positive integers. Also called the natural numbers, the whole numbers or the counting numbers, but these terms are ambiguous.",
+   "keywords": "core,nonn,easy,mult,tabl"
+  },
+  {
+   "aid": "A001414",
+   "count": 193,
+   "name": "Integer log of n: sum of primes dividing n (with repetition). Also called sopfr(n).",
+   "keywords": "nonn,easy,nice,changed"
+  },
+  {
+   "aid": "A008683",
+   "count": 187,
+   "name": "Möbius (or Moebius) function mu(n). mu(1) = 1; mu(n) = (-1)^k if n is the product of k different primes; otherwise mu(n) = 0.",
+   "keywords": "core,sign,easy,mult,nice,changed"
+  },
+  {
+   "aid": "A046523",
+   "count": 183,
+   "name": "Smallest number with same prime signature as n.",
+   "keywords": "nonn,easy,nice"
+  },
+  {
+   "aid": "A010060",
+   "count": 182,
+   "name": "Thue-Morse sequence: let A_k denote the first 2^k terms; then A_0 = 0 and for k >= 0, A_{k+1} = A_k B_k, where B_k is obtained from A_k by interchanging 0's and 1's.",
+   "keywords": "nonn,core,easy,nice,changed"
+  },
+  {
+   "aid": "A001008",
+   "count": 181,
+   "name": "a(n) = numerator of harmonic number H(n) = Sum_{i=1..n} 1/i.",
+   "keywords": "nonn,frac,nice,easy"
+  },
+  {
+   "aid": "A156552",
+   "count": 168,
+   "name": "Unary-encoded compressed factorization of natural numbers.",
+   "keywords": "easy,base,nonn"
+  }
+ ],
+ "top_atoms_transitive": [
+  {
+   "aid": "A000005",
+   "count": 1369,
+   "name": "d(n) (also called tau(n) or sigma_0(n)), the number of divisors of n.",
+   "keywords": "nonn,easy,core,nice,mult,hear"
+  },
+  {
+   "aid": "A000203",
+   "count": 956,
+   "name": "a(n) = sigma(n), the sum of the divisors of n. Also called sigma_1(n).",
+   "keywords": "easy,core,nonn,nice,mult,changed"
+  },
+  {
+   "aid": "A000010",
+   "count": 926,
+   "name": "Euler totient function phi(n): count numbers <= n and prime to n.",
+   "keywords": "easy,core,nonn,mult,nice,hear,changed"
+  },
+  {
+   "aid": "A003961",
+   "count": 914,
+   "name": "Completely multiplicative with a(prime(k)) = prime(k+1).",
+   "keywords": "nonn,mult,nice"
+  },
+  {
+   "aid": "A000108",
+   "count": 903,
+   "name": "Catalan numbers: C(n) = binomial(2n,n)/(n+1) = (2n)!/(n!(n+1)!).",
+   "keywords": "core,nonn,easy,eigen,nice,changed"
+  },
+  {
+   "aid": "A000045",
+   "count": 848,
+   "name": "Fibonacci numbers: F(n) = F(n-1) + F(n-2) with F(0) = 0 and F(1) = 1.",
+   "keywords": "nonn,core,nice,easy,hear,changed"
+  },
+  {
+   "aid": "A003415",
+   "count": 718,
+   "name": "a(n) = n' = arithmetic derivative of n: a(0) = a(1) = 0, a(prime) = 1, a(m*n) = m*a(n) + n*a(m).",
+   "keywords": "nonn,core,easy,nice,hear,look"
+  },
+  {
+   "aid": "A002110",
+   "count": 694,
+   "name": "Primorial numbers (first definition): product of first n primes. Sometimes written prime(n)#.",
+   "keywords": "nonn,easy,nice,core"
+  },
+  {
+   "aid": "A014486",
+   "count": 683,
+   "name": "List of totally balanced sequences of 2n binary digits written in base 10. Binary expansion of each term contains n 0's and n 1's and reading from left to right (the most significant to the least significant bit), the number of 0's never exceeds the number of 1's.",
+   "keywords": "nonn,nice,easy,base,changed"
+  },
+  {
+   "aid": "A000041",
+   "count": 611,
+   "name": "a(n) is the number of partitions of n (the partition numbers).",
+   "keywords": "core,easy,nonn,nice"
+  },
+  {
+   "aid": "A000120",
+   "count": 611,
+   "name": "Ones-counting sequence: number of 1's in binary expansion of n (or the binary weight of n).",
+   "keywords": "nonn,easy,core,nice,hear,look,base"
+  },
+  {
+   "aid": "A276086",
+   "count": 599,
+   "name": "Primorial base exp-function: digits in primorial base representation of n become the exponents of successive prime factors whose product a(n) is.",
+   "keywords": "nonn,base,look,changed"
+  },
+  {
+   "aid": "A000040",
+   "count": 546,
+   "name": "The prime numbers.",
+   "keywords": "core,nonn,nice,easy,changed"
+  },
+  {
+   "aid": "A000217",
+   "count": 545,
+   "name": "Triangular numbers: a(n) = binomial(n+1,2) = n*(n+1)/2 = 0 + 1 + 2 + ... + n.",
+   "keywords": "nonn,core,easy,nice"
+  },
+  {
+   "aid": "A007318",
+   "count": 520,
+   "name": "Pascal's triangle read by rows: C(n,k) = binomial(n,k) = n!/(k!*(n-k)!), 0 <= k <= n.",
+   "keywords": "nonn,tabl,nice,easy,core,look,hear,changed"
+  },
+  {
+   "aid": "A002275",
+   "count": 424,
+   "name": "Repunits: (10^n - 1)/9. Often denoted by R_n.",
+   "keywords": "easy,nonn,nice,core"
+  },
+  {
+   "aid": "A007947",
+   "count": 414,
+   "name": "Largest squarefree number dividing n: the squarefree kernel of n, rad(n), radical of n.",
+   "keywords": "nonn,easy,nice,mult,changed"
+  },
+  {
+   "aid": "A001222",
+   "count": 413,
+   "name": "Number of prime divisors of n counted with multiplicity (also called big omega of n, bigomega(n) or Omega(n)).",
+   "keywords": "nonn,easy,nice,core,changed"
+  },
+  {
+   "aid": "A000032",
+   "count": 380,
+   "name": "Lucas numbers beginning at 2: L(n) = L(n-1) + L(n-2), L(0) = 2, L(1) = 1.",
+   "keywords": "nonn,nice,easy,core"
+  },
+  {
+   "aid": "A064989",
+   "count": 352,
+   "name": "Multiplicative with a(2^e) = 1 and a(p^e) = prevprime(p)^e for odd primes p.",
+   "keywords": "nonn,look,mult"
+  },
+  {
+   "aid": "A008683",
+   "count": 345,
+   "name": "Möbius (or Moebius) function mu(n). mu(1) = 1; mu(n) = (-1)^k if n is the product of k different primes; otherwise mu(n) = 0.",
+   "keywords": "core,sign,easy,mult,nice,changed"
+  },
+  {
+   "aid": "A005940",
+   "count": 326,
+   "name": "The Doudna sequence: write n-1 in binary; power of prime(k) in a(n) is # of 1's that are followed by k-1 0's.",
+   "keywords": "nonn,easy,nice,tabf,look"
+  },
+  {
+   "aid": "A000720",
+   "count": 322,
+   "name": "pi(n), the number of primes <= n. Sometimes called PrimePi(n) to distinguish it from the number 3.14159...",
+   "keywords": "nonn,core,easy,nice,changed"
+  },
+  {
+   "aid": "A001221",
+   "count": 318,
+   "name": "Number of distinct primes dividing n (also called omega(n)).",
+   "keywords": "nonn,easy,nice,core"
+  },
+  {
+   "aid": "A034386",
+   "count": 316,
+   "name": "Primorial numbers (second definition): n# = product of primes <= n.",
+   "keywords": "nonn,easy,nice"
+  },
+  {
+   "aid": "A089840",
+   "count": 304,
+   "name": "Signature permutations of non-recursive Catalan automorphisms (i.e., bijections of finite plane binary trees, with no unlimited recursion down to indefinite distances from the root), sorted according to the minimum number of opening nodes needed in their defining clauses.",
+   "keywords": "nonn,tabl"
+  },
+  {
+   "aid": "A001622",
+   "count": 291,
+   "name": "Decimal expansion of golden ratio phi (or tau) = (1 + sqrt(5))/2.",
+   "keywords": "nonn,cons,core,nice,easy,changed"
+  },
+  {
+   "aid": "A006530",
+   "count": 287,
+   "name": "Gpf(n): greatest prime dividing n, for n >= 2; a(1)=1.",
+   "keywords": "nonn,nice,easy,core"
+  },
+  {
+   "aid": "A002808",
+   "count": 284,
+   "name": "The composite numbers: numbers n of the form x*y for x > 1 and y > 1.",
+   "keywords": "nonn,nice,easy,core,changed"
+  },
+  {
+   "aid": "A000027",
+   "count": 280,
+   "name": "The positive integers. Also called the natural numbers, the whole numbers or the counting numbers, but these terms are ambiguous.",
+   "keywords": "core,nonn,easy,mult,tabl"
+  }
+ ],
+ "coverage": {
+  "total_dependency_pairs": 85263,
+  "atoms_for_50pct": 525,
+  "atoms_for_80pct": 5740,
+  "atoms_for_90pct": 11629
+ },
+ "chains": [
+  [
+   "A179773",
+   "A179772",
+   "A179771",
+   "A179770",
+   "A179761",
+   "A122243",
+   "A122242",
+   "A122241",
+   "A122237",
+   "A082358"
+  ],
+  [
+   "A179774",
+   "A179772",
+   "A179771",
+   "A179770",
+   "A179761",
+   "A122243",
+   "A122242",
+   "A122241",
+   "A122237",
+   "A082358"
+  ],
+  [
+   "A179778",
+   "A179777",
+   "A179776",
+   "A179775",
+   "A179762",
+   "A122246",
+   "A122245",
+   "A122244",
+   "A122237",
+   "A082358"
+  ]
+ ],
+ "top_direct_raw": [
+  [
+   "A000005",
+   939
+  ],
+  [
+   "A000010",
+   685
+  ],
+  [
+   "A000108",
+   667
+  ],
+  [
+   "A000045",
+   652
+  ],
+  [
+   "A000203",
+   647
+  ],
+  [
+   "A003415",
+   493
+  ],
+  [
+   "A000217",
+   485
+  ],
+  [
+   "A000041",
+   445
+  ],
+  [
+   "A002275",
+   418
+  ],
+  [
+   "A002110",
+   384
+  ]
+ ]
+}

@@ -1,0 +1,267 @@
+{
+ "total": 160833,
+ "leading": {
+  "ref": 50586,
+  "other": 14720,
+  "sum": 19130,
+  "fraction": 8365,
+  "pow": 25633,
+  "scaled": 41346,
+  "prod": 1053
+ },
+ "n_shapes": 2383,
+ "top": [
+  {
+   "lead": "ref",
+   "feats": [
+    "ref"
+   ],
+   "n": 34302,
+   "cum_pct": 21.3,
+   "example": "a(n) = A000688(n) + A060689(n). - _R. J. Mathar_, Mar 14 2015"
+  },
+  {
+   "lead": "scaled",
+   "feats": [],
+   "n": 18236,
+   "cum_pct": 32.7,
+   "example": "a(n) = 2*a(n-1)-a(n-2); a(1)=1, a(2)=2. a(n) = 1+a(n-1). - _Philippe Deléham_, Nov 03 2008"
+  },
+  {
+   "lead": "other",
+   "feats": [],
+   "n": 9168,
+   "cum_pct": 38.4,
+   "example": "a(n) = 0 for all integer n."
+  },
+  {
+   "lead": "pow",
+   "feats": [
+    "div",
+    "pow"
+   ],
+   "n": 6106,
+   "cum_pct": 42.2,
+   "example": "a(n) = (1-(-1)^(2^n))/2. - _Luce ETIENNE_, May 05 2015"
+  },
+  {
+   "lead": "ref",
+   "feats": [
+    "div",
+    "ref"
+   ],
+   "n": 5774,
+   "cum_pct": 45.8,
+   "example": "a(n) = A063776(n)/2."
+  },
+  {
+   "lead": "scaled",
+   "feats": [
+    "div",
+    "pow"
+   ],
+   "n": 4785,
+   "cum_pct": 48.7,
+   "example": "a(n) = (-2)^n*hypergeom([1, -n], [], 1/2). (End)"
+  },
+  {
+   "lead": "scaled",
+   "feats": [
+    "ref"
+   ],
+   "n": 4684,
+   "cum_pct": 51.6,
+   "example": "a(n) = 2*A038548(n) - A010052(n). - _Reinhard Zumkeller_, Mar 08 2013"
+  },
+  {
+   "lead": "ref",
+   "feats": [
+    "pow",
+    "ref"
+   ],
+   "n": 3401,
+   "cum_pct": 53.8,
+   "example": "a(n) = A052410(n)^A052409(n). - _Reinhard Zumkeller_, Apr 06 2014"
+  },
+  {
+   "lead": "scaled",
+   "feats": [
+    "pow"
+   ],
+   "n": 2976,
+   "cum_pct": 55.6,
+   "example": "a(n) = 2^n (mod 3). - _Vincenzo Librandi_, Feb 05 2011"
+  },
+  {
+   "lead": "pow",
+   "feats": [
+    "div",
+    "pow",
+    "sqrt"
+   ],
+   "n": 2497,
+   "cum_pct": 57.2,
+   "example": "a(n) = (a(n-1) + sqrt(5*(a(n-1)^2 + 4*(-1)^n)))/2 for n > 0. - _Stefano Spezia_, Nov 22 2025"
+  },
+  {
+   "lead": "pow",
+   "feats": [
+    "pow"
+   ],
+   "n": 2397,
+   "cum_pct": 58.6,
+   "example": "a(n) = (phi)^n + ( - phi)^( - n). - _Paul Barry_, Mar 12 2005"
+  },
+  {
+   "lead": "scaled",
+   "feats": [
+    "pow",
+    "ref"
+   ],
+   "n": 2339,
+   "cum_pct": 60.1,
+   "example": "a(n) = 2^(n-1) - A327477(n). - _Gus Wiseman_, Sep 14 2019"
+  },
+  {
+   "lead": "sum",
+   "feats": [
+    "k",
+    "ref",
+    "sum"
+   ],
+   "n": 1882,
+   "cum_pct": 61.3,
+   "example": "a(n) = Sum_{k=1..n} A238133(k)*A000041(n-k). - _Mircea Merca_, Feb 18 2013"
+  },
+  {
+   "lead": "other",
+   "feats": [
+    "ref"
+   ],
+   "n": 1679,
+   "cum_pct": 62.3,
+   "example": "a(n) = t(n, 0), t as defined in A079211."
+  },
+  {
+   "lead": "sum",
+   "feats": [
+    "binom",
+    "k",
+    "pow",
+    "sum"
+   ],
+   "n": 1647,
+   "cum_pct": 63.3,
+   "example": "a(n) = Sum_{j=0..k} (-1)^(j-1)*j*binomial(n,j)*binomial(n-1+k-j,k-j), k>=0. - _Mircea Merca_, Jan 25"
+  },
+  {
+   "lead": "fraction",
+   "feats": [
+    "div"
+   ],
+   "n": 1477,
+   "cum_pct": 64.3,
+   "example": "a(n) = denominator(n/2). - _Wesley Ivan Hurt_, Sep 11 2014"
+  },
+  {
+   "lead": "ref",
+   "feats": [
+    "prime",
+    "ref"
+   ],
+   "n": 1345,
+   "cum_pct": 65.1,
+   "example": "a(n) = A000196(A000040(n)). - _Reinhard Zumkeller_, Mar 24 2012"
+  },
+  {
+   "lead": "sum",
+   "feats": [
+    "k",
+    "pow",
+    "ref",
+    "sum"
+   ],
+   "n": 1245,
+   "cum_pct": 65.9,
+   "example": "a(n) = Sum_{k=0..n} A008290(n,k)*(-1)^k. - _Philippe Deléham_, Dec 15 2003"
+  },
+  {
+   "lead": "pow",
+   "feats": [
+    "div",
+    "floor",
+    "pow"
+   ],
+   "n": 1183,
+   "cum_pct": 66.6,
+   "example": "a(n) = round(1/min(fract(phi^n), 1 - fract(phi^n))), for n>1, where fract(x) = x - floor(x). (End)"
+  },
+  {
+   "lead": "sum",
+   "feats": [
+    "ref",
+    "sum"
+   ],
+   "n": 1096,
+   "cum_pct": 67.3,
+   "example": "a(n) = Sum_{d|n} A007431(d). - _Steven Foster Clark_, May 29 2019"
+  },
+  {
+   "lead": "ref",
+   "feats": [
+    "div",
+    "pow",
+    "ref"
+   ],
+   "n": 1063,
+   "cum_pct": 67.9,
+   "example": "a(n) = (3 + (-1)^A156253(n))/2. - _Benoit Cloitre_, Sep 17 2013"
+  },
+  {
+   "lead": "sum",
+   "feats": [
+    "div",
+    "ref",
+    "sum"
+   ],
+   "n": 854,
+   "cum_pct": 68.5,
+   "example": "a(n) = Sum_{ d divides n } mu(d)*A000011(n/d)."
+  },
+  {
+   "lead": "scaled",
+   "feats": [
+    "div",
+    "pow",
+    "sqrt"
+   ],
+   "n": 777,
+   "cum_pct": 69.0,
+   "example": "a(n) = ( 2^(n-3)/sqrt(Pi) ) * ( 4*2^n*GAMMA(n+1/2)/GAMMA(n+2) + ((-1)^n - 1)*GAMMA(n/2)/GAMMA(n/2 + "
+  },
+  {
+   "lead": "sum",
+   "feats": [
+    "binom",
+    "div",
+    "floor",
+    "k",
+    "pow",
+    "sum"
+   ],
+   "n": 761,
+   "cum_pct": 69.4,
+   "example": "a(n) = Sum_{k=0..n} (-1)^k*2^(n-k)*binomial(n, k)*binomial(k, floor(k/2)). - _Paul Barry_, Jan 27 20"
+  },
+  {
+   "lead": "fraction",
+   "feats": [
+    "div",
+    "floor"
+   ],
+   "n": 745,
+   "cum_pct": 69.9,
+   "example": "a(n) = floor(1/(n + 1)). - _Franz Vrabec_, Aug 24 2005"
+  }
+ ]
+}

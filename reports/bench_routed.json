@@ -1,0 +1,19 @@
+{
+ "fixed": {
+  "solved": 2778,
+  "attempts": 6520,
+  "time": 18.75975439872127
+ },
+ "routed": {
+  "solved": 1227,
+  "attempts": 6088,
+  "time": 44.35210500052199,
+  "skipped": 1559
+ },
+ "cheap_first": {
+  "solved": 2776,
+  "attempts": 5907,
+  "time": 14.000167701509781,
+  "skipped": 32
+ }
+}

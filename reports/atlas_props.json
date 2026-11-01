@@ -1,0 +1,1880 @@
+[
+ {
+  "aid": "A010060",
+  "states": 2,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "Thue-Morse sequence: let A_k denote the first 2^k terms; then A_0 = 0 "
+ },
+ {
+  "aid": "A014709",
+  "states": 4,
+  "values": [
+   1,
+   2
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "The regular paper-folding (or dragon curve) sequence. Alphabet {1,2}."
+ },
+ {
+  "aid": "A020985",
+  "states": 4,
+  "values": [
+   -1,
+   1
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "The Rudin-Shapiro or Golay-Rudin-Shapiro sequence (coefficients of the"
+ },
+ {
+  "aid": "A029883",
+  "states": 5,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "First differences of Thue-Morse sequence A001285."
+ },
+ {
+  "aid": "A036585",
+  "states": 5,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b."
+ },
+ {
+  "aid": "A089048",
+  "states": 10,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Number of ways of writing n as a sum of exactly 3 powers of 2."
+ },
+ {
+  "aid": "A091338",
+  "states": 10,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "a(n) = (3/n), where (k/n) is the Kronecker symbol."
+ },
+ {
+  "aid": "A099544",
+  "states": 7,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "Odd part of n modulo 3."
+ },
+ {
+  "aid": "A106400",
+  "states": 2,
+  "values": [
+   -1,
+   1
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Thue-Morse sequence: let A_k denote the first 2^k terms; then A_0 = 1 "
+ },
+ {
+  "aid": "A183919",
+  "states": 6,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Characteristic sequence for sin(2*Pi/n) being rational."
+ },
+ {
+  "aid": "A247004",
+  "states": 7,
+  "values": [
+   1,
+   2,
+   4
+  ],
+  "zero_density": 0,
+  "mentions_periodic": true,
+  "name": "Denominator of (n+4)/gcd(n, 4)^2, a 16-periodic sequence that associat"
+ },
+ {
+  "aid": "A254651",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.25,
+  "mentions_periodic": false,
+  "name": "Characteristic function of A254614, numbers that are either odd or evi"
+ },
+ {
+  "aid": "A255738",
+  "states": 3,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "a(1) = 1; for n > 1, a(n) = 1*0^{A000120(n-1) - 1}."
+ },
+ {
+  "aid": "A260454",
+  "states": 15,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) "
+ },
+ {
+  "aid": "A284948",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.6667,
+  "mentions_periodic": false,
+  "name": "1-limiting word of the morphism 0 -> 10, 1 -> 00."
+ },
+ {
+  "aid": "A292077",
+  "states": 6,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "a(n) = 0 if n=1; a(n) = 1-a(n-2) if n is odd; a(n) = 1-a(n/2) if n is "
+ },
+ {
+  "aid": "A292118",
+  "states": 5,
+  "values": [
+   -2,
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "G.f.: 1 + 2*Sum_{k >= 1} (-1)^k*q^A003159(k)."
+ },
+ {
+  "aid": "A316344",
+  "states": 8,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "An example of a word that is uniform morphic, but neither pure morphic"
+ },
+ {
+  "aid": "A316828",
+  "states": 4,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.25,
+  "mentions_periodic": false,
+  "name": "Image of the Thue-Morse sequence A010060 under the morphism {1 -> 1,2;"
+ },
+ {
+  "aid": "A372258",
+  "states": 7,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "An infinite sequence over {0,1} with no palindromes of length > 12."
+ },
+ {
+  "aid": "A391614",
+  "states": 6,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "a(4n) = a(2n+a(n)), a(4n+2) = a(2n+1-a(n)) and a(2n+1) = 1-a(2n), with"
+ },
+ {
+  "aid": "A014710",
+  "states": 4,
+  "values": [
+   1,
+   2
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "The regular paper-folding (or dragon curve) sequence. Alphabet {2,1}."
+ },
+ {
+  "aid": "A036987",
+  "states": 3,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Fredholm-Rueppel sequence."
+ },
+ {
+  "aid": "A073089",
+  "states": 6,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "a(n) = (1/2)*(4n - 3 - Sum_{k=1..n} A007400(k))."
+ },
+ {
+  "aid": "A073267",
+  "states": 6,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Number of compositions (ordered partitions) of n into exactly two powe"
+ },
+ {
+  "aid": "A078734",
+  "states": 6,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Start with 1,2, concatenate 2^k previous terms and change last term as"
+ },
+ {
+  "aid": "A086694",
+  "states": 7,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "A run of 2^n 1's followed by a run of 2^n 0's, for n=0, 1, 2, ..."
+ },
+ {
+  "aid": "A089608",
+  "states": 4,
+  "values": [
+   1,
+   5
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "a(n) = ((-1)^(n+1)*A002425(n)) modulo 6."
+ },
+ {
+  "aid": "A098725",
+  "states": 6,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "a(4*n) = 0, a(2*n+1) = 1, a(4*n+2) = a(n+1)."
+ },
+ {
+  "aid": "A099545",
+  "states": 4,
+  "values": [
+   1,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Odd part of n, modulo 4."
+ },
+ {
+  "aid": "A112347",
+  "states": 4,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.0,
+  "mentions_periodic": false,
+  "name": "Kronecker symbol (-1, n) except a(0) = 0."
+ },
+ {
+  "aid": "A112865",
+  "states": 4,
+  "values": [
+   -1,
+   1
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "a(n) = (-1)^(n + floor(n/4) + floor(n/4^2) + ...)."
+ },
+ {
+  "aid": "A127802",
+  "states": 5,
+  "values": [
+   0,
+   1,
+   3
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "a(0) = 1, a(n) = 3*A036987(n), n>1."
+ },
+ {
+  "aid": "A214212",
+  "states": 5,
+  "values": [
+   1,
+   2,
+   4
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Number of right special factors of length n in the Thue-Morse sequence"
+ },
+ {
+  "aid": "A267442",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.0,
+  "mentions_periodic": false,
+  "name": "Middle column of the \"Rule 129\" elementary cellular automaton starting"
+ },
+ {
+  "aid": "A297382",
+  "states": 3,
+  "values": [
+   1,
+   2
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Denominator of -A023900(n)/2."
+ },
+ {
+  "aid": "A298952",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "First put a(n)=0 for all n, then start with a(0) = 1 and add at step n"
+ },
+ {
+  "aid": "A317335",
+  "states": 4,
+  "values": [
+   -2,
+   1
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "a(n) = A317332(n) - 8*n."
+ },
+ {
+  "aid": "A379728",
+  "states": 9,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "Absolute value of first differences of paperfolding sequence A014577."
+ },
+ {
+  "aid": "A001285",
+  "states": 2,
+  "values": [
+   1,
+   2
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Thue-Morse sequence: let A_k denote the first 2^k terms; then A_0 = 1 "
+ },
+ {
+  "aid": "A020987",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "Zero-one version of Golay-Rudin-Shapiro sequence (or word)."
+ },
+ {
+  "aid": "A089012",
+  "states": 8,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "a(n) = 1 if n is an exponent of the Weyl group W(E_6), 0 otherwise."
+ },
+ {
+  "aid": "A127254",
+  "states": 5,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.1667,
+  "mentions_periodic": false,
+  "name": "(0,1) sequence whose zero positions are indexed by twice the odious nu"
+ },
+ {
+  "aid": "A154269",
+  "states": 5,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Dirichlet inverse of A019590; Fully multiplicative with a(2^e) = (-1)^"
+ },
+ {
+  "aid": "A217586",
+  "states": 6,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.6667,
+  "mentions_periodic": false,
+  "name": "a(1) = 1 and, for all n >= 1, if a(n) = 0 then a(2*n) = 1 and a(2*n+1)"
+ },
+ {
+  "aid": "A226162",
+  "states": 14,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.2,
+  "mentions_periodic": false,
+  "name": "a(n) = Kronecker Symbol (-5/n), n >= 0."
+ },
+ {
+  "aid": "A249032",
+  "states": 8,
+  "values": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "First differences of A075326."
+ },
+ {
+  "aid": "A254377",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.25,
+  "mentions_periodic": false,
+  "name": "Characteristic function of A230709: a(n) = 1 if n is either evil (A001"
+ },
+ {
+  "aid": "A270803",
+  "states": 8,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Formal inverse of Thue-Morse sequence A010060."
+ },
+ {
+  "aid": "A280047",
+  "states": 15,
+  "values": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "A derived sequence constructed from the Thue-Morse sequence A010060."
+ },
+ {
+  "aid": "A317336",
+  "states": 4,
+  "values": [
+   -10,
+   -7
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "a(n) = A317333(n) - 8*n."
+ },
+ {
+  "aid": "A365807",
+  "states": 6,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "a(n) = 1 if A163511(n) is a square, 0 otherwise."
+ },
+ {
+  "aid": "A000004",
+  "states": 1,
+  "values": [
+   0
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "The zero sequence."
+ },
+ {
+  "aid": "A000038",
+  "states": 2,
+  "values": [
+   0,
+   2
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Twice A000007."
+ },
+ {
+  "aid": "A007413",
+  "states": 5,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "A squarefree (or Thue-Morse) ternary sequence: closed under 1->123, 2-"
+ },
+ {
+  "aid": "A030300",
+  "states": 6,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.6667,
+  "mentions_periodic": false,
+  "name": "Runs have lengths 2^n, n >= 0."
+ },
+ {
+  "aid": "A079944",
+  "states": 7,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "A run of 2^n 0's followed by a run of 2^n 1's, for n=0, 1, 2, ..."
+ },
+ {
+  "aid": "A092412",
+  "states": 8,
+  "values": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0.0667,
+  "mentions_periodic": false,
+  "name": "Fixed point of the morphism 0->11, 1->12, 2->13, 3->10, starting from "
+ },
+ {
+  "aid": "A099547",
+  "states": 7,
+  "values": [
+   1,
+   3,
+   5
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Odd part of n modulo 6."
+ },
+ {
+  "aid": "A122497",
+  "states": 6,
+  "values": [
+   1,
+   2
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Let f(S) denote the interchange of 1's and 2's in S. Let S_0 = 1, S_{N"
+ },
+ {
+  "aid": "A132971",
+  "states": 5,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "a(2*n) = a(n), a(4*n+1) = -a(n), a(4*n+3) = 0, with a(0) = 1."
+ },
+ {
+  "aid": "A154282",
+  "states": 7,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Dirichlet inverse of A154281."
+ },
+ {
+  "aid": "A159956",
+  "states": 15,
+  "values": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0.25,
+  "mentions_periodic": false,
+  "name": "Period 16 : 0,1,2,3,1,2,3,0,2,3,0,1,3,0,1,2 ."
+ },
+ {
+  "aid": "A187036",
+  "states": 6,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "An eigensequence of A187034."
+ },
+ {
+  "aid": "A209229",
+  "states": 3,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Characteristic function of powers of 2, cf. A000079."
+ },
+ {
+  "aid": "A228495",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.75,
+  "mentions_periodic": false,
+  "name": "Characteristic function of the odd odious numbers (A092246)."
+ },
+ {
+  "aid": "A246960",
+  "states": 9,
+  "values": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0.25,
+  "mentions_periodic": false,
+  "name": "Directions of the lines in the (Heighway) Dragon Curve."
+ },
+ {
+  "aid": "A253414",
+  "states": 14,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.25,
+  "mentions_periodic": false,
+  "name": "G.f. satisfies (1+x^2)*g(x) = 1 + x*g(x^2)."
+ },
+ {
+  "aid": "A254378",
+  "states": 7,
+  "values": [
+   1,
+   3,
+   5
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Run lengths of A228495 (Characteristic function of the odd odious numb"
+ },
+ {
+  "aid": "A259030",
+  "states": 14,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "a(n) is multiplicative with a(2^e) = -(1 - (-1)^e) / 2 if e > 0, a(p^e"
+ },
+ {
+  "aid": "A260449",
+  "states": 15,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) "
+ },
+ {
+  "aid": "A274309",
+  "states": 15,
+  "values": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Related to integral generalized binomial coefficients of multiplicativ"
+ },
+ {
+  "aid": "A280048",
+  "states": 14,
+  "values": [
+   -3,
+   -2,
+   -1,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "The Tower of Hanoi word, with a,b,c,a-bar,b-bar,c-bar encoded as 1,2,3"
+ },
+ {
+  "aid": "A285383",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "Limiting 0-word of the morphism 0 -> 11, 1 -> 01."
+ },
+ {
+  "aid": "A309873",
+  "states": 4,
+  "values": [
+   -1,
+   1
+  ],
+  "zero_density": 0,
+  "mentions_periodic": true,
+  "name": "Period-doubling turn sequence, +1 when the 2-adic valuation of n is ev"
+ },
+ {
+  "aid": "A316831",
+  "states": 7,
+  "values": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0.0,
+  "mentions_periodic": false,
+  "name": "Trajectory of 0 under repeated application of the morphism 0 -> 01, 1 "
+ },
+ {
+  "aid": "A317542",
+  "states": 5,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Formal inverse of the period-doubling sequence A096268."
+ },
+ {
+  "aid": "A343173",
+  "states": 12,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "First differences of paper-folding sequence A014577."
+ },
+ {
+  "aid": "A380667",
+  "states": 10,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "First differences of the Golay-Rudin-Shapiro sequence (A020985), divid"
+ },
+ {
+  "aid": "A030301",
+  "states": 6,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "n-th run has length 2^(n-1)."
+ },
+ {
+  "aid": "A034947",
+  "states": 4,
+  "values": [
+   -1,
+   1
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Jacobi (or Kronecker) symbol (-1/n)."
+ },
+ {
+  "aid": "A036577",
+  "states": 5,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b."
+ },
+ {
+  "aid": "A063524",
+  "states": 3,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Characteristic function of 1."
+ },
+ {
+  "aid": "A069517",
+  "states": 5,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "a(n) = (-1)*Sum_{d|n} (moebius(d)*(-1)^d)."
+ },
+ {
+  "aid": "A076826",
+  "states": 4,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.25,
+  "mentions_periodic": false,
+  "name": "a(n) = 2*(Sum_{k=0..n} A010060(k)) - n, where A010060 is a Thue-Morse "
+ },
+ {
+  "aid": "A081729",
+  "states": 6,
+  "values": [
+   -1,
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.0,
+  "mentions_periodic": false,
+  "name": "Expansion of Sum(k>=0, x^(2^k)) + 1/(1+x). First differences of A00745"
+ },
+ {
+  "aid": "A089129",
+  "states": 15,
+  "values": [
+   1,
+   2,
+   7,
+   14
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Greatest common divisor of n^2 - 7 and n^2 + 7."
+ },
+ {
+  "aid": "A096268",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.6667,
+  "mentions_periodic": false,
+  "name": "Period-doubling sequence (or period-doubling word): fixed point of the"
+ },
+ {
+  "aid": "A159981",
+  "states": 4,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Catalan numbers read modulo 4."
+ },
+ {
+  "aid": "A188578",
+  "states": 15,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.4667,
+  "mentions_periodic": false,
+  "name": "Expansion of (1 - x^3) * (1 - x^5) * (1 - x^6) / (1 - x^15) in powers "
+ },
+ {
+  "aid": "A254379",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.75,
+  "mentions_periodic": false,
+  "name": "Characteristic function of the even odious numbers (A128309)."
+ },
+ {
+  "aid": "A254655",
+  "states": 7,
+  "values": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Run lengths of A254379 (Characteristic function of the even odious num"
+ },
+ {
+  "aid": "A260450",
+  "states": 15,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) "
+ },
+ {
+  "aid": "A269027",
+  "states": 8,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "Parity of the number of 1's in A039724(n)."
+ },
+ {
+  "aid": "A276254",
+  "states": 5,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "With respect to the dictionary ordering of words over the alphabet {a,"
+ },
+ {
+  "aid": "A285384",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "Limiting 1-word of the morphism 0 -> 11, 1 -> 01."
+ },
+ {
+  "aid": "A340375",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "a(n) = 1 if n is of the form 2^i - 2^j with i >= j, and 0 otherwise."
+ },
+ {
+  "aid": "A373155",
+  "states": 6,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5556,
+  "mentions_periodic": false,
+  "name": "a(n) = 1 if n is a non-multiple of 3 whose 2-adic valuation is even, o"
+ },
+ {
+  "aid": "A036580",
+  "states": 5,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b."
+ },
+ {
+  "aid": "A056832",
+  "states": 4,
+  "values": [
+   1,
+   2
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "All a(n) = 1 or 2; a(1) = 1; get next 2^k terms by repeating first 2^k"
+ },
+ {
+  "aid": "A073059",
+  "states": 5,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.6667,
+  "mentions_periodic": false,
+  "name": "a(n) = (1/2)*(A073504(n+1) - A073504(n))."
+ },
+ {
+  "aid": "A078978",
+  "states": 11,
+  "values": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Sequence is S(oo), where S(1)={1,2,3,4}, S(n+1)=S(n)S'(n) and S'(n) is"
+ },
+ {
+  "aid": "A084091",
+  "states": 9,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.5556,
+  "mentions_periodic": false,
+  "name": "Expansion of Sum_{k>=0} x^2^k/(1+x^2^k+x^2^(k+1))."
+ },
+ {
+  "aid": "A085357",
+  "states": 3,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Common residues of binomial(3n,n)/(2n+1) modulo 2: relates ternary tre"
+ },
+ {
+  "aid": "A096269",
+  "states": 9,
+  "values": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "a(n) = number of distinct palindromes of length n that occur in A09626"
+ },
+ {
+  "aid": "A099549",
+  "states": 8,
+  "values": [
+   1,
+   3,
+   5,
+   7
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Odd part of n modulo 8."
+ },
+ {
+  "aid": "A100260",
+  "states": 9,
+  "values": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0.25,
+  "mentions_periodic": false,
+  "name": "Fixed point of morphism 0 -> 01, 1 -> 02, 2 -> 31, 3 -> 32."
+ },
+ {
+  "aid": "A151759",
+  "states": 15,
+  "values": [
+   0,
+   1,
+   3,
+   4,
+   6
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "G.f.: Theta^3, where Theta = Sum_{k>=0} x^(2^k)."
+ },
+ {
+  "aid": "A191254",
+  "states": 6,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "Fixed point of the morphism 0 -> 01, 1 -> 02, 2 -> 01."
+ },
+ {
+  "aid": "A260451",
+  "states": 15,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) "
+ },
+ {
+  "aid": "A262734",
+  "states": 23,
+  "values": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Period 16: repeat (1, 2, 3, 4, 5, 6, 7, 8, 9, 8, 7, 6, 5, 4, 3, 2)."
+ },
+ {
+  "aid": "A287576",
+  "states": 16,
+  "values": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0.25,
+  "mentions_periodic": true,
+  "name": "Start with 0 and repeatedly substitute 0->0321, 1->3210, 2->2103, 3->1"
+ },
+ {
+  "aid": "A301850",
+  "states": 10,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.375,
+  "mentions_periodic": false,
+  "name": "The Dakota sequence: a sequence with zero-free number-wall over ternar"
+ },
+ {
+  "aid": "A304580",
+  "states": 23,
+  "values": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "zero_density": 0.0625,
+  "mentions_periodic": false,
+  "name": "Period 16: repeat 1,8,3,6,5,4,7,2,9,0,7,2,5,4,3,6."
+ },
+ {
+  "aid": "A322796",
+  "states": 11,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.6667,
+  "mentions_periodic": false,
+  "name": "a(n) = Kronecker symbol (6/n)."
+ },
+ {
+  "aid": "A359832",
+  "states": 5,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.1667,
+  "mentions_periodic": false,
+  "name": "a(n) = 1 if the 2-adic valuation of n is either 0 or odd, otherwise 0."
+ },
+ {
+  "aid": "A000007",
+  "states": 2,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "The characteristic function of {0}: a(n) = 0^n."
+ },
+ {
+  "aid": "A003324",
+  "states": 10,
+  "values": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "A nonrepetitive sequence."
+ },
+ {
+  "aid": "A005680",
+  "states": 5,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "A squarefree ternary sequence."
+ },
+ {
+  "aid": "A014707",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "a(4n) = 0, a(4n+2) = 1, a(2n+1) = a(n)."
+ },
+ {
+  "aid": "A035263",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "Trajectory of 1 under the morphism 0 -> 11, 1 -> 10; parity of 2-adic "
+ },
+ {
+  "aid": "A036581",
+  "states": 5,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b."
+ },
+ {
+  "aid": "A039963",
+  "states": 5,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "The period-doubling sequence A035263 repeated."
+ },
+ {
+  "aid": "A039982",
+  "states": 7,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "Let phi denote the morphism 0 -> 11, 1 -> 10. This sequence is the lim"
+ },
+ {
+  "aid": "A079882",
+  "states": 7,
+  "values": [
+   1,
+   2
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "A run of 2^n 1's followed by a run of 2^n 2's, for n=0, 1, 2, ..."
+ },
+ {
+  "aid": "A091297",
+  "states": 8,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "A fixed point of the morphism 0 -> 02, 1 -> 02, 2 -> 11, starting from"
+ },
+ {
+  "aid": "A092436",
+  "states": 3,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "a(n) = 1/2 + (-1)^n*(1/2 - A010060(floor(n/2)))."
+ },
+ {
+  "aid": "A093914",
+  "states": 8,
+  "values": [
+   1,
+   2
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "a(1) = 1; for n > 1, a(n) = curling number of (b(1),...,b(n-1)), where"
+ },
+ {
+  "aid": "A101650",
+  "states": 8,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.375,
+  "mentions_periodic": false,
+  "name": "A Thue-Morse-Stern sequence."
+ },
+ {
+  "aid": "A105931",
+  "states": 6,
+  "values": [
+   -1,
+   1,
+   2
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "a(1) = 1 then a(n) = a(n-1) - (-1)^ceiling(n/2)*a(floor(n/2))."
+ },
+ {
+  "aid": "A154955",
+  "states": 4,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "a(1) = 1, a(2) = -1, followed by 0, 0, 0, ... ."
+ },
+ {
+  "aid": "A191255",
+  "states": 8,
+  "values": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "Fixed point of the morphism 0 -> 01, 1 -> 02, 2 -> 03, 3 -> 01."
+ },
+ {
+  "aid": "A242179",
+  "states": 6,
+  "values": [
+   -1,
+   1
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "T(0,0) = 1, T(n+1,2*k) = - T(n,k), T(n+1,2*k+1) = T(n,k), k=0..n, tria"
+ },
+ {
+  "aid": "A260452",
+  "states": 15,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) "
+ },
+ {
+  "aid": "A269723",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "Start with A_0 = 0, then extend by setting B_k = complement of A_k and"
+ },
+ {
+  "aid": "A346070",
+  "states": 8,
+  "values": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0.5333,
+  "mentions_periodic": false,
+  "name": "Symbolic code for the corner turns in the L\u00e9vy dragon curve."
+ },
+ {
+  "aid": "A347523",
+  "states": 3,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.0,
+  "mentions_periodic": false,
+  "name": "Characteristic function of nonpowers of 2."
+ },
+ {
+  "aid": "A373157",
+  "states": 5,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.4286,
+  "mentions_periodic": false,
+  "name": "a(n) = 1 if the 2-adic valuation of n is a multiple of 3, otherwise 0."
+ },
+ {
+  "aid": "A374043",
+  "states": 7,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.619,
+  "mentions_periodic": false,
+  "name": "a(n) = 1 if n is a non-multiple of 3 whose 2-adic valuation is a multi"
+ },
+ {
+  "aid": "A386260",
+  "states": 11,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Maximum exponent in the prime factorization of the exponent of the hig"
+ },
+ {
+  "aid": "A005681",
+  "states": 6,
+  "values": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "A squarefree quaternary sequence."
+ },
+ {
+  "aid": "A010059",
+  "states": 2,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "Another version of the Thue-Morse sequence: let A_k denote the first 2"
+ },
+ {
+  "aid": "A014577",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.5,
+  "mentions_periodic": false,
+  "name": "The regular paper-folding sequence (or dragon curve sequence). Alphabe"
+ },
+ {
+  "aid": "A036584",
+  "states": 5,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b."
+ },
+ {
+  "aid": "A037011",
+  "states": 3,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Baum-Sweet cubic sequence."
+ },
+ {
+  "aid": "A085405",
+  "states": 3,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Common residues of binomial(3n+2,n+1)/(3n+2) modulo 2."
+ },
+ {
+  "aid": "A089045",
+  "states": 6,
+  "values": [
+   -1,
+   0,
+   1
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "a(n) = a(n-1) + (-1)^floor(n/2)*a(floor(n/2)) with a(1) = 1."
+ },
+ {
+  "aid": "A096271",
+  "states": 6,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.5714,
+  "mentions_periodic": false,
+  "name": "Ternary sequence that is a fixed point of the morphism 0 -> 01, 1 -> 0"
+ },
+ {
+  "aid": "A161175",
+  "states": 3,
+  "values": [
+   1,
+   2
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Triangle read by rows, modified Thue-Morse sequence (A010060 with offs"
+ },
+ {
+  "aid": "A201219",
+  "states": 5,
+  "values": [
+   0,
+   1,
+   2
+  ],
+  "zero_density": 0.0,
+  "mentions_periodic": false,
+  "name": "a(1) = 0; for n>1, a(n) = 1 if n is a power of 2, otherwise a(n) = 2."
+ },
+ {
+  "aid": "A245555",
+  "states": 3,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Trajectory of 1 under the morphism 1 -> 12, 2 -> 23, 3 -> 31."
+ },
+ {
+  "aid": "A260453",
+  "states": 15,
+  "values": [
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) "
+ },
+ {
+  "aid": "A267579",
+  "states": 4,
+  "values": [
+   0,
+   1
+  ],
+  "zero_density": 0.0,
+  "mentions_periodic": false,
+  "name": "Middle column of the \"Rule 167\" elementary cellular automaton starting"
+ },
+ {
+  "aid": "A267883",
+  "states": 7,
+  "values": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 1.0,
+  "mentions_periodic": false,
+  "name": "Number of OFF (white) cells in the n-th iteration of the \"Rule 233\" el"
+ },
+ {
+  "aid": "A306559",
+  "states": 11,
+  "values": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "A self-describing sequence mostly made of 1's and 0's emerging when wr"
+ },
+ {
+  "aid": "A316826",
+  "states": 5,
+  "values": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0.3333,
+  "mentions_periodic": false,
+  "name": "Image of 3 under repeated application of the morphism 3 -> 3,2, 2 -> 1"
+ },
+ {
+  "aid": "A372257",
+  "states": 13,
+  "values": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "zero_density": 0.25,
+  "mentions_periodic": false,
+  "name": "An infinite sequence over {0,1,2,3} without palindromes of length more"
+ },
+ {
+  "aid": "A386261",
+  "states": 12,
+  "values": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "a(n) = A001511(A001511(n)), where A001511 is the ruler function."
+ },
+ {
+  "aid": "A387612",
+  "states": 15,
+  "values": [
+   1,
+   3,
+   5,
+   15
+  ],
+  "zero_density": 0,
+  "mentions_periodic": false,
+  "name": "a(n) = denominator(Integral_{(x,y,z) in R^3 : 0 <= x^2 + y^2 + z^2 <= "
+ }
+]

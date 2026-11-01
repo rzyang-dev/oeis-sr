@@ -1,0 +1,110 @@
+{
+ "A160507": {
+  "depth": 0,
+  "kind": "affine"
+ },
+ "A377065": {
+  "depth": 1,
+  "kind": "affine"
+ },
+ "A208446": {
+  "depth": 0,
+  "kind": "affine"
+ },
+ "A081126": {
+  "depth": 0,
+  "kind": "affine"
+ },
+ "A035803": {
+  "depth": 0,
+  "kind": "affine"
+ },
+ "A035809": {
+  "depth": 0,
+  "kind": "equal"
+ },
+ "A002865": {
+  "depth": 0,
+  "kind": "prefix"
+ },
+ "A000065": {
+  "depth": 0,
+  "kind": "affine"
+ },
+ "A183008": {
+  "depth": 0,
+  "kind": "affine"
+ },
+ "A139582": {
+  "depth": 0,
+  "kind": "affine"
+ },
+ "A328785": {
+  "depth": 0,
+  "kind": "affine"
+ },
+ "A001471": {
+  "depth": 0,
+  "kind": "affine"
+ },
+ "A018218": {
+  "depth": 2,
+  "kind": "affine"
+ },
+ "A229337": {
+  "depth": 0,
+  "kind": "affine"
+ },
+ "A141147": {
+  "depth": 0,
+  "kind": "affine"
+ },
+ "A097893": {
+  "depth": 0,
+  "kind": "prefix"
+ },
+ "A182844": {
+  "depth": 0,
+  "kind": "prefix"
+ },
+ "A182845": {
+  "depth": 0,
+  "kind": "prefix"
+ },
+ "A138879": {
+  "depth": 3,
+  "kind": "prefix"
+ },
+ "A090345": {
+  "depth": 1,
+  "kind": "prefix"
+ },
+ "A376809": {
+  "depth": 0,
+  "kind": "prefix"
+ },
+ "A247287": {
+  "depth": 0,
+  "kind": "prefix"
+ },
+ "A134757": {
+  "depth": 1,
+  "kind": "prefix"
+ },
+ "A109188": {
+  "depth": 3,
+  "kind": "prefix"
+ },
+ "A182995": {
+  "depth": 0,
+  "kind": "prefix"
+ },
+ "A026375": {
+  "depth": 3,
+  "kind": "prefix"
+ },
+ "A206435": {
+  "depth": 0,
+  "kind": "prefix"
+ }
+}

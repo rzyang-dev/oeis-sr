@@ -1,0 +1,17 @@
+build/
+__pycache__/
+*.pyc
+
+# ---- 本地大件（不入库，见 README「本仓库说明」）----
+oeis.db
+*.db
+APIkey
+*.pdf
+
+# ---- 报告中间分片（可用 scripts/ 重跑）----
+reports/*.jsonl
+
+# ---- Lean 构建产物 ----
+lean/*.olean
+lean/.lake/
+.lake/

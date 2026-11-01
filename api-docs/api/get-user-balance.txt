@@ -1,0 +1,156 @@
+# 查询余额
+
+查询账号余额
+
+## 接口
+
+```http
+GET /user/balance
+```
+
+operationId: `getUserBalance`
+
+### 服务地址
+
+- `https://api.deepseek.com`
+
+## 身份验证
+
+### 验证方式 1
+
+**bearerAuth**
+
+`Authorization: Bearer <API_KEY>`
+
+```yaml
+type: http
+scheme: bearer
+```
+
+## 响应
+
+### 200
+
+OK, 返回用户余额详情
+
+#### application/json
+
+- 引用: [GetUserBalanceResponse](#schema-get-user-balance-response) (`#/components/schemas/GetUserBalanceResponse`)
+
+**示例**
+
+```json
+{
+  "is_available": true,
+  "balance_infos": [
+    {
+      "currency": "CNY",
+      "total_balance": "110.00",
+      "granted_balance": "10.00",
+      "topped_up_balance": "100.00"
+    }
+  ]
+}
+```
+
+## 代码示例
+
+### curl
+
+```bash
+# Set DEEPSEEK_API_KEY to your API key before running this example.
+curl --silent --show-error --max-time 60 "https://api.deepseek.com/user/balance" \
+  --header "Authorization: Bearer ${DEEPSEEK_API_KEY}"
+```
+
+### Python — requests
+
+```python
+# Set DEEPSEEK_API_KEY to your API key before running this example.
+import os
+import requests
+
+response = requests.get(
+    "https://api.deepseek.com/user/balance",
+    headers={"Authorization": f"Bearer {os.environ['DEEPSEEK_API_KEY']}"},
+    timeout=60,
+)
+response.raise_for_status()
+print(response.json())
+```
+
+## 引用的数据结构
+
+### schema-get-user-balance-response
+
+**GetUserBalanceResponse** — `#/components/schemas/GetUserBalanceResponse`
+
+- `type`: `object`
+
+- **字段**
+
+  - **`is_available`** (可选)
+
+    当前账户是否有余额可供 API 调用
+
+    - `type`: `boolean`
+
+  - **`balance_infos`** (可选)
+
+    - `type`: `array`
+
+    - **数组元素**
+
+      - `type`: `object`
+
+      - **字段**
+
+        - **`currency`** (可选)
+
+          货币，人民币或美元
+
+          - `type`: `string`
+
+          - `enum`: `["CNY","USD"]`
+
+        - **`total_balance`** (可选)
+
+          总的可用余额，包括赠金和充值余额
+
+          - `type`: `string`
+
+          - `nullable`: `false`
+
+          **示例**
+
+          ```json
+          "110.00"
+          ```
+
+        - **`granted_balance`** (可选)
+
+          未过期的赠金余额
+
+          - `type`: `string`
+
+          - `nullable`: `false`
+
+          **示例**
+
+          ```json
+          "10.00"
+          ```
+
+        - **`topped_up_balance`** (可选)
+
+          充值余额
+
+          - `type`: `string`
+
+          - `nullable`: `false`
+
+          **示例**
+
+          ```json
+          "100.00"
+          ```

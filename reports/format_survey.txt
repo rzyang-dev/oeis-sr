@@ -1,0 +1,95 @@
+OEIS .seq format survey  (2026-10-29 23:31:31)
+root: C:\Users\ginger\oeisdata\seq
+files: 400,725   bytes: 601.5 MB   mean size 1501.1 B
+A-numbers: A000001 .. A401472   missing in span: 747
+non-UTF8 files: 0   CR files: 400725   BOM files: 0
+
+FIELD CODES (files containing at least one such line / total lines):
+  %K  400,725 files    400,725 lines
+  %O  400,725 files    400,725 lines
+  %I  400,725 files    400,725 lines
+  %N  400,725 files    400,725 lines
+  %S  400,725 files    400,725 lines
+  %A  399,123 files    399,123 lines
+  %T  374,904 files    374,904 lines
+  %U  357,477 files    357,477 lines
+  %Y  318,496 files    470,115 lines
+  %H  299,426 files    593,991 lines
+  %C  231,160 files    530,039 lines
+  %t  222,979 files    461,033 lines
+  %e  199,753 files  1,046,470 lines
+  %F  192,439 files    543,748 lines
+  %o  174,080 files    659,511 lines
+  %E   97,037 files    128,912 lines
+  %p   64,490 files    283,404 lines
+  %D   34,883 files     53,793 lines
+
+TERMS: total 17,827,605  mean/entry 44.49
+  pooled usable target sizes: ge_5_terms=398,146, ge_8_terms=388,092, ge_10_terms=378,798, ge_15_terms=351,310, ge_20_terms=311,934, int64_safe=334,876
+  entries with most terms: A191358(348), A016176(347), A005871(136), A000030(133), A000002(108)
+  largest term digit counts: A119555(285d), A104536(254d), A066817(210d), A019437(196d), A001331(166d)
+
+KEYWORDS (top 40):
+  nonn         376,659  (93.99%)
+  easy          98,593  (24.6%)
+  base          45,826  (11.44%)
+  more          27,016  (6.74%)
+  tabl          23,532  (5.87%)
+  sign          22,103  (5.52%)
+  cons          15,468  (3.86%)
+  hard          10,014  (2.5%)
+  tabf           8,369  (2.09%)
+  frac           8,080  (2.02%)
+  fini           7,529  (1.88%)
+  nice           7,012  (1.75%)
+  full           6,381  (1.59%)
+  walk           4,547  (1.13%)
+  look           4,402  (1.1%)
+  mult           3,467  (0.87%)
+  less           3,408  (0.85%)
+  changed        3,280  (0.82%)
+  cofr           2,850  (0.71%)
+  dead           1,963  (0.49%)
+  word             828  (0.21%)
+  uned             787  (0.2%)
+  bref             718  (0.18%)
+  new              525  (0.13%)
+  eigen            441  (0.11%)
+  core             183  (0.05%)
+  hear             174  (0.04%)
+  dumb             113  (0.03%)
+  obsc             113  (0.03%)
+  unkn              31  (0.01%)
+
+OFFSET first: 1:235,926, 0:146,651, 2:8,077, 3:3,541, 4:1,518, 5:898, 6:716, -1:640, 7:444, 8:395, 10:365, 9:344
+
+FORMULAS: 192,439 seqs (48.02%), 543,748 lines, 901 seqs with >=20
+  a(n) =                 207,565
+  Sum_                   80,685
+  G.f.                   65,304
+  sqrt(                  35,796
+  conjecture_word        32,438
+  binomial(              22,149
+  E.g.f.                 20,277
+  floor(                 19,060
+  Product_               14,143
+  n!                     13,056
+  Mod                    7,647
+  closed_form_match      4,101
+  Integral               3,928
+  ceiling(               2,574
+
+COMMENTS: 231,160 seqs, 530,039 lines
+REFS: 53,793 lines    EXAMPLES: 1,046,470 lines
+PROGRAMS: 285,975 seqs (71.36%), 1,403,948 lines
+  Mathematica:460,983, (unlabelled):399,350, Maple:283,288, PARI:155,031, Magma:38,620, Python:26,977, SageMath:15,375, Haskell:8,250, GAP:4,590, Scheme:3,973, Maxima:2,820, C++:599, MATLAB:576, Perl:518, Ruby:461
+
+LINKS: 299,426 seqs, 593,991 lines, 601,746 hrefs (internal 360,123, external 241,623, b-file 218,524)
+  top domains: arxiv.org:46,665, doi.org:36,518, mathworld.wolfram.com:31,128, en.wikipedia.org:13,138, oeis.org:11,015, cs.uwaterloo.ca:7,107, www.jstor.org:5,309, web.archive.org:4,713, wolframscience.com:3,852, www.fq.math.ca:2,719, github.com:2,298, neilsloane.com:2,097
+
+XREFS: 318,496 seqs, 1,495,676 edges, graph nodes 334,284 in 9,261 components
+  top targets: A000040:10,301, A000203:5,486, A000045:5,252, A000005:4,930, A000217:4,292, A000010:4,005, A000041:3,428, A000108:3,401, A000290:3,205, A001222:3,110
+
+VERSIONS: mean 18.3   years: 2025:110,142, 2026:67,878, 2024:31,097, 2023:27,722, 2022:26,388, 2018:19,918, 2021:19,468, 2012:18,087
+
+ANOMALIES: malformed=0 bad_offsets=0 bad_terms=0 zero_terms=0 name_missing=0 author_missing=0

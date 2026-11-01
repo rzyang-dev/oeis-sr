@@ -1,0 +1,275 @@
+# 获取模型列表
+
+列出当前可用的模型，并提供各模型的元数据：展示名称、上下文窗口、输出上限、支持的输入/输出模态、支持的推理强度（effort）档位，以及按 API 协议声明的能力。请前往[模型 & 价格](https://api-docs.deepseek.com/zh-cn/quick_start/pricing.md)查看当前支持的模型列表
+
+## 接口
+
+```http
+GET /models
+```
+
+operationId: `listModels`
+
+### 服务地址
+
+- `https://api.deepseek.com`
+
+## 身份验证
+
+### 验证方式 1
+
+**bearerAuth**
+
+`Authorization: Bearer <API_KEY>`
+
+```yaml
+type: http
+scheme: bearer
+```
+
+## 响应
+
+### 200
+
+OK, 返回模型列表
+
+#### application/json
+
+- 引用: [ListModelsResponse](#schema-list-models-response) (`#/components/schemas/ListModelsResponse`)
+
+**示例**
+
+```json
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "deepseek-flash",
+      "object": "model",
+      "owned_by": "deepseek",
+      "name": "DeepSeek-V4.1-Flash",
+      "context_window": 1048576,
+      "max_output_tokens": 393216,
+      "input_modalities": ["text", "image"],
+      "output_modalities": ["text"],
+      "effort": {
+        "supported_levels": ["low", "high", "max"],
+        "default_level": "high"
+      },
+      "api_capabilities": {
+        "anthropic_messages": {
+          "system_prompt_update": "in-history"
+        }
+      }
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "object": "model",
+      "owned_by": "deepseek",
+      "name": "DeepSeek-V4-Pro",
+      "context_window": 1048576,
+      "max_output_tokens": 393216,
+      "input_modalities": ["text"],
+      "output_modalities": ["text"],
+      "effort": {
+        "supported_levels": ["low", "high", "max"],
+        "default_level": "high"
+      },
+      "api_capabilities": {
+        "anthropic_messages": {
+          "system_prompt_update": "leading-only"
+        }
+      }
+    }
+  ]
+}
+```
+
+## 代码示例
+
+### curl
+
+```bash
+# Set DEEPSEEK_API_KEY to your API key before running this example.
+curl --silent --show-error --max-time 60 "https://api.deepseek.com/models" \
+  --header "Authorization: Bearer ${DEEPSEEK_API_KEY}"
+```
+
+### Python — OpenAI SDK
+
+```python
+# Set DEEPSEEK_API_KEY to your API key before running this example.
+import os
+from openai import OpenAI
+
+client = OpenAI(
+    api_key=os.environ["DEEPSEEK_API_KEY"],
+    base_url="https://api.deepseek.com",
+    timeout=60.0,
+)
+
+models = client.models.list()
+print(models.model_dump_json(indent=2))
+```
+
+## 引用的数据结构
+
+### schema-list-models-response
+
+**ListModelsResponse** — `#/components/schemas/ListModelsResponse`
+
+- `type`: `object`
+
+- `required`: `["object","data"]`
+
+- **字段**
+
+  - **`object`** (必填)
+
+    对象的类型，其值为 `list`。
+
+    - `type`: `string`
+
+    - `enum`: `["list"]`
+
+  - **`data`** (必填)
+
+    模型对象列表。
+
+    - `type`: `array`
+
+    - **数组元素**
+
+      - 引用: [Model](#schema-model) (`#/components/schemas/Model`)
+
+### schema-model
+
+**Model** — `#/components/schemas/Model`
+
+- title: `Model`
+
+描述一个可通过 API 使用的 DeepSeek 模型。除标识字段外，每个模型还带有机器可读的能力与限制元数据；当某项信息对该模型不可用时，对应的元数据字段可能缺省。
+
+- `type`: `object`
+
+- `required`: `["id","object","owned_by"]`
+
+- **字段**
+
+  - **`id`** (必填)
+
+    模型的标识符，用于在 API 接口中引用该模型。
+
+    - `type`: `string`
+
+  - **`object`** (必填)
+
+    对象的类型，其值为 `model`。
+
+    - `type`: `string`
+
+    - `enum`: `["model"]`
+
+  - **`owned_by`** (必填)
+
+    拥有该模型的组织。
+
+    - `type`: `string`
+
+  - **`name`** (可选)
+
+    模型的展示名称，供模型选择器和模型发现工具使用。
+
+    - `type`: `string`
+
+  - **`context_window`** (可选)
+
+    上下文窗口的 token 总容量，输入与输出 token 合计。
+
+    - `type`: `integer`
+
+  - **`max_output_tokens`** (可选)
+
+    服务端允许单次响应输出的 token 数的上限，即 `max_tokens` 可接受的最大值。
+
+    - `type`: `integer`
+
+  - **`input_modalities`** (可选)
+
+    模型接受的输入类型。
+
+    - `type`: `array`
+
+    - **数组元素**
+
+      - `type`: `string`
+
+      - `enum`: `["text","image"]`
+
+  - **`output_modalities`** (可选)
+
+    模型可生成的媒体类型。
+
+    - `type`: `array`
+
+    - **数组元素**
+
+      - `type`: `string`
+
+      - `enum`: `["text"]`
+
+  - **`effort`** (可选)
+
+    开启思考模式时可用的推理强度（effort）档位。
+
+    - `type`: `object`
+
+    - `required`: `["supported_levels"]`
+
+    - **字段**
+
+      - **`supported_levels`** (必填)
+
+        开启思考模式时模型支持的推理强度档位，按建议的展示顺序排列。这些值即 `reasoning_effort` 参数可接受的取值；用于关闭思考模式的 `none` 不包含在内。
+
+        - `type`: `array`
+
+        - **数组元素**
+
+          - `type`: `string`
+
+      - **`default_level`** (可选)
+
+        开启思考模式且请求未指定推理强度时，服务端使用的默认档位。一定属于 `supported_levels`。仅在服务端为该模型定义了默认档位时返回。
+
+        - `type`: `string`
+
+  - **`api_capabilities`** (可选)
+
+    按 API 协议声明的模型行为。
+
+    - `type`: `object`
+
+    - **字段**
+
+      - **`anthropic_messages`** (可选)
+
+        通过 [Anthropic Messages API](https://api-docs.deepseek.com/zh-cn/guides/anthropic_api.md) 使用该模型时适用的能力。
+
+        - `type`: `object`
+
+        - `required`: `["system_prompt_update"]`
+
+        - **字段**
+
+          - **`system_prompt_update`** (必填)
+
+            对话过程中更新 system 提示词时，模型采用新提示词的方式。
+
+            - `leading-only`：只有对话开头的 system 提示词生效。要更改提示词，需修改开头这条 system 提示词；历史中后续出现的 system 消息不会被视为提示词更新。
+
+            - `in-history`：可以在对话历史中追加 `system` 消息。历史中最新的一条 `system` 消息提供完整的有效提示词，并替代此前的所有 system 提示词。
+
+            - `type`: `string`
+
+            - `enum`: `["leading-only","in-history"]`

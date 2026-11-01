@@ -1,0 +1,94 @@
+[
+ {
+  "aid": "A272303",
+  "other": "A005843",
+  "off": 61,
+  "checked": 183,
+  "mismatches": 0,
+  "first_bad": [],
+  "text": "If conjecture is true, a(n) = A005843(n+61) for n >= 7."
+ },
+ {
+  "aid": "A092067",
+  "other": "A020639",
+  "off": 1,
+  "checked": 399,
+  "mismatches": 0,
+  "first_bad": [],
+  "text": "Conjecture 2: For each n, a(n) is the smallest prime factor of n+1 or a(n)=A020639(n+1)."
+ },
+ {
+  "aid": "A253631",
+  "other": "A225603",
+  "off": 2,
+  "checked": 25,
+  "mismatches": 0,
+  "first_bad": [],
+  "text": "Conjecture: a(n) = A225603(n+2)."
+ },
+ {
+  "aid": "A072071",
+  "other": "A072070",
+  "off": 0,
+  "checked": 400,
+  "mismatches": 149,
+  "first_bad": [
+   8,
+   9,
+   12
+  ],
+  "text": "Assuming the Birch and Swinnerton-Dyer conjecture, the even number 2n is a congruent number if it is squarefree and 2 a(n) = A072070(n)."
+ },
+ {
+  "aid": "A072069",
+  "other": "A072068",
+  "off": 0,
+  "checked": 400,
+  "mismatches": 196,
+  "first_bad": [
+   5,
+   6,
+   9
+  ],
+  "text": "Assuming the Birch and Swinnerton-Dyer conjecture, the odd number 2n-1 is a congruent number if it is squarefree and 2 a(n) = A072068(n)."
+ },
+ {
+  "aid": "A260056",
+  "other": "A004524",
+  "off": 3,
+  "checked": 397,
+  "mismatches": 391,
+  "first_bad": [
+   2,
+   3,
+   5
+  ],
+  "text": "Conjecture: If a(n) is n-th antidiagonal alternating sum of the triangle then: a(n) = A004524(n+3)."
+ },
+ {
+  "aid": "A195608",
+  "other": "A001969",
+  "off": 0,
+  "checked": 400,
+  "mismatches": 400,
+  "first_bad": [
+   1,
+   2,
+   3
+  ],
+  "text": "Conjectures: 1) there are only 3 different first differences 1,4,6; 2) the sequence contains either isolated series of terms, e.g., {1},{7},"
+ },
+ {
+  "aid": "A195609",
+  "other": "A000069",
+  "off": 0,
+  "checked": 400,
+  "mismatches": 400,
+  "first_bad": [
+   1,
+   2,
+   3
+  ],
+  "text": "Conjectures: 1) there are only 3 different first differences 1,4,6; 2) the sequence contains either isolated series of terms, e.g., {9},{23}"
+ }
+]

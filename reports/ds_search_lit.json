@@ -1,0 +1,248 @@
+{
+ "unanimity rule cellular automaton": [
+  {
+   "t": "The system of coupled selectors discussed in the last section can be recast into a group meeting problem",
+   "u": "https://apps.dtic.mil/sti/pdfs/ADA259428.pdf#page=168#45#63#45",
+   "s": "The all- zero consensus state will be reached if the initial density of state 1 is smaller than 0.5; and the all- one consensus state will be reached if the initial density is larger than 0.5 (this re"
+  },
+  {
+   "t": "Studies in the physics of evolution: creation, formation, destruction - If and the update threshold k¯\\bar{k} are chosen such that hh holds, the evolution halts after one iteration",
+   "u": "https://ar5iv.labs.arxiv.org/html/0711.2179#3",
+   "s": "Without being able to offer any more surprises we can finally state the master equation for arbitrary times,\n\nat+10=at0+Δt1→0−Δt0→1.superscriptsubscript𝑎𝑡10superscriptsubscript𝑎𝑡0superscriptsubscriptΔ"
+  },
+  {
+   "t": "Artificial Life Simulation of the Majority Vote",
+   "u": "https://fse.studenttheses.ub.rug.nl/21767/",
+   "s": "# Artificial Life Simulation of the Majority Vote\n\nDominguez Arroyo, Patricia (2020) Artificial Life Simulation of the Majority Vote. Bachelor's Thesis, Artificial Intelligence.\n...\nIn this thesis the"
+  },
+  {
+   "t": "| Basics of Cellular Automata Example CA Rules Learning CA rules References |",
+   "u": "https://stat.cmu.edu/~cshalizi/462/2008/lectures/10/10.pdf#1#1#1",
+   "s": "### Majority Vote\n\n“Majority vote”: change to match the majority of the neighborhood (including self)\n...\nQuickly: solid-color regions form  \nMore slowly: they unbend; “motion by mean curvature”\n...\n-"
+  },
+  {
+   "t": "Cellular Automata",
+   "u": "https://cspages.ucalgary.ca/~cjacob/Courses/Fall2003/CPSC605/Slides/J-2-CellularAutomata.pdf#1#1#1",
+   "s": "# Cellular Automata\n...\nCPSC / MDSC 605 — Fall 2003\n...\nGlobal Effects from Local Rules\n...\n- The CA space is a lattice of cells (usually 1D, 2D, 3D) with a particular geometry.- Each cell contains a "
+  },
+  {
+   "t": "Following the suggestions of S",
+   "u": "https://archive.org/download/0_20240430_202404/Encyclopedia%20of%20Complexity%20and%20Systems%20Science%20Series-Cellular%20Automata.pdf#169#191#169",
+   "s": "In order to give a definition of a cellular automaton, we first present a simple example, the so- called parity rule. Although it is very basic, the rule we discuss here exhibits a surprisingly rich b"
+  }
+ ],
+ "k-regular sequence cellular automaton 2-kernel": [
+  {
+   "t": "\\(\\sim\\) Exercises 21 and 22 in Section 16.6, p.451, Allouche-Shallit'03 [7]",
+   "u": "https://orbi.uliege.be/bitstream/2268/216249/1/Rigo.pdf#2#7#2",
+   "s": "k-AUTOMATIC AND k-REGULAR SEQUENCES\n\nThere are various characterizations of k-automatic sequences:\n\nImage under a coding of a fixed point of a k-uniform morphism;\n...\np-algebraic formal power series;\n"
+  },
+  {
+   "t": "A sequence \\((a_{n})_{n \\geq 0}\\) is \\(k\\) - automatic if there exists a finite automaton that, given as input the base \\(k\\) re...",
+   "u": "https://math.smertnig.at/paper/height_mahler.pdf#3#12#3",
+   "s": "A sequence \\((a_{n})_{n \\geq 0}\\) is \\(k\\) - automatic if there exists a finite automaton that, given as input the base \\(k\\) representation of \\(n\\) , reaches an output state labeled by \\(a_{n}\\) . E"
+  },
+  {
+   "t": "We call a sequence \\(k\\)-_automatic_ if it can be produced by a \\(k\\)-automaton in the following manner: one starts at the initi...",
+   "u": "http://export.arxiv.org/pdf/1610.03900#2#13#2",
+   "s": "We will need one such definition that has a combinatorial flavour and is expressed in terms of the \\(k\\)-kernel.\n\n**Definition 1.4**.: The \\(k\\)-_kernel_\\(N_{k}((a_{n}))\\) of a sequence \\((a_{n})_{n\\g"
+  },
+  {
+   "t": "A generalization of automatic sequences to infinite alphabets is the notion of regular sequences [3, 34, 38]",
+   "u": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol323-fsttcs2024/LIPIcs.FSTTCS.2024.32/LIPIcs.FSTTCS.2024.32.pdf#2#6#2",
+   "s": "A sequence is then \\(k\\) - automatic if and only if its \\(k\\) - kernel is finite [3].  \n\nIntroduced in 2001 by Carpi and Maggi [13], synchronized sequences form a family between automatic and regular "
+  },
+  {
+   "t": "Proposition 13: _Given any \\(k\\geq 2\\), a finite \\(S\\)-weighted \\(A_{k}\\)-automaton \\((X,o,\\delta)\\), and a state \\(x\\in X\\), \\(...",
+   "u": "https://www.mimuw.edu.pl/~jwinter/articles/kregular.pdf#4#5#4",
+   "s": "By defining the set of generators\n\n\\[\\Sigma=\\{\\llbracket x\\rrbracket_{S}\\,|\\,x\\in X\\}\\cup\\{\\mathfrak{X}\\llbracket x \\rrbracket_{S}\\,|\\,x\\in X\\}\\cup\\{(1,0,0,\\ldots)\\}\\]\n\nthe equations (17) and (18) sho"
+  },
+  {
+   "t": "Decidability and \\(k\\) -regular sequences",
+   "u": "https://eplus.uni-salzburg.at/obvusboa/download/pdf/7323256#1#4#1",
+   "s": "The so- called \\(k\\) - regular sequences form a natural generalization of the automatic sequences. These are sequences \\((a(n))_{n\\geq 0}\\) where the kernel \\(K_{k}((a(n))_{n\\geq 0})\\) is contained in"
+  }
+ ],
+ "cellular automaton closed form submask bitwise": [
+  {
+   "t": "Crucially, implementing the Speed of Light Identity ( \\(\\min (S_{m}) = \\lfloor m / 2\\rfloor\\) ) dictates that the geometric floo...",
+   "u": "https://www.zenodo.org/records/18921456/files/rule30_wolfram-2.pdf?download=1#5#5#5",
+   "s": "Crucially, implementing the Speed of Light Identity ( \\(\\min (S_{m}) = \\lfloor m / 2\\rfloor\\) ) dictates that the geometric floor of the set continuously rises. For the target evaluation rows \\(m = 2^"
+  },
+  {
+   "t": "Theorem 4 (Layer- zero closed form) For all \\(k \\geq 0\\) ,",
+   "u": "https://www.zenodo.org/records/22747649/files/U4_graded_layers.pdf?download=1#4#8#4",
+   "s": "Theorem 4 (Layer- zero closed form) For all \\(k \\geq 0\\) ,  \n\n\\[\\begin{array}{c}{S_{k}^{(0)} = \\Big\\{0\\leq r\\leq k:\\binom{r}{k - r}\\equiv 1\\pmod 2\\Big\\}}\\\\ {= \\big\\{0\\leq r\\leq k:(k - r)\\subseteq r\\ma"
+  },
+  {
+   "t": "for x in submasks(m_collide):",
+   "u": "https://www.zenodo.org/records/18921456/files/rule30_wolfram-2.pdf?download=1#4#5#4",
+   "s": "for v, m in blocks:\n...\nWhen resolving the compressed block representation via the aforementioned programmatic sequence, the computational yield may diverge modestly from a hand- calculated mathematic"
+  },
+  {
+   "t": "Computer device with a reconfigurable architecture to incorporate global cellular automata - Means that Of course, only zi is used in which the function to be described gets the value “true” or “1”",
+   "u": "https://patents.google.com/patent/JP2008513864A/en#2",
+   "s": "このような表記方法が重要である理由は、入力ビットの順序が既知である場合、それによって、前述の式（２）に掲げる「項（Ｔｅｒｍｅ）」とも呼ばれるサブストリング表記ｚｉを、いわば「ストリングターム」として表すことができるからである。すなわち、ｉ１、ｉ２、ｉ３の順序の場合、「１１１」はｚ１＝ｉ１*ｉ２*ｉ３であることを意味しており、「０−１」はｚ２＝／ｉ１*ｉ３を表しており、以下同様である。 The re"
+  },
+  {
+   "t": "GitHub - Julian-Behnaz/Build-your-own-1D-Cellular-Automata · GitHub - Relating Binary to Cellular Automata Rules",
+   "u": "https://github.com/Julian-Behnaz/Build-your-own-1D-Cellular-Automata#3",
+   "s": "for (int t = 0; t < 1000; t++) {\n...\nfor (int i = 0; i < ROW_LENGTH;\n...\nnext_cell_states[i] = stateBasedOnNeighbors(CURRENT_RULE, left, curr, right);\n    \t\t}\n\n    \t  /* Set the current state equal to"
+  },
+  {
+   "t": "6.1.1 Enumerating all submasks of a given mask",
+   "u": "https://github.com/dhairyashah1/Computer-Science-In-a-Nutshell/blob/master/07.%20Problem%20Solving/CP%20Algorithms.pdf#9#73#9",
+   "s": "}\n...\n(int \\(\\mathrm{s = m}\\) ;\n...\ns;\n...\nrary\n...\n,\n...\n\"\n...\n\"\n...\n\"\n...\nand\n...\nto\n...\ncan be\n...\n.\n...\nfrequently used bases are decimal, powers of decimal (\n...\n) or \\(10^{9}\\) )\n...\n.  \n\nOperat"
+  }
+ ],
+ "Rule 129 center column powers of two proof": [
+  {
+   "t": "A267444",
+   "u": "https://oeis.org/A267444/internal",
+   "s": "| A267444  | Decimal representation of the middle column of the \"Rule 129\" elementary cellular automaton starting with a single ON (black) cell.  | 1  \n\n%I #7 Jan 16 2016 10:32:53\n\n%S 1,2,5,10,21,43,8"
+  },
+  {
+   "t": "12196366602599985134347555882158807709416596902200581",
+   "u": "https://shodhganga.inflibnet.ac.in/bitstream/10603/306225/1/80_recommendation.pdf#5#20#5",
+   "s": "12196366602599985134347555882158807709416596902200581\n...\nand so it follows immediately that \\(((n_{90})^4 - 1)\\) is not prime. (One says that \\(((n_{90})^4 - 1)\\) has failed the Lucas –Fermat test to"
+  },
+  {
+   "t": "RSA",
+   "u": "http://page.mi.fu-berlin.de/rhschulz/Krypto/RSA_or_ECC.pdf#1#1#1",
+   "s": "The (later so called) number RSA-129  \n(with 129 decimal digits, 476 binary digits)  \nwhich was presented by Martin Gardner 1976 (and believed by Ron Rivest to resist quadrillion years) was factorized"
+  },
+  {
+   "t": "Casagrande, J",
+   "u": "https://zbmath.org/pdf/0432.62016.pdf#1#1#1",
+   "s": "Casagrande, J. T.; Pike, M. C.; Smith, P. G. The power function of the \"exact\" test for comparing two binomial distributions. (English) Zbl 0432.62016 J. R. Stat. Soc., Ser. C 27, 212- 219 (1978).\n..."
+  }
+ ],
+ "A071051 Rule 126 number of ON cells formula": [
+  {
+   "t": "A071051",
+   "u": "https://oeis.org/A071051/internal",
+   "s": "| A071051  | Number of 1's in n-th row of triangle in A071035.\n...\n%S 1,3,4,7,4,8,8,15,4,8,8,16,8,16,16,31,4,8,8,16,8,16,16,32,8,16,16,32,\n\n%T 16,32,32,63,4,8,8,16,8,16,16,32,8,16,16,32,16,32,32,64,8,"
+  },
+  {
+   "t": "**A Meta-Algorithm for Creating Fast Algorithms for Counting ON Cells**",
+   "u": "http://neilsloane.com/doc/CAcount.pdf#1#1#1",
+   "s": "What we will do is adapt this trick so that we can also make the substitution \\(x=1\\) at intermediate steps.\n\nFirst let's try to relate \\(a_{1}(2n)\\) to \\(a_{1}(n)\\), using the **Freshman's Dream** id"
+  },
+  {
+   "t": "On the Number of ON Cells in Cellular Automata - \\hline\\cr\\mbox{(i)}&\\hrefhttp://oeis",
+   "u": "https://arxiv.org/html/1503.01168v1#5",
+   "s": "If we drop the “odd-rule” definition, the number of CAs grows astronomically—there are based on the Moore neighborhood alone. Pages 171–175 of [26] show many examples of the subset of “totalistic” rul"
+  },
+  {
+   "t": "GENERAL NOTES:",
+   "u": "https://canadabuys.canada.ca/documents/pub/att/2019/05/16/a2988f4bdccea43016f0c804c4c748e9/ABES.PROD.PW_OLZ.B002.E7274.ATTA007.PDF#1#1#1",
+   "s": "1. CANADIAN COAST GUARD DRAMING A071051 GENERAL ARRANGEMENT"
+  },
+  {
+   "t": "<table><tr><td>P</td><td>ε</td><td>Friendly</td><td colspan=\"9\">Counts [\\(T_{n}(P, \\epsilon)\\)] for \\(n = 1, \\ldots , 12\\)</td><...",
+   "u": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol283-isaac2023/LIPIcs.ISAAC.2023/LIPIcs.ISAAC.2023.pdf#page=861#171#287#171",
+   "s": "<td>1</td><td>2</td><td>5</td><td>14</td><td>41</td>\n...\n365</td><td>1094</td><td>3281</td><td>9842</td><td>29525</td><td>88574</td><td>A007051</td>\n...\n</td>"
+  },
+  {
+   "t": "AP FRESENIUS KABI USA EQ 20MG BASE/10ML (EQ 2MG BASE/ML) A077496 001 Apr 11, 2006",
+   "u": "https://thefdalawblog.com/wp-content/uploads/2020/06/OB-Annual-2013-33rd-Ed.pdf#117#420#117",
+   "s": "### MORPHINE SULFATE\n...\n- AP 0.5MG/ML A071051 001 Oct 07, 1986"
+  }
+ ],
+ "graph cellular automata consensus dynamics closed form": [
+  {
+   "t": "PHYSICAL REVIEW E **109**, 044312 (2024)",
+   "u": "https://harvest.aps.org:443/v2/journals/articles/10.1103/PhysRevE.109.044312/fulltext#1#6#1",
+   "s": "The relevance of the conforming nonconformist rules stems from the fact that their dynamics can be interpreted as an opinion-formation process.\n\nWe note that the literature on opinion dynamics and its"
+  },
+  {
+   "t": "Dynamical Phase Transitions in Graph Cellular Automata",
+   "u": "https://browse.arxiv.org/abs/2310.15894",
+   "s": "> cond-mat > arXiv:2310.15894\n\n# Condensed Matter > Disordered Systems and Neural Networks\n\narXiv:2310.15894 (cond-mat)\n\n[Submitted on 24 Oct 2023]\n\n# Title:Dynamical Phase Transitions in Graph Cellul"
+  },
+  {
+   "t": "Dynamical phase transitions in graph cellular automata - PubMed - . 2024 Apr;109(4-1):044312.\ndoi: 10.1103/PhysRevE.109.044312. \n\n# Dynamical phase transitions in graph cellular automata\n\nAffili",
+   "u": "https://pubmed.ncbi.nlm.nih.gov/38755799/#1",
+   "s": "2024 Apr;109(4-1):044312.\ndoi: 10.1103/PhysRevE.109.044312. \n\n# Dynamical phase transitions in graph cellular automata\n...\n- PMID: 38755799\n...\nFreya Behrens et al. Phys Rev E. 2024 Apr.\n\n## Abstract\n"
+  },
+  {
+   "t": "Dynamical phase transitions in graph cellular automata",
+   "u": "https://inis.iaea.org/records/n5hjj-n7j22",
+   "s": "Published April 18, 2024 | Version v1\n...\n# Dynamical phase transitions in graph cellular automata\n\n- 1. Statistical Physics Of Computation Laboratory, École Polytechnique Fédérale de Lausanne, Lausan"
+  },
+  {
+   "t": "All nodes are updated synchronously and deterministically, using the same update rule, either of type 1, 2, or 3 for a given val...",
+   "u": "https://infoscience.epfl.ch/bitstreams/4c82b15d-1b66-44db-a8f7-1d6c0f596390/download#16#65#16",
+   "s": "(Left) Rapid phase: Fast convergence to the all-0 attractor. (Right) Chaotic Phase: Apparent randomness in the nodes state, convergence takes longer. (Middle) In the large system limit, when \\(n \\to \\"
+  },
+  {
+   "t": "Dynamical Phase Transitions in Graph Cellular Automata",
+   "u": "https://core.ac.uk/works/152482822/?t=dc90c75f3f62501b2a8a14a5fa6b2fcf-152482822",
+   "s": "Discrete dynamical systems can exhibit complex behaviour from the iterative application of straightforward local rules. A famous example are cellular automata whose global dynamics are notoriously cha"
+  }
+ ],
+ "cellular automaton radial solution tree": [
+  {
+   "t": "The prior section lays the ground work for creating the cellular automaton domain",
+   "u": "https://upload.wikimedia.org/wikipedia/commons/c/c3/UNIFORM_AND_MULTI-GRID_MODELING_OF_ACOUSTIC_WAVE_PROPAGATION_WITH_CELLULAR_AUTOMATON_TECHNIQUES_%28IA_uniformandmultig1094532789%29.pdf#3#10#3",
+   "s": "Table 3. All 1's correlate to the CAS a source diameter. All zeros external to the circle of 1's correlate to nodes external to the acoustic source.\n...\nAll ones correlate to nodes external to the aco"
+  },
+  {
+   "t": "So the editor for such a rule ought to incorporate provisions for trial evolutions; also for marking portions of the rule which ...",
+   "u": "http://delta.cs.cinvestav.mx/~mcintosh/comun/camex/camex.pdf#5#11#5",
+   "s": "#### 9.3.3 De Bruijn diagrams\n\nWith time, the evolution of finite automata becomes periodic;\n...\nThe systematic way to decide upon the periodic behavior of a cellular automaton is to use de Bruijn dia"
+  },
+  {
+   "t": "Cellular Modelling of Secondary Radial Growth in Conifer Trees: Application to Pinus Radiata (D. Don)期刊界 All Journals 搜尽天下杂志 传播学术成果 专业期刊搜索 期刊信息化 学术搜索",
+   "u": "https://biosci.alljournals.cn/view_abstract.aspx?pcid=90BA3D13E7F3BC869AC96FB3DA594E3FE34FBF7B8BC0E591&aid=DCE5FFD7E354EEE6F2A70A8D5C41FC88",
+   "s": "Cellular Modelling of Secondary Radial Growth in Conifer Trees: Application to Pinus Radiata (D. Don)\n\nAuthors: | Loïc Forest Jacques Demongeot\n...\n| (1) Laboratoire Techniques de l'Imagerie, de la Mo"
+  },
+  {
+   "t": "Cellular Modelling of Secondary Radial Growth in Conifer Trees: Application to <i>P</i>inus Radiata (D. Don)",
+   "u": "https://www.infona.pl/resource/bwmeta1.element.springer-d6a9e3c4-a0b3-3b16-86e4-1353469e5292",
+   "s": "The radial growth of conifer trees proceeds from the dynamics of a merismatic tissue called vascular cambium or cambium. Cambium is a thin layer of active proliferating cells. The purpose of this pape"
+  },
+  {
+   "t": "Cellular Modelling of Secondary Radial Growth in Conifer Trees: Application to Pinus radiata (D. Don).",
+   "u": "https://openurl.ebsco.com/EPDB%3Agcd%3A3%3A35501475/detailv2?sid=ebsco%3Aocu%3Arecord&id=ebsco%3Adoi%3A10.1007%2Fs11538-005-9004-5&bquery=AU%20DEMONGEOT%2C%20JACQUES&page=1&link_origin=none&searchDescription=DEMONGEOT%2C%20JACQUES&crl=f",
+   "s": "# Cellular Modelling of Secondary Radial Growth in Conifer Trees: Application to Pinus radiata (D. Don).\n\n作者： Forest, Loïc; Demongeot, Jacques 出版于： Bulletin of Mathematical Biology, 2006, v. 68, n. 4,"
+  },
+  {
+   "t": "The vector \\(M\\) constitutes the initial state of the cellular automaton",
+   "u": "https://cs.ou.edu/%7ethulasi/Marked/GlobOpt.pdf#3#6#3",
+   "s": "To see that, assume \\(c_{a}\\) is a cell of the cellular automaton of \\(S I M_{\\phi}\\) such that \\(c_{a}\\) corresponds to the decision variable \\(x_{a}\\) from the message \\(m_{i}\\) sent by the program "
+  }
+ ],
+ "Stern's diatomic sequence cellular automaton": [
+  {
+   "t": "Re3counting the Rationals - 111211323114352534115473857275837451.",
+   "u": "https://ar5iv.labs.arxiv.org/html/1905.10369#2",
+   "s": "The numbers in the diatomic array, read like a book (but deleting the right-most column of 1s), form what is known as Stern’s diatomic sequence which begins:\n\nan=1,1,2,1,3,2,3,1,4,3,5,2,5,3,4,1,5,4,7,"
+  },
+  {
+   "t": "Revisions to sequences with a fractal dimension",
+   "u": "https://mathoverflow.net/posts/117028/revisions",
+   "s": "- Stern's diatomic series yields a fractal with dimension $d=\\frac{\\ln 3}{\\ln 2}$\nStern's diatomic series (a.k.a. Stern-Brocot sequence or $fusc$ function) yields a fractal with dimension $d=\\frac{\\ln"
+  },
+  {
+   "t": "Three Analogues of Stern’s diatomic sequence - matrixmissing-subexpressionmissing-subexpressionmissing-subexpressionmissing-subexpression1missing-subexpressionmissing-subexpre...",
+   "u": "https://ar5iv.labs.arxiv.org/html/1503.03433#2",
+   "s": "Fn+1=∑2i+j=n(i+ji),an+1=∑2i+j=n[(i+ji)mod2]formulae-sequencesubscript𝐹𝑛1subscript2𝑖𝑗𝑛binomial𝑖𝑗𝑖subscript𝑎𝑛1subscript2𝑖𝑗𝑛delimited-[]modulobinomial𝑖𝑗𝑖2F_{n+1}=\\sum_{2i+j=n}{{i+j}\\choose i},\\hskip 14.4"
+  },
+  {
+   "t": "MISSOURI",
+   "u": "https://scholarsmine.mst.edu/cgi/viewcontent.cgi?article=9245&context=masters_theses#1#4#1",
+   "s": "COMPUTATION OF STERN’S SEQUENCE ......\n...\n## 2 Stern's diatomic sequence\n\n### Stern's sequence\n\nFirst discovered by Moritz Abraham Stern in 1858 in [11], Stern's diatomic sequence exhibits many inter"
+  },
+  {
+   "t": "Nonperiodic tilings related to Stern’s diatomic series and based on tiles decorated with elements of 𝔽_{𝑝} - Tiles with two’s and some other value 0will yield lines of cc’s and 0’s parallel to the side holding the two cc’s upon repeated ...",
+   "u": "https://ar5iv.labs.arxiv.org/html/2301.06039#3",
+   "s": "Tiles with two’s and some other value 0will yield lines of cc’s and 0’s parallel to the side holding the two cc’s upon repeated applications of 0. This pattern is visible in figures 10, 11 and 13 as w"
+  },
+  {
+   "t": "Calkin–Wilf tree - Wikipedia - Calkin–Wilf tree",
+   "u": "https://en.wikipedia.org/wiki/Stern%27s_diatomic_sequence#1",
+   "s": "The sequence of rational numbers in a breadth-first traversal of the Calkin–Wilf tree is known as the Calkin–Wilf sequence. Its sequence of numerators (or, offset by one, denominators) is Stern's diat"
+  }
+ ]
+}

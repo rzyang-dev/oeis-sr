@@ -1,0 +1,114 @@
+[
+ {
+  "aid": "A341961",
+  "query": "G.f. A(x) satisfies: A(x) = (1 + x*A(x))*(1 + 2*x*A(x)) / (1 - x*A(x)) congruence modulo 5",
+  "hits": [
+   {
+    "title": "**CONGRUENCES MODULO POWERS OF 5 AND 7**",
+    "url": "https://www.qseries.org/fgarvan/papers/f3-omega3-congs.pdf#1#12#1"
+   }
+  ]
+ },
+ {
+  "aid": "A005573",
+  "query": "walks on cubic lattice (starting from origin and not going below xy pl congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A081924",
+  "query": "exp(3*x)/(1-x)^2 congruence modulo 5",
+  "hits": [
+   {
+    "title": "Congruences for diagonals of rational power series",
+    "url": "https://ericrowland.github.io/talks/Congruences_for_diagonals_of_rational_power_series_Seattle.pdf#1#1#1"
+   },
+   {
+    "title": "- \\( \\overline{4}^2 = \\overline{0} \\),",
+    "url": "http://mooc.centralepekin.cn/wp-content/uploads/2020/12/Algebre1_Cours-3.pdf#17#21#17"
+   }
+  ]
+ },
+ {
+  "aid": "A056545",
+  "query": "a(n) = 4*n*a(n-1) + 1 with a(0)=1 congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A288268",
+  "query": "e.g.f.: exp(Sum_{k>=1} (k-1)*x^k/k) congruence modulo 5",
+  "hits": [
+   {
+    "title": "Generating function - We say that two generating functions (power series) are congruent modulo m, written A(z)",
+    "url": "https://iiab.live/kiwix/content/wikipedia_en_top1m_maxi_2024-05/A/Generating_function#6"
+   }
+  ]
+ },
+ {
+  "aid": "A026585",
+  "query": "a(n) = T(n,n), T given by A026584. Also a(n) is the number of integer congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A172361",
+  "query": "walks within N^2 (the first quadrant of Z^2) starting and ending at (0 congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A001863",
+  "query": "Normalized total height of rooted trees with n nodes congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A182386",
+  "query": "a(0) = 1, a(n) = 1 - n * a(n-1) congruence modulo 5",
+  "hits": [
+   {
+    "title": "4.5: Linear Congruences - Search",
+    "url": "https://math.libretexts.org/Courses/Mount_Royal_University/Higher_Arithmetic/4%3A_Greatest_Common_Divisor_least_common_m"
+   },
+   {
+    "title": "1.3: Integers modulo n - Search",
+    "url": "https://math.libretexts.org/Courses/Mount_Royal_University/Abstract_Algebra_I/Chapter_1%3A_Integers/1.3%3A_Integers_modu"
+   }
+  ]
+ },
+ {
+  "aid": "A156886",
+  "query": "a(n) = Sum_{k=0..n} C(n,k) * C(3*n+k,k) congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A163872",
+  "query": "Inverse binomial transform of the beta numbers 1/beta(n+1,n+1) (A00245 congruence modulo 5",
+  "hits": [
+   {
+    "title": "1. Introduction - 9mod25if\ud835\udc5b3mod5\\frac{(-1)^{\\lfloor n/5\\rfloor-1}}{(2n+1)n^{2}\\binom{2n}{n}}\\sum_{k=0}^{n-1}F_",
+    "url": "https://ar5iv.labs.arxiv.org/html/0912.2671#6"
+   },
+   {
+    "title": "1. Introduction - \u2261\\displaystyle\\equiv | (\u22121)nsin(p\u03b8/2)sin(\u03b8/2)\u00b1cos(p\u03b8/2)cos(\u03b8/2)=sin(p\u2217\u03b8/2)sin(\u03b8/2)\u00b1cos(p\u2217\u03b8/2",
+    "url": "https://ar5iv.labs.arxiv.org/html/0912.2671#5"
+   }
+  ]
+ },
+ {
+  "aid": "A264608",
+  "query": "Degeneracies of entanglement witness eigenstates for spin 3 particles congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A035029",
+  "query": "a(n) = Sum_{k=0..n} (k+1) * Sum_{j=0..n} 2^j*binomial(n,j)*binomial(n- congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A045445",
+  "query": "nonisomorphic systems of catafusenes for the unsymmetrical schemes (gr congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A387929",
+  "query": "a(n) = Sum_{k=0..n} 3^(n-k) * binomial(n,k) * binomial(2*n,k) congruence modulo 5",
+  "hits": []
+ }
+]

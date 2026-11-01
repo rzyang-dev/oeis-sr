@@ -1,0 +1,22 @@
+{
+ "fixed": {
+  "mean_attempts": 7.95,
+  "mean_cost": 61.5,
+  "top1": 0.0,
+  "top3": 4.9
+ },
+ "global": {
+  "mean_attempts": 4.51,
+  "mean_cost": 43.7,
+  "top1": 20.1,
+  "top3": 51.7
+ },
+ "conditional": {
+  "mean_attempts": 4.03,
+  "mean_cost": 39.5,
+  "top1": 24.6,
+  "top3": 55.6
+ },
+ "test_n": 752,
+ "covered": 671
+}

@@ -1,0 +1,230 @@
+# 列出文件
+
+返回属于该用户的文件列表，使用游标分页。
+
+## 接口
+
+```http
+GET /files
+```
+
+operationId: `listFiles`
+
+### 服务地址
+
+- `https://api.deepseek.com`
+
+## 身份验证
+
+### 验证方式 1
+
+**bearerAuth**
+
+`Authorization: Bearer <API_KEY>`
+
+```yaml
+type: http
+scheme: bearer
+```
+
+## 请求参数
+
+**`after`** (query) — 可选
+
+用于分页的 `file_id` 游标，返回排在该文件之后的文件。
+
+- `type`: `string`
+
+**`limit`** (query) — 可选
+
+要返回的文件数量，取值在 1 到 1000 之间。
+
+- `type`: `integer`
+
+- `minimum`: `1`
+
+- `maximum`: `1000`
+
+- `default`: `1000`
+
+**`order`** (query) — 可选
+
+按创建时间排序：`asc` 升序，`desc` 降序。
+
+- `type`: `string`
+
+- `enum`: `["asc","desc"]`
+
+- `default`: `asc`
+
+**`purpose`** (query) — 可选
+
+只返回指定用途的文件，仅支持 `user_data`。
+
+- `type`: `string`
+
+- `enum`: `["user_data"]`
+
+## 响应
+
+### 200
+
+OK, 返回 `file object` 列表。
+
+#### application/json
+
+- 引用: [ListFilesResponse](#schema-list-files-response) (`#/components/schemas/ListFilesResponse`)
+
+**示例**
+
+```json
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "file-api-0a1b2c3d4e5f60718293a4b5c6d7e8f9",
+      "object": "file",
+      "bytes": 102400,
+      "created_at": 1700000000,
+      "filename": "image.jpg",
+      "purpose": "user_data"
+    }
+  ],
+  "first_id": "file-api-0a1b2c3d4e5f60718293a4b5c6d7e8f9",
+  "last_id": "file-api-0a1b2c3d4e5f60718293a4b5c6d7e8f9",
+  "has_more": false
+}
+```
+
+## 代码示例
+
+### curl
+
+```bash
+# Set DEEPSEEK_API_KEY to your API key before running this example.
+curl --silent --show-error --max-time 60 "https://api.deepseek.com/files?limit=2" \
+  --header "Authorization: Bearer ${DEEPSEEK_API_KEY}"
+```
+
+### Python — OpenAI SDK
+
+```python
+# Set DEEPSEEK_API_KEY to your API key before running this example.
+import os
+from openai import OpenAI
+
+client = OpenAI(
+    api_key=os.environ["DEEPSEEK_API_KEY"],
+    base_url="https://api.deepseek.com",
+    timeout=60.0,
+)
+
+files = client.files.list(limit=2)
+print(files.model_dump_json(indent=2))
+```
+
+## 引用的数据结构
+
+### schema-list-files-response
+
+**ListFilesResponse** — `#/components/schemas/ListFilesResponse`
+
+- `type`: `object`
+
+- `required`: `["object","data","has_more"]`
+
+- **字段**
+
+  - **`object`** (必填)
+
+    对象的类型，其值为 `list`。
+
+    - `type`: `string`
+
+    - `enum`: `["list"]`
+
+  - **`data`** (必填)
+
+    文件对象列表。
+
+    - `type`: `array`
+
+    - **数组元素**
+
+      - 引用: [FileObject](#schema-file-object) (`#/components/schemas/FileObject`)
+
+  - **`first_id`** (可选)
+
+    列表中第一个文件的 ID，可用作分页游标。
+
+    - `type`: `string`
+
+  - **`last_id`** (可选)
+
+    列表中最后一个文件的 ID，可用作分页游标。
+
+    - `type`: `string`
+
+  - **`has_more`** (必填)
+
+    是否还有更多文件。
+
+    - `type`: `boolean`
+
+### schema-file-object
+
+**FileObject** — `#/components/schemas/FileObject`
+
+描述一个已上传到 Files API 的文件。
+
+- `type`: `object`
+
+- `required`: `["id","object","bytes","created_at","filename","purpose"]`
+
+- **字段**
+
+  - **`id`** (必填)
+
+    文件标识符，形如 `file-api-...`，可在对话补全请求中引用。
+
+    - `type`: `string`
+
+  - **`object`** (必填)
+
+    对象的类型，其值为 `file`。
+
+    - `type`: `string`
+
+    - `enum`: `["file"]`
+
+  - **`bytes`** (必填)
+
+    文件大小（字节）。
+
+    - `type`: `integer`
+
+  - **`created_at`** (必填)
+
+    文件创建时的 Unix 时间戳（以秒为单位）。
+
+    - `type`: `integer`
+
+  - **`filename`** (必填)
+
+    文件名。
+
+    - `type`: `string`
+
+  - **`purpose`** (必填)
+
+    文件的用途。
+
+    - `type`: `string`
+
+    - `enum`: `["user_data"]`
+
+  - **`expires_at`** (可选)
+
+    文件过期时的 Unix 时间戳（以秒为单位）。仅在上传时设置了过期时间才会出现。
+
+    - `type`: `integer`

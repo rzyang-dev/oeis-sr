@@ -1,0 +1,797 @@
+[
+ {
+  "aid": "A010060",
+  "period": null,
+  "states": 2
+ },
+ {
+  "aid": "A014709",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A020985",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A029883",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A036585",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A089048",
+  "period": null,
+  "states": 10
+ },
+ {
+  "aid": "A091338",
+  "period": null,
+  "states": 10
+ },
+ {
+  "aid": "A099544",
+  "period": null,
+  "states": 7
+ },
+ {
+  "aid": "A106400",
+  "period": null,
+  "states": 2
+ },
+ {
+  "aid": "A183919",
+  "period": 1,
+  "states": 6
+ },
+ {
+  "aid": "A247004",
+  "period": 16,
+  "states": 7
+ },
+ {
+  "aid": "A254651",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A255738",
+  "period": null,
+  "states": 3
+ },
+ {
+  "aid": "A260454",
+  "period": null,
+  "states": 15
+ },
+ {
+  "aid": "A284948",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A292077",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A292118",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A316344",
+  "period": null,
+  "states": 8
+ },
+ {
+  "aid": "A316828",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A372258",
+  "period": null,
+  "states": 7
+ },
+ {
+  "aid": "A391614",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A014710",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A036987",
+  "period": null,
+  "states": 3
+ },
+ {
+  "aid": "A073089",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A073267",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A078734",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A086694",
+  "period": null,
+  "states": 7
+ },
+ {
+  "aid": "A089608",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A098725",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A099545",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A112347",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A112865",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A127802",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A214212",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A267442",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A297382",
+  "period": null,
+  "states": 3
+ },
+ {
+  "aid": "A298952",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A317335",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A379728",
+  "period": null,
+  "states": 9
+ },
+ {
+  "aid": "A001285",
+  "period": null,
+  "states": 2
+ },
+ {
+  "aid": "A020987",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A089012",
+  "period": 1,
+  "states": 8
+ },
+ {
+  "aid": "A127254",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A154269",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A217586",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A226162",
+  "period": null,
+  "states": 14
+ },
+ {
+  "aid": "A249032",
+  "period": null,
+  "states": 8
+ },
+ {
+  "aid": "A254377",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A270803",
+  "period": null,
+  "states": 8
+ },
+ {
+  "aid": "A280047",
+  "period": null,
+  "states": 15
+ },
+ {
+  "aid": "A317336",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A365807",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A000004",
+  "period": 1,
+  "states": 1
+ },
+ {
+  "aid": "A000038",
+  "period": 1,
+  "states": 2
+ },
+ {
+  "aid": "A007413",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A030300",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A079944",
+  "period": null,
+  "states": 7
+ },
+ {
+  "aid": "A092412",
+  "period": null,
+  "states": 8
+ },
+ {
+  "aid": "A099547",
+  "period": null,
+  "states": 7
+ },
+ {
+  "aid": "A122497",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A132971",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A154282",
+  "period": null,
+  "states": 7
+ },
+ {
+  "aid": "A159956",
+  "period": 16,
+  "states": 15
+ },
+ {
+  "aid": "A187036",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A209229",
+  "period": null,
+  "states": 3
+ },
+ {
+  "aid": "A228495",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A246960",
+  "period": null,
+  "states": 9
+ },
+ {
+  "aid": "A253414",
+  "period": null,
+  "states": 14
+ },
+ {
+  "aid": "A254378",
+  "period": null,
+  "states": 7
+ },
+ {
+  "aid": "A259030",
+  "period": null,
+  "states": 14
+ },
+ {
+  "aid": "A260449",
+  "period": null,
+  "states": 15
+ },
+ {
+  "aid": "A274309",
+  "period": 16,
+  "states": 15
+ },
+ {
+  "aid": "A280048",
+  "period": null,
+  "states": 14
+ },
+ {
+  "aid": "A285383",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A309873",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A316831",
+  "period": null,
+  "states": 7
+ },
+ {
+  "aid": "A317542",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A343173",
+  "period": null,
+  "states": 12
+ },
+ {
+  "aid": "A380667",
+  "period": null,
+  "states": 10
+ },
+ {
+  "aid": "A030301",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A034947",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A036577",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A063524",
+  "period": 1,
+  "states": 3
+ },
+ {
+  "aid": "A069517",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A076826",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A081729",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A089129",
+  "period": 14,
+  "states": 15
+ },
+ {
+  "aid": "A096268",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A159981",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A188578",
+  "period": 15,
+  "states": 15
+ },
+ {
+  "aid": "A254379",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A254655",
+  "period": null,
+  "states": 7
+ },
+ {
+  "aid": "A260450",
+  "period": null,
+  "states": 15
+ },
+ {
+  "aid": "A269027",
+  "period": null,
+  "states": 8
+ },
+ {
+  "aid": "A276254",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A285384",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A340375",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A373155",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A036580",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A056832",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A073059",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A078978",
+  "period": null,
+  "states": 11
+ },
+ {
+  "aid": "A084091",
+  "period": null,
+  "states": 9
+ },
+ {
+  "aid": "A085357",
+  "period": null,
+  "states": 3
+ },
+ {
+  "aid": "A096269",
+  "period": null,
+  "states": 9
+ },
+ {
+  "aid": "A099549",
+  "period": null,
+  "states": 8
+ },
+ {
+  "aid": "A100260",
+  "period": null,
+  "states": 9
+ },
+ {
+  "aid": "A151759",
+  "period": null,
+  "states": 15
+ },
+ {
+  "aid": "A191254",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A260451",
+  "period": null,
+  "states": 15
+ },
+ {
+  "aid": "A262734",
+  "period": 16,
+  "states": 23
+ },
+ {
+  "aid": "A287576",
+  "period": null,
+  "states": 16
+ },
+ {
+  "aid": "A301850",
+  "period": null,
+  "states": 10
+ },
+ {
+  "aid": "A304580",
+  "period": 16,
+  "states": 23
+ },
+ {
+  "aid": "A322796",
+  "period": 24,
+  "states": 11
+ },
+ {
+  "aid": "A359832",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A000007",
+  "period": 1,
+  "states": 2
+ },
+ {
+  "aid": "A003324",
+  "period": null,
+  "states": 10
+ },
+ {
+  "aid": "A005680",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A014707",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A035263",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A036581",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A039963",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A039982",
+  "period": null,
+  "states": 7
+ },
+ {
+  "aid": "A079882",
+  "period": null,
+  "states": 7
+ },
+ {
+  "aid": "A091297",
+  "period": null,
+  "states": 8
+ },
+ {
+  "aid": "A092436",
+  "period": null,
+  "states": 3
+ },
+ {
+  "aid": "A093914",
+  "period": null,
+  "states": 8
+ },
+ {
+  "aid": "A101650",
+  "period": null,
+  "states": 8
+ },
+ {
+  "aid": "A105931",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A154955",
+  "period": 1,
+  "states": 4
+ },
+ {
+  "aid": "A191255",
+  "period": null,
+  "states": 8
+ },
+ {
+  "aid": "A242179",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A260452",
+  "period": null,
+  "states": 15
+ },
+ {
+  "aid": "A269723",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A346070",
+  "period": null,
+  "states": 8
+ },
+ {
+  "aid": "A347523",
+  "period": null,
+  "states": 3
+ },
+ {
+  "aid": "A373157",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A374043",
+  "period": null,
+  "states": 7
+ },
+ {
+  "aid": "A386260",
+  "period": null,
+  "states": 11
+ },
+ {
+  "aid": "A005681",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A010059",
+  "period": null,
+  "states": 2
+ },
+ {
+  "aid": "A014577",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A036584",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A037011",
+  "period": null,
+  "states": 3
+ },
+ {
+  "aid": "A085405",
+  "period": null,
+  "states": 3
+ },
+ {
+  "aid": "A089045",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A096271",
+  "period": null,
+  "states": 6
+ },
+ {
+  "aid": "A161175",
+  "period": null,
+  "states": 3
+ },
+ {
+  "aid": "A201219",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A245555",
+  "period": null,
+  "states": 3
+ },
+ {
+  "aid": "A260453",
+  "period": null,
+  "states": 15
+ },
+ {
+  "aid": "A267579",
+  "period": null,
+  "states": 4
+ },
+ {
+  "aid": "A267883",
+  "period": 1,
+  "states": 7
+ },
+ {
+  "aid": "A306559",
+  "period": null,
+  "states": 11
+ },
+ {
+  "aid": "A316826",
+  "period": null,
+  "states": 5
+ },
+ {
+  "aid": "A372257",
+  "period": null,
+  "states": 13
+ },
+ {
+  "aid": "A386261",
+  "period": null,
+  "states": 12
+ },
+ {
+  "aid": "A387612",
+  "period": 15,
+  "states": 15
+ }
+]

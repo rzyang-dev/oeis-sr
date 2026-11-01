@@ -1,0 +1,26 @@
+{
+ "sizes": {
+  "train": 2024,
+  "val": 434,
+  "test": 433
+ },
+ "groups": 2501,
+ "tier_dist": {
+  "val": {
+   "easy": 18,
+   "hard": 297,
+   "medium": 119
+  },
+  "train": {
+   "medium": 719,
+   "easy": 141,
+   "hard": 1164
+  },
+  "test": {
+   "easy": 16,
+   "medium": 135,
+   "hard": 282
+  }
+ },
+ "groups_spanning": 0
+}

@@ -1,0 +1,601 @@
+{
+ "sporadic": [
+  {
+   "aid": "A000058",
+   "at": 1,
+   "text": "a(n) = sqrt(A174864(n+1)/A174864(n)). - _Giovanni Teofilatto_, Apr 02 2010"
+  },
+  {
+   "aid": "A000132",
+   "at": 1,
+   "text": "a(n) = (10/n)*Sum_{k=1..n} A186690(k)*a(n-k), a(0) = 1. - _Seiichi Manyama_, May 27 2017"
+  },
+  {
+   "aid": "A000143",
+   "at": 1,
+   "text": "a(n) = (16/n)*Sum_{k=1..n} A186690(k)*a(n-k), a(0) = 1. - _Seiichi Manyama_, May 27 2017"
+  },
+  {
+   "aid": "A000313",
+   "at": 1,
+   "text": "a(n) = A065087(n+2)/3. - _Zerinvary Lajos_, May 25 2007"
+  },
+  {
+   "aid": "A000316",
+   "at": 1,
+   "text": "a(n) = n * a(n-1) + n! * 4^n * Sum_{a=0..n} (-1)^a / (a! * 2^a). (End)"
+  },
+  {
+   "aid": "A000413",
+   "at": 0,
+   "text": "a(n) = A117609(A000092(n)), considering A000092(0) = 0. - _M. F. Hasler_, May 04 2022"
+  },
+  {
+   "aid": "A000575",
+   "at": 1,
+   "text": "a(n) = Sum_{k=1..10} (-1)^k * binomial(10,k) * a(n-k), a(0)=10. - _G. C. Greubel_, Aug 03 2015"
+  },
+  {
+   "aid": "A000631",
+   "at": 3,
+   "text": "a(n) = Sum_{k=1..(n-1)/2}( f(k) * f(n-k) ) + [n mod 2 = 0] * ( f(n/2)^2 + f(n/2) ) / 2 where f(n) = A000642(n+1). - _Washington Bomfim_, Nov 29 2020"
+  },
+  {
+   "aid": "A000670",
+   "at": 2,
+   "text": "a(n) = Sum_{k=1..n} binomial(n, k)*a(n-k), a(0) = 1."
+  },
+  {
+   "aid": "A000749",
+   "at": 3,
+   "text": "a(n) = a(n-1) + A038505(n-2) = 2*a(n-1) + A009545(n-2) for n>=2."
+  },
+  {
+   "aid": "A000975",
+   "at": 1,
+   "text": "a(n) = 2*(2^n - 1)/3, for even n; a(n) = (2^(n+1) - 1)/3 = (1/3)*(2^((n+1)/2) - 1)*(2^((n+1)/2) + 1), for odd n. - _Hieronymus Fischer_, Nov 22 2012"
+  },
+  {
+   "aid": "A001236",
+   "at": 1,
+   "text": "a(n) = n!^3*Sum_{k=1..n} (-1)^(k+1)*binomial(n, k)/k^3."
+  },
+  {
+   "aid": "A001653",
+   "at": 1,
+   "text": "a(n) = sqrt((A002315(n)^2 + 1)/2). [Inserted by _N. J. A. Sloane_, May 08 2000]"
+  },
+  {
+   "aid": "A001787",
+   "at": 0,
+   "text": "a(n) = 4*a(n-1) - 4*a(n-2), a(0)=0, a(1)=1. - _Philippe Del\u00e9ham_, Nov 16 2008"
+  },
+  {
+   "aid": "A001793",
+   "at": 1,
+   "text": "a(n) = Sum_{k=0..floor((n+4)/2)} C(n+4, 2k)*C(k, 2). - _Paul Barry_, May 15 2003"
+  },
+  {
+   "aid": "A001846",
+   "at": 0,
+   "text": "a(n) = Sum_{i=0..n} 8*i*(A059100(i))/3. (End)"
+  },
+  {
+   "aid": "A001891",
+   "at": 2,
+   "text": "a(n) = a(n-1) + a(n-2) + (2n+1); a(-x)=0. - _Barry E. Williams_, Mar 27 2000"
+  },
+  {
+   "aid": "A002275",
+   "at": 0,
+   "text": "a(n) = 11*a(n-1) - 10*a(n-2), a(0)=0, a(1)=1. - _Lekraj Beedassy_, Jun 07 2006"
+  },
+  {
+   "aid": "A002315",
+   "at": 0,
+   "text": "a(n) = -(-1)^n - 2 + Sum_{i=0..n} A002203(i)^2. - _Adam Mohamed_, Aug 22 2024"
+  },
+  {
+   "aid": "A002620",
+   "at": 2,
+   "text": "a(n) = n*floor((n-1)/2) - floor((n-1)/2)*(floor((n-1)/2)+ 1); a(n) = a(n-2) + n-2 with a(1) = 0, a(2) = 0. - _Santi Spadaro_, Jul 13 2001"
+  },
+  {
+   "aid": "A002623",
+   "at": 1,
+   "text": "a(n) = (4*n^3 + 30*n^2 + 68*n + 45)*(-1)^n/48 + 1/16."
+  },
+  {
+   "aid": "A003095",
+   "at": 2,
+   "text": "a(n) = Sum_{i=1..n} A001699(i). - _Jonathan Vos Post_, Feb 17 2010"
+  },
+  {
+   "aid": "A003480",
+   "at": 0,
+   "text": "a(n) = Sum((1+p_1)*(1+p_2)*...*(1+p_m)), summation being over all compositions (p_1, p_2, ..., p_m) of n. Example: a(3)=24; indeed, the compositions o"
+  },
+  {
+   "aid": "A003780",
+   "at": 22,
+   "text": "a(n) = 262a(n-4) - 7125a(n-8) + 78668a(n-12) - 581608a(n-16) + 2138065a(n-20)"
+  },
+  {
+   "aid": "A003951",
+   "at": 0,
+   "text": "a(n) = Sum_{k=0..n} A029653(n, k)*x^k for x = 7. - _Philippe Del\u00e9ham_, Jul 10 2005"
+  },
+  {
+   "aid": "A004126",
+   "at": 1,
+   "text": "a(n) = A000447(n) - A000292(n). - _Zerinvary Lajos_, Jan 21 2007"
+  },
+  {
+   "aid": "A004190",
+   "at": 0,
+   "text": "a(n) = A075835(n+1)/3 = A006190(2*n+2)/3. - _Vladimir Reshetnikov_, Sep 16 2016"
+  },
+  {
+   "aid": "A004320",
+   "at": 2,
+   "text": "a(n) = Sum_{j=0..n+1} binomial(n+1,2) + binomial(n+1,3). - _Detlef Meya_, Jan 20 2024"
+  },
+  {
+   "aid": "A004697",
+   "at": 3,
+   "text": "a(n) = Sum_{k=1..n-2} round(Fibonacci(n)/4)."
+  },
+  {
+   "aid": "A005057",
+   "at": 0,
+   "text": "a(n) = 7*a(n-1)-10*a(n-2), a(0)=0, a(1)=3. - _Vincenzo Librandi_, Dec 30 2010"
+  },
+  {
+   "aid": "A005060",
+   "at": 0,
+   "text": "a(n) = 9*a(n-1) - 20*a(n-2), a(0)=0, a(1)=1. - _Vincenzo Librandi_, Jan 28 2011"
+  },
+  {
+   "aid": "A005408",
+   "at": 0,
+   "text": "a(n) = 2*n + 1. a(-1 - n) = -a(n). a(n+1) = a(n) + 2."
+  },
+  {
+   "aid": "A005561",
+   "at": 3,
+   "text": "a(n) = C(n+4, ceiling(n/2))*C(n+3, floor(n/2)) - C(n+4, ceiling((n-1)/2))*C(n+3, floor((n-1)/2)). - _Paul D. Hanna_, Apr 16 2004"
+  },
+  {
+   "aid": "A005667",
+   "at": 0,
+   "text": "a(n) = Lucas(n,6)/2, Lucas polynomial, L(n,x), evaluated at x = 6. - _G. C. Greubel_, Jun 06 2019"
+  },
+  {
+   "aid": "A005789",
+   "at": 0,
+   "text": "a(n) = 0!*1!*..*(k-1)! *(k*n)! / ( n!*(n+1)!*..*(n+k-1)! ) for k=3."
+  },
+  {
+   "aid": "A006131",
+   "at": 1,
+   "text": "a(n) = 2^n*Fibonacci(n+1, 1/2) = (2/i)^n*ChebyshevU(n, i/4). - _G. C. Greubel_, Dec 26 2019"
+  },
+  {
+   "aid": "A006774",
+   "at": 2,
+   "text": "a(n) = A005396(n) / (2*n), n > 1. - _Sean A. Irvine_, Aug 06 2020"
+  },
+  {
+   "aid": "A007655",
+   "at": 1,
+   "text": "a(n) = A001353(2n)/4. - _Lekraj Beedassy_, Jul 15 2002"
+  },
+  {
+   "aid": "A007758",
+   "at": 2,
+   "text": "a(n) = Sum_{k=1..n} k*2^k. - _Zerinvary Lajos_, Oct 09 2006"
+  },
+  {
+   "aid": "A008443",
+   "at": 0,
+   "text": "a(n) = A005875(8*n+3)/8. See, e.g., the Ono et al. link: The case k=3. - _Wolfdieter Lang_, Jan 12 2017"
+  },
+  {
+   "aid": "A008676",
+   "at": 1,
+   "text": "a(n) = a(n-3) + a(n-5) - a(n-8), a(0)=a(3)=a(5)=a(6)=1, a(1)=a(2)=a(4) =a(6)=a(7)=0."
+  },
+  {
+   "aid": "A008683",
+   "at": 2,
+   "text": "a(n) = first column in the matrix inverse of a triangular table with the definition: T(1, 1) = 1, n > 1: T(n, 1) is any number or sequence, k = 2: T(n"
+  },
+  {
+   "aid": "A008724",
+   "at": 4,
+   "text": "a(n) = Sum_{j=0..n+2} floor(j/6), a(n-2) = (1/2)*floor(n/6)*(2*n - 4 - 6*floor(n/6)). - _Mitch Harris_, Sep 08 2008"
+  },
+  {
+   "aid": "A008998",
+   "at": 2,
+   "text": "a(n) = Sum_{k=0..n} A052980(n). - _Greg Dresden_, May 28 2020"
+  },
+  {
+   "aid": "A009927",
+   "at": 15,
+   "text": "a(n) = a(n-2) + 2*a(n-3) + a(n-4) + 2*a(n-5) - 2*a(n-7) - a(n-8) - 2*a(n-9) + a(n-10) + a(n-12) for n >= 15."
+  },
+  {
+   "aid": "A010015",
+   "at": 0,
+   "text": "a(n) = A262221(n)+A262221(n+1). - _R. J. Mathar_, May 07 2024"
+  },
+  {
+   "aid": "A011778",
+   "at": 1,
+   "text": "a(n) = A061769(n) + 1."
+  },
+  {
+   "aid": "A013711",
+   "at": 1,
+   "text": "a(n) = 36*a(n-1), a(0)=6. - _Vincenzo Librandi_, May 26 2011"
+  },
+  {
+   "aid": "A013720",
+   "at": 1,
+   "text": "a(n) = 225*a(n-1), a(0)=15."
+  },
+  {
+   "aid": "A013891",
+   "at": 1,
+   "text": "a(n) = 2476099*a(n-1), a(0)=361. - _Vincenzo Librandi_, May 27 2011"
+  },
+  {
+   "aid": "A013896",
+   "at": 1,
+   "text": "a(n) = 3200000*a(n-1), a(0)=8000. - _Vincenzo Librandi_, May 27 2011"
+  },
+  {
+   "aid": "A013902",
+   "at": 1,
+   "text": "a(n) = 5153632*a(n-1), a(0)=22. - _Vincenzo Librandi_, May 28 2011"
+  },
+  {
+   "aid": "A013908",
+   "at": 1,
+   "text": "a(n) = 6436343*a(n-1), a(0)=12167. - _Vincenzo Librandi_, May 29 2011"
+  },
+  {
+   "aid": "A013939",
+   "at": 1,
+   "text": "a(n) = A093614(n) - A048865(n); see also A006218."
+  },
+  {
+   "aid": "A014105",
+   "at": 1,
+   "text": "a(n) = A126890(n, k) + A126890(n, n-k), 0 <= k <= n. - _Reinhard Zumkeller_, Dec 30 2006"
+  },
+  {
+   "aid": "A014825",
+   "at": 1,
+   "text": "a(n) = Sum_{k=0..n} binomial(n+2, k+2)*3^k [Offset 0]. - _Paul Barry_, Jul 30 2004"
+  },
+  {
+   "aid": "A014927",
+   "at": 1,
+   "text": "a(n) = 24*a(n-1) - 144*a(n-2) + 1, a(1)=1, a(2)=25."
+  },
+  {
+   "aid": "A014983",
+   "at": 2,
+   "text": "a(n) = -(-1)^n*A015518(n)."
+  },
+  {
+   "aid": "A015004",
+   "at": 0,
+   "text": "a(n) = Product_{k=1..n} ((q^k - 1) / (q - 1)) where q = 5."
+  },
+  {
+   "aid": "A015487",
+   "at": 1,
+   "text": "a(n) = (3^(n-2) + 1) * a(n-1). - _Vincenzo Librandi_, Nov 10 2012"
+  },
+  {
+   "aid": "A015499",
+   "at": 1,
+   "text": "a(n) = (11^(n-2) + 1) * a(n-1). - _Vincenzo Librandi_, Nov 11 2012"
+  },
+  {
+   "aid": "A016152",
+   "at": 1,
+   "text": "a(n) = -4^(n-1) + 2*8^(n-1)."
+  },
+  {
+   "aid": "A016165",
+   "at": 1,
+   "text": "a(n) = 11*a(n-1) + 5^n, a(0)=1. - _Vincenzo Librandi_, Feb 09 2011"
+  },
+  {
+   "aid": "A016195",
+   "at": 0,
+   "text": "a(n) = 21*a(n-1) - 110*a(n-2), a(0)=0, a(1)=1. - _Vincenzo Librandi_, Feb 09 2011"
+  },
+  {
+   "aid": "A016969",
+   "at": 1,
+   "text": "a(n) = floor((12n-1)/2) with offset 1..a(1)=5. - _Gary Detlefs_, Mar 07 2010"
+  },
+  {
+   "aid": "A017101",
+   "at": 1,
+   "text": "a(n) = A001969(2*n+1) + A001969(2*n) = A000069(2*n+1) + A000069(2*n). - _Philippe Del\u00e9ham_, Feb 04 2004"
+  },
+  {
+   "aid": "A019677",
+   "at": 2,
+   "text": "a(n) = 30*a(n-1) - 96*a(n-2) + 4^n. - _Vincenzo Librandi_, Jul 03 2013"
+  },
+  {
+   "aid": "A020988",
+   "at": 1,
+   "text": "a(n) = 4*a(n-1) + 2, a(0) = 0."
+  },
+  {
+   "aid": "A021044",
+   "at": 2,
+   "text": "a(n) = 11*a(n-1) - 24*a(n-2) + 2^n - 1 for n >= 2."
+  },
+  {
+   "aid": "A022352",
+   "at": 0,
+   "text": "a(n) = 9*(Lucas(n) - Fibonacci(n)). - _Harvey P. Dale_, Oct 09 2013"
+  },
+  {
+   "aid": "A024224",
+   "at": 1,
+   "text": "a(n) = floor(A024214(n+1)/A024213(n+1))."
+  },
+  {
+   "aid": "A025769",
+   "at": 0,
+   "text": "a(n) = floor((x^2+12x+c)/48) with 51 <= c <= 58. - _M. F. Hasler_, Sep 16 2012"
+  },
+  {
+   "aid": "A025941",
+   "at": 1,
+   "text": "a(n) = -2^(n+1)/9-3*6^(n+1)/5+11^(n+3)/360+3^(n+2)/8. - _R. J. Mathar_, Jun 04 2013"
+  },
+  {
+   "aid": "A025952",
+   "at": 0,
+   "text": "a(n) = -2^n/7+9*3^n/14-243*9^n/14+125*10^n/7. - _R. J. Mathar_, Jun 20 2013"
+  },
+  {
+   "aid": "A025977",
+   "at": 0,
+   "text": "a(n) = -2^n/12 +4*4^n/3 -32*8^n/3 +125*10^n/12. - _R. J. Mathar_, Jun 20 2013"
+  },
+  {
+   "aid": "A025984",
+   "at": 0,
+   "text": "a(n) = -2^n/20+2*4^n/3-125*10^n/12+54*12^n/5. - _R. J. Mathar_, Jun 20 2013"
+  },
+  {
+   "aid": "A026002",
+   "at": 1,
+   "text": "a(n) = Sum_{k=0..n} C(n, k)*C(n+2, k)*2^k. - _Paul Barry_, Jan 23 2006"
+  },
+  {
+   "aid": "A026149",
+   "at": 0,
+   "text": "a(n) = -2^n/27 + 25*5^n/18 - 25*10^n + 1331*11^n/54. - _R. J. Mathar_, Jun 23 2013"
+  },
+  {
+   "aid": "A026741",
+   "at": 1,
+   "text": "a(n) = n / gcd(n, 2). a(n)/A045896(n) = n/((n+1)*(n+2))."
+  },
+  {
+   "aid": "A027083",
+   "at": 2,
+   "text": "a(n) = A000213(n+3) -3. - _R. J. Mathar_, Jun 24 2020"
+  },
+  {
+   "aid": "A027649",
+   "at": 0,
+   "text": "a(n) = 5*a(n-1) - 6*a(n-2), a(0)=1, a(1)=4. - _Harvey P. Dale_, Apr 22 2011"
+  },
+  {
+   "aid": "A028145",
+   "at": 2,
+   "text": "a(n) = 17*a(n-1) - 72*a(n-2) + (7^(n+1) - 4^(n+1)/3), n >= 2. (End)"
+  },
+  {
+   "aid": "A028164",
+   "at": 0,
+   "text": "a(n) = -2^(2*n+2)/21 - 11^(n+3)/7 + 25*10^(n+1)/3 + 9*12^(n+1). - _R. J. Mathar_, Mar 18 2011"
+  },
+  {
+   "aid": "A028166",
+   "at": 4,
+   "text": "a(n) = 27*a(n-1) - 2 69*a(n-2) + 1173*a(n-3) - 1890*a(n-4), n >= 4. - _Vincenzo Librandi_, Mar 19 2011"
+  },
+  {
+   "aid": "A028341",
+   "at": 4,
+   "text": "a(n) = Sum_{i=k+1,..,n} (-1)^(k+1-i)*2^(n-1)*binomial(i-1, k)*s1(n, i) with k = 4, where s1(n, i) are unsigned Stirling numbers of the first kind. - V"
+  },
+  {
+   "aid": "A028363",
+   "at": 0,
+   "text": "a(n) = 2*Product_{i=1..4n-2} (2^i + 1)."
+  },
+  {
+   "aid": "A029547",
+   "at": 1,
+   "text": "a(n) = 34*a(n-1) - a(n-2), a(-1)=0, a(0)=1."
+  },
+  {
+   "aid": "A032810",
+   "at": 1,
+   "text": "a(n) = A007931(n) + A002275(A000523(n+1)). A055642(a(n)) = A000523(n+1). - _M. F. Hasler_, Mar 21 2015"
+  },
+  {
+   "aid": "A033009",
+   "at": 11,
+   "text": "a(n) = 12*A043315(n) (= 12*n for n<11). - _M. F. Hasler_, Feb 02 2014"
+  },
+  {
+   "aid": "A033050",
+   "at": 1,
+   "text": "a(n) = A097260(n)/13."
+  },
+  {
+   "aid": "A033114",
+   "at": 2,
+   "text": "a(n) = Sum_{k=0..n} (-1)^(n-k)*(J(2*k+1)-1)/2, J(n)=A001045(n). - _Paul Barry_, Mar 06 2008"
+  },
+  {
+   "aid": "A033129",
+   "at": 3,
+   "text": "a(n) = a(n-3) + 3 * 2^(n-3). - _Martin von Gagern_, May 26 2004"
+  },
+  {
+   "aid": "A033430",
+   "at": 1,
+   "text": "a(n) = Sum_{k=0..2*n-1} (2*n*(n-1)-2*k+1). - _Sean A. Irvine_, Jun 19 2025"
+  },
+  {
+   "aid": "A034766",
+   "at": 2,
+   "text": "a(n) = Sum_{k=1..n} A000108(n/gcd(n,k))*phi(gcd(n,k))/phi(n/gcd(n,k)). (End)"
+  },
+  {
+   "aid": "A036577",
+   "at": 1,
+   "text": "a(n) = 3 - A007413(n). a(A036554(n)) = 1; a(A091785(n)) = 0; a(A091855(n)) = 2. - _Philippe Del\u00e9ham_, Mar 20 2004"
+  },
+  {
+   "aid": "A036989",
+   "at": 1,
+   "text": "a(n) = 1 iff, in the binary expansion of n, reading from right to left, the number of 1's never exceeds the number of 0's: a(A036990(n)) = 1."
+  },
+  {
+   "aid": "A037302",
+   "at": 9,
+   "text": "a(n) = ((n-1)^2)!*A078524(n)/(n^(n-1)*A078525(n)). - _Andrew Howroyd_, Apr 11 2020"
+  }
+ ],
+ "suffix": [
+  {
+   "aid": "A001522",
+   "from": 1,
+   "text": "a(n) = A000041(n) - A064428(n). - _Gus Wiseman_, Mar 30 2021"
+  },
+  {
+   "aid": "A003013",
+   "from": 6,
+   "text": "a(n) = 8*a(n-1) - 25*a(n-2) + 38*a(n-3) - 28*a(n-4) + 8*a(n-5); a(0)=1, a(1)=1, a(2)=4, a(3)=15, a(4)=52, a(5)=165. - _Harvey P. Dale_, Nov 01 2011"
+  },
+  {
+   "aid": "A003762",
+   "from": 16,
+   "text": "a(n) = 4a(n-1) - 5a(n-2) + 30a(n-3) + 13a(n-4) + 36a(n-5) + 48a(n-6) - 76a(n-7) - 14a(n-8) - 36a(n-9) + 4a(n-10) + 8a(n-11) - 4a(n-12)."
+  },
+  {
+   "aid": "A004774",
+   "from": 11,
+   "text": "a(n) = a(n-1)+a(n-7)-a(n-8) for n>8."
+  },
+  {
+   "aid": "A005409",
+   "from": 5,
+   "text": "a(n) = 3*a(n-1) - a(n-2) - a(n-3). - _Toby Gottfried_, Mar 08 2013"
+  },
+  {
+   "aid": "A006005",
+   "from": 2,
+   "text": "a(n) = A000040(n) - A000007(n) = A000040(n) - ((-1)^A000040(n)+1)/2. - _Juri-Stepan Gerasimov_, Oct 25 2009"
+  },
+  {
+   "aid": "A006083",
+   "from": 12,
+   "text": "a(n) = a(n-3)+a(n-6)-a(n-9) for n>9."
+  },
+  {
+   "aid": "A007808",
+   "from": 1,
+   "text": "a(n) = n!*n*(1-Sum_{j=1..n-1} 1/(j*(j+1)*(j+1)!)). - _Emeric Deutsch_, Aug 07 2006"
+  },
+  {
+   "aid": "A008253",
+   "from": 1,
+   "text": "a(n) = 2* ( 2 + Sum_{k=1..n-1} floor((5*k+3)/2) ). - _Alexander Adamchuk_, May 23 2006"
+  },
+  {
+   "aid": "A015511",
+   "from": 3,
+   "text": "a(n) = ((9^(n-1) + 7)/8) * a(n-1). - _Vincenzo Librandi_, Nov 12 2012"
+  },
+  {
+   "aid": "A015521",
+   "from": 1,
+   "text": "a(n) = 3^(n-1) + 4*Sum_{k=0..n-2} 3^(n-k-2)*a(k)."
+  },
+  {
+   "aid": "A025585",
+   "from": 2,
+   "text": "a(n) = 2*n* A180056(n-1). - _Gary Detlefs_, Nov 11 2011"
+  },
+  {
+   "aid": "A027429",
+   "from": 2,
+   "text": "a(n) = A027430(n) + 1. - _T. D. Noe_, Jan 16 2007"
+  },
+  {
+   "aid": "A027559",
+   "from": 5,
+   "text": "a(n) = a(n-1) + 4*a(n-2) - 3*a(n-3) - 3*a(n-4)."
+  },
+  {
+   "aid": "A029011",
+   "from": 13,
+   "text": "a(n) = 1 + [(n mod 30)=12] + floor((2n^3 + 42*n^2 + (261+15*(-1)^n)*n)/720). - _Hoang Xuan Thanh_, Jun 25 2025"
+  },
+  {
+   "aid": "A029744",
+   "from": 4,
+   "text": "a(n) = a(n-1) + a(n-2) - gcd(a(n-1), a(n-2)), n >= 3, a(1)=2, a(2)=3. - _Ctibor O. Zizka_, Jun 06 2009"
+  },
+  {
+   "aid": "A033484",
+   "from": 1,
+   "text": "a(n) = 2*A055010(n) = (A068156(n) - 1)/2. (End)"
+  },
+  {
+   "aid": "A035327",
+   "from": 1,
+   "text": "a(n) = number of positive integers k < n such that n XOR k > n. a(n) = n - A006257(n). - _Paul D. Hanna_, Jan 21 2006"
+  },
+  {
+   "aid": "A035471",
+   "from": 5,
+   "text": "a(n) = 4*a(n-1) - 6*a(n-2) + 4*a(n-3) - a(n-4); a(0)=1, a(1)=8, a(2)=48, a(3)=152, a(4)=352. - _Harvey P. Dale_, Oct 20 2015"
+  },
+  {
+   "aid": "A036353",
+   "from": 3,
+   "text": "a(n) = 9602*a(n-1) - a(n-2) + 200."
+  },
+  {
+   "aid": "A036557",
+   "from": 6,
+   "text": "a(n) = 2*a(n-1) + 4*a(n-2) - 8*a(n-3) - 3*a(n-4) + 6*a(n-5). - _Wesley Ivan Hurt_, Apr 13 2021"
+  },
+  {
+   "aid": "A036649",
+   "from": 1,
+   "text": "a(n) = A036650(n) - A036648(n)."
+  }
+ ]
+}

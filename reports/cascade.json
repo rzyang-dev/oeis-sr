@@ -1,0 +1,20 @@
+{
+ "hard": 11072,
+ "with_derivation": 1060,
+ "solved": 2,
+ "by_op": {
+  "prefix": 2
+ },
+ "examples": [
+  {
+   "aid": "A102684",
+   "parent": "A102683",
+   "op": "prefix"
+  },
+  {
+   "aid": "A123094",
+   "parent": "A008456",
+   "op": "prefix"
+  }
+ ]
+}

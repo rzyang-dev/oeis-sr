@@ -1,0 +1,633 @@
+aid,states,values,zero_density,zero_frac,period,in_3census,name
+A000035,3,0 1,0.5,1/2,2,False,"Period 2: repeat [0, 1]; a(n) = n mod 2; parity of n."
+A007400,13,0 1 2 4 6,0.0,0,,False,Continued fraction for Sum_{n>=0} 1/2^(2^n) = 0.8164215090218931...
+A010060,2,0 1,0.5,1/2,,False,"Thue-Morse sequence: let A_k denote the first 2^k terms; then A_0 = 0 and for k >= 0, A_{k+1} = A_k B_k, where B_k is obtained from A_k by interchanging 0's and 1's."
+A010121,5,1 2 4,0,0,4,True,Continued fraction for sqrt(7).
+A010129,11,1 3 5 10,0,0,8,True,Continued fraction for sqrt(31).
+A010137,6,1 5 6 12,0,0,4,True,Continued fraction for sqrt(47).
+A010145,60,1 2 3 4 7 14,0,0,11,True,Continued fraction for sqrt(61).
+A010153,5,1 8 16,0,0,4,True,Continued fraction for sqrt(75) (or 5*sqrt(3)).
+A010161,12,2 3 9 18,0,0,5,True,Continued fraction for sqrt(89).
+A010169,6,1 8 9 18,0,0,4,True,Continued fraction for sqrt(98).
+A010177,8,1 2 10 20,0,0,6,False,Continued fraction for sqrt(112).
+A011582,22,-1 0 1,0.090909,1/11,11,True,"Legendre symbol (n,11)."
+A014017,6,-1 0 1,0.75,3/4,8,False,Inverse of 8th cyclotomic polynomial.
+A014025,7,-1 0 1,0.875,7/8,16,False,Expansion of the inverse of the 16th cyclotomic polynomial.
+A014709,4,1 2,0,0,,True,"The regular paper-folding (or dragon curve) sequence. Alphabet {1,2}."
+A020985,4,-1 1,0,0,,False,The Rudin-Shapiro or Golay-Rudin-Shapiro sequence (coefficients of the Shapiro polynomials).
+A029883,5,-1 0 1,0.333333,1/3,,False,First differences of Thue-Morse sequence A001285.
+A036585,5,1 2 3,0,0,,False,"Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b."
+A040001,4,1 2,0,0,2,True,"1 followed by {1, 2} repeated."
+A040011,4,1 3 6,0,0,2,True,Continued fraction for sqrt(15).
+A040020,2,5 10,0,0,1,True,Continued fraction for sqrt(26).
+A040030,2,6 12,0,0,1,True,Continued fraction for sqrt(37).
+A040565,8,2 3 4 24 48,0,0,6,True,Continued fraction for sqrt(590).
+A043545,3,0 1,0.0,0,,True,(Maximal base-2 digit of n) - (minimal base-2 digit of n).
+A053794,11,0 2 4 6,0.25,1/4,8,True,a(n) = (n^2 + n) modulo 8.
+A059448,6,0 1,0.5,1/2,,False,The parity of the number of zero digits when n is written in binary.
+A070352,7,1 2 3 4,0,0,4,False,"a(n) = 3^n mod 5; or period 4, repeat [1, 3, 4, 2]."
+A070368,7,1 5 8 12,0,0,4,False,a(n) = 5^n mod 13.
+A070376,7,1 5 21 25,0,0,4,False,a(n) = 5^n mod 26.
+A070400,7,1 6 31 36,0,0,4,False,a(n) = 6^n mod 37.
+A070439,9,0 1 4 9,0.25,1/4,8,False,a(n) = n^2 mod 16.
+A070480,13,0 1 8 9 10 17,0.166667,1/6,6,False,a(n) = n^3 mod 18.
+A078070,7,-3 0 1 4,0.166667,1/6,6,False,Expansion of (1-x)/(1 + 2*x + 2*x^2 + x^3).
+A079343,10,0 1 2 3,0.166667,1/6,6,False,"Period 6: repeat [0, 1, 1, 2, 3, 1]; also F(n) mod 4, where F(n) = A000045(n)."
+A089048,10,0 1 2,1.0,1,,False,Number of ways of writing n as a sum of exactly 3 powers of 2.
+A091338,10,-1 0 1,0.333333,1/3,,False,"a(n) = (3/n), where (k/n) is the Kronecker symbol."
+A098554,11,-4 -2 -1 0 1 3,0.083333,1/12,12,False,G.f.: x*(1-x^2)/((1+x^2)*(1+x+x^2)).
+A099544,7,0 1 2,0.333333,1/3,,True,Odd part of n modulo 3.
+A101676,10,-2 -1 0 1,0.5,1/2,6,True,"a(n) = a(n-1) - a(n-2) + a(n-3) - a(n-4) + a(n-5) with initial terms 1,0,-2,-1,0."
+A106400,2,-1 1,0,0,,False,"Thue-Morse sequence: let A_k denote the first 2^k terms; then A_0 = 1 and for k >= 0, A_{k+1} = A_k B_k, where B_k is obtained from A_k by interchanging 1's and -1's."
+A110550,11,1 2 3 4,0,0,8,True,"Periodic {1,3,2,4,4,2,3,1}."
+A117188,5,-2 0 1,0.5,1/2,6,False,Expansion of (1-x^2)/(1+x^2+x^4).
+A117606,9,-7 2 3 4 5 9,0,0,4,False,"a(n) = ones digit minus tens digit of the square of a(n-1), with a(0) = 2."
+A121262,4,0 1,0.75,3/4,4,True,The characteristic function of the multiples of four.
+A126560,7,2 4 8,0,0,8,True,"a(n) = gcd(4*(n+1)*(n+2), n*(n+3)), periodic with 8-cycle 4,2,2,4,8,2,2,8."
+A130772,7,-2 0 2,0.333333,1/3,6,False,Periodic sequence with period 2 2 0 -2 -2 0.
+A131670,10,-1 0 1,0.4,2/5,5,False,"Period 5: repeat [1, 0, -1, 0, 1]."
+A131724,10,1 7 9 11 13,0,0,6,False,"Period 6: repeat [1, 9, 7, 13, 11, 9]."
+A134977,13,0 1 2 3 4,0.166667,1/6,6,False,"Period 6: repeat [1, 4, 2, 3, 0, 2]."
+A135136,4,0 1,0.5,1/2,,False,"a(n) = floor(S2(n)/2) mod 2, where S2(n) is the binary weight of n."
+A158478,5,0 1 2 3,0.0,0,2,True,Number of colors needed to paint n sectors of a circle.
+A160700,64,0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15,0.0625,1/16,,False,a(n) = if n<16 then n else a(floor(n/16)) XOR (n mod 16).
+A163805,6,-1 0 1,0.5,1/2,4,False,Expansion of (1 - x) * (1 - x^6) / ((1 - x^3) * (1 - x^4)) in powers of x.
+A164056,6,0 1,0.5,1/2,,False,"Triangle of 2^n terms by rows, derived from A088696 as to length of continued fractions, lengths increase = 1, decrease = 0. A088696 can be generated using the following algorithm: Rows 0 and 1 begin 1; 1,2; then for all further rows, bring down current row then append to the right: (1 added to each term in current row). Row 2 (1, 2, 3, 2) then becomes: (1, 2, 3, 2, 3, 4, 3, 2)."
+A164358,6,1 2 3 4,0,0,4,False,Expansion of (1 - x^2)^2 * (1 - x^3) / ((1 - x)^3 * (1 - x^4)) in powers of x.
+A168430,13,1 3 4 9 10 12,0,0,6,False,a(n) = 4^n mod 13.
+A183919,6,0 1,1.0,1,1,True,Characteristic sequence for sin(2*Pi/n) being rational.
+A188512,21,1 2,0,0,7,True,Lengths of successive runs of identical terms in A188511.
+A245070,8,2 3 4,0,0,12,False,Smallest positive non-divisor of the n-th Lucas number (A000032).
+A247004,7,1 2 4,0,0,16,True,"Denominator of (n+4)/gcd(n, 4)^2, a 16-periodic sequence that associates A061037 with A106617."
+A254651,4,0 1,0.25,1/4,,True,"Characteristic function of A254614, numbers that are either odd or evil (or both)."
+A255738,3,0 1,1.0,1,,True,"a(1) = 1; for n > 1, a(n) = 1*0^{A000120(n-1) - 1}."
+A257179,7,0 1 2,0.125,1/8,8,True,Expansion of (1 + x^5) / ((1 - x) * (1 + x^4)) in powers of x.
+A257196,8,-1 0 1,0.25,1/4,8,False,Expansion of (1 + x) * (1 + x^5) / ((1 + x^2) * (1 + x^4)) in powers of x.
+A260454,15,1 2 3,0,0,,True,"Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = (3,2,1) and midword sequence (a(n)); see Comments."
+A266719,6,0 1,0.5,1/2,2,False,"Middle column of the ""Rule 59"" elementary cellular automaton starting with a single ON (black) cell."
+A267256,6,0 1,0.5,1/2,2,False,"Middle column of the ""Rule 111"" elementary cellular automaton starting with a single ON (black) cell."
+A267884,6,0 3 5 6,0.0,0,1,False,"Total number of OFF (white) cells after n iterations of the ""Rule 233"" elementary cellular automaton starting with a single ON (black) cell."
+A269529,12,-1 1,0,0,,False,An analog of the Golay-Rudin-Shapiro sequence (A020985) in base -2 (see comments).
+A271378,6,1 5 25,0,0,3,False,a(n) = 5^n mod 31.
+A280193,4,-1 1 2,0,0,2,False,"a(2*n) = 2, a(2*n + 1) = -1, a(0) = 1."
+A284948,4,0 1,0.666667,2/3,,True,"1-limiting word of the morphism 0 -> 10, 1 -> 00."
+A292077,6,0 1,0.5,1/2,,True,a(n) = 0 if n=1; a(n) = 1-a(n-2) if n is odd; a(n) = 1-a(n/2) if n is even.
+A292118,5,-2 0 1 2,0.333333,1/3,,False,G.f.: 1 + 2*Sum_{k >= 1} (-1)^k*q^A003159(k).
+A316344,8,0 1 2,0.333333,1/3,,False,"An example of a word that is uniform morphic, but neither pure morphic, primitive morphic, nor recurrent."
+A316828,4,0 1 2,0.25,1/4,,True,"Image of the Thue-Morse sequence A010060 under the morphism {1 -> 1,2; 0 -> 0,2}."
+A341389,4,0 1,0.5,1/2,,False,"Characteristic function of A158705, nonnegative integers with an odd number of even powers of 2 in their base-2 representation."
+A372258,7,0 1,0.5,1/2,,False,"An infinite sequence over {0,1} with no palindromes of length > 12."
+A391614,6,0 1,0.5,1/2,,False,"a(4n) = a(2n+a(n)), a(4n+2) = a(2n+1-a(n)) and a(2n+1) = 1-a(2n), with a(0) = 0."
+A005151,24,1 11 21 1112 3112 114213 211213 212223 312213 21322314 31121314 31221324 41122314,0,0,1,False,"Summarize the previous term (digits in increasing order), starting with a(1) = 1."
+A010122,6,1 3 6,0,0,5,True,Continued fraction for sqrt(13).
+A010130,5,1 5 10,0,0,4,True,Continued fraction for sqrt(32).
+A010138,8,1 2 4 7 14,0,0,6,True,Continued fraction for sqrt(52).
+A010146,6,1 6 7 14,0,0,4,True,Continued fraction for sqrt(62).
+A010154,13,1 2 4 5 8 16,0,0,12,True,Continued fraction for sqrt(76).
+A010162,10,1 5 9 18,0,0,8,True,Continued fraction for sqrt(91).
+A010170,4,1 9 18,0,0,2,True,Continued fraction for sqrt(99).
+A010673,3,0 2,0.5,1/2,2,False,"Period 2: repeat [0, 2]."
+A011558,5,0 1,0.2,1/5,5,True,Expansion of (x + x^3)/(1 + x + ... + x^4) mod 2.
+A011583,26,-1 0 1,0.076923,1/13,13,True,"Legendre symbol (n,13)."
+A014710,4,1 2,0,0,,True,"The regular paper-folding (or dragon curve) sequence. Alphabet {2,1}."
+A033481,20,1 2 4 8 16 21 32 64,0,0,3,False,3x+1 sequence beginning at 21.
+A036987,3,0 1,1.0,1,,True,Fredholm-Rueppel sequence.
+A040002,2,2 4,0,0,1,True,Continued fraction for sqrt(5).
+A040012,2,4 8,0,0,1,True,Continued fraction for sqrt(17).
+A040021,4,5 10,0,0,2,True,Continued fraction for sqrt(27).
+A040031,4,6 12,0,0,2,True,Continued fraction for sqrt(38).
+A040055,4,1 7 14,0,0,2,True,Continued fraction for sqrt(63).
+A040063,4,2 8 16,0,0,2,True,Continued fraction for sqrt(72).
+A040071,4,1 8 16,0,0,2,True,Continued fraction for sqrt(80).
+A040634,8,1 2 4 25 50,0,0,6,False,Continued fraction for sqrt(660).
+A053843,24,0 1 2 3 4 5 6 7,0.125,1/8,,False,(Sum of digits of n written in base 8) modulo 8.
+A059855,4,1 2 5,0,0,2,True,"Period of continued fraction for sqrt(n^2+4), n >= 1."
+A061462,9,1 2 4,0,0,12,True,The exact power of 2 that divides the n-th Bell number (A000110). Has period 12.
+A070353,13,1 3 5 9 11 13,0,0,6,False,a(n) = 3^n mod 14.
+A070361,15,1 3 9 14 27 32 38 40,0,0,8,False,a(n) = 3^n mod 41.
+A070369,13,1 3 5 9 11 13,0,0,6,False,a(n) = 5^n mod 14.
+A070410,7,1 7 18 24,0,0,4,False,a(n) = 7^n mod 25.
+A073089,6,0 1,0.5,1/2,,True,a(n) = (1/2)*(4n - 3 - Sum_{k=1..n} A007400(k)).
+A073267,6,0 1 2,1.0,1,,False,Number of compositions (ordered partitions) of n into exactly two powers of 2.
+A078734,6,1 2 3,0,0,,True,"Start with 1,2, concatenate 2^k previous terms and change last term as follows: 1->2, 2->3, 3->1."
+A082117,15,0 1 2 3 4 5,0.083333,1/12,24,False,Fibonacci sequence (mod 6).
+A083039,7,1 2 3,0,0,6,True,Number of divisors of n that are <= 3.
+A085600,9,0 1 3 4 5,0.0,0,1,False,Number of simple graphs with 3 edges on n unlabeled vertices.
+A086694,7,0 1,0.5,1/2,,False,"A run of 2^n 1's followed by a run of 2^n 0's, for n=0, 1, 2, ..."
+A088431,12,1 2 3,0,0,,False,Half of the (n+1)-st component of the continued fraction expansion of Sum_{k>=0} 1/2^(2^k).
+A089608,4,1 5,0,0,,True,a(n) = ((-1)^(n+1)*A002425(n)) modulo 6.
+A094328,20,4 5 6 7 9,0,0,5,True,Iterate the map in A006369 starting at 4.
+A098725,6,0 1,0.333333,1/3,,True,"a(4*n) = 0, a(2*n+1) = 1, a(4*n+2) = a(n+1)."
+A099545,4,1 3,0,0,,True,"Odd part of n, modulo 4."
+A112347,4,-1 0 1,0.0,0,,True,"Kronecker symbol (-1, n) except a(0) = 0."
+A112865,4,-1 1,0,0,,False,a(n) = (-1)^(n + floor(n/4) + floor(n/4^2) + ...).
+A115714,11,-5 -4 -3 -1 0 1,0.166667,1/6,12,False,"Periodic {1,-1,-3,0,1,-5,1,0,-3,-1,1,-4}."
+A127802,5,0 1 3,1.0,1,,True,"a(0) = 1, a(n) = 3*A036987(n), n>1."
+A129203,7,1 2 3 6,0,0,6,True,a(n) = numerator(3/(n+1)^3)*(3/2 + (-1)^n/2).
+A133882,10,0 1 2 3,0.25,1/4,8,True,"a(n) = binomial(n+2,n) mod 2^2."
+A145011,9,2 4 6,0,0,8,True,First differences of A007775.
+A151666,3,0 1,1.0,1,,False,Number of partitions of n into distinct powers of 4.
+A153881,2,-1 1,0,0,1,True,"1 followed by -1, -1, -1, ... ."
+A163806,9,-1 0 1,0.333333,1/3,6,False,Expansion of (1 - x^3) * (1 - x^4) / ((1 - x) * (1 - x^6)) in powers of x.
+A164359,4,1 2 3,0,0,3,False,Expansion of (1 - x^2)^3 / ((1 - x)^3 * (1 - x^3)) in powers of x.
+A167465,17,0 1 3 5 7 9 11 13 15,0.5,1/2,16,False,a(n) = n^5 mod 16.
+A168184,7,0 1,0.1,1/10,10,False,Characteristic function of numbers that are not multiples of 10.
+A179850,5,0 1,0.2,1/5,5,False,"Characteristic function of numbers that are congruent to {0, 1, 3, 4} mod 5."
+A182494,21,0 1 8 9,0.25,1/4,12,True,Decimal expansion of 9091/9901.
+A193690,15,-2 -1 0 1 2,0.333333,1/3,6,False,Expansion of (1 - x^2)^2 * (1 - x^4) / ((1 - x)^2 * (1 - x^6)) in powers of x.
+A204671,11,0 1 3 4 5,0.166667,1/6,6,False,a(n) = n^n (mod 6).
+A205651,13,0 1 4 5 6 9,0.166667,1/6,6,False,"Period 6: repeat [1, 6, 5, 4, 9, 0]."
+A214212,5,1 2 4,0,0,,False,Number of right special factors of length n in the Thue-Morse sequence A010060.
+A216059,8,2 3 6 7,0,0,,False,Smallest number not in Collatz trajectory starting at n.
+A216125,7,1 5 25 125 625,0,0,2,False,a(n) = 5^n mod 1000.
+A266070,5,0 1,0.5,1/2,2,False,"Middle column of the ""Rule 3"" elementary cellular automaton starting with a single ON (black) cell."
+A266611,7,0 1,0.5,1/2,2,False,"Middle column of the ""Rule 41"" elementary cellular automaton starting with a single ON (black) cell."
+A267442,4,0 1,0.0,0,,False,"Middle column of the ""Rule 129"" elementary cellular automaton starting with a single ON (black) cell."
+A267868,8,0 1,0.0,0,1,True,"Triangle read by rows giving successive states of cellular automaton generated by ""Rule 233"" initiated with a single ON (black) cell."
+A268411,4,0 1,0.5,1/2,,False,Parity of number of runs of 1's in binary representation of n.
+A268613,21,1 2 3 4 7 9 11 16 18 19,0,0,12,True,Lucas numbers mod 20.
+A271268,24,8 88 1214 1664 17112 17144,0,0,5,True,"Concatenate sum of digits of previous term and product of digits of previous term, starting with 8."
+A274380,7,34 42 48 54,0,0,4,False,The period 4 sequence of the iterated sum of deficient divisors function (A187793) starting at 34.
+A291520,7,1 2 3 4 5,0,0,2,True,"The arithmetic function uhat(n,4,2)."
+A297382,3,1 2,0,0,,True,Denominator of -A023900(n)/2.
+A298952,4,0 1,0.5,1/2,,False,"First put a(n)=0 for all n, then start with a(0) = 1 and add at step n >= 0 the term 1 at position 2*n + a(n)."
+A317335,4,-2 1,0,0,,True,a(n) = A317332(n) - 8*n.
+A320106,9,0 1,0.583333,7/12,12,True,Möbius transform of A320107.
+A324964,4,0 1,1.0,1,,False,a(n) = A000139(n) mod 2; Characteristic function of odd fibbinary numbers (A022341).
+A354354,5,0 1,0.666667,2/3,6,True,"a(n) = 1 if n is neither a multiple of 2 nor 3, and otherwise 0."
+A359374,7,0 1,0.416667,5/12,12,True,Parity of A252463(n).
+A379728,9,0 1,0.5,1/2,,False,Absolute value of first differences of paperfolding sequence A014577.
+A001285,2,1 2,0,0,,False,"Thue-Morse sequence: let A_k denote the first 2^k terms; then A_0 = 1 and for k >= 0, A_{k+1} = A_k B_k, where B_k is obtained from A_k by interchanging 1's and 2's."
+A003272,18,-504 -264 -24 0 1 5 95 240 480,0.5,1/2,2,False,a(n) = ceiling((-4n)/Bernoulli(2n)).
+A006464,12,0 2 3 4 6,0.0,0,,False,Continued fraction for Sum_{n>=0} 1/4^(2^n).
+A010123,6,1 2 3 6,0,0,4,True,Continued fraction for sqrt(14).
+A010131,6,1 2 5 10,0,0,4,True,Continued fraction for sqrt(33).
+A010139,12,1 3 7 14,0,0,5,True,Continued fraction for sqrt(53).
+A010147,23,1 2 5 7 8 16,0,0,10,True,Continued fraction for sqrt(67).
+A010155,8,1 2 3 8 16,0,0,6,True,Continued fraction for sqrt(77).
+A010163,11,1 2 4 9 18,0,0,8,True,Continued fraction for sqrt(92).
+A010171,16,1 2 6 9 10 20,0,0,12,False,Continued fraction for sqrt(103).
+A010179,8,1 2 10 20,0,0,6,False,Continued fraction for sqrt(114).
+A010892,7,-1 0 1,0.333333,1/3,6,False,Inverse of 6th cyclotomic polynomial. A period 6 sequence.
+A014019,21,-1 0 1,0.6,3/5,10,False,Inverse of 10th cyclotomic polynomial.
+A020987,4,0 1,0.5,1/2,,False,Zero-one version of Golay-Rudin-Shapiro sequence (or word).
+A040003,4,2 4,0,0,2,True,Continued fraction for sqrt(6).
+A040013,4,4 8,0,0,2,True,Continued fraction for sqrt(18).
+A040022,6,2 3 5 10,0,0,4,True,Continued fraction for sqrt(28).
+A040032,4,4 6 12,0,0,2,True,Continued fraction for sqrt(39).
+A040048,4,2 7 14,0,0,2,True,Continued fraction for sqrt(56).
+A040056,2,8 16,0,0,1,True,Continued fraction for sqrt(65).
+A040072,2,9 18,0,0,1,True,Continued fraction for sqrt(82).
+A040080,4,2 9 18,0,0,2,True,Continued fraction for sqrt(90).
+A070354,7,1 3 9 11,0,0,4,False,a(n) = 3^n mod 16.
+A070370,7,1 5 9 13,0,0,4,False,a(n) = 5^n mod 16.
+A070378,13,1 5 9 13 17 25,0,0,6,True,a(n) = 5^n mod 28.
+A070386,7,1 5 8 25,0,0,4,False,a(n) = 5^n mod 39.
+A070394,31,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,0,0,16,False,a(n) = 6^n mod 17.
+A070402,7,1 2 3 4,0,0,4,False,a(n) = 2^n mod 5.
+A070419,13,1 7 13 19 25 31,0,0,6,False,a(n) = 7^n mod 36.
+A079998,5,0 1,0.8,4/5,5,True,The characteristic function of the multiples of five.
+A084642,4,1 2 3,0,0,2,False,A Jacobsthal ratio.
+A089012,8,0 1,1.0,1,1,False,"a(n) = 1 if n is an exponent of the Weyl group W(E_6), 0 otherwise."
+A092910,12,2 3 4,0,0,,False,"a(n) is the (3n+2)-th component of the continued fraction for sum(k>=0,2^(-k!))."
+A099395,4,0 1,1.0,1,,True,"One if odd part of n is 3, zero otherwise."
+A100051,8,-2 -1 1 2,0,0,6,False,"A Chebyshev transform of 1,1,1,..."
+A105348,8,0 1 2,1.0,1,,True,An indicator sequence for the Jacobsthal numbers.
+A105870,19,0 1 2 3 4 5 6,0.125,1/8,16,False,Fibonacci sequence (mod 7).
+A109012,9,1 3 9,0,0,9,True,"a(n) = gcd(n,9)."
+A111958,21,1 2 3 4 5 7,0,0,12,True,Lucas numbers (A000032) mod 8.
+A117655,24,0 1 3 12 34 54 64 69 71 72,0.0,0,1,False,"a(n) = floor(f(n)), where f(n) = (5 - 4.37/(f(n-1) + f(n-2))^(1/3))^3, f(0) = 0, and f(1) = 1."
+A127254,5,0 1,0.166667,1/6,,False,"(0,1) sequence whose zero positions are indexed by twice the odious numbers given by A091855."
+A128130,8,-1 0 1,0.5,1/2,8,True,"Expansion of (1-x)/(1+x^4); period 8: repeat [1,-1,0,0,-1,1,0,0]."
+A129000,7,1 3 4 6 7,0,0,2,False,"Start with an integer (in this case, 1). First, add 5 or 8 if the integer is odd or even, respectively. Then divide by 2."
+A130782,5,1 2,0,0,5,False,"Period 5, repeat [1, 1, 2, 1, 1]."
+A131082,11,1 5 11 15,0,0,8,True,"Periodic sequence (15, 11, 5, 1, 1, 5, 11, 15)."
+A154269,5,-1 0 1,1.0,1,,True,"Dirichlet inverse of A019590; Fully multiplicative with a(2^e) = (-1)^e, a(p^e) = 0 for odd primes p."
+A163522,7,2 4 7 13 16,0,0,2,False,"a(1)=2; for n>1, a(n) = sum of digits of a(n-1)^2."
+A167624,13,0 1 9 17 25,0.5,1/2,16,False,a(n) = n^6 mod 32.
+A168185,6,0 1,0.083333,1/12,12,True,Characteristic function of numbers that are not multiples of 12.
+A175922,10,-1 1 2,0,0,5,False,"Period 5: repeat [1, 1, 2, -1, 2]."
+A181982,8,-4 -1 1 2,0,0,6,False,Expansion of (1 - x^2)^2 * (1 + x)^2 / (1 - x^6) in powers of x.
+A185000,8,11 111 1101 1110 11100,0,0,4,False,Trajectory of x+1 under the map (see A185544) defined in the Comments.
+A185049,5,1 2 3,0,0,4,False,Last term in the continued fraction for floor(Fibonacci(n)*(1+sqrt(5))/2) / Fibonacci(n).
+A217586,6,0 1,0.666667,2/3,,False,"a(1) = 1 and, for all n >= 1, if a(n) = 0 then a(2*n) = 1 and a(2*n+1) = 0 whereas if a(n) = 1 then a(2*n) = 0 and a(2*n+1) = 0."
+A226162,14,-1 0 1,0.2,1/5,,False,"a(n) = Kronecker Symbol (-5/n), n >= 0."
+A230075,10,-2 -1 0 1 2,0.25,1/4,8,False,"Period 8: repeat [2, 1, 0, 1, -2, -1, 0, -1]."
+A240924,13,1 4 7,0,0,24,False,"Digital root of squares of numbers not divisible by 2, 3 or 5."
+A249032,8,3 4 5 6,0,0,,False,First differences of A075326.
+A254377,4,0 1,0.25,1/4,,True,"Characteristic function of A230709: a(n) = 1 if n is either evil (A001969) or even odious (A128309), otherwise 0 (when n is odd odious)."
+A254745,7,0 1 3 4,0.166667,1/6,6,False,"Chebyshev polynomials of the second kind, U(n,x)^2, evaluated at x = sqrt(3)/2."
+A257170,7,-1 0 1,0.5,1/2,8,False,Expansion of (1 + x) * (1 + x^3) / (1 + x^4) in powers of x.
+A257181,23,-2 -1 0 1 2,0.4,2/5,10,False,Expansion of (1 - x) * (1 + x^4) / (1 + x^5) in powers of x.
+A259042,6,0 1 2,0.125,1/8,8,True,"Period 8 sequence [0, 1, 1, 1, 2, 1, 1, 1, ...]."
+A260190,9,-1 0 1,0.333333,1/3,12,True,Kronecker symbol(-6 / 2*n + 1).
+A266327,3,1 11,0,0,2,False,"Binary representation of the n-th iteration of the ""Rule 20"" elementary cellular automaton starting with a single ON (black) cell."
+A266591,4,0 1,0.5,1/2,2,False,"Middle column of the ""Rule 37"" elementary cellular automaton starting with a single ON (black) cell."
+A267869,6,0 1,0.0,0,1,True,"Triangle read by rows giving successive states of cellular automaton generated by ""Rule 235"" initiated with a single ON (black) cell."
+A267878,4,0 1,0.0,0,1,False,"Middle column of the ""Rule 233"" elementary cellular automaton starting with a single ON (black) cell."
+A267927,5,0 1,0.0,0,1,True,"Triangle read by rows giving successive states of cellular automaton generated by ""Rule 249"" initiated with a single ON (black) cell."
+A267936,4,0 1,0.0,0,1,True,"Triangle read by rows giving successive states of cellular automaton generated by ""Rule 251"" initiated with a single ON (black) cell."
+A268676,2,1 3,0,0,,False,"a(n) = A101080(n,A268823(3+n)), where A101080(x,y) gives the Hamming distance between binary expansions of x and y."
+A270803,8,0 1,1.0,1,,False,Formal inverse of Thue-Morse sequence A010060.
+A280047,15,1 2 3 4 5 6,0,0,,False,A derived sequence constructed from the Thue-Morse sequence A010060.
+A317336,4,-10 -7,0,0,,True,a(n) = A317333(n) - 8*n.
+A319981,12,0 1 2,0.5,1/2,2,False,a(n) is the number of integer partitions of n with largest part <= 3 for which the index of the seaweed algebra formed by the integer partition paired with its weight is 0.
+A328943,7,2 3 4 5,0,0,4,True,a(n) = 2 + (n mod 4).
+A365807,6,0 1,1.0,1,,False,"a(n) = 1 if A163511(n) is a square, 0 otherwise."
+A374039,9,0 1,0.222222,2/9,9,True,"a(n) = 1 if the 3-adic valuation of n is not 1, otherwise 0."
+A000004,1,0,1.0,1,1,False,The zero sequence.
+A000012,1,1,0,0,1,True,The simplest sequence of positive numbers: the all 1's sequence.
+A000038,2,0 2,1.0,1,1,True,Twice A000007.
+A007413,5,1 2 3,0,0,,False,"A squarefree (or Thue-Morse) ternary sequence: closed under 1->123, 2->13, 3->2. Start with 1."
+A008960,41,0 1 2 3 4 5 6 7 8 9,0.1,1/10,10,False,Final digit of cubes: n^3 mod 10.
+A010124,8,1 2 3 4 8,0,0,6,True,Continued fraction for sqrt(19).
+A010132,6,1 4 5 10,0,0,4,True,Continued fraction for sqrt(34).
+A010140,8,1 2 6 7 14,0,0,6,True,Continued fraction for sqrt(54).
+A010148,11,1 3 4 8 16,0,0,8,True,Continued fraction for sqrt(69).
+A010156,6,1 4 8 16,0,0,4,True,Continued fraction for sqrt(78).
+A010164,18,1 4 6 9 18,0,0,10,True,Continued fraction for sqrt(93).
+A010685,3,1 4,0,0,2,False,"Period 2: repeat (1,4)."
+A010873,7,0 1 2 3,0.25,1/4,4,True,a(n) = n mod 4.
+A021147,13,0 3 6 9,0.333333,1/3,6,False,Decimal expansion of 1/143.
+A021796,7,0 1 2 6,0.0,0,2,False,Decimal expansion of 1/792.
+A021913,4,0 1,0.5,1/2,4,False,"Period 4: repeat [0, 0, 1, 1]."
+A030300,6,0 1,0.666667,2/3,,False,"Runs have lengths 2^n, n >= 0."
+A040005,4,1 2 4,0,0,2,True,Continued fraction for sqrt(8).
+A040024,4,2 5 10,0,0,2,True,Continued fraction for sqrt(30).
+A040033,4,3 6 12,0,0,2,True,Continued fraction for sqrt(40).
+A040041,4,1 6 12,0,0,2,True,Continued fraction for sqrt(48).
+A040057,4,8 16,0,0,2,True,Continued fraction for sqrt(66).
+A040073,4,9 18,0,0,2,True,Continued fraction for sqrt(83).
+A049347,6,-1 0 1,0.333333,1/3,3,False,"Period 3: repeat [1, -1, 0]."
+A070347,13,1 2 4 8 11 16,0,0,6,False,a(n) = 2^n mod 21.
+A070371,31,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,0,0,16,False,a(n) = 5^n mod 17.
+A070403,6,1 4 7,0,0,3,False,a(n) = 7^n mod 9.
+A070539,11,0 1 5 16,0.1,1/10,10,False,a(n) = n^4 mod 20.
+A079944,7,0 1,0.5,1/2,,False,"A run of 2^n 0's followed by a run of 2^n 1's, for n=0, 1, 2, ..."
+A088666,11,1 2 6 7,0,0,10,False,a(n) = (n^4 + 1) mod 10.
+A089145,7,1 2 3 6,0,0,6,False,Greatest common divisor of n^2-3 and n^2+3.
+A092412,8,0 1 2 3,0.066667,1/15,,True,"Fixed point of the morphism 0->11, 1->12, 2->13, 3->10, starting from a(1) = 1."
+A092952,19,2 3 4 6 9 11 16 29 36 58 78 113,0,0,8,False,"Smallest unhappy number that takes n iterations of the sum of the squares of digits to reach 4, which is the smallest number of the unhappy numbers cycle."
+A094912,5,0 1,0.75,3/4,,False,Output from a certain finite automaton when fed binary representation of n read from right to left.
+A099547,7,1 3 5,0,0,,True,Odd part of n modulo 6.
+A105395,4,1 7,0,0,3,False,"A simple ""Fractal Jump Sequence"" (FJS)."
+A107751,6,1 2,0,0,3,True,a(n) = A107750(n+1) - A107750(n).
+A110161,9,-1 0 1,0.666667,2/3,12,True,Expansion of x*(1-x^2)/(1-x^2+x^4).
+A110269,13,0 1 2 3,0.166667,1/6,6,False,n mod 2 + n mod 3.
+A122497,6,1 2,0,0,,False,"Let f(S) denote the interchange of 1's and 2's in S. Let S_0 = 1, S_{N+1} = f(S_N).S_N, where the dot indicates concatenation. Sequence gives S_0.S_1.S_2.S_3...."
+A130893,15,1 2 3 4 6 7 8 9,0,0,12,True,Lucas numbers (beginning with 1) mod 10.
+A131736,7,-1 0 1,0.333333,1/3,6,True,"Period 6: repeat [0, 0, 1, -1, -1, 1]."
+A132126,11,0 1 2 3,0.0,0,1,True,Number of nonassociative subloops of order 8n of the Cayley octonions (up to isomorphism).
+A132971,5,-1 0 1,1.0,1,,False,"a(2*n) = a(n), a(4*n+1) = -a(n), a(4*n+3) = 0, with a(0) = 1."
+A134451,4,0 1 2,0.0,0,2,True,Ternary digital root of n.
+A135352,10,1 2 3,0,0,5,False,"Period 5: repeat [1,2,2,1,3]."
+A139566,18,4 15 16 20 26 37 40 42 58 89 145,0,0,8,False,a(n) is the sum of squares of digits of a(n-1); a(1)=15.
+A152822,4,0 1,0.25,1/4,4,True,"Periodic sequence [1,1,0,1] of length 4."
+A154282,7,-1 0 1,1.0,1,,False,Dirichlet inverse of A154281.
+A159956,15,0 1 2 3,0.25,1/4,16,False,"Period 16 : 0,1,2,3,1,2,3,0,2,3,0,1,3,0,1,2 ."
+A163817,9,-1 0 1,0.666667,2/3,6,False,Expansion of (1 - x^2) * (1 - x^5) / ((1 - x) * (1 - x^6)) in powers of x.
+A165063,7,2 3 6 7,0,0,1,True,Length of cycle mentioned in A165062.
+A166486,4,0 1,0.25,1/4,4,True,"Periodic sequence [0,1,1,1] of length 4; Characteristic function of numbers that are not multiples of 4."
+A184334,9,-2 0 1 2,0.333333,1/3,6,False,"Period 6 sequence [0, 2, 2, 0, -2, -2, ...] except a(0) = 1."
+A187036,6,-1 0 1,1.0,1,,False,An eigensequence of A187034.
+A209229,3,0 1,1.0,1,,True,"Characteristic function of powers of 2, cf. A000079."
+A211010,7,0 1 2 3 4,0.0,0,4,True,"Value on the axis ""x"" of the endpoint of the structure of A211000 at n-th stage."
+A220128,8,1 2 3 4,0,0,6,False,"1 followed by period 6: (1, 3, 2, 3, 1, 4) repeated; offset 0."
+A228495,4,0 1,0.75,3/4,,True,Characteristic function of the odd odious numbers (A092246).
+A246960,9,0 1 2 3,0.25,1/4,,False,Directions of the lines in the (Heighway) Dragon Curve.
+A253414,14,-1 0 1,0.25,1/4,,False,G.f. satisfies (1+x^2)*g(x) = 1 + x*g(x^2).
+A254378,7,1 3 5,0,0,,False,Run lengths of A228495 (Characteristic function of the odd odious numbers).
+A257075,3,-1 1,0,0,3,False,a(n) = (-1)^(n mod 3).
+A259030,14,-1 0 1,0.333333,1/3,,False,"a(n) is multiplicative with a(2^e) = -(1 - (-1)^e) / 2 if e > 0, a(p^e) = Kronecker(5, p)^e if p > 2."
+A260192,9,-1 0 1,0.333333,1/3,12,False,Kronecker symbol(-6 / 2*n + 7).
+A260449,15,1 2 3,0,0,,True,"Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = (1,2,3) and midword sequence (a(n)); see Comments."
+A266678,4,0 1,0.0,0,1,False,"Middle column of the ""Rule 175"" elementary cellular automaton starting with a single ON (black) cell."
+A267155,9,0 1,0.5,1/2,2,False,"Middle column of the ""Rule 107"" elementary cellular automaton starting with a single ON (black) cell."
+A267870,4,0 1,0.0,0,1,True,"Triangle read by rows giving successive states of cellular automaton generated by ""Rule 237"" initiated with a single ON (black) cell."
+A268615,21,1 2 3 4 7 11 18 29 36 39,0,0,12,True,Lucas numbers mod 40.
+A270026,9,0 2 3 7,0.0,0,,True,a(n) is the smallest b for which the base-b representation of n contains at least one 0 (or 0 if no such base exists).
+A272664,10,0 1,0.5,1/2,2,False,(001)(001)(001)(10)*.
+A274309,15,1 2 3 5,0,0,16,False,Related to integral generalized binomial coefficients of multiplicative functions (see Comments for precise definition).
+A280048,14,-3 -2 -1 1 2 3,0,0,,True,"The Tower of Hanoi word, with a,b,c,a-bar,b-bar,c-bar encoded as 1,2,3,-1,-2,-3 respectively."
+A285383,4,0 1,0.333333,1/3,,True,"Limiting 0-word of the morphism 0 -> 11, 1 -> 01."
+A309873,4,-1 1,0,0,,False,"Period-doubling turn sequence, +1 when the 2-adic valuation of n is even or -1 when odd."
+A316831,7,0 1 2 3,0.0,0,,False,"Trajectory of 0 under repeated application of the morphism 0 -> 01, 1 -> 21, 2 -> 13, 3 -> 33."
+A317542,5,0 1,1.0,1,,False,Formal inverse of the period-doubling sequence A096268.
+A328981,5,0 1,0.833333,5/6,,True,Indicator function of numbers whose binary representation ends in an even positive number of 0's.
+A340536,27,2 5 8 9,0,0,9,True,Digital root of 2*n^2.
+A343173,12,-1 0 1,0.5,1/2,,False,First differences of paper-folding sequence A014577.
+A380667,10,-1 0 1,0.5,1/2,,False,"First differences of the Golay-Rudin-Shapiro sequence (A020985), divided by 2."
+A004200,12,0 1 2 3 5,0.0,0,,False,Continued fraction for Sum_{k>=0} 1/3^(2^k).
+A010075,25,0 1 2 3 5 6 7 8 9 11 12 13,0.0,0,16,False,a(n) = sum of base-8 digits of a(n-1) + sum of base-8 digits of a(n-2).
+A010125,8,1 2 4 8,0,0,6,True,Continued fraction for sqrt(21).
+A010133,4,2 6 12,0,0,3,True,Continued fraction for sqrt(41).
+A010141,5,2 7 14,0,0,4,True,Continued fraction for sqrt(55).
+A010149,6,1 2 8 16,0,0,6,True,Continued fraction for sqrt(70).
+A010157,6,1 7 8 16,0,0,4,True,Continued fraction for sqrt(79).
+A010173,8,1 2 9 10 20,0,0,6,False,Continued fraction for sqrt(107).
+A010691,3,1 10,0,0,2,False,"Period 2: repeat (1,10)."
+A014021,9,-1 0 1,0.666667,2/3,12,False,Inverse of 12th cyclotomic polynomial.
+A014390,7,1 7 43 49,0,0,4,False,Final 2 digits of 7^n.
+A021150,16,0 1 3 4 5 6 8 9,0.125,1/8,8,False,Decimal expansion of 1/146.
+A021300,14,0 3 7 8,0.0,0,3,False,Decimal expansion of 1/296.
+A021329,17,0 2 3 6 7 9,0.166667,1/6,6,False,Decimal expansion of 1/325.
+A021356,10,0 2 4 8 9,0.5,1/2,2,False,Decimal expansion of 1/352.
+A030301,6,0 1,0.333333,1/3,,False,n-th run has length 2^(n-1).
+A034947,4,-1 1,0,0,,True,Jacobi (or Kronecker) symbol (-1/n).
+A036118,27,1 2 3 4 5 6 7 8 9 10 11 12,0,0,12,True,a(n) = 2^n mod 13.
+A036577,5,0 1 2,0.333333,1/3,,False,"Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b."
+A040006,2,3 6,0,0,1,True,Continued fraction for sqrt(10).
+A040015,4,2 4 8,0,0,2,True,Continued fraction for sqrt(20).
+A040042,2,7 14,0,0,1,True,Continued fraction for sqrt(50) = 5*sqrt(2).
+A040074,4,6 9 18,0,0,2,True,Continued fraction for sqrt(84).
+A056594,5,-1 0 1,0.5,1/2,4,False,"Period 4: repeat [1,0,-1,0]; expansion of 1/(1 + x^2)."
+A063524,3,0 1,1.0,1,1,True,Characteristic function of 1.
+A069517,5,0 1 2,1.0,1,,True,a(n) = (-1)*Sum_{d|n} (moebius(d)*(-1)^d).
+A070372,13,1 5 7 11 13 17,0,0,6,False,a(n) = 5^n mod 18.
+A070380,15,1 5 9 13 17 21 25 29,0,0,8,False,a(n) = 5^n mod 32.
+A070388,13,1 5 17 25 37 41,0,0,6,False,a(n) = 5^n mod 42.
+A070476,15,0 1 6 7 8 13,0.071429,1/14,14,False,a(n) = n^3 mod 14.
+A071858,3,0 1 2,0.333333,1/3,,False,(Number of 1's in binary expansion of n) mod 3.
+A076826,4,0 1 2,0.25,1/4,,True,"a(n) = 2*(Sum_{k=0..n} A010060(k)) - n, where A010060 is a Thue-Morse sequence."
+A081729,6,-1 0 1 2,0.0,0,,True,"Expansion of Sum(k>=0, x^(2^k)) + 1/(1+x). First differences of A007456 (gossip sequence) for n>1."
+A084099,6,-2 0 1 2,0.5,1/2,4,False,Expansion of (1+x)^2/(1+x^2).
+A086483,5,0 1,0.5,1/2,,False,Bit that is two places to left of least significant 1-bit in the binary expansion of n.
+A086747,5,0 1,1.0,1,,False,Baum-Sweet sequence: a(n) = 1 if binary representation of n contains no block of consecutive zeros of odd length; otherwise a(n) = 0.
+A089129,15,1 2 7 14,0,0,14,False,Greatest common divisor of n^2 - 7 and n^2 + 7.
+A093719,5,0 1,0.333333,1/3,6,True,a(n) = (n mod 2)^(n mod 3).
+A096268,4,0 1,0.666667,2/3,,True,"Period-doubling sequence (or period-doubling word): fixed point of the morphism 0 -> 01, 1 -> 00."
+A105198,11,0 1 2 3,0.25,1/4,8,True,a(n) = n(n+1)/2 mod 4.
+A110270,8,0 1 2,0.666667,2/3,6,False,a(n) = (n mod 2)*(n mod 3).
+A115634,4,-3 0 1,0.5,1/2,2,False,Expansion of (1-4*x^2)/(1-x^2).
+A117907,8,-2 -1 0 1,0.5,1/2,6,False,Expansion of x + (1-x)^2/(1-x^6).
+A120325,5,0 1,0.666667,2/3,6,True,"Period 6: repeat [0, 0, 1, 0, 1, 0]."
+A132380,6,-1 0 1,0.5,1/2,8,True,"Period 8: repeat [0, 0, 1, 1, 0, 0, -1, -1]."
+A140080,10,0 1 2,0.333333,1/3,,False,Fix e = 3; a(n) = minimal Hamming distance between the binary representation of n and the binary representation of any multiple ke (0 <= k <= n/e) which is a child of n.
+A146761,7,0 3 6,0.333333,1/3,6,False,"Period 6: repeat [0, 0, 6, 6, 3, 3]."
+A147612,6,0 1,1.0,1,,True,If n is a Jacobsthal number then 1 else 0.
+A151774,4,0 1,1.0,1,,False,Characteristic function of numbers with binary weight 2 (A018900).
+A159981,4,0 1 2,1.0,1,,False,Catalan numbers read modulo 4.
+A163810,9,-1 0 1,0.333333,1/3,6,False,Expansion of (1 - x) * (1 - x^2) * (1 - x^3) / (1 - x^6) in powers of x.
+A171443,16,1 9 37 93 163 219 247 255 256,0,0,1,False,Expansion of g.f. (1+x)^8/(1-x).
+A177704,4,1 2,0,0,4,False,"Period 4: repeat [1, 1, 1, 2]."
+A185273,7,0 1 5 6,0.166667,1/6,6,False,"Period 6: repeat [1, 6, 5, 6, 1, 0]."
+A185590,27,44 59 62 66 70 74 79 83 93 99 105 111,0,0,12,True,Iterate the map in A006369 starting at 44.
+A188578,15,-1 0 1,0.466667,7/15,15,True,Expansion of (1 - x^3) * (1 - x^5) * (1 - x^6) / (1 - x^15) in powers of x.
+A216022,8,1 2 5 6,0,0,,False,Largest number m such that the Collatz trajectory starting at n contains all numbers not greater than m.
+A218622,6,0 1 2,1.0,1,,False,"a(n) = A183161(n) (mod 4), n>=0."
+A220129,12,1 3 5 7 9 11,0,0,12,False,"1 followed by period 12: (1, 5, 3, 9, 1, 7, 1, 9, 3, 5, 1, 11) repeated; offset 0."
+A239140,11,1 2 3,0,0,6,True,Number of strict partitions of n having standard deviation σ < 1.
+A254379,4,0 1,0.75,3/4,,True,Characteristic function of the even odious numbers (A128309).
+A254655,7,1 2 3 5,0,0,,False,Run lengths of A254379 (Characteristic function of the even odious numbers).
+A257076,9,-2 0 1 2,0.333333,1/3,6,False,Expansion of (1 - x^3) / (1 - x + x^2) in powers of x.
+A260450,15,1 2 3,0,0,,True,"Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = (1,3,2) and midword sequence (a(n)); see Comments."
+A267208,4,0 1,0.333333,1/3,3,False,"Middle column of the ""Rule 109"" elementary cellular automaton starting with a single ON (black) cell."
+A267871,4,0 1,0.0,0,1,True,"Triangle read by rows giving successive states of cellular automaton generated by ""Rule 239"" initiated with a single ON (black) cell."
+A269027,8,0 1,0.5,1/2,,False,Parity of the number of 1's in A039724(n).
+A276254,5,0 1,1.0,1,,False,"With respect to the dictionary ordering of words over the alphabet {a,b}, i.e., e,a,b,aa,ab,ba,bb,aaa,..., the sequence is the characteristic function of the language of words that have no consecutive b's."
+A278536,7,1 3 4,0,0,6,True,First differences of A273324.
+A285384,4,0 1,0.333333,1/3,,True,"Limiting 1-word of the morphism 0 -> 11, 1 -> 01."
+A286576,5,0 1 2,1.0,1,,False,a(n) = A132971(n) mod 3.
+A321542,11,1 3 9 18 27 45 135,0,0,2,True,a(0)=1; thereafter a(n) = 3*a(n-1) with digits rearranged into nondecreasing order.
+A333657,15,0 2 8 9 14 22 30 37,0.0,0,1,False,a(n) is the number of convex polyhedra whose faces are regular polygons and whose largest face is an n-gon.
+A340375,4,0 1,1.0,1,,False,"a(n) = 1 if n is of the form 2^i - 2^j with i >= j, and 0 otherwise."
+A355487,8,0 1 2 3,0.25,1/4,,False,Bitwise XOR of the base-4 digits of n.
+A373155,6,0 1,0.555556,5/9,,True,"a(n) = 1 if n is a non-multiple of 3 whose 2-adic valuation is even, otherwise 0."
+A006467,14,0 1 3 4 5,0.0,0,,False,Continued fraction for Sum_{n>=0} (-1)^n/3^(2^n).
+A010126,8,1 2 4 8,0,0,6,True,Continued fraction for sqrt(22).
+A010134,17,1 3 5 6 12,0,0,10,True,Continued fraction for sqrt(43).
+A010142,8,1 4 7 14,0,0,6,True,Continued fraction for sqrt(57).
+A010150,11,1 2 7 8 16,0,0,8,True,Continued fraction for sqrt(71).
+A010158,12,1 4 9 18,0,0,5,True,Continued fraction for sqrt(85).
+A010166,6,1 2 9 18,0,0,4,True,Continued fraction for sqrt(95).
+A010174,11,1 2 4 10 20,0,0,8,False,Continued fraction for sqrt(108).
+A010182,8,1 2 4 10 20,0,0,6,False,Continued fraction for sqrt(117).
+A010702,3,3 4,0,0,2,True,"Period 2: repeat (3,4)."
+A010875,13,0 1 2 3 4 5,0.166667,1/6,6,True,a(n) = n mod 6.
+A014391,8,1 2 4 6 8,0,0,4,False,Final digit of 8^n.
+A021069,15,0 1 3 4 5 6 8,0.0,0,6,True,Decimal expansion of 1/65.
+A021152,11,0 5 6 7,0.0,0,3,False,Decimal expansion of 1/148.
+A033999,3,-1 1,0,0,2,True,a(n) = (-1)^n.
+A036119,31,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,0,0,16,True,a(n) = 3^n mod 17.
+A036580,5,0 1 2,0.333333,1/3,,False,"Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b."
+A038189,4,0 1,0.5,1/2,,True,Bit to left of least significant 1-bit in binary expansion of n.
+A040007,4,3 6,0,0,2,True,Continued fraction for sqrt(11).
+A040035,4,2 6 12,0,0,2,True,Continued fraction for sqrt(42).
+A040043,4,7 14,0,0,2,True,Continued fraction for sqrt(51).
+A040059,4,4 8 16,0,0,2,True,Continued fraction for sqrt(68).
+A053839,8,0 1 2 3,0.25,1/4,,False,a(n) = (sum of digits of n written in base 4) modulo 4.
+A056832,4,1 2,0,0,,True,All a(n) = 1 or 2; a(1) = 1; get next 2^k terms by repeating first 2^k terms and changing last element so sum of first 2^(k+1) terms is odd.
+A056992,27,1 4 7 9,0,0,9,False,Digital roots of square numbers A000290.
+A059841,3,0 1,0.5,1/2,2,False,"Period 2: Repeat [1,0]. a(n) = 1 - (n mod 2); Characteristic function of even numbers."
+A062116,15,1 2 4 8 9 13 15 16,0,0,8,False,a(n) = 2^n mod 17.
+A062157,4,-1 0 1,0.0,0,2,True,a(n) = 0^n - (-1)^n.
+A070357,13,1 3 9 19 25 27,0,0,6,False,a(n) = 3^n mod 28.
+A070365,13,1 2 3 4 5 6,0,0,6,False,a(n) = 5^n mod 7.
+A070414,7,1 7 13 19,0,0,4,False,a(n) = 7^n mod 30.
+A070423,7,1 7 9 23,0,0,4,False,a(n) = 7^n mod 40.
+A070533,15,0 1 6 10,0.066667,1/15,15,False,a(n) = n^4 mod 15.
+A073059,5,0 1,0.666667,2/3,,True,a(n) = (1/2)*(A073504(n+1) - A073504(n)).
+A078978,11,1 2 3 4,0,0,,True,"Sequence is S(oo), where S(1)={1,2,3,4}, S(n+1)=S(n)S'(n) and S'(n) is obtained from S(n) by changing its last term using the cyclic permutation 1->2->3->4->1."
+A084091,9,-1 0 1,0.555556,5/9,,True,Expansion of Sum_{k>=0} x^2^k/(1+x^2^k+x^2^(k+1)).
+A084101,5,1 3,0,0,4,False,Expansion of (1+x)^2/((1-x)*(1+x^2)).
+A085357,3,0 1,1.0,1,,False,"Common residues of binomial(3n,n)/(2n+1) modulo 2: relates ternary trees (A001764) to the infinite Fibonacci word (A003849)."
+A088435,12,1 2 3,0,0,,False,"1/2 + half of the (n+1)-st component of the continued fraction expansion of sum(k>=1,1/3^(2^k))."
+A090281,11,1 2 3 4,0,0,8,True,"""Plain Bob Minimus"" in bell-ringing is a sequence of permutations p_1=(1,2,3,4), p_2=(2,1,4,3), ... which runs through all permutations of {1,2,3,4} with period 24; sequence gives position of bell 1 (the treble bell) in n-th permutation."
+A096269,9,0 1 2 3 4,0.5,1/2,,False,a(n) = number of distinct palindromes of length n that occur in A096268.
+A099549,8,1 3 5 7,0,0,,False,Odd part of n modulo 8.
+A100260,9,0 1 2 3,0.25,1/4,,False,"Fixed point of morphism 0 -> 01, 1 -> 02, 2 -> 31, 3 -> 32."
+A109247,8,-3 0 1 3,0.5,1/2,8,True,Expansion of (1 - 3*x^2 - 3*x^3 + x^4)/(1 + x^4).
+A131295,11,0 1 2 3 4 5,0.0,0,8,False,"a(n)=ds_4(a(n-1))+ds_4(a(n-2)), a(0)=0, a(1)=1; where ds_4=digital sum base 4."
+A136691,9,1 2 3,0,0,,False,Final nonzero digit of n! in base 4.
+A140345,5,-2 1,0,0,5,False,"a(n) = a(n-1)^2 - a(n-2) - a(n-3) - a(n-4), a(1) = a(2) = a(3) = a(4) = 1."
+A151759,15,0 1 3 4 6,1.0,1,,False,"G.f.: Theta^3, where Theta = Sum_{k>=0} x^(2^k)."
+A163811,9,-1 0 1,0.666667,2/3,6,False,Expansion of (1 - x) * (1 - x^10) / ((1 - x^5) * (1 - x^6)) in powers of x.
+A164116,12,-1 0 1 2,0.4,2/5,5,True,Expansion of (1 - x) * (1 - x^4) / (1 - x^5) in powers of x.
+A165211,7,0 1,0.5,1/2,8,False,"Period 8: repeat [0,1,0,1,1,0,1,0]."
+A191254,6,0 1 2,0.5,1/2,,True,"Fixed point of the morphism 0 -> 01, 1 -> 02, 2 -> 01."
+A194826,23,0 1 4 5 6 9,0.1,1/10,20,True,Units' digits of the nonzero 9-gonal (nonagonal) numbers.
+A214684,10,1 2 3 4,0,0,6,True,"a(1)=1, a(2)=1, and, for n>2, a(n)=(a(n-1)+a(n-2))/5^k, where 5^k is the highest power of 5 dividing a(n-1)+a(n-2)."
+A219977,6,-1 0 1,0.5,1/2,4,False,Expansion of 1/(1+x+x^2+x^3).
+A231475,5,1 3 4,0,0,6,True,Largest integer less than 5 and coprime to n.
+A239141,8,1 2 3,0,0,3,True,Number of strict partitions of n having standard deviation <= 1.
+A242073,11,-2 -1 1 2,0,0,12,True,"a(n) = - (a(n-1)*a(n-4) + a(n-2)*a(n-3)) / a(n-5) with a(0)=1, a(1)=a(2)=-1, a(3)=-2, a(4)=1."
+A253262,21,-2 -1 0 1 2,0.2,1/5,10,False,Expansion of (x + x^2 + x^3) / (1 - x + x^2 - x^3 + x^4) in powers of x.
+A253513,5,0 1,0.875,7/8,8,True,The characteristic function of the multiples of eight.
+A260451,15,1 2 3,0,0,,True,"Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = (2,3,1) and midword sequence (a(n)); see Comments."
+A262734,23,1 2 3 4 5 6 7 8 9,0,0,16,False,"Period 16: repeat (1, 2, 3, 4, 5, 6, 7, 8, 9, 8, 7, 6, 5, 4, 3, 2)."
+A266444,12,0 1,0.5,1/2,2,False,"Middle column of the ""Rule 25"" elementary cellular automaton starting with a single ON (black) cell."
+A266789,11,0 1,0.5,1/2,2,False,"Middle column of the ""Rule 61"" elementary cellular automaton starting with a single ON (black) cell."
+A267043,5,0 1,0.5,1/2,2,False,"Middle column of the ""Rule 91"" elementary cellular automaton starting with a single ON (black) cell."
+A267537,4,0 1,0.0,0,1,False,"Middle column of the ""Rule 143"" elementary cellular automaton starting with a single ON (black) cell."
+A285193,8,0 1 2,0.25,1/4,8,False,Expansion of 1/(1+x+2*x^2) mod 3.
+A287576,16,0 1 2 3,0.25,1/4,,False,"Start with 0 and repeatedly substitute 0->0321, 1->3210, 2->2103, 3->1032."
+A287865,16,1 3 5 7 11 13 19 23 47,0,0,8,False,"a(n) = gpf(2*a(n-1)+1), with a(1)=1, where gpf = A006530."
+A295896,4,0 1,1.0,1,,False,"a(n) = 1 if there are no odd runs of 1's in the binary expansion of n followed by a 0 to their right, 0 otherwise."
+A301850,10,-1 0 1,0.375,3/8,,False,The Dakota sequence: a sequence with zero-free number-wall over ternary extension fields.
+A304580,23,0 1 2 3 4 5 6 7 8 9,0.0625,1/16,16,False,"Period 16: repeat 1,8,3,6,5,4,7,2,9,0,7,2,5,4,3,6."
+A305029,25,-2 0 1 2,0.2,1/5,10,True,"Period 10 sequence [ 0, 2, 2, 2, 2, 0, -2, -2, -2, -2, ...] except a(0) = 1."
+A322796,11,-1 0 1,0.666667,2/3,24,True,a(n) = Kronecker symbol (6/n).
+A342892,5,0 1,0.5,1/2,,False,"a(n) is the complement of the bit two places to the left of the least significant ""1"" in the binary expansion of n."
+A348536,11,0 1 2 3,0.5,1/2,12,True,Number of partitions of n into 3 parts that divide n.
+A359832,5,0 1,0.166667,1/6,,True,"a(n) = 1 if the 2-adic valuation of n is either 0 or odd, otherwise 0."
+A000007,2,0 1,1.0,1,1,False,The characteristic function of {0}: a(n) = 0^n.
+A001903,7,1 3 7 9,0,0,4,False,Final digit of 7^n.
+A003324,10,1 2 3 4,0,0,,True,A nonrepetitive sequence.
+A005680,5,1 2 3,0,0,,False,A squarefree ternary sequence.
+A007450,22,0 1 2 3 4 5 6 7 8 9,0.0625,1/16,16,False,Decimal expansion of 1/17.
+A010127,6,1 3 4 8,0,0,4,True,Continued fraction for sqrt(23).
+A010135,8,1 2 6 12,0,0,6,True,Continued fraction for sqrt(45).
+A010143,8,1 7 14,0,0,7,True,Continued fraction for sqrt(58).
+A010151,24,1 5 8 16,0,0,7,True,Continued fraction for sqrt(73).
+A010159,17,1 3 8 9 18,0,0,10,True,Continued fraction for sqrt(86).
+A010167,6,1 3 9 18,0,0,4,True,Continued fraction for sqrt(96).
+A010877,15,0 1 2 3 4 5 6 7,0.125,1/8,8,True,a(n) = n mod 8.
+A014707,4,0 1,0.5,1/2,,True,"a(4n) = 0, a(4n+2) = 1, a(2n+1) = a(n)."
+A021337,3,0 3,0.666667,2/3,3,False,Decimal expansion of 1/333.
+A033478,20,1 2 3 4 5 8 10 16,0,0,3,False,3x+1 sequence beginning at 3.
+A033940,13,1 2 3 4 5 6,0,0,6,False,a(n) = 10^n mod 7.
+A035263,4,0 1,0.333333,1/3,,True,"Trajectory of 1 under the morphism 0 -> 11, 1 -> 10; parity of 2-adic valuation of 2n: a(n) = A000035(A001511(n))."
+A036581,5,0 1 2,0.333333,1/3,,False,"Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b."
+A039963,5,0 1,0.333333,1/3,,False,The period-doubling sequence A035263 repeated.
+A039982,7,0 1,0.333333,1/3,,False,"Let phi denote the morphism 0 -> 11, 1 -> 10. This sequence is the limit S(oo) where S(0) = 1; S(n+1) = 1.phi(S(n))."
+A040008,4,2 3 6,0,0,2,True,Continued fraction for sqrt(12).
+A040052,6,1 2 7 14,0,0,4,True,Continued fraction for sqrt(60).
+A057078,6,-1 0 1,0.333333,1/3,3,True,"Periodic sequence 1,0,-1,...; expansion of (1+x)/(1+x+x^2)."
+A067018,7,0 1 2 3 4,0.5,1/2,2,True,"Start with a(0)=1, a(1)=4, a(2)=3, a(3)=2; for n>=3, a(n+1) = mex_i (nim-sum a(i)+a(n-i)), where mex means smallest nonnegative missing number."
+A070358,15,1 3 9 11 17 19 25 27,0,0,8,False,a(n) = 3^n mod 32.
+A070366,13,1 2 4 5 7 8,0,0,6,False,a(n) = 5^n mod 9.
+A070374,13,1 4 5 16 17 20,0,0,6,False,a(n) = 5^n mod 21.
+A070382,31,1 3 5 7 9 11 13 15 19 21 23 25 27 29 31 33,0,0,16,False,a(n) = 5^n mod 34.
+A070406,7,1 4 7 13,0,0,4,False,a(n) = 7^n mod 15.
+A070478,19,0 1 3 5 7 8 9 11 13 15,0.25,1/4,16,False,a(n) = n^3 mod 16.
+A073097,9,-1 0 1,0.5,1/2,,True,"Let x(n) denote the number of 4's among the n first elements of the continued fraction for sum k>=0 1/2^(2^k) (A007400), y(n) the number of 6's and z(n) the number of 2's. Then a(n)=x(n)-y(n)-z(n)-1."
+A079882,7,1 2,0,0,,False,"A run of 2^n 1's followed by a run of 2^n 2's, for n=0, 1, 2, ..."
+A089086,11,1 2 5 10,0,0,10,False,Greatest common divisor of n^2-5 and n^2+5.
+A091297,8,0 1 2,0.333333,1/3,,False,"A fixed point of the morphism 0 -> 02, 1 -> 02, 2 -> 11, starting from 0."
+A092436,3,0 1,0.5,1/2,,False,a(n) = 1/2 + (-1)^n*(1/2 - A010060(floor(n/2))).
+A093914,8,1 2,0,0,,False,"a(1) = 1; for n > 1, a(n) = curling number of (b(1),...,b(n-1)), where b() = Thue-Morse sequence A010060 (with offset changed to 1)."
+A100047,11,-1 0 1,0.2,1/5,10,False,A Chebyshev transform of the Fibonacci numbers.
+A100063,4,1 2,0,0,3,False,A Chebyshev transform of Jacobsthal numbers.
+A100286,7,0 1 2,0.333333,1/3,6,False,Expansion of (1+2*x^2-2*x^3+2*x^4)/(1-x+x^2-x^3+x^4-x^5).
+A101650,8,0 1 2,0.375,3/8,,False,A Thue-Morse-Stern sequence.
+A105931,6,-1 1 2,0,0,,False,a(1) = 1 then a(n) = a(n-1) - (-1)^ceiling(n/2)*a(floor(n/2)).
+A111951,11,0 1 2 3,0.25,1/4,8,True,"Period 8: repeat [0,3,1,2,2,1,3,0]."
+A131296,17,0 1 2 3 4 5,0.0,0,6,False,"a(n) = ds_5(a(n-1))+ds_5(a(n-2)), a(0)=0, a(1)=1; where ds_5=digital sum base 5."
+A133872,4,0 1,0.5,1/2,4,True,"Period 4: repeat [1, 1, 0, 0]."
+A154955,4,-1 0 1,1.0,1,1,True,"a(1) = 1, a(2) = -1, followed by 0, 0, 0, ... ."
+A158515,7,0 1 2 3 4,0.0,0,2,False,Number of colors needed to paint a wheel graph on n nodes.
+A164356,6,1 2 4 6,0,0,4,False,Expansion of (1 - x^2)^4 / ((1 - x)^4 * (1 - x^4)) in powers of x.
+A167873,5,4 6 10,0,0,4,False,"Period 4: repeat [10, 6, 10, 4]."
+A168181,5,0 1,0.125,1/8,8,True,Characteristic function of numbers that are not multiples of 8.
+A168400,8,1 3 6 9 12,0,0,4,False,a(n) = 3^n mod 15.
+A168427,8,1 3 9 21 27,0,0,4,False,a(n) = 3^n mod 30.
+A169670,13,0 2 3 6 9,0.5,1/2,2,False,Decimal expansion of 9099999999923/27500000000000.
+A176514,10,1 2 3,0,0,6,False,"Period 6: repeat [3, 1, 1, 3, 2, 1]."
+A187074,6,0 1,0.5,1/2,12,True,"a(n) = 0 if and only if n is of the form 3*k or 4*k + 2, otherwise a(n) = 1."
+A188510,6,-1 0 1,0.5,1/2,8,False,Expansion of x*(1 + x^2)/(1 + x^4) in powers of x.
+A189996,7,0 1 2,0.25,1/4,8,False,"Bott periodicity: the homotopy groups of the stable orthogonal group are periodic with period 8 and repeat like [2, 2, 1, 0, 1, 1, 1, 0]."
+A190567,6,1 76 311 622,0,0,4,False,Continued fraction expansion of 46*sqrt(46).
+A191255,8,0 1 2 3,0.5,1/2,,True,"Fixed point of the morphism 0 -> 01, 1 -> 02, 2 -> 03, 3 -> 01."
+A195679,7,-1 1 2,0,0,8,False,"Order of n-th homotopy group of the topological group O(oo), with -1 if the homotopy group is Z."
+A206546,11,1 7 11 13,0,0,8,True,"Period 8: repeat [1, 7, 11, 13, 13, 11, 7, 1]."
+A216676,11,1 4 7 9,0,0,12,True,Digital roots of squares of Fibonacci numbers.
+A228826,7,-2 -1 1 2,0,0,4,False,Delayed continued fraction of sqrt(2).
+A230629,9,0 1 2,0.571429,4/7,,False,a(0) = 0; thereafter a(n) = (1 + a(floor(n/2))) mod 3.
+A231600,5,0 1,0.666667,2/3,,True,"Output of a finite state automaton generating the period doubling sequence, when fed with binary representation of n, read from right to left."
+A242179,6,-1 1,0,0,,False,"T(0,0) = 1, T(n+1,2*k) = - T(n,k), T(n+1,2*k+1) = T(n,k), k=0..n, triangle read by rows."
+A255817,7,0 1,0.5,1/2,,False,"Parity of A000788, which is the total number of ones in 0..n in binary."
+A257145,24,-2 -1 0 1 2,0.2,1/5,5,False,a(n) = 5 * floor( (n+2) / 5) - n with a(0) = 1.
+A260196,4,-3 -1 1,0,0,1,False,"1, -3, followed by -1's."
+A260452,15,1 2 3,0,0,,True,"Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = (2,1,3) and midword sequence (a(n)); see Comments."
+A269723,4,0 1,0.5,1/2,,False,"Start with A_0 = 0, then extend by setting B_k = complement of A_k and A_{k+1} = A_k A_k B_k B_k; sequence is limit of A_k as k -> infinity."
+A274339,6,15 18 24,0,0,3,False,The period 3 sequence of the iterated sum of deficient divisors function (A187793) starting at 15.
+A291357,5,2 3 4,0,0,6,True,"The arithmetic function u(n,2,3)."
+A295889,6,0 1,0.5,1/2,,False,"a(n) = 1 if binary weights of n and 3n have the same parity, 0 otherwise."
+A346070,8,0 1 2 3,0.533333,8/15,,True,Symbolic code for the corner turns in the Lévy dragon curve.
+A347523,3,0 1,0.0,0,,True,Characteristic function of nonpowers of 2.
+A359379,7,0 1,0.583333,7/12,12,True,"a(n) = 1 if n is either a multiple of 4, or an odd multiple of 3, otherwise 0."
+A373157,5,0 1,0.428571,3/7,,True,"a(n) = 1 if the 2-adic valuation of n is a multiple of 3, otherwise 0."
+A374043,7,0 1,0.619048,13/21,,True,"a(n) = 1 if n is a non-multiple of 3 whose 2-adic valuation is a multiple of 3, otherwise 0."
+A382488,7,1 2 4,0,0,6,False,The number of unitary 3-smooth divisors of n.
+A386260,11,1 2 3,0,0,,False,Maximum exponent in the prime factorization of the exponent of the highest power of 2 dividing 4*n.
+A392736,6,0 1,0.5,1/2,,False,A 4-automatic binary sequence with irreducible nested recurrence.
+A000034,3,1 2,0,0,2,True,"Period 2: repeat [1, 2]; a(n) = 1 + (n mod 2)."
+A005681,6,1 2 3 4,0,0,,False,A squarefree quaternary sequence.
+A010059,2,0 1,0.5,1/2,,False,"Another version of the Thue-Morse sequence: let A_k denote the first 2^k terms; then A_0 = 1 and for k >= 0, A_{k+1} = A_k B_k, where B_k is obtained from A_k by interchanging 0's and 1's."
+A010128,12,1 2 5 10,0,0,5,True,Continued fraction for sqrt(29).
+A010136,13,1 2 3 6 12,0,0,12,True,Continued fraction for sqrt(46).
+A010144,8,1 2 7 14,0,0,6,True,Continued fraction for sqrt(59).
+A010152,6,1 8 16,0,0,5,True,Continued fraction for sqrt(74).
+A010160,8,1 2 9 18,0,0,6,True,Continued fraction for sqrt(88).
+A010168,60,1 5 9 18,0,0,11,True,Continued fraction for sqrt(97).
+A010176,8,1 6 10 20,0,0,6,False,Continued fraction for sqrt(111).
+A014577,4,0 1,0.5,1/2,,True,"The regular paper-folding sequence (or dragon curve sequence). Alphabet {1,0}."
+A021160,17,0 1 2 4 5 6,0.166667,1/6,6,False,Decimal expansion of 1/156.
+A021444,7,0 2 7,0.0,0,2,False,Decimal expansion of 1/440.
+A021892,14,0 1 2 6,0.0,0,3,True,Decimal expansion of 1/888.
+A036584,5,1 2 3,0,0,,False,"Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b."
+A037011,3,0 1,1.0,1,,False,Baum-Sweet cubic sequence.
+A040000,2,1 2,0,0,1,True,a(0)=1; a(n)=2 for n >= 1.
+A040019,4,1 4 8,0,0,2,True,Continued fraction for sqrt(24).
+A040029,4,1 5 10,0,0,2,True,Continued fraction for sqrt(35).
+A040037,7,1 2 6 12,0,0,8,True,Continued fraction for sqrt(44).
+A040077,4,3 9 18,0,0,2,True,Continued fraction for sqrt(87).
+A040495,8,1 3 6 22 44,0,0,6,False,Continued fraction for sqrt(518).
+A043529,3,1 2,0,0,,True,Number of distinct base-2 digits of n.
+A049341,8,3 6 9,0,0,8,True,a(n+1) = sum of digits of a(n) + a(n-1).
+A070359,31,1 3 5 7 9 11 13 15 19 21 23 25 27 29 31 33,0,0,16,False,a(n) = 3^n mod 34.
+A070383,13,1 5 13 17 25 29,0,0,6,False,a(n) = 5^n mod 36.
+A070399,13,1 5 6 25 26 30,0,0,6,False,a(n) = 6^n mod 31.
+A070407,31,1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16,0,0,16,False,a(n) = 7^n mod 17.
+A070416,7,1 7 17 23,0,0,4,False,a(n) = 7^n mod 32.
+A070425,13,1 6 7 36 37 42,0,0,6,False,a(n) = 7^n mod 43.
+A070446,11,0 1 4 9 12 16,0.083333,1/12,12,False,a(n) = n^2 mod 24.
+A070454,17,0 1 4 9 16 17 25,0.125,1/8,16,False,a(n) = n^2 mod 32.
+A070567,7,0 1 9 16,0.166667,1/6,6,False,a(n) = n^4 mod 24.
+A078832,6,1 2 3,0,0,,True,"Smallest prime contained as binary substring in binary representation of n>1, a(1)=1."
+A079757,7,-2 0 1 3,0.333333,1/3,6,True,"Periodic sequence 1, 0, -2, 3, -2, 0, ..."
+A079979,5,0 1,0.833333,5/6,6,True,Characteristic function of multiples of six.
+A082115,8,0 1 2,0.25,1/4,8,False,Fibonacci sequence (mod 3).
+A084103,9,-3 0 1 3,0.333333,1/3,6,False,Expansion of (1+x)^3/(1+x^3).
+A085405,3,0 1,1.0,1,,False,"Common residues of binomial(3n+2,n+1)/(3n+2) modulo 2."
+A089045,6,-1 0 1,0.333333,1/3,,False,a(n) = a(n-1) + (-1)^floor(n/2)*a(floor(n/2)) with a(1) = 1.
+A091337,7,-1 0 1,0.5,1/2,8,False,"a(n) = (2/n), where (k/n) is the Kronecker symbol."
+A096271,6,0 1 2,0.571429,4/7,,True,"Ternary sequence that is a fixed point of the morphism 0 -> 01, 1 -> 02, 2 -> 00."
+A097325,5,0 1,0.166667,1/6,6,True,"Period 6: repeat [0, 1, 1, 1, 1, 1]."
+A099838,11,-3 -2 0 1 3,0.333333,1/3,3,False,Expansion of (1-x)^2*(1+x)/(1+x+x^2).
+A100219,7,-3 -2 0 1,0.333333,1/3,6,True,Expansion of (1-2*x)/((1-x)*(1-x+x^2)).
+A101455,5,-1 0 1,0.5,1/2,4,False,"a(n) = 0 for even n, a(n) = (-1)^((n-1)/2) for odd n. Periodic sequence 1,0,-1,0,..."
+A101675,10,-2 -1 0 1,0.166667,1/6,6,True,Expansion of (1 - x - x^2)/(1 + x^2 + x^4).
+A109265,9,-2 0 1 2,0.333333,1/3,6,False,"Row sums of Riordan array (1-x-x^2,x(1-x))."
+A110549,11,1 2 3 4,0,0,8,True,"Period 8: repeat [1, 2, 4, 3, 3, 4, 2, 1]."
+A112299,7,-1 0 1,0.25,1/4,8,False,Expansion of x * (1 - x) * (1 - x^2) * (1 - x^3) / (1 - x^8) in powers of x.
+A146094,15,0 1 2 3,0.166667,1/6,12,False,Bell numbers (A000110) read mod 4.
+A158001,10,1 4 9 10,0,0,6,False,"Period 6: repeat [9, 10, 9, 4, 4, 1]."
+A161175,3,1 2,0,0,,False,"Triangle read by rows, modified Thue-Morse sequence (A010060 with offset 1): change 0 to 2, else 1."
+A163804,8,-1 0 1,0.333333,1/3,3,False,Expansion of (1 - x) * (1 - x^4) / ((1 - x^2) * (1 - x^3)) in powers of x.
+A164357,15,-5 -4 0 1 4 5,0.333333,1/3,6,False,Expansion of (1 - x^2)^5 / ((1 - x)^4 * (1 - x^6)) in powers of x.
+A168182,9,0 1,0.111111,1/9,9,False,Characteristic function of numbers that are not multiples of 9.
+A174296,5,1 2 3,0,0,2,False,Row sums of A174294.
+A179868,4,0 1 2 3,0.25,1/4,,False,(Number of 1's in the binary expansion of n) mod 4.
+A201219,5,0 1 2,0.0,0,,True,"a(1) = 0; for n>1, a(n) = 1 if n is a power of 2, otherwise a(n) = 2."
+A205185,7,0 1 8 9,0.166667,1/6,6,False,"Period 6: repeat [1, 8, 9, 8, 1, 0]."
+A209615,6,-1 1,0,0,,True,"Completely multiplicative with a(p^e) = 1 if p == 1 (mod 4), a(p^e) = (-1)^e otherwise."
+A230630,12,0 1 2,0.142857,1/7,,False,a(1)=0; thereafter a(n) = (1 + a(floor(n/2))) mod 3.
+A245555,3,1 2 3,0,0,,False,"Trajectory of 1 under the morphism 1 -> 12, 2 -> 23, 3 -> 31."
+A260453,15,1 2 3,0,0,,True,"Infinite palindromic word (a(1),a(2),a(3),...) with initial word w(1) = (3,1,2) and midword sequence (a(n)); see Comments."
+A261694,22,0 1 2 3 5 8 13 18 20,0.125,1/8,16,False,a(n) = Fibonacci(n) mod 21.
+A266246,8,0 1,0.5,1/2,2,False,"Middle column of the ""Rule 9"" elementary cellular automaton starting with a single ON (black) cell."
+A267142,9,0 1,0.888889,8/9,9,False,The characteristic function of the multiples of 9.
+A267579,4,0 1,0.0,0,,False,"Middle column of the ""Rule 167"" elementary cellular automaton starting with a single ON (black) cell."
+A267587,6,0 1,0.0,0,1,False,"Middle column of the ""Rule 169"" elementary cellular automaton starting with a single ON (black) cell."
+A267883,7,0 1 2 3,1.0,1,1,False,"Number of OFF (white) cells in the n-th iteration of the ""Rule 233"" elementary cellular automaton starting with a single ON (black) cell."
+A274340,7,19 20 22 36,0,0,4,False,The period 4 sequence of the iterated sum of deficient divisors function (A187793) starting at 19.
+A275973,4,0 1,0.333333,1/3,,False,A binary sequence due to Harold Jeffreys.
+A291358,5,2 3 5,0,0,6,True,"The arithmetic function u(n,2,4)."
+A295890,6,0 1,0.5,1/2,,False,"a(n) = 1 if binary weights of n and 3n have different parity, 0 otherwise; a(n) = A010060(n) XOR A010060(3n)."
+A306559,11,0 1 2 3,0.333333,1/3,,False,A self-describing sequence mostly made of 1's and 0's emerging when written in English words (see the Comments section for an explanation).
+A316826,5,0 1 2 3,0.333333,1/3,,False,"Image of 3 under repeated application of the morphism 3 -> 3,2, 2 -> 1,0,2,0,1,2, 1 -> 1,0,1,2, 0 -> 0,2."
+A372257,13,0 1 2 3,0.25,1/4,,False,"An infinite sequence over {0,1,2,3} without palindromes of length more than 1."
+A386261,12,1 2 3 4,0,0,,False,"a(n) = A001511(A001511(n)), where A001511 is the ruler function."
+A387612,15,1 3 5 15,0,0,15,False,"a(n) = denominator(Integral_{(x,y,z) in R^3 : 0 <= x^2 + y^2 + z^2 <= n^2}(x^2 + y^2) dx dy dz)."
+A389314,20,0 1 2 3 5 7 9,0.0,0,6,False,Decimal expansion of 1/3432.

@@ -1,0 +1,50 @@
+[
+ {
+  "aid": "A000009",
+  "kind": "sporadic",
+  "at": 0,
+  "text": "a(n) = n iff n = 1 or n = 10. - _Bernard Schott_, Oct 08 2026"
+ },
+ {
+  "aid": "A000027",
+  "kind": "sporadic",
+  "at": 1,
+  "text": "a(n) = Sum_{j=0..k} (-1)^(j-1)*j*binomial(n,j)*binomial(n-1+k-j,k-j), k>=0. - _Mircea Merca_, Jan 25 2014"
+ },
+ {
+  "aid": "A000041",
+  "kind": "sporadic",
+  "at": 2,
+  "text": "a(n) = Sum_{i=0..n-1} P(i, n-i), where P(x, y) is the number of partitions of x into at most y parts and P(0, y)=1. - _J"
+ },
+ {
+  "aid": "A000058",
+  "kind": "sporadic",
+  "at": 0,
+  "text": "a(n) = a(n-1)*(a(n-1)-1) + 1; Sum_{i>=0} 1/a(i) = 1. - _N\u00e9stor Romeral Andr\u00e9s_, Oct 29 2001"
+ },
+ {
+  "aid": "A000071",
+  "kind": "sporadic",
+  "at": 1,
+  "text": "a(n) = A000032(3+n) - 1 mod A000045(3+n). - _Mario C. Enriquez_, Apr 01 2017"
+ },
+ {
+  "aid": "A000073",
+  "kind": "sporadic",
+  "at": 2,
+  "text": "a(n) = 2*a(n-1) - a(n-4), with a(0)=a(1)=0, a(2)=a(3)=1. - _Vincenzo Librandi_, Dec 20 2010"
+ },
+ {
+  "aid": "A000085",
+  "kind": "sporadic",
+  "at": 0,
+  "text": "a(n) = (n-1)*a(n-2) + a(n-1); e.g., a(7) = 232 = 6*26 + 76."
+ },
+ {
+  "aid": "A000110",
+  "kind": "sporadic",
+  "at": 2,
+  "text": "a(n) = (n-1)! Sum_{k=1..n} a(n-k)/((n-k)! (k-1)!) where a(0)=1. - _Thomas Wieder_, Sep 09 2008"
+ }
+]

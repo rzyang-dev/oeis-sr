@@ -1,0 +1,32 @@
+[
+ {
+  "aid": "A000012",
+  "expr": "1",
+  "train_loss": 8.107435079168818,
+  "snap_ok": false
+ },
+ {
+  "aid": "A001477",
+  "expr": "n",
+  "train_loss": 28.66305613164446,
+  "snap_ok": false
+ },
+ {
+  "aid": "A001478",
+  "expr": "-n",
+  "train_loss": 0.05270898916943116,
+  "snap_ok": false
+ },
+ {
+  "aid": "A001489",
+  "expr": "-n",
+  "train_loss": 0.007946081904012027,
+  "snap_ok": false
+ },
+ {
+  "aid": "A008593",
+  "expr": "11*n",
+  "train_loss": 2.9591594869013633,
+  "snap_ok": false
+ }
+]

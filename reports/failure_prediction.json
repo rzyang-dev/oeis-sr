@@ -1,0 +1,84 @@
+{
+ "auc": 0.866,
+ "test_n": 3288,
+ "positives": 752,
+ "coverage": [
+  {
+   "frac": 0.2,
+   "precision": 0.606,
+   "recall": 0.529
+  },
+  {
+   "frac": 0.3,
+   "precision": 0.538,
+   "recall": 0.705
+  },
+  {
+   "frac": 0.5,
+   "precision": 0.425,
+   "recall": 0.93
+  },
+  {
+   "frac": 0.7,
+   "precision": 0.326,
+   "recall": 0.997
+  },
+  {
+   "frac": 0.9,
+   "precision": 0.254,
+   "recall": 1.0
+  }
+ ],
+ "attempts_full": 51624,
+ "attempts_skip_half": 22606,
+ "top_coefs": [
+  {
+   "name": "log_digits",
+   "w": 1.0
+  },
+  {
+   "name": "constr=divisor",
+   "w": -0.909
+  },
+  {
+   "name": "degree",
+   "w": 0.699
+  },
+  {
+   "name": "log2_base",
+   "w": -0.674
+  },
+  {
+   "name": "constr=partition",
+   "w": -0.543
+  },
+  {
+   "name": "constr=set_partition",
+   "w": -0.458
+  },
+  {
+   "name": "constr=cyclotomic",
+   "w": 0.355
+  },
+  {
+   "name": "constr=sum_convolution",
+   "w": -0.326
+  },
+  {
+   "name": "growth=factorial",
+   "w": -0.301
+  },
+  {
+   "name": "growth=other",
+   "w": -0.301
+  },
+  {
+   "name": "constr=prime",
+   "w": -0.298
+  },
+  {
+   "name": "growth=polynomial",
+   "w": 0.277
+  }
+ ]
+}

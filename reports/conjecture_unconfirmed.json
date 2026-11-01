@@ -1,0 +1,98 @@
+[
+ {
+  "aid": "A363228",
+  "shift": 0,
+  "score": 0,
+  "total": 40,
+  "first_bad": 1,
+  "text": "A235127(A000045(6*n)), all other 4-adic 6-sections A235127(A000045(.)) = 0. - _R. J. Mathar_, Jun 28 2025"
+ },
+ {
+  "aid": "A366417",
+  "shift": 0,
+  "score": 0,
+  "total": 40,
+  "first_bad": 1,
+  "text": "A366450(A005117(n)), verified up to n = 98."
+ },
+ {
+  "aid": "A227758",
+  "shift": 0,
+  "score": 1,
+  "total": 40,
+  "first_bad": 1,
+  "text": "0 for Mersenne primes (A000668). [This is easily proved: For Mersenne primes n=2^p-1, sigma(n)=n+1=2^p, sigma(2^p)=2^(p+1)-1, thus a(n)=0. - _M. F. Hasler_, Jul"
+ },
+ {
+  "aid": "A175254",
+  "shift": 0,
+  "score": 1,
+  "total": 40,
+  "first_bad": 2,
+  "text": "Sum_{k=0..n} A006218(n-k). - _R. J. Mathar_, Oct 17 2012"
+ },
+ {
+  "aid": "A126726",
+  "shift": 0,
+  "score": 2,
+  "total": 40,
+  "first_bad": 2,
+  "text": "A190568(n)-(-1)^n for n>0. - _R. J. Mathar_, May 21 2025"
+ },
+ {
+  "aid": "A282295",
+  "shift": 0,
+  "score": 24,
+  "total": 40,
+  "first_bad": 26,
+  "text": "A279720(n) for n>=2. - _R. J. Mathar_, Jun 21 2025"
+ },
+ {
+  "aid": "A282297",
+  "shift": 0,
+  "score": 24,
+  "total": 40,
+  "first_bad": 26,
+  "text": "A279721(n) for n>=2. - _R. J. Mathar_, Jun 21 2025"
+ },
+ {
+  "aid": "A282678",
+  "shift": 0,
+  "score": 37,
+  "total": 40,
+  "first_bad": 39,
+  "text": "A282674(n) for n>=2. - _R. J. Mathar_, Jun 21 2025"
+ },
+ {
+  "aid": "A282679",
+  "shift": 0,
+  "score": 37,
+  "total": 40,
+  "first_bad": 39,
+  "text": "A282675(n) for n>=2. - _R. J. Mathar_, Jun 21 2025"
+ },
+ {
+  "aid": "A282680",
+  "shift": 0,
+  "score": 37,
+  "total": 40,
+  "first_bad": 39,
+  "text": "A282676(n) for n>=2. - _R. J. Mathar_, Jun 21 2025"
+ },
+ {
+  "aid": "A282681",
+  "shift": 0,
+  "score": 37,
+  "total": 40,
+  "first_bad": 39,
+  "text": "A282677(n) for n>=2. - _R. J. Mathar_, Jun 21 2025"
+ },
+ {
+  "aid": "A383541",
+  "shift": 0,
+  "score": 5,
+  "total": 6,
+  "first_bad": 14,
+  "text": "A002485(n+7) for n >= 9. - _Jakub Buczak_, May 05 2025 [This conjecture is false since a(14) != A002485(21). - _Jwalin Bhatt_, Aug 09 2026]"
+ }
+]

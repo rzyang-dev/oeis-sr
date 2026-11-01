@@ -1,0 +1,50 @@
+[
+ {
+  "thr": 0.1,
+  "attempted": 5603,
+  "skipped": 5440,
+  "solved": 2370,
+  "attempts": 54692,
+  "saving": 68.5
+ },
+ {
+  "thr": 0.15,
+  "attempted": 5153,
+  "skipped": 5890,
+  "solved": 2293,
+  "attempts": 47421,
+  "saving": 72.7
+ },
+ {
+  "thr": 0.2,
+  "attempted": 4720,
+  "skipped": 6323,
+  "solved": 2227,
+  "attempts": 40230,
+  "saving": 76.8
+ },
+ {
+  "thr": 0.25,
+  "attempted": 4418,
+  "skipped": 6625,
+  "solved": 2162,
+  "attempts": 35403,
+  "saving": 79.6
+ },
+ {
+  "thr": 0.3,
+  "attempted": 3567,
+  "skipped": 7476,
+  "solved": 1904,
+  "attempts": 28652,
+  "saving": 83.5
+ },
+ {
+  "thr": 0.4,
+  "attempted": 2915,
+  "skipped": 8128,
+  "solved": 1684,
+  "attempts": 22379,
+  "saving": 87.1
+ }
+]

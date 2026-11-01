@@ -1,0 +1,577 @@
+# FIM 补全 API（Beta）
+
+FIM (Fill In the Middle) 补全 API。
+
+用户需要设置 `base_url="https://api.deepseek.com/beta"` 来使用此功能。
+
+## 接口
+
+```http
+POST /completions
+```
+
+operationId: `createCompletion`
+
+### 服务地址
+
+- `https://api.deepseek.com/beta`
+
+## 身份验证
+
+### 验证方式 1
+
+**bearerAuth**
+
+`Authorization: Bearer <API_KEY>`
+
+```yaml
+type: http
+scheme: bearer
+```
+
+## 请求体
+
+**必填**
+
+### application/json
+
+- 引用: [CreateCompletionRequest](#schema-create-completion-request) (`#/components/schemas/CreateCompletionRequest`)
+
+## 响应
+
+### 200
+
+OK
+
+#### application/json
+
+- 引用: [CreateCompletionResponse](#schema-create-completion-response) (`#/components/schemas/CreateCompletionResponse`)
+
+**示例**
+
+```json
+{
+  "id": "60f16544-b4f2-4149-9326-79ccc6610d67",
+  "choices": [
+    {
+      "text": "return a + b",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "created": 1793084841,
+  "model": "deepseek-flash",
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501",
+  "object": "text_completion",
+  "usage": {
+    "prompt_tokens": 12,
+    "completion_tokens": 4,
+    "total_tokens": 16,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 12
+  }
+}
+```
+
+### 200 (Streaming)
+
+OK, 以 SSE 事件逐步返回补全内容，最后发送 `data: [DONE]`。
+
+#### text/event-stream
+
+- `type`: `array`
+
+- **数组元素**
+
+  - 引用: [CreateCompletionResponse](#schema-create-completion-response) (`#/components/schemas/CreateCompletionResponse`)
+
+**示例**
+
+```
+data: {"id":"79323126-3e6a-4fb3-8d99-71fb50f801fc","choices":[{"text":"","index":0,"logprobs":null,"finish_reason":null}],"created":1793084906,"model":"deepseek-flash","system_fingerprint":"e72d3c7f663d3e1383b00b3884cb4501","object":"text_completion"}
+
+data: {"id":"79323126-3e6a-4fb3-8d99-71fb50f801fc","choices":[{"text":"return","index":0,"logprobs":null,"finish_reason":null}],"created":1793084906,"model":"deepseek-flash","system_fingerprint":"e72d3c7f663d3e1383b00b3884cb4501","object":"text_completion"}
+
+data: {"id":"79323126-3e6a-4fb3-8d99-71fb50f801fc","choices":[{"text":" a","index":0,"logprobs":null,"finish_reason":null}],"created":1793084906,"model":"deepseek-flash","system_fingerprint":"e72d3c7f663d3e1383b00b3884cb4501","object":"text_completion"}
+
+data: {"id":"79323126-3e6a-4fb3-8d99-71fb50f801fc","choices":[{"text":" +","index":0,"logprobs":null,"finish_reason":null}],"created":1793084906,"model":"deepseek-flash","system_fingerprint":"e72d3c7f663d3e1383b00b3884cb4501","object":"text_completion"}
+
+data: {"id":"79323126-3e6a-4fb3-8d99-71fb50f801fc","choices":[{"text":" b","index":0,"logprobs":null,"finish_reason":null}],"created":1793084906,"model":"deepseek-flash","system_fingerprint":"e72d3c7f663d3e1383b00b3884cb4501","object":"text_completion"}
+
+data: {"id":"79323126-3e6a-4fb3-8d99-71fb50f801fc","choices":[{"text":"","index":0,"logprobs":null,"finish_reason":"stop"}],"created":1793084906,"model":"deepseek-flash","system_fingerprint":"e72d3c7f663d3e1383b00b3884cb4501","object":"text_completion","usage":{"prompt_tokens":12,"completion_tokens":4,"total_tokens":16,"prompt_tokens_details":{"cached_tokens":0},"prompt_cache_hit_tokens":0,"prompt_cache_miss_tokens":12}}
+
+data: [DONE]
+```
+
+## 代码示例
+
+### curl
+
+```bash
+# Set DEEPSEEK_API_KEY to your API key before running this example.
+curl --silent --show-error --max-time 60 "https://api.deepseek.com/beta/completions" \
+  --header "Authorization: Bearer ${DEEPSEEK_API_KEY}" \
+  --header "Content-Type: application/json" \
+  --data '{
+  "model": "deepseek-flash",
+  "prompt": "def add(a, b):\n    ",
+  "suffix": "\n",
+  "max_tokens": 32,
+  "temperature": 0,
+  "stream": false
+}'
+```
+
+### Python — OpenAI SDK
+
+```python
+# Set DEEPSEEK_API_KEY to your API key before running this example.
+import os
+from openai import OpenAI
+
+client = OpenAI(
+    api_key=os.environ["DEEPSEEK_API_KEY"],
+    base_url="https://api.deepseek.com/beta",
+    timeout=60.0,
+)
+
+response = client.completions.create(
+    model="deepseek-flash",
+    prompt="def add(a, b):\n    ",
+    suffix="\n",
+    max_tokens=32,
+    temperature=0,
+    stream=False,
+)
+print(response.model_dump_json(indent=2))
+```
+
+## 引用的数据结构
+
+### schema-create-completion-request
+
+**CreateCompletionRequest** — `#/components/schemas/CreateCompletionRequest`
+
+- `type`: `object`
+
+- `required`: `["model","prompt"]`
+
+- **字段**
+
+  - **`model`** (必填)
+
+    模型的 ID。请使用 `deepseek-flash` 或 `deepseek-v4-pro`。
+
+    - `type`: `string`
+
+    - `enum`: `["deepseek-flash","deepseek-v4-pro"]`
+
+  - **`prompt`** (必填)
+
+    用于生成完成内容的提示
+
+    - `nullable`: `false`
+
+    - `type`: `string`
+
+  - **`echo`** (可选)
+
+    在输出中，把 prompt 的内容也输出出来。不能与 `suffix` 或 `logprobs` 一起使用。
+
+    - `type`: `boolean`
+
+    - `default`: `false`
+
+    - `nullable`: `true`
+
+  - **`logprobs`** (可选)
+
+    制定输出中包含 logprobs 最可能输出 token 的对数概率，包含采样的 token。例如，如果 logprobs 是 20，API 将返回一个包含 20 个最可能的 token 的列表。API 将始终返回采样 token 的对数概率，因此响应中可能会有最多 logprobs+1 个元素。
+
+    logprobs 的最大值是 20。
+
+    - `type`: `integer`
+
+    - `minimum`: `0`
+
+    - `maximum`: `20`
+
+    - `default`: `null`
+
+    - `nullable`: `true`
+
+  - **`max_tokens`** (可选)
+
+    最大生成 token 数量。
+
+    - `type`: `integer`
+
+    - `minimum`: `0`
+
+    - `nullable`: `true`
+
+    **示例**
+
+    ```json
+    1024
+    ```
+
+  - **`stop`** (可选)
+
+    一个 string 或最多包含 16 个 string 的 list，在遇到这些词时，API 将停止生成更多的 token。
+
+    - `nullable`: `true`
+
+    - `default`: `null`
+
+    - **oneOf**
+
+      - oneOf 1
+
+        - `type`: `string`
+
+        - `nullable`: `true`
+
+        **示例**
+
+        ```json
+        null
+        ```
+
+      - oneOf 2
+
+        - `type`: `array`
+
+        - `minItems`: `1`
+
+        - `maxItems`: `16`
+
+        - **数组元素**
+
+          - `type`: `string`
+
+          **示例**
+
+          ```json
+          "[\"\\n\"]"
+          ```
+
+  - **`stream`** (可选)
+
+    如果设置为 `true`，将会以 SSE（server-sent events）的形式以流式发送消息增量。消息流以 `data: [DONE]` 结尾。
+
+    - `type`: `boolean`
+
+    - `nullable`: `true`
+
+    - `default`: `false`
+
+  - **`stream_options`** (可选)
+
+    - 引用: [ChatCompletionStreamOptions](#schema-chat-completion-stream-options) (`#/components/schemas/ChatCompletionStreamOptions`)
+
+  - **`suffix`** (可选)
+
+    制定被补全内容的后缀。
+
+    - `default`: `null`
+
+    - `nullable`: `true`
+
+    - `type`: `string`
+
+    **示例**
+
+    ```json
+    null
+    ```
+
+  - **`temperature`** (可选)
+
+    采样温度，介于 0 和 2 之间。更高的值，如 0.8，会使输出更随机，而更低的值，如 0.2，会使其更加集中和确定。 我们通常建议可以更改这个值或者更改 `top_p`，但不建议同时对两者进行修改。
+
+    - `type`: `number`
+
+    - `minimum`: `0`
+
+    - `maximum`: `2`
+
+    - `default`: `1`
+
+    - `nullable`: `true`
+
+    **示例**
+
+    ```json
+    1
+    ```
+
+  - **`top_p`** (可选)
+
+    作为调节采样温度的替代方案，模型会考虑前 `top_p` 概率的 token 的结果。所以 0.1 就意味着只有包括在最高 10% 概率中的 token 会被考虑。 取值必须大于 0 且不超过 1。我们通常建议修改这个值或者更改 `temperature`，但不建议同时对两者进行修改。
+
+    - `type`: `number`
+
+    - `minimum`: `0`
+
+    - `exclusiveMinimum`: `true`
+
+    - `maximum`: `1`
+
+    - `default`: `1`
+
+    - `nullable`: `true`
+
+    **示例**
+
+    ```json
+    1
+    ```
+
+  - **`frequency_penalty`** (可选)
+
+    该参数已不再支持。传入该参数将不会产生任何效果。
+
+    - `deprecated`: `true`
+
+  - **`presence_penalty`** (可选)
+
+    该参数已不再支持。传入该参数将不会产生任何效果。
+
+    - `deprecated`: `true`
+
+### schema-create-completion-response
+
+**CreateCompletionResponse** — `#/components/schemas/CreateCompletionResponse`
+
+补全 API 的响应。注意：流式和非流式响应对象具有相同的结构（与对话补全不同）。
+
+- `type`: `object`
+
+- `required`: `["id","object","created","model","choices"]`
+
+- **字段**
+
+  - **`id`** (必填)
+
+    补全响应的 ID。
+
+    - `type`: `string`
+
+  - **`choices`** (必填)
+
+    模型生成的补全内容的选择列表。
+
+    - `type`: `array`
+
+    - **数组元素**
+
+      - `type`: `object`
+
+      - `required`: `["finish_reason","index","logprobs","text"]`
+
+      - **字段**
+
+        - **`finish_reason`** (必填)
+
+          模型停止生成 token 的原因。
+
+          `stop`：模型自然停止生成，或遇到 `stop` 序列中列出的字符串。
+
+          `length` ：输出长度达到了模型上下文长度限制，或达到了 `max_tokens` 的限制。
+
+          `content_filter`：输出内容因触发过滤策略而被过滤。
+
+          `insufficient_system_resource`: 由于后端推理资源受限，请求被打断。
+
+          `aborted`：生成过程被中断。
+
+          - `type`: `string`
+
+          - `nullable`: `true`
+
+          - `enum`: `["stop","length","content_filter","insufficient_system_resource","aborted"]`
+
+        - **`index`** (必填)
+
+          - `type`: `integer`
+
+        - **`logprobs`** (必填)
+
+          - `type`: `object`
+
+          - `nullable`: `true`
+
+          - **字段**
+
+            - **`text_offset`** (可选)
+
+              - `type`: `array`
+
+              - **数组元素**
+
+                - `type`: `integer`
+
+            - **`token_logprobs`** (可选)
+
+              - `type`: `array`
+
+              - **数组元素**
+
+                - `type`: `number`
+
+            - **`tokens`** (可选)
+
+              - `type`: `array`
+
+              - **数组元素**
+
+                - `type`: `string`
+
+            - **`top_logprobs`** (可选)
+
+              - `type`: `array`
+
+              - **数组元素**
+
+                - `type`: `object`
+
+                - **additionalProperties**
+
+                  - `type`: `number`
+
+        - **`text`** (必填)
+
+          - `type`: `string`
+
+  - **`created`** (必填)
+
+    标志补全请求开始时间的 Unix 时间戳（以秒为单位）。
+
+    - `type`: `integer`
+
+  - **`model`** (必填)
+
+    补全请求所用的模型。
+
+    - `type`: `string`
+
+  - **`system_fingerprint`** (可选)
+
+    模型运行时的后端配置的指纹。
+
+    - `type`: `string`
+
+  - **`object`** (必填)
+
+    object 的类型，一定为"text\_completion"
+
+    - `type`: `string`
+
+    - `enum`: `["text_completion"]`
+
+  - **`usage`** (可选)
+
+    - 引用: [CompletionUsage](#schema-completion-usage) (`#/components/schemas/CompletionUsage`)
+
+### schema-chat-completion-stream-options
+
+**ChatCompletionStreamOptions** — `#/components/schemas/ChatCompletionStreamOptions`
+
+流式输出相关选项。必须与 `stream: true` 一起使用；如果 `stream` 未设置为 `true`，API 会返回 `400` 错误。
+
+- `type`: `object`
+
+- `nullable`: `true`
+
+- `default`: `null`
+
+- **字段**
+
+  - **`include_usage`** (可选)
+
+    如果设置为 `true`，流式返回的所有块都会包含 `usage` 字段，其中除最后一个块外，该字段的值均为 `null`。如果不设置或设置为 `false`，则除最后一个块外，其余块都不含 `usage` 字段。
+
+    无论是否设置，`data: [DONE]` 之前的最后一个块都会在其 `usage` 字段中给出整个请求的 token 使用统计信息。请注意，这里不会单独下发一个只含 usage 的块：统计信息附加在最后一个内容块上，该块的 `choices` 数组始终只包含一个元素，其中不含新增内容且 `finish_reason` 非 null。
+
+    - `type`: `boolean`
+
+**示例**
+
+```json
+null
+```
+
+### schema-completion-usage
+
+**CompletionUsage** — `#/components/schemas/CompletionUsage`
+
+该对话补全请求的用量信息。
+
+- `type`: `object`
+
+- `required`: `["prompt_tokens","prompt_tokens_details","prompt_cache_hit_tokens","prompt_cache_miss_tokens","completion_tokens","total_tokens"]`
+
+- **字段**
+
+  - **`completion_tokens`** (必填)
+
+    模型 completion 产生的 token 数。
+
+    - `type`: `integer`
+
+  - **`prompt_tokens`** (必填)
+
+    用户 prompt 所包含的 token 数。该值等于 `prompt_cache_hit_tokens + prompt_cache_miss_tokens`
+
+    - `type`: `integer`
+
+  - **`prompt_tokens_details`** (必填)
+
+    prompt tokens 的详细信息。
+
+    - `type`: `object`
+
+    - **字段**
+
+      - **`cached_tokens`** (可选)
+
+        用户 prompt 中，命中上下文缓存的 token 数。与 `prompt_cache_hit_tokens` 相同。
+
+        - `type`: `integer`
+
+  - **`prompt_cache_hit_tokens`** (必填)
+
+    用户 prompt 中，命中上下文缓存的 token 数。
+
+    - `type`: `integer`
+
+  - **`prompt_cache_miss_tokens`** (必填)
+
+    用户 prompt 中，未命中上下文缓存的 token 数。
+
+    - `type`: `integer`
+
+  - **`total_tokens`** (必填)
+
+    该请求中，所有 token 的数量（prompt + completion）。
+
+    - `type`: `integer`
+
+  - **`completion_tokens_details`** (可选)
+
+    completion tokens 的详细信息。
+
+    - `type`: `object`
+
+    - **字段**
+
+      - **`reasoning_tokens`** (可选)
+
+        推理模型所产生的思维链 token 数量
+
+        - `type`: `integer`

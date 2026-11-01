@@ -1,0 +1,190 @@
+[
+ {
+  "aid": "A109085",
+  "p": 5,
+  "query": "Gf A(x) satisfies A(x) = P(x*A(x)) where P(x) = A(x/P(x))  congruence modulo 5",
+  "hits": [
+   {
+    "title": "**CONGRUENCES MODULO POWERS OF 5 AND 7**",
+    "url": "https://www.qseries.org/fgarvan/papers/f3-omega3-congs.pdf#1#12#1"
+   }
+  ]
+ },
+ {
+  "aid": "A392209",
+  "p": 5,
+  "query": "Gf A(x) satisfies A( x*A(x)^3 + A(x)^5 ) = A(x)^4 congruence modulo 5",
+  "hits": [
+   {
+    "title": "\\[\\sum_{n=0}^{\\infty} s_3(n)q^n = \\prod_{n=1}^{\\infty} \\frac{1 + 4q^n + q^{2n}}{(1 - q^n)^4}\\]",
+    "url": "https://pages.mtu.edu/~wjkeith/PartitionsSpecialtySeminar/James-Sellers-Dec2023.pdf#5#5#5"
+   },
+   {
+    "title": "1- 1- 1997",
+    "url": "https://journals.tubitak.gov.tr/cgi/viewcontent.cgi?article=3012&amp%3Bcontext=math&_x_output_type_b6db407c4_=embedded_p"
+   }
+  ]
+ },
+ {
+  "aid": "A051136",
+  "p": 5,
+  "query": "2-colored generalized Frobenius partitions congruence modulo 5",
+  "hits": [
+   {
+    "title": "Old Meets New: Connecting Two Infinite Families of Congruences Modulo Powers of 5 for Generalized Frobenius Pa",
+    "url": "https://ar5iv.labs.arxiv.org/html/2402.18509#1"
+   }
+  ]
+ },
+ {
+  "aid": "A213598",
+  "p": 7,
+  "query": "partitions of n in which no parts are multiples of 49 congruence modulo 7",
+  "hits": [
+   {
+    "title": "CONGRUENCES MODULO 7 AND 11 FOR GENERALIZED CUBIC PARTITIONS",
+    "url": "https://browse-export.arxiv.org/pdf/2508.18286#1#1#1"
+   },
+   {
+    "title": "\u4e07\u65b9\u6570\u636e\u77e5\u8bc6\u670d\u52a1\u5e73\u53f0 - \u68c0\u6d4b\u5230\u60a8\u7684\u6d4f\u89c8\u5668\u7248\u672c\u8fc7\u4f4e\uff0c\u53ef\u80fd\u5bfc\u81f4\u68c0\u7d22\u6216\u5bfc\u51fa\u529f\u80fd\u65e0\u6cd5\u6b63\u5e38\u4f7f\u7528\uff0c\u5efa\u8bae\u5347\u7ea7\u60a8\u7684\u6d4f\u89c8\u5668\uff0c\u6216\u4f7f\u7528\u63a8\u8350\u6d4f\u89c8\u5668 Google Chrome \u3001 Microsoft Edge \u3001 Firefox",
+    "url": "https://s.wanfangdata.com.cn/paper?q=%E4%BD%9C%E8%80%85%3A%22Adiga,%20Chandrashekar%22#1"
+   }
+  ]
+ },
+ {
+  "aid": "A007245",
+  "p": 7,
+  "query": "McKay-Thompson series of class 3C for the Monster group congruence modulo 7",
+  "hits": []
+ },
+ {
+  "aid": "A092885",
+  "p": 5,
+  "query": "partitions of n in which no parts are multiples of 25 congruence modulo 5",
+  "hits": [
+   {
+    "title": "[PDF] Some Observations on Modulo 5 Congruences for 2-Color Partitions | Semantic Scholar - Some Observations ",
+    "url": "https://www.semanticscholar.org/paper/Some-Observations-on-Modulo-5-Congruences-for-Ghoshal-Gupta/fafcabdf4ad837377b21cf"
+   },
+   {
+    "title": "Some Restricted Partition Functions: Congruences Modulo 5.",
+    "url": "https://openurl.ebsco.com/EPDB%3Agcd%3A7%3A1254087/detailv2?sid=ebsco%3Aocu_results%3Asitemap&id=ebsco%3Adoi%3A10.1017%2"
+   },
+   {
+    "title": "Congruences modulo powers of 5 for k-colored partitions | Sugaku",
+    "url": "https://sugaku.net/oa/W2963902920/congruences-modulo-powers-of-5-for-k-colored-partitions"
+   }
+  ]
+ },
+ {
+  "aid": "A280339",
+  "p": 5,
+  "query": "phi(x)^2 * chi(x^2)^4 * f(-x)^2 in powers of x where phi(),  congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A007247",
+  "p": 5,
+  "query": "McKay-Thompson series of class 4B for the Monster group congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A279918",
+  "p": 5,
+  "query": "f(-x^2)^7 / (f(x) * f(-x^8)^2) in powers of x where f() is a congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A058695",
+  "p": 5,
+  "query": "ways to partition 2n+1 into positive integers congruence modulo 5",
+  "hits": [
+   {
+    "title": "Partitions",
+    "url": "https://math.vanderbilt.edu/rolenl/ThetaBlocksCombined.pdf#1#2#1"
+   },
+   {
+    "title": "Infinite Families of Congruences Modulo 5 for Ramanujan's General Partition Function",
+    "url": "https://thaijmath.com/index.php/thaijmath/article/download/1424/1434/1462#1#1#1"
+   },
+   {
+    "title": "\\[\\sum_{\\mathbf{r}\\geq 0}\\frac{\\mathbf{q}^{\\frac{2}{2} + \\mathbf{r}}}{(\\mathbf{q})_{\\mathbf{r}}} = 1 / (\\mathb",
+    "url": "https://unsworks.unsw.edu.au/server/api/core/bitstreams/7ea517d6-4f7a-4cb4-b651-1c1091237821/content#19#26#19"
+   }
+  ]
+ },
+ {
+  "aid": "A058696",
+  "p": 5,
+  "query": "ways to partition 2n into positive integers congruence modulo 5",
+  "hits": [
+   {
+    "title": "Partitions",
+    "url": "https://math.vanderbilt.edu/rolenl/ThetaBlocksCombined.pdf#1#2#1"
+   },
+   {
+    "title": "Infinite Families of Congruences Modulo 5 for Ramanujan's General Partition Function",
+    "url": "https://thaijmath.com/index.php/thaijmath/article/download/1424/1434/1462#1#1#1"
+   },
+   {
+    "title": "Background: Partitions",
+    "url": "https://pages.mtu.edu/~wjkeith/CombinatoricsSeminar/ComSmrFall2016.pdf#1#2#1"
+   }
+  ]
+ },
+ {
+  "aid": "A052241",
+  "p": 5,
+  "query": "McKay-Thompson series of class 8C for Monster congruence modulo 5",
+  "hits": []
+ },
+ {
+  "aid": "A279955",
+  "p": 5,
+  "query": "chi(-x^4)^4 * f(-x^4)^2 * f(-x)^2 in powers of x where chi() congruence modulo 5",
+  "hits": [
+   {
+    "title": "MATH",
+    "url": "https://www.mscand.dk/article/download/10472/8493#1#1#1"
+   }
+  ]
+ },
+ {
+  "aid": "A023010",
+  "p": 5,
+  "query": "partitions of n into parts of 11 kinds congruence modulo 5",
+  "hits": [
+   {
+    "title": "Background: Partitions",
+    "url": "https://pages.mtu.edu/~wjkeith/CombinatoricsSeminar/ComSmrFall2016.pdf#1#2#1"
+   },
+   {
+    "title": "NSTL\u56fd\u5bb6\u79d1\u6280\u56fe\u4e66\u6587\u732e\u4e2d\u5fc3 - \u5916\u6587\u6587\u732e \u4e2d\u6587\u6587\u732e",
+    "url": "https://gy.nstl.gov.cn/search.html?t=JournalPaper,ProceedingsPaper,DegreePaper,Survey&q=UHJpbWFyeSAxMVA4Mw#1"
+   }
+  ]
+ },
+ {
+  "aid": "A001255",
+  "p": 5,
+  "query": "Squares of partition numbers congruence modulo 5",
+  "hits": [
+   {
+    "title": "Ramanujan's congruences for partitions modulo 5, 7 and 11",
+    "url": "https://hrj.episciences.org/17901/pdf#1#1#1"
+   },
+   {
+    "title": "RAMANUJAN'S CONGRUENCES FOR PARTITIONS MODULO 5, 7 AND 11",
+    "url": "https://people.mpim-bonn.mpg.de/zagier/files/preprints/RamanujanCongruence.pdf#1#1#1"
+   },
+   {
+    "title": "Proof",
+    "url": "https://www.impan.pl/shop/publication/transaction/download/product/83562#3#3#3"
+   },
+   {
+    "title": "Proof of Theorem 5.: Since \\(40n+35=5(8n+7)\\) is an odd number, it cannot be twice a square",
+    "url": "https://cs.uwaterloo.ca/journals/JIS/VOL17/Wang2/wang15.pdf#2#2#2"
+   }
+  ]
+ }
+]

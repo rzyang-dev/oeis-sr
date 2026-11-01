@@ -1,0 +1,117 @@
+# 删除文件
+
+删除一个文件。
+
+## 接口
+
+```http
+DELETE /files/{file_id}
+```
+
+operationId: `deleteFile`
+
+### 服务地址
+
+- `https://api.deepseek.com`
+
+## 身份验证
+
+### 验证方式 1
+
+**bearerAuth**
+
+`Authorization: Bearer <API_KEY>`
+
+```yaml
+type: http
+scheme: bearer
+```
+
+## 请求参数
+
+**`file_id`** (path) — 必填
+
+要删除的文件 ID。
+
+- `type`: `string`
+
+## 响应
+
+### 200
+
+OK, 返回删除状态。
+
+#### application/json
+
+- 引用: [DeleteFileResponse](#schema-delete-file-response) (`#/components/schemas/DeleteFileResponse`)
+
+**示例**
+
+```json
+{
+  "id": "file-api-0a1b2c3d4e5f60718293a4b5c6d7e8f9",
+  "object": "file",
+  "deleted": true
+}
+```
+
+## 代码示例
+
+### curl
+
+```bash
+# Set DEEPSEEK_API_KEY to your API key before running this example.
+# Set DEEPSEEK_FILE_ID to the id returned by the upload example.
+curl --silent --show-error --max-time 60 --request DELETE "https://api.deepseek.com/files/${DEEPSEEK_FILE_ID}" \
+  --header "Authorization: Bearer ${DEEPSEEK_API_KEY}"
+```
+
+### Python — OpenAI SDK
+
+```python
+# Set DEEPSEEK_API_KEY to your API key before running this example.
+# Set DEEPSEEK_FILE_ID to the id returned by the upload example.
+import os
+from openai import OpenAI
+
+client = OpenAI(
+    api_key=os.environ["DEEPSEEK_API_KEY"],
+    base_url="https://api.deepseek.com",
+    timeout=60.0,
+)
+
+deleted = client.files.delete(os.environ["DEEPSEEK_FILE_ID"])
+print(deleted.model_dump_json(indent=2))
+```
+
+## 引用的数据结构
+
+### schema-delete-file-response
+
+**DeleteFileResponse** — `#/components/schemas/DeleteFileResponse`
+
+- `type`: `object`
+
+- `required`: `["id","object","deleted"]`
+
+- **字段**
+
+  - **`id`** (必填)
+
+    被删除文件的 ID。
+
+    - `type`: `string`
+
+  - **`object`** (必填)
+
+    对象的类型，其值为 `file`。
+
+    - `type`: `string`
+
+    - `enum`: `["file"]`
+
+  - **`deleted`** (必填)
+
+    文件是否被成功删除。
+
+    - `type`: `boolean`

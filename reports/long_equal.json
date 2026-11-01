@@ -1,0 +1,8831 @@
+[
+ {
+  "a": "A115971",
+  "b": "A320007",
+  "agree": 20001,
+  "common": 20001,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A038128",
+  "b": "A263574",
+  "agree": 20001,
+  "common": 20001,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A348743",
+  "b": "A386427",
+  "agree": 20001,
+  "common": 20001,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A158919",
+  "b": "A276384",
+  "agree": 17161,
+  "common": 20001,
+  "first_mismatch": 17161,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A140099",
+  "b": "A276385",
+  "agree": 17160,
+  "common": 20000,
+  "first_mismatch": 17161,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003336",
+  "b": "A344187",
+  "agree": 11659,
+  "common": 20000,
+  "first_mismatch": 11660,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A052409",
+  "b": "A158378",
+  "agree": 10799,
+  "common": 20001,
+  "first_mismatch": 10800,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A005206",
+  "b": "A073869",
+  "agree": 10001,
+  "common": 10001,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A303847",
+  "b": "A303849",
+  "agree": 10001,
+  "common": 10001,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A227858",
+  "b": "A297271",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A371090",
+  "b": "A376886",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A036537",
+  "b": "A392631",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A303934",
+  "b": "A304031",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003348",
+  "b": "A344641",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A001950",
+  "b": "A090909",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025300",
+  "b": "A025319",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025301",
+  "b": "A025320",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A073539",
+  "b": "A090779",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A129902",
+  "b": "A350631",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A171092",
+  "b": "A297850",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A018820",
+  "b": "A231632",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A026601",
+  "b": "A287435",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A058340",
+  "b": "A138537",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A035095",
+  "b": "A066674",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A035096",
+  "b": "A066675",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A067051",
+  "b": "A074629",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A242706",
+  "b": "A242722",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A235921",
+  "b": "A236432",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A132340",
+  "b": "A132666",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A023198",
+  "b": "A230608",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A070027",
+  "b": "A207294",
+  "agree": 10000,
+  "common": 10000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A182318",
+  "b": "A376218",
+  "agree": 8317,
+  "common": 10000,
+  "first_mismatch": 8318,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A083095",
+  "b": "A083097",
+  "agree": 8192,
+  "common": 8192,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A046644",
+  "b": "A383658",
+  "agree": 8192,
+  "common": 8192,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A258002",
+  "b": "A258012",
+  "agree": 6622,
+  "common": 20001,
+  "first_mismatch": 6622,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A038670",
+  "b": "A192993",
+  "agree": 5649,
+  "common": 5649,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A176271",
+  "b": "A317439",
+  "agree": 5050,
+  "common": 5050,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A068997",
+  "b": "A293928",
+  "agree": 5010,
+  "common": 5010,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A090998",
+  "b": "A163930",
+  "agree": 5000,
+  "common": 5001,
+  "first_mismatch": 5000,
+  "cross_referenced": false,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A176035",
+  "b": "A190992",
+  "agree": 5000,
+  "common": 5000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A171588",
+  "b": "A289001",
+  "agree": 5000,
+  "common": 5000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043806",
+  "b": "A043824",
+  "agree": 5000,
+  "common": 5000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A108310",
+  "b": "A252398",
+  "agree": 5000,
+  "common": 5000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A369659",
+  "b": "A373475",
+  "agree": 4185,
+  "common": 20001,
+  "first_mismatch": 4186,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A317616",
+  "b": "A390055",
+  "agree": 4070,
+  "common": 10000,
+  "first_mismatch": 4071,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A107322",
+  "b": "A211408",
+  "agree": 3339,
+  "common": 10001,
+  "first_mismatch": 3339,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A305895",
+  "b": "A353560",
+  "agree": 3282,
+  "common": 20001,
+  "first_mismatch": 3283,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A212167",
+  "b": "A382200",
+  "agree": 3159,
+  "common": 10000,
+  "first_mismatch": 3160,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A194986",
+  "b": "A248515",
+  "agree": 3000,
+  "common": 3000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A176271",
+  "b": "A317107",
+  "agree": 2930,
+  "common": 5050,
+  "first_mismatch": 2931,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A317107",
+  "b": "A317439",
+  "agree": 2930,
+  "common": 20001,
+  "first_mismatch": 2931,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A317108",
+  "b": "A317440",
+  "agree": 2930,
+  "common": 20001,
+  "first_mismatch": 2931,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025647",
+  "b": "A025653",
+  "agree": 2804,
+  "common": 10000,
+  "first_mismatch": 2805,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025658",
+  "b": "A025673",
+  "agree": 2804,
+  "common": 10000,
+  "first_mismatch": 2805,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043541",
+  "b": "A297782",
+  "agree": 2758,
+  "common": 5000,
+  "first_mismatch": 2759,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A074671",
+  "b": "A235157",
+  "agree": 2500,
+  "common": 2500,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A375766",
+  "b": "A375768",
+  "agree": 2447,
+  "common": 10000,
+  "first_mismatch": 2448,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A375767",
+  "b": "A375769",
+  "agree": 2447,
+  "common": 10000,
+  "first_mismatch": 2448,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A032742",
+  "b": "A387543",
+  "agree": 2430,
+  "common": 10000,
+  "first_mismatch": 2431,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A316334",
+  "b": "A323811",
+  "agree": 2402,
+  "common": 2402,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A316588",
+  "b": "A323810",
+  "agree": 2402,
+  "common": 2402,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A070563",
+  "b": "A374053",
+  "agree": 2400,
+  "common": 20001,
+  "first_mismatch": 2401,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A042968",
+  "b": "A059557",
+  "agree": 2145,
+  "common": 10000,
+  "first_mismatch": 2146,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A316328",
+  "b": "A323809",
+  "agree": 2016,
+  "common": 2016,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A323808",
+  "b": "A377015",
+  "agree": 2016,
+  "common": 20000,
+  "first_mismatch": 2017,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A316667",
+  "b": "A377015",
+  "agree": 2016,
+  "common": 2016,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A316667",
+  "b": "A323808",
+  "agree": 2016,
+  "common": 2016,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A329518",
+  "b": "A377015",
+  "agree": 2015,
+  "common": 20000,
+  "first_mismatch": 2016,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A323808",
+  "b": "A329518",
+  "agree": 2015,
+  "common": 20001,
+  "first_mismatch": 2016,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A316667",
+  "b": "A329518",
+  "agree": 2015,
+  "common": 2016,
+  "first_mismatch": 2016,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A073643",
+  "b": "A235161",
+  "agree": 2000,
+  "common": 2000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A074665",
+  "b": "A235160",
+  "agree": 2000,
+  "common": 2000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A074667",
+  "b": "A235159",
+  "agree": 2000,
+  "common": 2000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A074669",
+  "b": "A235158",
+  "agree": 2000,
+  "common": 2000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A106766",
+  "b": "A119892",
+  "agree": 2000,
+  "common": 2000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A276150",
+  "b": "A341513",
+  "agree": 1890,
+  "common": 20001,
+  "first_mismatch": 1890,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A276153",
+  "b": "A341356",
+  "agree": 1890,
+  "common": 20001,
+  "first_mismatch": 1890,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A276084",
+  "b": "A341514",
+  "agree": 1889,
+  "common": 2310,
+  "first_mismatch": 1890,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025646",
+  "b": "A025661",
+  "agree": 1880,
+  "common": 10000,
+  "first_mismatch": 1881,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025650",
+  "b": "A025674",
+  "agree": 1880,
+  "common": 10000,
+  "first_mismatch": 1881,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043539",
+  "b": "A297780",
+  "agree": 1740,
+  "common": 5000,
+  "first_mismatch": 1741,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025446",
+  "b": "A373972",
+  "agree": 1729,
+  "common": 20001,
+  "first_mismatch": 1729,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025468",
+  "b": "A373971",
+  "agree": 1729,
+  "common": 20001,
+  "first_mismatch": 1729,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A373491",
+  "b": "A373596",
+  "agree": 1322,
+  "common": 20001,
+  "first_mismatch": 1323,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A136808",
+  "b": "A136831",
+  "agree": 1275,
+  "common": 1361,
+  "first_mismatch": 1276,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A136808",
+  "b": "A136836",
+  "agree": 1261,
+  "common": 1360,
+  "first_mismatch": 1262,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A136831",
+  "b": "A136836",
+  "agree": 1261,
+  "common": 1360,
+  "first_mismatch": 1262,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A376368",
+  "b": "A376664",
+  "agree": 1259,
+  "common": 10000,
+  "first_mismatch": 1260,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A351946",
+  "b": "A353507",
+  "agree": 1259,
+  "common": 10000,
+  "first_mismatch": 1260,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A333950",
+  "b": "A357697",
+  "agree": 1257,
+  "common": 10000,
+  "first_mismatch": 1258,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A301517",
+  "b": "A374459",
+  "agree": 1212,
+  "common": 10000,
+  "first_mismatch": 1213,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A123712",
+  "b": "A178212",
+  "agree": 1200,
+  "common": 1200,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A211694",
+  "b": "A303586",
+  "agree": 1133,
+  "common": 1133,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A261675",
+  "b": "A261913",
+  "agree": 1099,
+  "common": 10001,
+  "first_mismatch": 1099,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A088828",
+  "b": "A348741",
+  "agree": 1079,
+  "common": 10000,
+  "first_mismatch": 1080,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A042964",
+  "b": "A338064",
+  "agree": 1064,
+  "common": 10000,
+  "first_mismatch": 1065,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A248107",
+  "b": "A352561",
+  "agree": 1023,
+  "common": 1023,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A096299",
+  "b": "A110382",
+  "agree": 1022,
+  "common": 8191,
+  "first_mismatch": 1023,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043537",
+  "b": "A297778",
+  "agree": 1010,
+  "common": 10000,
+  "first_mismatch": 1011,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A293243",
+  "b": "A381806",
+  "agree": 1003,
+  "common": 1003,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A010903",
+  "b": "A010920",
+  "agree": 1001,
+  "common": 1001,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A010918",
+  "b": "A019484",
+  "agree": 1001,
+  "common": 1001,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A266678",
+  "b": "A267936",
+  "agree": 1001,
+  "common": 1001,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A298871",
+  "b": "A298874",
+  "agree": 1001,
+  "common": 1001,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A047085",
+  "b": "A171155",
+  "agree": 1001,
+  "common": 1001,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A267870",
+  "b": "A267878",
+  "agree": 1001,
+  "common": 1001,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A239333",
+  "b": "A255115",
+  "agree": 1001,
+  "common": 1001,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A129979",
+  "b": "A228483",
+  "agree": 1001,
+  "common": 1001,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A076314",
+  "b": "A080463",
+  "agree": 1000,
+  "common": 10001,
+  "first_mismatch": 1000,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A000005",
+  "b": "A179942",
+  "agree": 1000,
+  "common": 10000,
+  "first_mismatch": 1001,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A064040",
+  "b": "A168638",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A082468",
+  "b": "A104883",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A214151",
+  "b": "A273618",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A123711",
+  "b": "A200511",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216740",
+  "b": "A216772",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216747",
+  "b": "A216777",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A256608",
+  "b": "A279186",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025289",
+  "b": "A025307",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025292",
+  "b": "A025310",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A203304",
+  "b": "A209930",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A050278",
+  "b": "A171102",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043745",
+  "b": "A043769",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043585",
+  "b": "A043803",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A083370",
+  "b": "A124582",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A023116",
+  "b": "A084822",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A005451",
+  "b": "A135683",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A007519",
+  "b": "A141174",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A038913",
+  "b": "A141178",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A038941",
+  "b": "A141215",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A381635",
+  "b": "A381716",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015913",
+  "b": "A023200",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015916",
+  "b": "A023203",
+  "agree": 1000,
+  "common": 1000,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A174688",
+  "b": "A339345",
+  "agree": 969,
+  "common": 10000,
+  "first_mismatch": 970,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A143512",
+  "b": "A339345",
+  "agree": 969,
+  "common": 10000,
+  "first_mismatch": 970,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A143512",
+  "b": "A174688",
+  "agree": 969,
+  "common": 10000,
+  "first_mismatch": 970,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A004780",
+  "b": "A391580",
+  "agree": 939,
+  "common": 10000,
+  "first_mismatch": 940,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A220218",
+  "b": "A377020",
+  "agree": 902,
+  "common": 10000,
+  "first_mismatch": 903,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A275386",
+  "b": "A275602",
+  "agree": 899,
+  "common": 5474,
+  "first_mismatch": 900,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A258003",
+  "b": "A258013",
+  "agree": 875,
+  "common": 875,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A258004",
+  "b": "A258014",
+  "agree": 875,
+  "common": 875,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A004962",
+  "b": "A248739",
+  "agree": 871,
+  "common": 1001,
+  "first_mismatch": 871,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A004922",
+  "b": "A248786",
+  "agree": 871,
+  "common": 1001,
+  "first_mismatch": 871,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A290110",
+  "b": "A300250",
+  "agree": 857,
+  "common": 20001,
+  "first_mismatch": 858,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A055874",
+  "b": "A232098",
+  "agree": 839,
+  "common": 10080,
+  "first_mismatch": 840,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A002385",
+  "b": "A083139",
+  "agree": 781,
+  "common": 781,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A294936",
+  "b": "A378539",
+  "agree": 747,
+  "common": 20001,
+  "first_mismatch": 748,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A341619",
+  "b": "A378537",
+  "agree": 747,
+  "common": 20001,
+  "first_mismatch": 748,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043536",
+  "b": "A297777",
+  "agree": 738,
+  "common": 10000,
+  "first_mismatch": 739,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A127202",
+  "b": "A280985",
+  "agree": 719,
+  "common": 20001,
+  "first_mismatch": 720,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003602",
+  "b": "A351090",
+  "agree": 696,
+  "common": 10000,
+  "first_mismatch": 697,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A004930",
+  "b": "A004950",
+  "agree": 683,
+  "common": 1001,
+  "first_mismatch": 683,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043675",
+  "b": "A043705",
+  "agree": 676,
+  "common": 10000,
+  "first_mismatch": 677,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A008578",
+  "b": "A352190",
+  "agree": 662,
+  "common": 662,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A031962",
+  "b": "A303504",
+  "agree": 648,
+  "common": 5184,
+  "first_mismatch": 649,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A051078",
+  "b": "A051096",
+  "agree": 639,
+  "common": 1000,
+  "first_mismatch": 640,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A351036",
+  "b": "A351040",
+  "agree": 636,
+  "common": 20001,
+  "first_mismatch": 637,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A102838",
+  "b": "A397487",
+  "agree": 630,
+  "common": 3000,
+  "first_mismatch": 631,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A376417",
+  "b": "A376418",
+  "agree": 624,
+  "common": 20001,
+  "first_mismatch": 625,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A392877",
+  "b": "A392878",
+  "agree": 624,
+  "common": 12000,
+  "first_mismatch": 625,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A129251",
+  "b": "A276077",
+  "agree": 624,
+  "common": 10000,
+  "first_mismatch": 625,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A342023",
+  "b": "A342024",
+  "agree": 624,
+  "common": 20001,
+  "first_mismatch": 625,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A327937",
+  "b": "A377515",
+  "agree": 624,
+  "common": 10000,
+  "first_mismatch": 625,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A377516",
+  "b": "A389456",
+  "agree": 624,
+  "common": 10000,
+  "first_mismatch": 625,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A377517",
+  "b": "A389457",
+  "agree": 624,
+  "common": 10000,
+  "first_mismatch": 625,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A380085",
+  "b": "A389455",
+  "agree": 624,
+  "common": 10000,
+  "first_mismatch": 625,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A380087",
+  "b": "A389450",
+  "agree": 624,
+  "common": 10000,
+  "first_mismatch": 625,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A078255",
+  "b": "A392242",
+  "agree": 611,
+  "common": 611,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043733",
+  "b": "A043745",
+  "agree": 610,
+  "common": 1000,
+  "first_mismatch": 611,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043733",
+  "b": "A043769",
+  "agree": 610,
+  "common": 1000,
+  "first_mismatch": 611,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A084500",
+  "b": "A084557",
+  "agree": 605,
+  "common": 13664,
+  "first_mismatch": 605,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A044959",
+  "b": "A353181",
+  "agree": 605,
+  "common": 10000,
+  "first_mismatch": 606,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014662",
+  "b": "A059349",
+  "agree": 594,
+  "common": 1000,
+  "first_mismatch": 595,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A037344",
+  "b": "A387032",
+  "agree": 584,
+  "common": 1000,
+  "first_mismatch": 585,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A305800",
+  "b": "A320014",
+  "agree": 582,
+  "common": 20001,
+  "first_mismatch": 583,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A001918",
+  "b": "A268616",
+  "agree": 565,
+  "common": 10000,
+  "first_mismatch": 566,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A023197",
+  "b": "A204828",
+  "agree": 564,
+  "common": 10000,
+  "first_mismatch": 565,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A340371",
+  "b": "A340374",
+  "agree": 560,
+  "common": 20001,
+  "first_mismatch": 561,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A018787",
+  "b": "A344804",
+  "agree": 557,
+  "common": 1584,
+  "first_mismatch": 558,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A369166",
+  "b": "A369211",
+  "agree": 557,
+  "common": 10000,
+  "first_mismatch": 558,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A051085",
+  "b": "A051101",
+  "agree": 540,
+  "common": 1000,
+  "first_mismatch": 541,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A081027",
+  "b": "A322474",
+  "agree": 530,
+  "common": 530,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043535",
+  "b": "A297776",
+  "agree": 520,
+  "common": 10000,
+  "first_mismatch": 521,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A389160",
+  "b": "A389166",
+  "agree": 519,
+  "common": 20000,
+  "first_mismatch": 520,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A389161",
+  "b": "A389165",
+  "agree": 519,
+  "common": 20000,
+  "first_mismatch": 520,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A292593",
+  "b": "A332995",
+  "agree": 511,
+  "common": 8192,
+  "first_mismatch": 511,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A292592",
+  "b": "A332996",
+  "agree": 511,
+  "common": 8192,
+  "first_mismatch": 511,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A366881",
+  "b": "A366891",
+  "agree": 511,
+  "common": 20001,
+  "first_mismatch": 511,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A000265",
+  "b": "A276234",
+  "agree": 511,
+  "common": 1000,
+  "first_mismatch": 512,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A368979",
+  "b": "A384557",
+  "agree": 511,
+  "common": 10000,
+  "first_mismatch": 512,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A384558",
+  "b": "A384559",
+  "agree": 511,
+  "common": 10000,
+  "first_mismatch": 512,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A074673",
+  "b": "A235156",
+  "agree": 510,
+  "common": 510,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A344644",
+  "b": "A344645",
+  "agree": 507,
+  "common": 20000,
+  "first_mismatch": 508,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025297",
+  "b": "A025316",
+  "agree": 507,
+  "common": 507,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A071590",
+  "b": "A297270",
+  "agree": 506,
+  "common": 5400,
+  "first_mismatch": 507,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216170",
+  "b": "A321868",
+  "agree": 504,
+  "common": 10000,
+  "first_mismatch": 505,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A088802",
+  "b": "A123854",
+  "agree": 501,
+  "common": 501,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A304328",
+  "b": "A304339",
+  "agree": 499,
+  "common": 1000,
+  "first_mismatch": 500,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A224853",
+  "b": "A225571",
+  "agree": 476,
+  "common": 10000,
+  "first_mismatch": 477,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A176271",
+  "b": "A247328",
+  "agree": 472,
+  "common": 5050,
+  "first_mismatch": 473,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A247328",
+  "b": "A317107",
+  "agree": 472,
+  "common": 10000,
+  "first_mismatch": 473,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A247328",
+  "b": "A317439",
+  "agree": 472,
+  "common": 10000,
+  "first_mismatch": 473,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A343040",
+  "b": "A343044",
+  "agree": 471,
+  "common": 10011,
+  "first_mismatch": 471,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A358967",
+  "b": "A359031",
+  "agree": 465,
+  "common": 10001,
+  "first_mismatch": 465,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A140480",
+  "b": "A327055",
+  "agree": 460,
+  "common": 7391,
+  "first_mismatch": 461,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A062673",
+  "b": "A284291",
+  "agree": 456,
+  "common": 10000,
+  "first_mismatch": 457,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A001235",
+  "b": "A343708",
+  "agree": 454,
+  "common": 1000,
+  "first_mismatch": 455,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A301414",
+  "b": "A374907",
+  "agree": 453,
+  "common": 1085,
+  "first_mismatch": 454,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A004942",
+  "b": "A249079",
+  "agree": 450,
+  "common": 1001,
+  "first_mismatch": 450,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A048103",
+  "b": "A276078",
+  "agree": 450,
+  "common": 10000,
+  "first_mismatch": 451,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A001476",
+  "b": "A279486",
+  "agree": 449,
+  "common": 2788,
+  "first_mismatch": 450,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A327500",
+  "b": "A353507",
+  "agree": 449,
+  "common": 10000,
+  "first_mismatch": 450,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A327500",
+  "b": "A351946",
+  "agree": 449,
+  "common": 10000,
+  "first_mismatch": 450,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A212164",
+  "b": "A293243",
+  "agree": 440,
+  "common": 10000,
+  "first_mismatch": 441,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A212164",
+  "b": "A381806",
+  "agree": 440,
+  "common": 1003,
+  "first_mismatch": 441,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A342685",
+  "b": "A342686",
+  "agree": 437,
+  "common": 20000,
+  "first_mismatch": 438,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A380692",
+  "b": "A380695",
+  "agree": 427,
+  "common": 10000,
+  "first_mismatch": 428,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A135642",
+  "b": "A166323",
+  "agree": 405,
+  "common": 3569,
+  "first_mismatch": 406,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A071589",
+  "b": "A297272",
+  "agree": 404,
+  "common": 1000,
+  "first_mismatch": 405,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A291624",
+  "b": "A291635",
+  "agree": 396,
+  "common": 10000,
+  "first_mismatch": 397,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A300360",
+  "b": "A300396",
+  "agree": 386,
+  "common": 10000,
+  "first_mismatch": 387,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A361255",
+  "b": "A383760",
+  "agree": 380,
+  "common": 15331,
+  "first_mismatch": 381,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A066881",
+  "b": "A067384",
+  "agree": 370,
+  "common": 370,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A129485",
+  "b": "A379031",
+  "agree": 362,
+  "common": 10000,
+  "first_mismatch": 363,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A320911",
+  "b": "A371781",
+  "agree": 361,
+  "common": 10000,
+  "first_mismatch": 362,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A328482",
+  "b": "A371091",
+  "agree": 360,
+  "common": 20001,
+  "first_mismatch": 360,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A007304",
+  "b": "A093599",
+  "agree": 359,
+  "common": 10000,
+  "first_mismatch": 360,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043534",
+  "b": "A297775",
+  "agree": 350,
+  "common": 10000,
+  "first_mismatch": 351,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A102357",
+  "b": "A102850",
+  "agree": 350,
+  "common": 2024,
+  "first_mismatch": 351,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025295",
+  "b": "A025314",
+  "agree": 345,
+  "common": 1500,
+  "first_mismatch": 346,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A373491",
+  "b": "A373588",
+  "agree": 342,
+  "common": 20001,
+  "first_mismatch": 343,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A373588",
+  "b": "A373596",
+  "agree": 342,
+  "common": 20001,
+  "first_mismatch": 343,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A212166",
+  "b": "A384084",
+  "agree": 341,
+  "common": 342,
+  "first_mismatch": 342,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A305801",
+  "b": "A305890",
+  "agree": 340,
+  "common": 20001,
+  "first_mismatch": 341,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A068509",
+  "b": "A070319",
+  "agree": 335,
+  "common": 1000,
+  "first_mismatch": 336,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A329518",
+  "b": "A329519",
+  "agree": 332,
+  "common": 20000,
+  "first_mismatch": 333,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A329519",
+  "b": "A377015",
+  "agree": 332,
+  "common": 20000,
+  "first_mismatch": 333,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A323808",
+  "b": "A329519",
+  "agree": 332,
+  "common": 20000,
+  "first_mismatch": 333,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A316667",
+  "b": "A329519",
+  "agree": 332,
+  "common": 2016,
+  "first_mismatch": 333,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A197680",
+  "b": "A369210",
+  "agree": 330,
+  "common": 10000,
+  "first_mismatch": 331,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A353812",
+  "b": "A353813",
+  "agree": 324,
+  "common": 20001,
+  "first_mismatch": 325,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A071187",
+  "b": "A329614",
+  "agree": 323,
+  "common": 20001,
+  "first_mismatch": 324,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025293",
+  "b": "A025311",
+  "agree": 320,
+  "common": 1000,
+  "first_mismatch": 321,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A388305",
+  "b": "A390949",
+  "agree": 310,
+  "common": 10000,
+  "first_mismatch": 311,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A190641",
+  "b": "A327877",
+  "agree": 309,
+  "common": 10000,
+  "first_mismatch": 310,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A074628",
+  "b": "A232436",
+  "agree": 308,
+  "common": 10000,
+  "first_mismatch": 309,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025639",
+  "b": "A215591",
+  "agree": 307,
+  "common": 584,
+  "first_mismatch": 308,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025684",
+  "b": "A215592",
+  "agree": 307,
+  "common": 584,
+  "first_mismatch": 308,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345619",
+  "b": "A346337",
+  "agree": 305,
+  "common": 10000,
+  "first_mismatch": 306,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A100368",
+  "b": "A128691",
+  "agree": 302,
+  "common": 10000,
+  "first_mismatch": 303,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A002324",
+  "b": "A171774",
+  "agree": 299,
+  "common": 10000,
+  "first_mismatch": 300,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A245777",
+  "b": "A245785",
+  "agree": 299,
+  "common": 10000,
+  "first_mismatch": 300,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A136808",
+  "b": "A136827",
+  "agree": 293,
+  "common": 1418,
+  "first_mismatch": 294,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A136827",
+  "b": "A136831",
+  "agree": 293,
+  "common": 1361,
+  "first_mismatch": 294,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A136827",
+  "b": "A136836",
+  "agree": 293,
+  "common": 1360,
+  "first_mismatch": 294,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A183086",
+  "b": "A296883",
+  "agree": 285,
+  "common": 10000,
+  "first_mismatch": 286,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A030229",
+  "b": "A346014",
+  "agree": 274,
+  "common": 1000,
+  "first_mismatch": 275,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A328336",
+  "b": "A337694",
+  "agree": 271,
+  "common": 10000,
+  "first_mismatch": 272,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003349",
+  "b": "A344642",
+  "agree": 269,
+  "common": 10000,
+  "first_mismatch": 270,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A177425",
+  "b": "A182854",
+  "agree": 269,
+  "common": 10000,
+  "first_mismatch": 270,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A153240",
+  "b": "A153241",
+  "agree": 268,
+  "common": 2056,
+  "first_mismatch": 268,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A171611",
+  "b": "A240712",
+  "agree": 263,
+  "common": 10000,
+  "first_mismatch": 264,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A000026",
+  "b": "A279513",
+  "agree": 255,
+  "common": 10000,
+  "first_mismatch": 256,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A335324",
+  "b": "A366245",
+  "agree": 255,
+  "common": 10000,
+  "first_mismatch": 256,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A278908",
+  "b": "A307848",
+  "agree": 255,
+  "common": 10000,
+  "first_mismatch": 256,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A001069",
+  "b": "A211667",
+  "agree": 255,
+  "common": 1000,
+  "first_mismatch": 256,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A049599",
+  "b": "A282446",
+  "agree": 255,
+  "common": 10000,
+  "first_mismatch": 256,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A383863",
+  "b": "A383865",
+  "agree": 255,
+  "common": 10000,
+  "first_mismatch": 256,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A106490",
+  "b": "A398572",
+  "agree": 255,
+  "common": 10000,
+  "first_mismatch": 256,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A383959",
+  "b": "A383960",
+  "agree": 255,
+  "common": 10000,
+  "first_mismatch": 256,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A322857",
+  "b": "A361175",
+  "agree": 255,
+  "common": 10000,
+  "first_mismatch": 256,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A051378",
+  "b": "A333926",
+  "agree": 255,
+  "common": 10000,
+  "first_mismatch": 256,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A383864",
+  "b": "A383866",
+  "agree": 255,
+  "common": 10000,
+  "first_mismatch": 256,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A063511",
+  "b": "A334789",
+  "agree": 255,
+  "common": 8192,
+  "first_mismatch": 256,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A374134",
+  "b": "A374136",
+  "agree": 254,
+  "common": 20001,
+  "first_mismatch": 255,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A353520",
+  "b": "A361021",
+  "agree": 253,
+  "common": 20001,
+  "first_mismatch": 254,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A007212",
+  "b": "A027595",
+  "agree": 250,
+  "common": 250,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A049564",
+  "b": "A072936",
+  "agree": 249,
+  "common": 1000,
+  "first_mismatch": 250,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A064235",
+  "b": "A349673",
+  "agree": 243,
+  "common": 1000,
+  "first_mismatch": 244,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A056709",
+  "b": "A243825",
+  "agree": 242,
+  "common": 10000,
+  "first_mismatch": 243,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A162645",
+  "b": "A377816",
+  "agree": 238,
+  "common": 5000,
+  "first_mismatch": 239,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A036037",
+  "b": "A334439",
+  "agree": 235,
+  "common": 3615,
+  "first_mismatch": 236,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003629",
+  "b": "A175865",
+  "agree": 235,
+  "common": 10000,
+  "first_mismatch": 236,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A389707",
+  "b": "A389740",
+  "agree": 233,
+  "common": 5151,
+  "first_mismatch": 233,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A005101",
+  "b": "A173490",
+  "agree": 231,
+  "common": 10000,
+  "first_mismatch": 232,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A034287",
+  "b": "A067128",
+  "agree": 230,
+  "common": 230,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345507",
+  "b": "A346357",
+  "agree": 230,
+  "common": 10000,
+  "first_mismatch": 231,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003355",
+  "b": "A346346",
+  "agree": 228,
+  "common": 10000,
+  "first_mismatch": 229,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A070011",
+  "b": "A084679",
+  "agree": 227,
+  "common": 5000,
+  "first_mismatch": 228,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A354180",
+  "b": "A367802",
+  "agree": 225,
+  "common": 10000,
+  "first_mismatch": 226,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A053858",
+  "b": "A075819",
+  "agree": 224,
+  "common": 10000,
+  "first_mismatch": 225,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A327515",
+  "b": "A327532",
+  "agree": 224,
+  "common": 20001,
+  "first_mismatch": 225,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A400832",
+  "b": "A400834",
+  "agree": 219,
+  "common": 20001,
+  "first_mismatch": 220,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A071625",
+  "b": "A331592",
+  "agree": 215,
+  "common": 10000,
+  "first_mismatch": 216,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A052409",
+  "b": "A327503",
+  "agree": 215,
+  "common": 20001,
+  "first_mismatch": 216,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A158378",
+  "b": "A327503",
+  "agree": 215,
+  "common": 20001,
+  "first_mismatch": 216,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A052213",
+  "b": "A280074",
+  "agree": 211,
+  "common": 10000,
+  "first_mismatch": 212,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A099564",
+  "b": "A276153",
+  "agree": 210,
+  "common": 3121,
+  "first_mismatch": 210,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A099564",
+  "b": "A341356",
+  "agree": 210,
+  "common": 3121,
+  "first_mismatch": 210,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A134612",
+  "b": "A246547",
+  "agree": 210,
+  "common": 8600,
+  "first_mismatch": 211,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A096825",
+  "b": "A370817",
+  "agree": 209,
+  "common": 10000,
+  "first_mismatch": 210,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A259936",
+  "b": "A354870",
+  "agree": 209,
+  "common": 20000,
+  "first_mismatch": 210,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A053669",
+  "b": "A236454",
+  "agree": 209,
+  "common": 10000,
+  "first_mismatch": 210,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A085971",
+  "b": "A387421",
+  "agree": 209,
+  "common": 10000,
+  "first_mismatch": 210,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A050326",
+  "b": "A381441",
+  "agree": 209,
+  "common": 1000,
+  "first_mismatch": 210,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A381633",
+  "b": "A381634",
+  "agree": 209,
+  "common": 1000,
+  "first_mismatch": 210,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A353525",
+  "b": "A353529",
+  "agree": 209,
+  "common": 20001,
+  "first_mismatch": 210,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A213725",
+  "b": "A213726",
+  "agree": 208,
+  "common": 16385,
+  "first_mismatch": 208,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A031346",
+  "b": "A335808",
+  "agree": 205,
+  "common": 10000,
+  "first_mismatch": 205,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A334166",
+  "b": "A381738",
+  "agree": 203,
+  "common": 10000,
+  "first_mismatch": 204,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A118757",
+  "b": "A261725",
+  "agree": 201,
+  "common": 10001,
+  "first_mismatch": 201,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A118758",
+  "b": "A261729",
+  "agree": 201,
+  "common": 10001,
+  "first_mismatch": 201,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A001312",
+  "b": "A182086",
+  "agree": 200,
+  "common": 1001,
+  "first_mismatch": 200,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A002113",
+  "b": "A335779",
+  "agree": 200,
+  "common": 10010,
+  "first_mismatch": 201,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A387164",
+  "b": "A387167",
+  "agree": 200,
+  "common": 20000,
+  "first_mismatch": 201,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A075877",
+  "b": "A256229",
+  "agree": 199,
+  "common": 237,
+  "first_mismatch": 200,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A317926",
+  "b": "A318318",
+  "agree": 199,
+  "common": 16384,
+  "first_mismatch": 200,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A273432",
+  "b": "A284343",
+  "agree": 197,
+  "common": 10001,
+  "first_mismatch": 197,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A129612",
+  "b": "A154455",
+  "agree": 195,
+  "common": 2056,
+  "first_mismatch": 195,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A367991",
+  "b": "A389080",
+  "agree": 195,
+  "common": 10000,
+  "first_mismatch": 196,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A367990",
+  "b": "A389089",
+  "agree": 195,
+  "common": 10000,
+  "first_mismatch": 196,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A174973",
+  "b": "A365270",
+  "agree": 194,
+  "common": 10000,
+  "first_mismatch": 195,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016132",
+  "b": "A016176",
+  "agree": 193,
+  "common": 3001,
+  "first_mismatch": 193,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043631",
+  "b": "A043698",
+  "agree": 193,
+  "common": 1000,
+  "first_mismatch": 194,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A337052",
+  "b": "A377020",
+  "agree": 192,
+  "common": 10000,
+  "first_mismatch": 193,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A220218",
+  "b": "A337052",
+  "agree": 192,
+  "common": 10000,
+  "first_mismatch": 193,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016110",
+  "b": "A016132",
+  "agree": 191,
+  "common": 3001,
+  "first_mismatch": 191,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016110",
+  "b": "A016176",
+  "agree": 191,
+  "common": 3001,
+  "first_mismatch": 191,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003354",
+  "b": "A346336",
+  "agree": 190,
+  "common": 10000,
+  "first_mismatch": 191,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A080608",
+  "b": "A305352",
+  "agree": 189,
+  "common": 10000,
+  "first_mismatch": 190,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025676",
+  "b": "A025683",
+  "agree": 189,
+  "common": 10000,
+  "first_mismatch": 190,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025682",
+  "b": "A025691",
+  "agree": 189,
+  "common": 10000,
+  "first_mismatch": 190,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A023196",
+  "b": "A376880",
+  "agree": 184,
+  "common": 10000,
+  "first_mismatch": 185,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A182855",
+  "b": "A392926",
+  "agree": 184,
+  "common": 10000,
+  "first_mismatch": 185,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A389215",
+  "b": "A393981",
+  "agree": 184,
+  "common": 10000,
+  "first_mismatch": 185,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A135975",
+  "b": "A136032",
+  "agree": 183,
+  "common": 183,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016000",
+  "b": "A016110",
+  "agree": 181,
+  "common": 2001,
+  "first_mismatch": 181,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016000",
+  "b": "A016132",
+  "agree": 181,
+  "common": 2001,
+  "first_mismatch": 181,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016000",
+  "b": "A016176",
+  "agree": 181,
+  "common": 2001,
+  "first_mismatch": 181,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A353507",
+  "b": "A362613",
+  "agree": 179,
+  "common": 10000,
+  "first_mismatch": 180,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A327500",
+  "b": "A362613",
+  "agree": 179,
+  "common": 10000,
+  "first_mismatch": 180,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A351946",
+  "b": "A362613",
+  "agree": 179,
+  "common": 10000,
+  "first_mismatch": 180,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A374589",
+  "b": "A392279",
+  "agree": 177,
+  "common": 10000,
+  "first_mismatch": 178,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A100716",
+  "b": "A276079",
+  "agree": 174,
+  "common": 1000,
+  "first_mismatch": 175,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A351035",
+  "b": "A351036",
+  "agree": 174,
+  "common": 20001,
+  "first_mismatch": 175,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A351035",
+  "b": "A351040",
+  "agree": 174,
+  "common": 20001,
+  "first_mismatch": 175,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A001359",
+  "b": "A096292",
+  "agree": 173,
+  "common": 600,
+  "first_mismatch": 174,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A377868",
+  "b": "A377874",
+  "agree": 173,
+  "common": 20001,
+  "first_mismatch": 174,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A275603",
+  "b": "A275604",
+  "agree": 173,
+  "common": 10001,
+  "first_mismatch": 174,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A052382",
+  "b": "A209931",
+  "agree": 172,
+  "common": 10000,
+  "first_mismatch": 173,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A176359",
+  "b": "A386802",
+  "agree": 172,
+  "common": 10000,
+  "first_mismatch": 173,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A206074",
+  "b": "A325559",
+  "agree": 172,
+  "common": 20001,
+  "first_mismatch": 173,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A252895",
+  "b": "A366242",
+  "agree": 171,
+  "common": 10000,
+  "first_mismatch": 172,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A051302",
+  "b": "A145553",
+  "agree": 171,
+  "common": 771,
+  "first_mismatch": 172,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A001462",
+  "b": "A377862",
+  "agree": 168,
+  "common": 10000,
+  "first_mismatch": 169,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A323077",
+  "b": "A334201",
+  "agree": 168,
+  "common": 12005,
+  "first_mismatch": 169,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A355741",
+  "b": "A355744",
+  "agree": 168,
+  "common": 10000,
+  "first_mismatch": 169,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016180",
+  "b": "A016258",
+  "agree": 167,
+  "common": 3001,
+  "first_mismatch": 167,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A361177",
+  "b": "A369210",
+  "agree": 166,
+  "common": 10000,
+  "first_mismatch": 167,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A197680",
+  "b": "A361177",
+  "agree": 166,
+  "common": 10000,
+  "first_mismatch": 167,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043728",
+  "b": "A043759",
+  "agree": 166,
+  "common": 1000,
+  "first_mismatch": 167,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A059258",
+  "b": "A212377",
+  "agree": 166,
+  "common": 1000,
+  "first_mismatch": 167,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A358817",
+  "b": "A369166",
+  "agree": 164,
+  "common": 10000,
+  "first_mismatch": 165,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A358817",
+  "b": "A369211",
+  "agree": 164,
+  "common": 10000,
+  "first_mismatch": 165,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016128",
+  "b": "A016180",
+  "agree": 163,
+  "common": 3001,
+  "first_mismatch": 163,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016128",
+  "b": "A016258",
+  "agree": 163,
+  "common": 3001,
+  "first_mismatch": 163,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A062677",
+  "b": "A284292",
+  "agree": 162,
+  "common": 10000,
+  "first_mismatch": 163,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A059362",
+  "b": "A212376",
+  "agree": 161,
+  "common": 1000,
+  "first_mismatch": 162,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016050",
+  "b": "A016128",
+  "agree": 157,
+  "common": 3001,
+  "first_mismatch": 157,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016050",
+  "b": "A016180",
+  "agree": 157,
+  "common": 3001,
+  "first_mismatch": 157,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016050",
+  "b": "A016258",
+  "agree": 157,
+  "common": 3001,
+  "first_mismatch": 157,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345605",
+  "b": "A346279",
+  "agree": 155,
+  "common": 10000,
+  "first_mismatch": 156,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003353",
+  "b": "A346326",
+  "agree": 155,
+  "common": 10000,
+  "first_mismatch": 156,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A282472",
+  "b": "A368252",
+  "agree": 154,
+  "common": 176,
+  "first_mismatch": 155,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003602",
+  "b": "A366380",
+  "agree": 152,
+  "common": 10000,
+  "first_mismatch": 153,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A351090",
+  "b": "A366380",
+  "agree": 152,
+  "common": 20001,
+  "first_mismatch": 153,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A024619",
+  "b": "A064040",
+  "agree": 148,
+  "common": 1000,
+  "first_mismatch": 149,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A024619",
+  "b": "A168638",
+  "agree": 148,
+  "common": 1000,
+  "first_mismatch": 149,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016053",
+  "b": "A016221",
+  "agree": 146,
+  "common": 3001,
+  "first_mismatch": 146,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A357004",
+  "b": "A357005",
+  "agree": 146,
+  "common": 10000,
+  "first_mismatch": 147,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A273404",
+  "b": "A281976",
+  "agree": 145,
+  "common": 10001,
+  "first_mismatch": 145,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A336224",
+  "b": "A389497",
+  "agree": 145,
+  "common": 10000,
+  "first_mismatch": 146,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A362841",
+  "b": "A386808",
+  "agree": 144,
+  "common": 10000,
+  "first_mismatch": 145,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A000688",
+  "b": "A381455",
+  "agree": 143,
+  "common": 10000,
+  "first_mismatch": 144,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A072411",
+  "b": "A290107",
+  "agree": 143,
+  "common": 10000,
+  "first_mismatch": 144,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A136809",
+  "b": "A136813",
+  "agree": 143,
+  "common": 1411,
+  "first_mismatch": 144,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A200521",
+  "b": "A380432",
+  "agree": 143,
+  "common": 10000,
+  "first_mismatch": 144,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A323175",
+  "b": "A323204",
+  "agree": 143,
+  "common": 143,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A319707",
+  "b": "A319717",
+  "agree": 142,
+  "common": 20001,
+  "first_mismatch": 143,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A344025",
+  "b": "A369046",
+  "agree": 139,
+  "common": 20001,
+  "first_mismatch": 140,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A145292",
+  "b": "A228183",
+  "agree": 139,
+  "common": 10000,
+  "first_mismatch": 140,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A007634",
+  "b": "A228184",
+  "agree": 139,
+  "common": 2000,
+  "first_mismatch": 140,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A071140",
+  "b": "A382469",
+  "agree": 139,
+  "common": 1000,
+  "first_mismatch": 140,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A033620",
+  "b": "A376858",
+  "agree": 138,
+  "common": 10000,
+  "first_mismatch": 139,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A273879",
+  "b": "A321506",
+  "agree": 137,
+  "common": 150,
+  "first_mismatch": 138,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A322448",
+  "b": "A374588",
+  "agree": 137,
+  "common": 10000,
+  "first_mismatch": 138,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025669",
+  "b": "A025676",
+  "agree": 135,
+  "common": 10000,
+  "first_mismatch": 136,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025669",
+  "b": "A025683",
+  "agree": 135,
+  "common": 10000,
+  "first_mismatch": 136,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025675",
+  "b": "A025682",
+  "agree": 135,
+  "common": 10000,
+  "first_mismatch": 136,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025675",
+  "b": "A025691",
+  "agree": 135,
+  "common": 10000,
+  "first_mismatch": 136,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A325565",
+  "b": "A380844",
+  "agree": 132,
+  "common": 10000,
+  "first_mismatch": 133,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A084505",
+  "b": "A084555",
+  "agree": 130,
+  "common": 5615,
+  "first_mismatch": 130,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A375055",
+  "b": "A388305",
+  "agree": 128,
+  "common": 10000,
+  "first_mismatch": 129,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A375055",
+  "b": "A390949",
+  "agree": 128,
+  "common": 10000,
+  "first_mismatch": 129,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016168",
+  "b": "A016236",
+  "agree": 127,
+  "common": 3001,
+  "first_mismatch": 127,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A390555",
+  "b": "A400138",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A367513",
+  "b": "A368540",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A101605",
+  "b": "A358753",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A365488",
+  "b": "A386470",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A056170",
+  "b": "A369165",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A270418",
+  "b": "A367168",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A270418",
+  "b": "A367514",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A367168",
+  "b": "A367514",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A007947",
+  "b": "A015053",
+  "agree": 127,
+  "common": 1000,
+  "first_mismatch": 128,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A058061",
+  "b": "A376886",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A375272",
+  "b": "A385378",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A058061",
+  "b": "A371090",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A368979",
+  "b": "A392452",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A384557",
+  "b": "A392452",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A362852",
+  "b": "A385418",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A293439",
+  "b": "A366074",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A299090",
+  "b": "A375430",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A372380",
+  "b": "A380922",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A353897",
+  "b": "A366905",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A353898",
+  "b": "A366901",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A353900",
+  "b": "A366903",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345610",
+  "b": "A346327",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A367515",
+  "b": "A385042",
+  "agree": 127,
+  "common": 10000,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A133676",
+  "b": "A317987",
+  "agree": 127,
+  "common": 324,
+  "first_mismatch": 128,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A000040",
+  "b": "A216886",
+  "agree": 126,
+  "common": 1000,
+  "first_mismatch": 127,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A227407",
+  "b": "A227409",
+  "agree": 126,
+  "common": 3111,
+  "first_mismatch": 127,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A307110",
+  "b": "A307731",
+  "agree": 124,
+  "common": 10001,
+  "first_mismatch": 124,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A298735",
+  "b": "A384916",
+  "agree": 124,
+  "common": 10000,
+  "first_mismatch": 125,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A089684",
+  "b": "A374137",
+  "agree": 124,
+  "common": 10000,
+  "first_mismatch": 125,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A296073",
+  "b": "A320014",
+  "agree": 124,
+  "common": 20001,
+  "first_mismatch": 125,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A339879",
+  "b": "A392921",
+  "agree": 124,
+  "common": 12855,
+  "first_mismatch": 125,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015854",
+  "b": "A016124",
+  "agree": 123,
+  "common": 2001,
+  "first_mismatch": 123,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A396684",
+  "b": "A400855",
+  "agree": 123,
+  "common": 10000,
+  "first_mismatch": 124,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A140078",
+  "b": "A321504",
+  "agree": 123,
+  "common": 10000,
+  "first_mismatch": 124,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A370786",
+  "b": "A377820",
+  "agree": 123,
+  "common": 10000,
+  "first_mismatch": 124,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A296761",
+  "b": "A297288",
+  "agree": 122,
+  "common": 10000,
+  "first_mismatch": 123,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A318720",
+  "b": "A338540",
+  "agree": 122,
+  "common": 10000,
+  "first_mismatch": 123,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003352",
+  "b": "A346278",
+  "agree": 122,
+  "common": 10000,
+  "first_mismatch": 123,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A206244",
+  "b": "A206245",
+  "agree": 121,
+  "common": 1001,
+  "first_mismatch": 121,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A057427",
+  "b": "A178334",
+  "agree": 121,
+  "common": 201,
+  "first_mismatch": 121,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A063524",
+  "b": "A178333",
+  "agree": 121,
+  "common": 20001,
+  "first_mismatch": 121,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A375766",
+  "b": "A391898",
+  "agree": 121,
+  "common": 10000,
+  "first_mismatch": 122,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A375768",
+  "b": "A391898",
+  "agree": 121,
+  "common": 10000,
+  "first_mismatch": 122,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A054386",
+  "b": "A127450",
+  "agree": 121,
+  "common": 1000,
+  "first_mismatch": 122,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A369003",
+  "b": "A377869",
+  "agree": 121,
+  "common": 10000,
+  "first_mismatch": 122,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A212165",
+  "b": "A344586",
+  "agree": 120,
+  "common": 10000,
+  "first_mismatch": 121,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216743",
+  "b": "A216769",
+  "agree": 120,
+  "common": 1000,
+  "first_mismatch": 121,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A351454",
+  "b": "A351460",
+  "agree": 120,
+  "common": 20001,
+  "first_mismatch": 121,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A059264",
+  "b": "A216484",
+  "agree": 119,
+  "common": 5000,
+  "first_mismatch": 120,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A107346",
+  "b": "A219664",
+  "agree": 119,
+  "common": 119,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A073934",
+  "b": "A333790",
+  "agree": 118,
+  "common": 10000,
+  "first_mismatch": 119,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A059404",
+  "b": "A323055",
+  "agree": 117,
+  "common": 10000,
+  "first_mismatch": 118,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A030231",
+  "b": "A267114",
+  "agree": 117,
+  "common": 1000,
+  "first_mismatch": 118,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003628",
+  "b": "A216776",
+  "agree": 116,
+  "common": 1000,
+  "first_mismatch": 117,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A336592",
+  "b": "A386799",
+  "agree": 115,
+  "common": 10000,
+  "first_mismatch": 116,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A238748",
+  "b": "A268390",
+  "agree": 114,
+  "common": 10000,
+  "first_mismatch": 115,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A130897",
+  "b": "A392279",
+  "agree": 114,
+  "common": 10000,
+  "first_mismatch": 115,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A130897",
+  "b": "A374589",
+  "agree": 114,
+  "common": 10000,
+  "first_mismatch": 115,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A258005",
+  "b": "A258015",
+  "agree": 113,
+  "common": 113,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025641",
+  "b": "A025649",
+  "agree": 113,
+  "common": 10000,
+  "first_mismatch": 114,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025657",
+  "b": "A025686",
+  "agree": 113,
+  "common": 10000,
+  "first_mismatch": 114,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A064873",
+  "b": "A072401",
+  "agree": 112,
+  "common": 10001,
+  "first_mismatch": 112,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A321474",
+  "b": "A336956",
+  "agree": 112,
+  "common": 10001,
+  "first_mismatch": 112,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A354180",
+  "b": "A369567",
+  "agree": 112,
+  "common": 10000,
+  "first_mismatch": 113,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A367802",
+  "b": "A369567",
+  "agree": 112,
+  "common": 10000,
+  "first_mismatch": 113,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015674",
+  "b": "A016124",
+  "agree": 111,
+  "common": 2001,
+  "first_mismatch": 111,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015674",
+  "b": "A015854",
+  "agree": 111,
+  "common": 2001,
+  "first_mismatch": 111,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A332785",
+  "b": "A375934",
+  "agree": 111,
+  "common": 10000,
+  "first_mismatch": 112,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A382371",
+  "b": "A382401",
+  "agree": 111,
+  "common": 10000,
+  "first_mismatch": 112,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A035930",
+  "b": "A257850",
+  "agree": 110,
+  "common": 1001,
+  "first_mismatch": 110,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A111707",
+  "b": "A169669",
+  "agree": 110,
+  "common": 10001,
+  "first_mismatch": 110,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A240601",
+  "b": "A266140",
+  "agree": 110,
+  "common": 10000,
+  "first_mismatch": 111,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A248502",
+  "b": "A250039",
+  "agree": 110,
+  "common": 10000,
+  "first_mismatch": 111,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A004216",
+  "b": "A297038",
+  "agree": 110,
+  "common": 10000,
+  "first_mismatch": 111,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016080",
+  "b": "A016156",
+  "agree": 109,
+  "common": 3001,
+  "first_mismatch": 109,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A131169",
+  "b": "A131170",
+  "agree": 109,
+  "common": 2056,
+  "first_mismatch": 109,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A131151",
+  "b": "A131152",
+  "agree": 109,
+  "common": 2056,
+  "first_mismatch": 109,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A131149",
+  "b": "A131154",
+  "agree": 109,
+  "common": 2056,
+  "first_mismatch": 109,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A131150",
+  "b": "A131153",
+  "agree": 109,
+  "common": 2056,
+  "first_mismatch": 109,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A147882",
+  "b": "A297271",
+  "agree": 109,
+  "common": 10000,
+  "first_mismatch": 110,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A147882",
+  "b": "A227858",
+  "agree": 109,
+  "common": 10000,
+  "first_mismatch": 110,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A032945",
+  "b": "A236402",
+  "agree": 109,
+  "common": 8495,
+  "first_mismatch": 110,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A002113",
+  "b": "A240601",
+  "agree": 109,
+  "common": 10000,
+  "first_mismatch": 110,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A240601",
+  "b": "A335779",
+  "agree": 109,
+  "common": 10000,
+  "first_mismatch": 110,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A002113",
+  "b": "A266140",
+  "agree": 109,
+  "common": 10000,
+  "first_mismatch": 110,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A266140",
+  "b": "A335779",
+  "agree": 109,
+  "common": 10000,
+  "first_mismatch": 110,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A033203",
+  "b": "A051100",
+  "agree": 108,
+  "common": 1000,
+  "first_mismatch": 109,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A349755",
+  "b": "A387162",
+  "agree": 108,
+  "common": 10000,
+  "first_mismatch": 109,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016042",
+  "b": "A016080",
+  "agree": 107,
+  "common": 3001,
+  "first_mismatch": 107,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016042",
+  "b": "A016156",
+  "agree": 107,
+  "common": 3001,
+  "first_mismatch": 107,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A296758",
+  "b": "A297285",
+  "agree": 107,
+  "common": 10000,
+  "first_mismatch": 108,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A344695",
+  "b": "A389080",
+  "agree": 107,
+  "common": 20000,
+  "first_mismatch": 108,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A344695",
+  "b": "A367991",
+  "agree": 107,
+  "common": 10000,
+  "first_mismatch": 108,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A348047",
+  "b": "A348984",
+  "agree": 107,
+  "common": 20000,
+  "first_mismatch": 108,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A348048",
+  "b": "A348985",
+  "agree": 107,
+  "common": 20000,
+  "first_mismatch": 108,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A030515",
+  "b": "A393940",
+  "agree": 107,
+  "common": 1000,
+  "first_mismatch": 108,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A002375",
+  "b": "A240708",
+  "agree": 106,
+  "common": 10000,
+  "first_mismatch": 107,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A366806",
+  "b": "A366881",
+  "agree": 105,
+  "common": 20001,
+  "first_mismatch": 105,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A366806",
+  "b": "A366891",
+  "agree": 105,
+  "common": 20001,
+  "first_mismatch": 105,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A296760",
+  "b": "A297290",
+  "agree": 105,
+  "common": 10000,
+  "first_mismatch": 106,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025299",
+  "b": "A025318",
+  "agree": 105,
+  "common": 10000,
+  "first_mismatch": 106,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A248034",
+  "b": "A358967",
+  "agree": 104,
+  "common": 10001,
+  "first_mismatch": 104,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A248034",
+  "b": "A359031",
+  "agree": 104,
+  "common": 10001,
+  "first_mismatch": 104,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A000593",
+  "b": "A318876",
+  "agree": 104,
+  "common": 10000,
+  "first_mismatch": 105,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A072774",
+  "b": "A304449",
+  "agree": 104,
+  "common": 10000,
+  "first_mismatch": 105,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A051664",
+  "b": "A318884",
+  "agree": 104,
+  "common": 1000,
+  "first_mismatch": 105,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345604",
+  "b": "A346358",
+  "agree": 104,
+  "common": 10000,
+  "first_mismatch": 105,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345611",
+  "b": "A346328",
+  "agree": 104,
+  "common": 10000,
+  "first_mismatch": 105,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A106309",
+  "b": "A371566",
+  "agree": 104,
+  "common": 10000,
+  "first_mismatch": 105,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015142",
+  "b": "A016000",
+  "agree": 103,
+  "common": 2001,
+  "first_mismatch": 103,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015142",
+  "b": "A016110",
+  "agree": 103,
+  "common": 2001,
+  "first_mismatch": 103,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015142",
+  "b": "A016132",
+  "agree": 103,
+  "common": 2001,
+  "first_mismatch": 103,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015142",
+  "b": "A016176",
+  "agree": 103,
+  "common": 2001,
+  "first_mismatch": 103,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A008578",
+  "b": "A324050",
+  "agree": 103,
+  "common": 10000,
+  "first_mismatch": 104,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A324050",
+  "b": "A352190",
+  "agree": 103,
+  "common": 662,
+  "first_mismatch": 104,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A089136",
+  "b": "A092965",
+  "agree": 103,
+  "common": 200,
+  "first_mismatch": 104,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A336956",
+  "b": "A352152",
+  "agree": 102,
+  "common": 10001,
+  "first_mismatch": 102,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A321474",
+  "b": "A352152",
+  "agree": 102,
+  "common": 10001,
+  "first_mismatch": 102,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A347374",
+  "b": "A351035",
+  "agree": 102,
+  "common": 20001,
+  "first_mismatch": 103,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A347374",
+  "b": "A351036",
+  "agree": 102,
+  "common": 20001,
+  "first_mismatch": 103,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A347374",
+  "b": "A351040",
+  "agree": 102,
+  "common": 20001,
+  "first_mismatch": 103,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A351037",
+  "b": "A351461",
+  "agree": 102,
+  "common": 20001,
+  "first_mismatch": 103,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A279607",
+  "b": "A292636",
+  "agree": 102,
+  "common": 1000,
+  "first_mismatch": 103,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A039999",
+  "b": "A262988",
+  "agree": 102,
+  "common": 10000,
+  "first_mismatch": 103,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015120",
+  "b": "A016000",
+  "agree": 101,
+  "common": 2001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015120",
+  "b": "A016110",
+  "agree": 101,
+  "common": 2001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015120",
+  "b": "A016132",
+  "agree": 101,
+  "common": 2001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015120",
+  "b": "A016176",
+  "agree": 101,
+  "common": 2001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015120",
+  "b": "A015142",
+  "agree": 101,
+  "common": 2001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015322",
+  "b": "A016050",
+  "agree": 101,
+  "common": 2001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015322",
+  "b": "A016128",
+  "agree": 101,
+  "common": 2001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015322",
+  "b": "A016180",
+  "agree": 101,
+  "common": 2001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015322",
+  "b": "A016258",
+  "agree": 101,
+  "common": 2001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016231",
+  "b": "A016275",
+  "agree": 101,
+  "common": 3001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A052008",
+  "b": "A056964",
+  "agree": 101,
+  "common": 10000,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A088117",
+  "b": "A257850",
+  "agree": 101,
+  "common": 1001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A088117",
+  "b": "A330633",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A257850",
+  "b": "A330633",
+  "agree": 101,
+  "common": 1001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A035930",
+  "b": "A330633",
+  "agree": 101,
+  "common": 10000,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A072137",
+  "b": "A151962",
+  "agree": 101,
+  "common": 1001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A072137",
+  "b": "A343383",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A151962",
+  "b": "A343383",
+  "agree": 101,
+  "common": 1001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A088669",
+  "b": "A091580",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A088670",
+  "b": "A091581",
+  "agree": 101,
+  "common": 20001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A136522",
+  "b": "A202022",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A333659",
+  "b": "A336956",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A333659",
+  "b": "A352152",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A321474",
+  "b": "A333659",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A137564",
+  "b": "A337864",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A067079",
+  "b": "A321243",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A118763",
+  "b": "A398280",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003100",
+  "b": "A261725",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003100",
+  "b": "A118757",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A178788",
+  "b": "A196368",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A035931",
+  "b": "A330634",
+  "agree": 101,
+  "common": 10001,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A004440",
+  "b": "A026495",
+  "agree": 101,
+  "common": 10000,
+  "first_mismatch": 102,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A348964",
+  "b": "A349026",
+  "agree": 101,
+  "common": 10000,
+  "first_mismatch": 102,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A186285",
+  "b": "A393213",
+  "agree": 101,
+  "common": 10000,
+  "first_mismatch": 102,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A001313",
+  "b": "A057537",
+  "agree": 100,
+  "common": 1001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A008728",
+  "b": "A179052",
+  "agree": 100,
+  "common": 1001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A080463",
+  "b": "A209685",
+  "agree": 100,
+  "common": 1001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A007953",
+  "b": "A080463",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A076314",
+  "b": "A209685",
+  "agree": 100,
+  "common": 1001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A007953",
+  "b": "A209685",
+  "agree": 100,
+  "common": 1001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A007953",
+  "b": "A076314",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A138953",
+  "b": "A307629",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A053392",
+  "b": "A138953",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A093882",
+  "b": "A138953",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A093882",
+  "b": "A307629",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A053392",
+  "b": "A093882",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A001300",
+  "b": "A169718",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A065039",
+  "b": "A171397",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A118764",
+  "b": "A398281",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A028899",
+  "b": "A081595",
+  "agree": 100,
+  "common": 2001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A028900",
+  "b": "A081596",
+  "agree": 100,
+  "common": 2001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A028901",
+  "b": "A081597",
+  "agree": 100,
+  "common": 2001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A028902",
+  "b": "A081598",
+  "agree": 100,
+  "common": 2001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A028904",
+  "b": "A324161",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A106612",
+  "b": "A137564",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A106612",
+  "b": "A337864",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": false,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A003100",
+  "b": "A261729",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003100",
+  "b": "A118758",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003100",
+  "b": "A174025",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A261725",
+  "b": "A261729",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A118758",
+  "b": "A261725",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A174025",
+  "b": "A261725",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A118757",
+  "b": "A261729",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A174025",
+  "b": "A261729",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A118757",
+  "b": "A118758",
+  "agree": 100,
+  "common": 20001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A118757",
+  "b": "A174025",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A118758",
+  "b": "A174025",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A132272",
+  "b": "A179051",
+  "agree": 100,
+  "common": 501,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A179051",
+  "b": "A324160",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A132272",
+  "b": "A324160",
+  "agree": 100,
+  "common": 501,
+  "first_mismatch": 100,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A055016",
+  "b": "A259372",
+  "agree": 100,
+  "common": 601,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A331472",
+  "b": "A364362",
+  "agree": 100,
+  "common": 10001,
+  "first_mismatch": 100,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015582",
+  "b": "A100910",
+  "agree": 100,
+  "common": 2001,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A000005",
+  "b": "A179941",
+  "agree": 100,
+  "common": 10000,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A179941",
+  "b": "A179942",
+  "agree": 100,
+  "common": 10000,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A033619",
+  "b": "A136602",
+  "agree": 100,
+  "common": 1715,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A040163",
+  "b": "A297330",
+  "agree": 100,
+  "common": 10000,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A037904",
+  "b": "A040163",
+  "agree": 100,
+  "common": 10000,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A037904",
+  "b": "A297330",
+  "agree": 100,
+  "common": 10000,
+  "first_mismatch": 101,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A056524",
+  "b": "A110745",
+  "agree": 100,
+  "common": 9999,
+  "first_mismatch": 101,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A096218",
+  "b": "A100590",
+  "agree": 100,
+  "common": 100,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A025298",
+  "b": "A025317",
+  "agree": 100,
+  "common": 100,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A139535",
+  "b": "A139536",
+  "agree": 100,
+  "common": 100,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A212168",
+  "b": "A344585",
+  "agree": 99,
+  "common": 10000,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A047726",
+  "b": "A297778",
+  "agree": 99,
+  "common": 10000,
+  "first_mismatch": 100,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043537",
+  "b": "A047726",
+  "agree": 99,
+  "common": 10000,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A075154",
+  "b": "A187924",
+  "agree": 99,
+  "common": 99,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A283050",
+  "b": "A371601",
+  "agree": 99,
+  "common": 10000,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A061604",
+  "b": "A302096",
+  "agree": 99,
+  "common": 1000,
+  "first_mismatch": 100,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003602",
+  "b": "A365388",
+  "agree": 98,
+  "common": 10000,
+  "first_mismatch": 99,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A351090",
+  "b": "A365388",
+  "agree": 98,
+  "common": 20001,
+  "first_mismatch": 99,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A023119",
+  "b": "A118276",
+  "agree": 98,
+  "common": 1000,
+  "first_mismatch": 99,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A036798",
+  "b": "A119434",
+  "agree": 98,
+  "common": 10000,
+  "first_mismatch": 99,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A236314",
+  "b": "A236322",
+  "agree": 98,
+  "common": 10000,
+  "first_mismatch": 99,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015076",
+  "b": "A016000",
+  "agree": 97,
+  "common": 2001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015076",
+  "b": "A016110",
+  "agree": 97,
+  "common": 2001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015076",
+  "b": "A016132",
+  "agree": 97,
+  "common": 2001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015076",
+  "b": "A016176",
+  "agree": 97,
+  "common": 2001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015076",
+  "b": "A015120",
+  "agree": 97,
+  "common": 2001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015076",
+  "b": "A015142",
+  "agree": 97,
+  "common": 2001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015270",
+  "b": "A016050",
+  "agree": 97,
+  "common": 2001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015270",
+  "b": "A016128",
+  "agree": 97,
+  "common": 2001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015270",
+  "b": "A016180",
+  "agree": 97,
+  "common": 2001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015270",
+  "b": "A016258",
+  "agree": 97,
+  "common": 2001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015270",
+  "b": "A015322",
+  "agree": 97,
+  "common": 2001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016143",
+  "b": "A016231",
+  "agree": 97,
+  "common": 3001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016143",
+  "b": "A016275",
+  "agree": 97,
+  "common": 3001,
+  "first_mismatch": 97,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A042966",
+  "b": "A216881",
+  "agree": 97,
+  "common": 1000,
+  "first_mismatch": 98,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A074675",
+  "b": "A235155",
+  "agree": 97,
+  "common": 97,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A340076",
+  "b": "A340150",
+  "agree": 97,
+  "common": 10000,
+  "first_mismatch": 98,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A046101",
+  "b": "A375146",
+  "agree": 97,
+  "common": 1000,
+  "first_mismatch": 98,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A074997",
+  "b": "A280383",
+  "agree": 96,
+  "common": 10000,
+  "first_mismatch": 97,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A336224",
+  "b": "A389499",
+  "agree": 96,
+  "common": 10000,
+  "first_mismatch": 97,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A389497",
+  "b": "A389499",
+  "agree": 96,
+  "common": 10000,
+  "first_mismatch": 97,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A367696",
+  "b": "A398165",
+  "agree": 96,
+  "common": 10000,
+  "first_mismatch": 97,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A361177",
+  "b": "A369937",
+  "agree": 94,
+  "common": 10000,
+  "first_mismatch": 95,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A369210",
+  "b": "A369937",
+  "agree": 94,
+  "common": 10000,
+  "first_mismatch": 95,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A197680",
+  "b": "A369937",
+  "agree": 94,
+  "common": 10000,
+  "first_mismatch": 95,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025291",
+  "b": "A025309",
+  "agree": 94,
+  "common": 1000,
+  "first_mismatch": 95,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A369936",
+  "b": "A374326",
+  "agree": 94,
+  "common": 10000,
+  "first_mismatch": 95,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A369935",
+  "b": "A374325",
+  "agree": 94,
+  "common": 10000,
+  "first_mismatch": 95,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A377140",
+  "b": "A377708",
+  "agree": 94,
+  "common": 159,
+  "first_mismatch": 95,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A062679",
+  "b": "A106093",
+  "agree": 94,
+  "common": 10000,
+  "first_mismatch": 95,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015404",
+  "b": "A016124",
+  "agree": 93,
+  "common": 2001,
+  "first_mismatch": 93,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015404",
+  "b": "A015674",
+  "agree": 93,
+  "common": 2001,
+  "first_mismatch": 93,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015404",
+  "b": "A015854",
+  "agree": 93,
+  "common": 2001,
+  "first_mismatch": 93,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A296755",
+  "b": "A297282",
+  "agree": 93,
+  "common": 10000,
+  "first_mismatch": 94,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A286355",
+  "b": "A292665",
+  "agree": 92,
+  "common": 1000,
+  "first_mismatch": 93,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003351",
+  "b": "A346356",
+  "agree": 92,
+  "common": 10000,
+  "first_mismatch": 93,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A267114",
+  "b": "A275665",
+  "agree": 92,
+  "common": 10000,
+  "first_mismatch": 93,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A030231",
+  "b": "A275665",
+  "agree": 92,
+  "common": 1000,
+  "first_mismatch": 93,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A212666",
+  "b": "A291046",
+  "agree": 92,
+  "common": 10000,
+  "first_mismatch": 93,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A031768",
+  "b": "A156856",
+  "agree": 92,
+  "common": 10000,
+  "first_mismatch": 93,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A136614",
+  "b": "A245627",
+  "agree": 91,
+  "common": 10001,
+  "first_mismatch": 91,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A129611",
+  "b": "A154456",
+  "agree": 91,
+  "common": 2056,
+  "first_mismatch": 91,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345607",
+  "b": "A346281",
+  "agree": 91,
+  "common": 10000,
+  "first_mismatch": 92,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345636",
+  "b": "A346349",
+  "agree": 91,
+  "common": 10000,
+  "first_mismatch": 92,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043570",
+  "b": "A043742",
+  "agree": 91,
+  "common": 2500,
+  "first_mismatch": 92,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A048103",
+  "b": "A390361",
+  "agree": 90,
+  "common": 10000,
+  "first_mismatch": 91,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A276078",
+  "b": "A390361",
+  "agree": 90,
+  "common": 10000,
+  "first_mismatch": 91,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A064554",
+  "b": "A290641",
+  "agree": 90,
+  "common": 8000,
+  "first_mismatch": 91,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A252480",
+  "b": "A323142",
+  "agree": 90,
+  "common": 10000,
+  "first_mismatch": 91,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A373492",
+  "b": "A373597",
+  "agree": 90,
+  "common": 10000,
+  "first_mismatch": 91,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016056",
+  "b": "A016240",
+  "agree": 89,
+  "common": 3001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014988",
+  "b": "A016000",
+  "agree": 89,
+  "common": 1001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014988",
+  "b": "A016110",
+  "agree": 89,
+  "common": 1001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014988",
+  "b": "A016132",
+  "agree": 89,
+  "common": 1001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014988",
+  "b": "A016176",
+  "agree": 89,
+  "common": 1001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014988",
+  "b": "A015076",
+  "agree": 89,
+  "common": 1001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014988",
+  "b": "A015120",
+  "agree": 89,
+  "common": 1001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014988",
+  "b": "A015142",
+  "agree": 89,
+  "common": 1001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015166",
+  "b": "A016050",
+  "agree": 89,
+  "common": 2001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015166",
+  "b": "A016128",
+  "agree": 89,
+  "common": 2001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015166",
+  "b": "A016180",
+  "agree": 89,
+  "common": 2001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015166",
+  "b": "A016258",
+  "agree": 89,
+  "common": 2001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015166",
+  "b": "A015270",
+  "agree": 89,
+  "common": 2001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015166",
+  "b": "A015322",
+  "agree": 89,
+  "common": 2001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015967",
+  "b": "A016143",
+  "agree": 89,
+  "common": 2001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015967",
+  "b": "A016231",
+  "agree": 89,
+  "common": 2001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015967",
+  "b": "A016275",
+  "agree": 89,
+  "common": 2001,
+  "first_mismatch": 89,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345926",
+  "b": "A370817",
+  "agree": 89,
+  "common": 10000,
+  "first_mismatch": 90,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A069799",
+  "b": "A225891",
+  "agree": 89,
+  "common": 8192,
+  "first_mismatch": 90,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A367896",
+  "b": "A368123",
+  "agree": 88,
+  "common": 3001,
+  "first_mismatch": 88,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A059547",
+  "b": "A064719",
+  "agree": 88,
+  "common": 2000,
+  "first_mismatch": 89,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A336591",
+  "b": "A392631",
+  "agree": 88,
+  "common": 10000,
+  "first_mismatch": 89,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A036537",
+  "b": "A336591",
+  "agree": 88,
+  "common": 10000,
+  "first_mismatch": 89,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A367734",
+  "b": "A389633",
+  "agree": 88,
+  "common": 10000,
+  "first_mismatch": 89,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015314",
+  "b": "A016124",
+  "agree": 87,
+  "common": 2001,
+  "first_mismatch": 87,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015314",
+  "b": "A015404",
+  "agree": 87,
+  "common": 2001,
+  "first_mismatch": 87,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015314",
+  "b": "A015674",
+  "agree": 87,
+  "common": 2001,
+  "first_mismatch": 87,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015314",
+  "b": "A015854",
+  "agree": 87,
+  "common": 2001,
+  "first_mismatch": 87,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A176995",
+  "b": "A225793",
+  "agree": 87,
+  "common": 10000,
+  "first_mismatch": 88,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003337",
+  "b": "A047714",
+  "agree": 87,
+  "common": 10000,
+  "first_mismatch": 88,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A036745",
+  "b": "A225218",
+  "agree": 87,
+  "common": 87,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A054038",
+  "b": "A156977",
+  "agree": 87,
+  "common": 87,
+  "first_mismatch": null,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015213",
+  "b": "A016053",
+  "agree": 86,
+  "common": 2001,
+  "first_mismatch": 86,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015213",
+  "b": "A016221",
+  "agree": 86,
+  "common": 2001,
+  "first_mismatch": 86,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A018187",
+  "b": "A275612",
+  "agree": 85,
+  "common": 706,
+  "first_mismatch": 86,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025703",
+  "b": "A025709",
+  "agree": 84,
+  "common": 10001,
+  "first_mismatch": 84,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A305047",
+  "b": "A316733",
+  "agree": 84,
+  "common": 264,
+  "first_mismatch": 85,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A301517",
+  "b": "A384520",
+  "agree": 84,
+  "common": 10000,
+  "first_mismatch": 85,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A374459",
+  "b": "A384520",
+  "agree": 84,
+  "common": 10000,
+  "first_mismatch": 85,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014922",
+  "b": "A016000",
+  "agree": 83,
+  "common": 1001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014922",
+  "b": "A016110",
+  "agree": 83,
+  "common": 1001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014922",
+  "b": "A016132",
+  "agree": 83,
+  "common": 1001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014922",
+  "b": "A015120",
+  "agree": 83,
+  "common": 1001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014922",
+  "b": "A015142",
+  "agree": 83,
+  "common": 1001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015088",
+  "b": "A016050",
+  "agree": 83,
+  "common": 2001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015088",
+  "b": "A016128",
+  "agree": 83,
+  "common": 2001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015088",
+  "b": "A016180",
+  "agree": 83,
+  "common": 2001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015088",
+  "b": "A016258",
+  "agree": 83,
+  "common": 2001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015088",
+  "b": "A015166",
+  "agree": 83,
+  "common": 2001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015088",
+  "b": "A015270",
+  "agree": 83,
+  "common": 2001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015088",
+  "b": "A015322",
+  "agree": 83,
+  "common": 2001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016167",
+  "b": "A016323",
+  "agree": 83,
+  "common": 3001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015835",
+  "b": "A016143",
+  "agree": 83,
+  "common": 2001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015835",
+  "b": "A016231",
+  "agree": 83,
+  "common": 2001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015835",
+  "b": "A016275",
+  "agree": 83,
+  "common": 2001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015835",
+  "b": "A015967",
+  "agree": 83,
+  "common": 2001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015752",
+  "b": "A015878",
+  "agree": 83,
+  "common": 2001,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A000203",
+  "b": "A097012",
+  "agree": 83,
+  "common": 10000,
+  "first_mismatch": 84,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A031955",
+  "b": "A139819",
+  "agree": 83,
+  "common": 10000,
+  "first_mismatch": 84,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A361177",
+  "b": "A366762",
+  "agree": 83,
+  "common": 10000,
+  "first_mismatch": 84,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A366762",
+  "b": "A369210",
+  "agree": 83,
+  "common": 10000,
+  "first_mismatch": 84,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A366762",
+  "b": "A369937",
+  "agree": 83,
+  "common": 10000,
+  "first_mismatch": 84,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A197680",
+  "b": "A366762",
+  "agree": 83,
+  "common": 10000,
+  "first_mismatch": 84,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A081211",
+  "b": "A081213",
+  "agree": 83,
+  "common": 10000,
+  "first_mismatch": 84,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A093161",
+  "b": "A307782",
+  "agree": 83,
+  "common": 10000,
+  "first_mismatch": 84,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A069040",
+  "b": "A070191",
+  "agree": 83,
+  "common": 10000,
+  "first_mismatch": 84,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015157",
+  "b": "A016053",
+  "agree": 82,
+  "common": 2001,
+  "first_mismatch": 82,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016141",
+  "b": "A016245",
+  "agree": 82,
+  "common": 3001,
+  "first_mismatch": 82,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015157",
+  "b": "A016221",
+  "agree": 82,
+  "common": 2001,
+  "first_mismatch": 82,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A015157",
+  "b": "A015213",
+  "agree": 82,
+  "common": 2001,
+  "first_mismatch": 82,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A367895",
+  "b": "A368127",
+  "agree": 82,
+  "common": 3001,
+  "first_mismatch": 82,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A055958",
+  "b": "A319747",
+  "agree": 82,
+  "common": 6561,
+  "first_mismatch": 82,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A104699",
+  "b": "A116461",
+  "agree": 82,
+  "common": 10000,
+  "first_mismatch": 83,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043638",
+  "b": "A139819",
+  "agree": 82,
+  "common": 10000,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A029742",
+  "b": "A139819",
+  "agree": 82,
+  "common": 10000,
+  "first_mismatch": 83,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A115940",
+  "b": "A241812",
+  "agree": 82,
+  "common": 82,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A337254",
+  "b": "A399158",
+  "agree": 82,
+  "common": 186,
+  "first_mismatch": 83,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A094743",
+  "b": "A175075",
+  "agree": 82,
+  "common": 1000,
+  "first_mismatch": 83,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A175745",
+  "b": "A190464",
+  "agree": 82,
+  "common": 1000,
+  "first_mismatch": 83,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A008650",
+  "b": "A062051",
+  "agree": 81,
+  "common": 1001,
+  "first_mismatch": 81,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A030108",
+  "b": "A255594",
+  "agree": 81,
+  "common": 1001,
+  "first_mismatch": 81,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A120944",
+  "b": "A327829",
+  "agree": 81,
+  "common": 10000,
+  "first_mismatch": 82,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A088882",
+  "b": "A261453",
+  "agree": 81,
+  "common": 10000,
+  "first_mismatch": 82,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A046075",
+  "b": "A088882",
+  "agree": 81,
+  "common": 10000,
+  "first_mismatch": 82,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A046075",
+  "b": "A261453",
+  "agree": 81,
+  "common": 10000,
+  "first_mismatch": 82,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A326837",
+  "b": "A326847",
+  "agree": 81,
+  "common": 489,
+  "first_mismatch": 82,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A112769",
+  "b": "A362620",
+  "agree": 81,
+  "common": 10000,
+  "first_mismatch": 82,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A139819",
+  "b": "A280824",
+  "agree": 81,
+  "common": 10000,
+  "first_mismatch": 82,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A136602",
+  "b": "A272813",
+  "agree": 80,
+  "common": 1715,
+  "first_mismatch": 81,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A033619",
+  "b": "A272813",
+  "agree": 80,
+  "common": 4179,
+  "first_mismatch": 81,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A059548",
+  "b": "A064720",
+  "agree": 80,
+  "common": 2000,
+  "first_mismatch": 81,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A296752",
+  "b": "A297279",
+  "agree": 80,
+  "common": 10000,
+  "first_mismatch": 81,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A047235",
+  "b": "A328588",
+  "agree": 80,
+  "common": 10000,
+  "first_mismatch": 81,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A399839",
+  "b": "A400146",
+  "agree": 80,
+  "common": 10000,
+  "first_mismatch": 81,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A284341",
+  "b": "A377520",
+  "agree": 80,
+  "common": 10000,
+  "first_mismatch": 81,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A234474",
+  "b": "A285829",
+  "agree": 80,
+  "common": 1000,
+  "first_mismatch": 81,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A210589",
+  "b": "A297270",
+  "agree": 78,
+  "common": 7000,
+  "first_mismatch": 79,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A071590",
+  "b": "A210589",
+  "agree": 78,
+  "common": 5400,
+  "first_mismatch": 79,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A296754",
+  "b": "A297284",
+  "agree": 78,
+  "common": 10000,
+  "first_mismatch": 79,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A360793",
+  "b": "A375076",
+  "agree": 78,
+  "common": 10000,
+  "first_mismatch": 79,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A038126",
+  "b": "A047215",
+  "agree": 77,
+  "common": 1001,
+  "first_mismatch": 77,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A080747",
+  "b": "A306487",
+  "agree": 77,
+  "common": 10000,
+  "first_mismatch": 78,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A169824",
+  "b": "A281625",
+  "agree": 77,
+  "common": 226,
+  "first_mismatch": 78,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345381",
+  "b": "A394860",
+  "agree": 77,
+  "common": 10000,
+  "first_mismatch": 78,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A393816",
+  "b": "A393999",
+  "agree": 77,
+  "common": 10000,
+  "first_mismatch": 78,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A190641",
+  "b": "A359468",
+  "agree": 76,
+  "common": 10000,
+  "first_mismatch": 77,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A327877",
+  "b": "A359468",
+  "agree": 76,
+  "common": 10000,
+  "first_mismatch": 77,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A191217",
+  "b": "A230779",
+  "agree": 76,
+  "common": 10000,
+  "first_mismatch": 77,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A335198",
+  "b": "A335935",
+  "agree": 76,
+  "common": 3000,
+  "first_mismatch": 77,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A020883",
+  "b": "A024354",
+  "agree": 75,
+  "common": 10000,
+  "first_mismatch": 76,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A177052",
+  "b": "A376880",
+  "agree": 75,
+  "common": 10000,
+  "first_mismatch": 76,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A023196",
+  "b": "A177052",
+  "agree": 75,
+  "common": 10000,
+  "first_mismatch": 76,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A026416",
+  "b": "A123193",
+  "agree": 75,
+  "common": 10000,
+  "first_mismatch": 76,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A033664",
+  "b": "A400420",
+  "agree": 74,
+  "common": 10000,
+  "first_mismatch": 75,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A308711",
+  "b": "A400420",
+  "agree": 74,
+  "common": 8391,
+  "first_mismatch": 75,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A033664",
+  "b": "A308711",
+  "agree": 74,
+  "common": 8391,
+  "first_mismatch": 75,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A023804",
+  "b": "A043095",
+  "agree": 73,
+  "common": 5000,
+  "first_mismatch": 74,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A023804",
+  "b": "A342851",
+  "agree": 73,
+  "common": 10000,
+  "first_mismatch": 74,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A325241",
+  "b": "A376251",
+  "agree": 73,
+  "common": 10000,
+  "first_mismatch": 74,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A000040",
+  "b": "A216884",
+  "agree": 72,
+  "common": 1000,
+  "first_mismatch": 73,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216884",
+  "b": "A216886",
+  "agree": 72,
+  "common": 1000,
+  "first_mismatch": 73,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A059565",
+  "b": "A329825",
+  "agree": 72,
+  "common": 2000,
+  "first_mismatch": 73,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014752",
+  "b": "A306787",
+  "agree": 72,
+  "common": 212,
+  "first_mismatch": 73,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A342687",
+  "b": "A342688",
+  "agree": 72,
+  "common": 1000,
+  "first_mismatch": 73,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A348503",
+  "b": "A367991",
+  "agree": 71,
+  "common": 10000,
+  "first_mismatch": 72,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A384039",
+  "b": "A399748",
+  "agree": 71,
+  "common": 10000,
+  "first_mismatch": 72,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A014613",
+  "b": "A323350",
+  "agree": 71,
+  "common": 10000,
+  "first_mismatch": 72,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A069208",
+  "b": "A399747",
+  "agree": 71,
+  "common": 10000,
+  "first_mismatch": 72,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A382475",
+  "b": "A382476",
+  "agree": 71,
+  "common": 73,
+  "first_mismatch": 72,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A367150",
+  "b": "A368121",
+  "agree": 70,
+  "common": 10001,
+  "first_mismatch": 70,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003629",
+  "b": "A319041",
+  "agree": 70,
+  "common": 9999,
+  "first_mismatch": 71,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A175865",
+  "b": "A319041",
+  "agree": 70,
+  "common": 9999,
+  "first_mismatch": 71,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A367150",
+  "b": "A368126",
+  "agree": 69,
+  "common": 10001,
+  "first_mismatch": 69,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A008578",
+  "b": "A015919",
+  "agree": 69,
+  "common": 10000,
+  "first_mismatch": 70,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A235507",
+  "b": "A235697",
+  "agree": 69,
+  "common": 1947,
+  "first_mismatch": 70,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A182853",
+  "b": "A362605",
+  "agree": 69,
+  "common": 10000,
+  "first_mismatch": 70,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A308115",
+  "b": "A331828",
+  "agree": 69,
+  "common": 1999,
+  "first_mismatch": 70,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A095990",
+  "b": "A102836",
+  "agree": 69,
+  "common": 3000,
+  "first_mismatch": 70,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A024975",
+  "b": "A025399",
+  "agree": 68,
+  "common": 10000,
+  "first_mismatch": 69,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A296749",
+  "b": "A297276",
+  "agree": 68,
+  "common": 10000,
+  "first_mismatch": 69,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A092395",
+  "b": "A233281",
+  "agree": 68,
+  "common": 1000,
+  "first_mismatch": 69,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A098902",
+  "b": "A100367",
+  "agree": 68,
+  "common": 1000,
+  "first_mismatch": 69,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A362889",
+  "b": "A374379",
+  "agree": 68,
+  "common": 2050,
+  "first_mismatch": 69,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A242414",
+  "b": "A304449",
+  "agree": 67,
+  "common": 10000,
+  "first_mismatch": 68,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A192817",
+  "b": "A229968",
+  "agree": 67,
+  "common": 1000,
+  "first_mismatch": 68,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216918",
+  "b": "A278569",
+  "agree": 67,
+  "common": 10000,
+  "first_mismatch": 68,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A368110",
+  "b": "A380692",
+  "agree": 67,
+  "common": 10000,
+  "first_mismatch": 68,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A368110",
+  "b": "A380695",
+  "agree": 67,
+  "common": 10000,
+  "first_mismatch": 68,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A002182",
+  "b": "A340840",
+  "agree": 67,
+  "common": 10000,
+  "first_mismatch": 68,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A005097",
+  "b": "A139791",
+  "agree": 67,
+  "common": 1000,
+  "first_mismatch": 68,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A109259",
+  "b": "A292663",
+  "agree": 67,
+  "common": 1000,
+  "first_mismatch": 68,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A008635",
+  "b": "A008641",
+  "agree": 66,
+  "common": 1001,
+  "first_mismatch": 66,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A072484",
+  "b": "A337918",
+  "agree": 66,
+  "common": 10011,
+  "first_mismatch": 67,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A296751",
+  "b": "A297281",
+  "agree": 66,
+  "common": 10000,
+  "first_mismatch": 67,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003350",
+  "b": "A344643",
+  "agree": 66,
+  "common": 10000,
+  "first_mismatch": 67,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A081770",
+  "b": "A401189",
+  "agree": 66,
+  "common": 10000,
+  "first_mismatch": 67,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A044817",
+  "b": "A297136",
+  "agree": 66,
+  "common": 10000,
+  "first_mismatch": 67,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345634",
+  "b": "A346347",
+  "agree": 66,
+  "common": 10000,
+  "first_mismatch": 67,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025714",
+  "b": "A025729",
+  "agree": 65,
+  "common": 10001,
+  "first_mismatch": 65,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A008578",
+  "b": "A064555",
+  "agree": 65,
+  "common": 8000,
+  "first_mismatch": 66,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A206031",
+  "b": "A206032",
+  "agree": 65,
+  "common": 1000,
+  "first_mismatch": 66,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A008645",
+  "b": "A018819",
+  "agree": 64,
+  "common": 1001,
+  "first_mismatch": 64,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A163410",
+  "b": "A329419",
+  "agree": 64,
+  "common": 10000,
+  "first_mismatch": 65,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A047467",
+  "b": "A126002",
+  "agree": 64,
+  "common": 10000,
+  "first_mismatch": 65,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A000040",
+  "b": "A216883",
+  "agree": 63,
+  "common": 1000,
+  "first_mismatch": 64,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216883",
+  "b": "A216884",
+  "agree": 63,
+  "common": 1000,
+  "first_mismatch": 64,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216883",
+  "b": "A216886",
+  "agree": 63,
+  "common": 1000,
+  "first_mismatch": 64,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A365298",
+  "b": "A367932",
+  "agree": 63,
+  "common": 10000,
+  "first_mismatch": 64,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A109399",
+  "b": "A386801",
+  "agree": 63,
+  "common": 1000,
+  "first_mismatch": 64,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003338",
+  "b": "A047715",
+  "agree": 63,
+  "common": 10000,
+  "first_mismatch": 64,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A356192",
+  "b": "A367934",
+  "agree": 63,
+  "common": 10000,
+  "first_mismatch": 64,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A004945",
+  "b": "A004965",
+  "agree": 62,
+  "common": 10001,
+  "first_mismatch": 62,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A100716",
+  "b": "A328251",
+  "agree": 62,
+  "common": 1000,
+  "first_mismatch": 63,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043570",
+  "b": "A043736",
+  "agree": 62,
+  "common": 10000,
+  "first_mismatch": 63,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043736",
+  "b": "A043742",
+  "agree": 62,
+  "common": 2500,
+  "first_mismatch": 63,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A000040",
+  "b": "A385492",
+  "agree": 61,
+  "common": 1000,
+  "first_mismatch": 62,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216883",
+  "b": "A385492",
+  "agree": 61,
+  "common": 1000,
+  "first_mismatch": 62,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216884",
+  "b": "A385492",
+  "agree": 61,
+  "common": 1000,
+  "first_mismatch": 62,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216886",
+  "b": "A385492",
+  "agree": 61,
+  "common": 1000,
+  "first_mismatch": 62,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A241554",
+  "b": "A352949",
+  "agree": 61,
+  "common": 10000,
+  "first_mismatch": 62,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A121707",
+  "b": "A267999",
+  "agree": 61,
+  "common": 10000,
+  "first_mismatch": 62,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A000040",
+  "b": "A216885",
+  "agree": 60,
+  "common": 1000,
+  "first_mismatch": 61,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216883",
+  "b": "A216885",
+  "agree": 60,
+  "common": 1000,
+  "first_mismatch": 61,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216884",
+  "b": "A216885",
+  "agree": 60,
+  "common": 1000,
+  "first_mismatch": 61,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216885",
+  "b": "A216886",
+  "agree": 60,
+  "common": 1000,
+  "first_mismatch": 61,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A216885",
+  "b": "A385492",
+  "agree": 60,
+  "common": 1000,
+  "first_mismatch": 61,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A048927",
+  "b": "A343702",
+  "agree": 60,
+  "common": 15416,
+  "first_mismatch": 61,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345568",
+  "b": "A345824",
+  "agree": 60,
+  "common": 10000,
+  "first_mismatch": 61,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A050217",
+  "b": "A214305",
+  "agree": 60,
+  "common": 10000,
+  "first_mismatch": 61,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003325",
+  "b": "A338667",
+  "agree": 60,
+  "common": 20000,
+  "first_mismatch": 61,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A003337",
+  "b": "A344188",
+  "agree": 59,
+  "common": 10000,
+  "first_mismatch": 60,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A047714",
+  "b": "A344188",
+  "agree": 59,
+  "common": 10000,
+  "first_mismatch": 60,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A040993",
+  "b": "A212375",
+  "agree": 58,
+  "common": 1000,
+  "first_mismatch": 59,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A112643",
+  "b": "A249263",
+  "agree": 58,
+  "common": 10000,
+  "first_mismatch": 59,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A309762",
+  "b": "A344192",
+  "agree": 58,
+  "common": 1616,
+  "first_mismatch": 59,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A073064",
+  "b": "A155075",
+  "agree": 58,
+  "common": 10000,
+  "first_mismatch": 59,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A059230",
+  "b": "A212378",
+  "agree": 58,
+  "common": 1000,
+  "first_mismatch": 59,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A266139",
+  "b": "A393807",
+  "agree": 57,
+  "common": 10000,
+  "first_mismatch": 58,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A047841",
+  "b": "A267498",
+  "agree": 57,
+  "common": 109,
+  "first_mismatch": 58,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A365795",
+  "b": "A382469",
+  "agree": 57,
+  "common": 10000,
+  "first_mismatch": 58,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A071140",
+  "b": "A365795",
+  "agree": 57,
+  "common": 1000,
+  "first_mismatch": 58,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A298872",
+  "b": "A298875",
+  "agree": 56,
+  "common": 1001,
+  "first_mismatch": 56,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A298873",
+  "b": "A298876",
+  "agree": 56,
+  "common": 1001,
+  "first_mismatch": 56,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A043569",
+  "b": "A043765",
+  "agree": 56,
+  "common": 1000,
+  "first_mismatch": 57,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A062669",
+  "b": "A284290",
+  "agree": 56,
+  "common": 10000,
+  "first_mismatch": 57,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A018187",
+  "b": "A275613",
+  "agree": 55,
+  "common": 701,
+  "first_mismatch": 56,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A275612",
+  "b": "A275613",
+  "agree": 55,
+  "common": 701,
+  "first_mismatch": 56,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A074380",
+  "b": "A215672",
+  "agree": 55,
+  "common": 10000,
+  "first_mismatch": 56,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A106763",
+  "b": "A247122",
+  "agree": 54,
+  "common": 8000,
+  "first_mismatch": 55,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A083406",
+  "b": "A083408",
+  "agree": 54,
+  "common": 2372,
+  "first_mismatch": 55,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A052046",
+  "b": "A392242",
+  "agree": 53,
+  "common": 611,
+  "first_mismatch": 54,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A052046",
+  "b": "A078255",
+  "agree": 53,
+  "common": 10000,
+  "first_mismatch": 54,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A075039",
+  "b": "A359746",
+  "agree": 52,
+  "common": 10000,
+  "first_mismatch": 53,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A344352",
+  "b": "A344353",
+  "agree": 51,
+  "common": 20000,
+  "first_mismatch": 52,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A112643",
+  "b": "A129485",
+  "agree": 50,
+  "common": 10000,
+  "first_mismatch": 51,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A112643",
+  "b": "A379031",
+  "agree": 50,
+  "common": 10000,
+  "first_mismatch": 51,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A129485",
+  "b": "A249263",
+  "agree": 50,
+  "common": 10000,
+  "first_mismatch": 51,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A249263",
+  "b": "A379031",
+  "agree": 50,
+  "common": 10000,
+  "first_mismatch": 51,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A025287",
+  "b": "A025305",
+  "agree": 50,
+  "common": 1000,
+  "first_mismatch": 51,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A275123",
+  "b": "A275217",
+  "agree": 50,
+  "common": 500,
+  "first_mismatch": 51,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A285615",
+  "b": "A387153",
+  "agree": 50,
+  "common": 100,
+  "first_mismatch": 51,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A004394",
+  "b": "A166981",
+  "agree": 49,
+  "common": 449,
+  "first_mismatch": 50,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345622",
+  "b": "A346340",
+  "agree": 49,
+  "common": 10000,
+  "first_mismatch": 50,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A059236",
+  "b": "A212379",
+  "agree": 49,
+  "common": 1000,
+  "first_mismatch": 50,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A318100",
+  "b": "A335218",
+  "agree": 48,
+  "common": 10000,
+  "first_mismatch": 49,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A346016",
+  "b": "A368252",
+  "agree": 47,
+  "common": 198,
+  "first_mismatch": 48,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A282472",
+  "b": "A346016",
+  "agree": 47,
+  "common": 176,
+  "first_mismatch": 48,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A389558",
+  "b": "A391491",
+  "agree": 47,
+  "common": 10000,
+  "first_mismatch": 48,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A008917",
+  "b": "A025396",
+  "agree": 46,
+  "common": 10000,
+  "first_mismatch": 47,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A322781",
+  "b": "A323272",
+  "agree": 46,
+  "common": 10000,
+  "first_mismatch": 47,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A117348",
+  "b": "A117349",
+  "agree": 46,
+  "common": 180,
+  "first_mismatch": 47,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A389678",
+  "b": "A390180",
+  "agree": 46,
+  "common": 10000,
+  "first_mismatch": 47,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A112643",
+  "b": "A360526",
+  "agree": 45,
+  "common": 10000,
+  "first_mismatch": 46,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A129485",
+  "b": "A360526",
+  "agree": 45,
+  "common": 10000,
+  "first_mismatch": 46,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A249263",
+  "b": "A360526",
+  "agree": 45,
+  "common": 10000,
+  "first_mismatch": 46,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A360526",
+  "b": "A379031",
+  "agree": 45,
+  "common": 10000,
+  "first_mismatch": 46,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A137484",
+  "b": "A189990",
+  "agree": 45,
+  "common": 1000,
+  "first_mismatch": 46,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A059245",
+  "b": "A268753",
+  "agree": 45,
+  "common": 1000,
+  "first_mismatch": 46,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A054979",
+  "b": "A335219",
+  "agree": 43,
+  "common": 10000,
+  "first_mismatch": 44,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A016861",
+  "b": "A145287",
+  "agree": 41,
+  "common": 41,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A168529",
+  "b": "A255976",
+  "agree": 40,
+  "common": 1407,
+  "first_mismatch": 41,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A004924",
+  "b": "A004944",
+  "agree": 39,
+  "common": 10001,
+  "first_mismatch": 39,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A343967",
+  "b": "A343970",
+  "agree": 39,
+  "common": 20000,
+  "first_mismatch": 40,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A330584",
+  "b": "A330586",
+  "agree": 38,
+  "common": 43,
+  "first_mismatch": 39,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345606",
+  "b": "A346280",
+  "agree": 38,
+  "common": 10000,
+  "first_mismatch": 39,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A288059",
+  "b": "A288130",
+  "agree": 36,
+  "common": 127,
+  "first_mismatch": 36,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A010919",
+  "b": "A022029",
+  "agree": 36,
+  "common": 1001,
+  "first_mismatch": 36,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A344277",
+  "b": "A344278",
+  "agree": 36,
+  "common": 7946,
+  "first_mismatch": 37,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A352329",
+  "b": "A353025",
+  "agree": 36,
+  "common": 71,
+  "first_mismatch": 37,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345621",
+  "b": "A346339",
+  "agree": 36,
+  "common": 10000,
+  "first_mismatch": 37,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A329799",
+  "b": "A382791",
+  "agree": 35,
+  "common": 10000,
+  "first_mismatch": 36,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A189228",
+  "b": "A338786",
+  "agree": 35,
+  "common": 358,
+  "first_mismatch": 36,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A140079",
+  "b": "A321505",
+  "agree": 34,
+  "common": 10000,
+  "first_mismatch": 35,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A169401",
+  "b": "A170109",
+  "agree": 32,
+  "common": 1001,
+  "first_mismatch": 32,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A169402",
+  "b": "A169546",
+  "agree": 32,
+  "common": 166,
+  "first_mismatch": 32,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A169404",
+  "b": "A169452",
+  "agree": 32,
+  "common": 166,
+  "first_mismatch": 32,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345612",
+  "b": "A346329",
+  "agree": 32,
+  "common": 10000,
+  "first_mismatch": 33,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A169357",
+  "b": "A169405",
+  "agree": 31,
+  "common": 201,
+  "first_mismatch": 31,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A161976",
+  "b": "A162377",
+  "agree": 30,
+  "common": 871,
+  "first_mismatch": 30,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A161972",
+  "b": "A162376",
+  "agree": 29,
+  "common": 813,
+  "first_mismatch": 29,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345623",
+  "b": "A346341",
+  "agree": 29,
+  "common": 10000,
+  "first_mismatch": 30,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A169213",
+  "b": "A169357",
+  "agree": 28,
+  "common": 201,
+  "first_mismatch": 28,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A169213",
+  "b": "A169405",
+  "agree": 28,
+  "common": 201,
+  "first_mismatch": 28,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A161956",
+  "b": "A162370",
+  "agree": 28,
+  "common": 757,
+  "first_mismatch": 28,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A161954",
+  "b": "A162369",
+  "agree": 27,
+  "common": 703,
+  "first_mismatch": 27,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A169114",
+  "b": "A169402",
+  "agree": 26,
+  "common": 166,
+  "first_mismatch": 26,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A169114",
+  "b": "A169546",
+  "agree": 26,
+  "common": 1001,
+  "first_mismatch": 26,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A161933",
+  "b": "A162368",
+  "agree": 26,
+  "common": 651,
+  "first_mismatch": 26,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A161932",
+  "b": "A162367",
+  "agree": 25,
+  "common": 601,
+  "first_mismatch": 25,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A169020",
+  "b": "A169404",
+  "agree": 24,
+  "common": 166,
+  "first_mismatch": 24,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A169020",
+  "b": "A169452",
+  "agree": 24,
+  "common": 201,
+  "first_mismatch": 24,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A019477",
+  "b": "A019478",
+  "agree": 24,
+  "common": 501,
+  "first_mismatch": 24,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A084684",
+  "b": "A164486",
+  "agree": 24,
+  "common": 24,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A328135",
+  "b": "A383699",
+  "agree": 24,
+  "common": 10000,
+  "first_mismatch": 25,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A345719",
+  "b": "A346360",
+  "agree": 24,
+  "common": 1000,
+  "first_mismatch": 25,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A391429",
+  "b": "A391430",
+  "agree": 23,
+  "common": 10000,
+  "first_mismatch": 24,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A286824",
+  "b": "A289097",
+  "agree": 22,
+  "common": 127,
+  "first_mismatch": 22,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A172634",
+  "b": "A208446",
+  "agree": 21,
+  "common": 21,
+  "first_mismatch": null,
+  "cross_referenced": false,
+  "labelled_duplicate": true
+ },
+ {
+  "a": "A035737",
+  "b": "A035806",
+  "agree": 21,
+  "common": 501,
+  "first_mismatch": 21,
+  "cross_referenced": true,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168829",
+  "b": "A169213",
+  "agree": 20,
+  "common": 201,
+  "first_mismatch": 20,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168829",
+  "b": "A169357",
+  "agree": 20,
+  "common": 201,
+  "first_mismatch": 20,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168829",
+  "b": "A169405",
+  "agree": 20,
+  "common": 501,
+  "first_mismatch": 20,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168833",
+  "b": "A168881",
+  "agree": 20,
+  "common": 951,
+  "first_mismatch": 20,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168783",
+  "b": "A168831",
+  "agree": 19,
+  "common": 501,
+  "first_mismatch": 19,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168784",
+  "b": "A168832",
+  "agree": 19,
+  "common": 501,
+  "first_mismatch": 19,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168785",
+  "b": "A168833",
+  "agree": 19,
+  "common": 501,
+  "first_mismatch": 19,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168785",
+  "b": "A168881",
+  "agree": 19,
+  "common": 501,
+  "first_mismatch": 19,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168789",
+  "b": "A169557",
+  "agree": 19,
+  "common": 201,
+  "first_mismatch": 19,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168736",
+  "b": "A168784",
+  "agree": 18,
+  "common": 501,
+  "first_mismatch": 18,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168736",
+  "b": "A168832",
+  "agree": 18,
+  "common": 501,
+  "first_mismatch": 18,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168737",
+  "b": "A168785",
+  "agree": 18,
+  "common": 501,
+  "first_mismatch": 18,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168737",
+  "b": "A168833",
+  "agree": 18,
+  "common": 501,
+  "first_mismatch": 18,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168737",
+  "b": "A168881",
+  "agree": 18,
+  "common": 501,
+  "first_mismatch": 18,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168738",
+  "b": "A168786",
+  "agree": 18,
+  "common": 501,
+  "first_mismatch": 18,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168739",
+  "b": "A168787",
+  "agree": 18,
+  "common": 501,
+  "first_mismatch": 18,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168740",
+  "b": "A168788",
+  "agree": 18,
+  "common": 501,
+  "first_mismatch": 18,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168741",
+  "b": "A168789",
+  "agree": 18,
+  "common": 501,
+  "first_mismatch": 18,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168741",
+  "b": "A169557",
+  "agree": 18,
+  "common": 201,
+  "first_mismatch": 18,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168744",
+  "b": "A168792",
+  "agree": 18,
+  "common": 501,
+  "first_mismatch": 18,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168690",
+  "b": "A168738",
+  "agree": 17,
+  "common": 501,
+  "first_mismatch": 17,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168690",
+  "b": "A168786",
+  "agree": 17,
+  "common": 501,
+  "first_mismatch": 17,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168691",
+  "b": "A168739",
+  "agree": 17,
+  "common": 501,
+  "first_mismatch": 17,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168691",
+  "b": "A168787",
+  "agree": 17,
+  "common": 501,
+  "first_mismatch": 17,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168692",
+  "b": "A168740",
+  "agree": 17,
+  "common": 501,
+  "first_mismatch": 17,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168692",
+  "b": "A168788",
+  "agree": 17,
+  "common": 501,
+  "first_mismatch": 17,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168693",
+  "b": "A168741",
+  "agree": 17,
+  "common": 501,
+  "first_mismatch": 17,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168693",
+  "b": "A168789",
+  "agree": 17,
+  "common": 501,
+  "first_mismatch": 17,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168693",
+  "b": "A169557",
+  "agree": 17,
+  "common": 201,
+  "first_mismatch": 17,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168696",
+  "b": "A168744",
+  "agree": 17,
+  "common": 501,
+  "first_mismatch": 17,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ },
+ {
+  "a": "A168696",
+  "b": "A168792",
+  "agree": 17,
+  "common": 501,
+  "first_mismatch": 17,
+  "cross_referenced": false,
+  "labelled_duplicate": false
+ }
+]

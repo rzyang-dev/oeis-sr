@@ -1,0 +1,31 @@
+{
+ "n_noncf": 155661,
+ "counts": {
+  "prime": 34601,
+  "partition": 4954,
+  "digit": 18771,
+  "floor_round": 5349,
+  "graph": 2447,
+  "counting": 4073,
+  "permutation": 3477,
+  "cyclotomic": 1711,
+  "other": 22916,
+  "arrangement": 758,
+  "divisor": 10384,
+  "set_partition": 2440,
+  "path": 1893,
+  "matrix": 836,
+  "modular": 2765,
+  "expansion": 9870,
+  "continued_fraction": 2397,
+  "table": 18149,
+  "moonshine": 382,
+  "game": 496,
+  "sum_convolution": 2585,
+  "lexicographic": 746,
+  "words": 1992,
+  "zeolite": 744,
+  "recurrence": 560,
+  "automaton": 365
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "bench_total": 2891,
+ "by_class": {
+  "C_finite": 2772,
+  "residual": 116,
+  "unscored": 3
+ },
+ "by_tier_class": {
+  "easy": {
+   "C_finite": 171,
+   "residual": 4
+  },
+  "medium": {
+   "C_finite": 945,
+   "residual": 27,
+   "unscored": 1
+  },
+  "hard": {
+   "C_finite": 1656,
+   "residual": 85,
+   "unscored": 2
+  }
+ },
+ "residual_with_division": 85,
+ "split_sizes": {
+  "test": 433,
+  "train": 2024,
+  "val": 434
+ },
+ "baseline": {
+  "evaluated": 2888,
+  "by_split": {
+   "train": [
+    1950,
+    2021
+   ],
+   "val": [
+    413,
+    434
+   ],
+   "test": [
+    409,
+    433
+   ]
+  },
+  "by_tier": {
+   "easy": [
+    171,
+    175
+   ],
+   "medium": [
+    945,
+    972
+   ],
+   "hard": [
+    1656,
+    1741
+   ]
+  }
+ }
+}

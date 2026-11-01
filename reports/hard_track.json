@@ -1,0 +1,14 @@
+{
+ "evaluated": 14019,
+ "by_family": {
+  "sum": 7975,
+  "factorial": 1881,
+  "binomial": 4163
+ },
+ "hard": 11072,
+ "hard_by_family": {
+  "sum": 6236,
+  "factorial": 1737,
+  "binomial": 3099
+ }
+}

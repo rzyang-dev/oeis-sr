@@ -1,0 +1,120 @@
+{
+ "eligible_sequences": 298815,
+ "candidates": 269808,
+ "verified": 44821,
+ "by_kind": {
+  "equal": {
+   "documented": 1076,
+   "undocumented": 5077
+  },
+  "affine": {
+   "documented": 7561,
+   "undocumented": 22556
+  },
+  "prefix": {
+   "documented": 4334,
+   "undocumented": 4217
+  }
+ },
+ "undocumented": 31850,
+ "sequences_in_undocumented": 16235,
+ "both_atomic_undocumented": 27926,
+ "examples": {
+  "equal": [
+   {
+    "a": "A169125",
+    "b": "A169173",
+    "a_name": "Number of reduced words of length n in Coxeter group on 16 generators S_i with relations (S_i)^2 = (",
+    "b_name": "Number of reduced words of length n in Coxeter group on 16 generators S_i with relations (S_i)^2 = ("
+   },
+   {
+    "a": "A169266",
+    "b": "A169458",
+    "a_name": "Number of reduced words of length n in Coxeter group on 13 generators S_i with relations (S_i)^2 = (",
+    "b_name": "Number of reduced words of length n in Coxeter group on 13 generators S_i with relations (S_i)^2 = ("
+   },
+   {
+    "a": "A043776",
+    "b": "A043795",
+    "a_name": "Numbers k such that number of runs in the base 3 representation of k is congruent to 0 mod 4.",
+    "b_name": "Numbers whose number of runs in base 3 is congruent to 4 (mod 7)."
+   },
+   {
+    "a": "A169411",
+    "b": "A170167",
+    "a_name": "Number of reduced words of length n in Coxeter group on 14 generators S_i with relations (S_i)^2 = (",
+    "b_name": "Number of reduced words of length n in Coxeter group on 14 generators S_i with relations (S_i)^2 = ("
+   },
+   {
+    "a": "A168696",
+    "b": "A169416",
+    "a_name": "Number of reduced words of length n in Coxeter group on 19 generators S_i with relations (S_i)^2 = (",
+    "b_name": "Number of reduced words of length n in Coxeter group on 19 generators S_i with relations (S_i)^2 = ("
+   }
+  ],
+  "affine": [
+   {
+    "a": "A169024",
+    "b": "A169168",
+    "a_name": "Number of reduced words of length n in Coxeter group on 11 generators S_i with relations (S_i)^2 = (",
+    "b_name": "Number of reduced words of length n in Coxeter group on 11 generators S_i with relations (S_i)^2 = ("
+   },
+   {
+    "a": "A120304",
+    "b": "A383251",
+    "a_name": "Catalan numbers minus 2.",
+    "b_name": "Short leg of the unique primitive Pythagorean triple whose inradius is A000108(n) and such that its "
+   },
+   {
+    "a": "A259642",
+    "b": "A260138",
+    "a_name": "T(n,k)=Number of (n+2)X(k+2) 0..1 arrays with each 3X3 subblock having clockwise perimeter pattern 0",
+    "b_name": "T(n,k)=Number of (n+2)X(k+2) 0..1 arrays with each 3X3 subblock having clockwise perimeter pattern 0"
+   },
+   {
+    "a": "A272298",
+    "b": "A219056",
+    "a_name": "a(n) = n^4 + 324.",
+    "b_name": "a(n) = 3*n^4."
+   },
+   {
+    "a": "A033579",
+    "b": "A081589",
+    "a_name": "Four times pentagonal numbers: a(n) = 2*n*(3*n-1).",
+    "b_name": "Third row of Pascal-(1,5,1) array A081580."
+   }
+  ],
+  "prefix": [
+   {
+    "a": "A050684",
+    "b": "A050686",
+    "a_name": "Number of nonzero palindromes < 10^n and containing at least one digit '1'.",
+    "b_name": "Number of palindromes of length n and containing the digit 1 (or any other fixed nonzero digit)."
+   },
+   {
+    "a": "A259110",
+    "b": "A077591",
+    "a_name": "a(n) = 2*A000447(n).",
+    "b_name": "Maximum number of regions into which the plane can be divided using n (concave) quadrilaterals."
+   },
+   {
+    "a": "A034379",
+    "b": "A028290",
+    "a_name": "Expansion of 1/(1-x)^2/(1-x^2)/(1-x^3)/(1-x^5)/(1-x^8).",
+    "b_name": "Expansion of 1/((1-x)(1-x^2)(1-x^3)(1-x^5)(1-x^8))."
+   },
+   {
+    "a": "A087475",
+    "b": "A060747",
+    "a_name": "a(n) = n^2 + 4.",
+    "b_name": "a(n) = 2*n - 1."
+   },
+   {
+    "a": "A077963",
+    "b": "A078033",
+    "a_name": "Expansion of 1/(1+x^2+2*x^3).",
+    "b_name": "Expansion of (1-x) / (1+x^2+2*x^3)."
+   }
+  ]
+ }
+}
